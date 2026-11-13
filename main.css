@@ -6,3 +6,5 @@
 
 .city,.filters select,#site{font:inherit;background:white;color:var(--ink);border:1px solid var(--line);border-radius:6px;min-height:40px;padding:6px 12px;max-width:100%}
 .filters select{width:100%}.city{min-width:84px}.company-content{min-width:0}.company-content strong{overflow-wrap:anywhere}.company-content small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
+
+.filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.filters select{min-width:0;padding:4px;font-size:12px}.company-content small.funding-line{color:#255d66;margin-top:3px}.detail .source-details+.actions{margin-top:10px}

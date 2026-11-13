@@ -1,14 +1,16 @@
 <!doctype html><html lang="zh-CN"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#ffffff"><title>北京 AI 公司地图</title>
-<link rel="icon" href="data:,"><link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><link rel="stylesheet" href="./main.css"><script src="./vendor/leaflet/leaflet.js" defer></script><script src="./catalog.js" defer></script><script src="./main.js" defer></script></head>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><link rel="stylesheet" href="./main.css"><script src="./vendor/leaflet/leaflet.js" defer></script><script src="./catalog.js" defer></script><script src="./funding.js" defer></script><script src="./main.js" defer></script></head>
 <body><a class="skip-link" href="#search">跳到公司搜索</a>
 <header class="header"><a class="brand" href="./" aria-label="AI 公司地图首页"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3Zm6-3v15m6-12v15"/></svg><h1>AI 公司地图</h1></a><select id="city" class="city" aria-label="城市"></select></header>
 <main class="workspace"><aside class="directory" aria-label="公司目录">
 <div class="directory-tools"><div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" name="company" type="search" placeholder="搜索公司或方向…" aria-label="搜索公司或技术方向" autocomplete="off" spellcheck="false"><kbd>/</kbd></div>
-<div class="filters"><select id="region" aria-label="筛选区域"></select></div><div class="list-meta"><span id="result-count" role="status" aria-live="polite"></span><button id="clear-filters" class="text-button" hidden>清除筛选</button></div></div>
+<div class="filters"><select id="round" aria-label="已披露融资轮次"></select><select id="investor" aria-label="投资机构"></select><select id="region" aria-label="筛选区域"></select></div><div class="list-meta"><span id="result-count" role="status" aria-live="polite"></span><button id="clear-filters" class="text-button" hidden>清除筛选</button></div></div>
 <div id="company-list" class="company-list"></div><div id="empty" class="empty" hidden><p>没有匹配的公司</p><button id="reset-search">清除筛选</button></div>
 <details class="data-info"><summary>数据与来源</summary><div><p id="coverage"></p><a href="https://jobs.dinq.me/" target="_blank" rel="noopener noreferrer">DINQ 公司目录</a></div></details>
 </aside><section class="map-stage" aria-label="AI 公司地理地图"><div id="map" tabindex="0" aria-label="地理地图，可拖动和缩放"></div>
 <div id="empty-map-message" class="empty-map-message" role="status" hidden>当前结果暂无地图点位</div><div id="map-status" class="map-status" role="status" aria-live="polite" hidden><span id="map-status-text"></span><button id="retry-map" hidden>重试</button></div>
 <button id="fit-map" class="fit-map" aria-label="显示全部筛选结果" title="显示全部筛选结果"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/><circle cx="12" cy="12" r="3"/></svg></button>
 <article id="detail" class="detail" tabindex="-1" aria-labelledby="detail-name" hidden></article></section></main><noscript>请启用 JavaScript 以查看地图。</noscript></body></html>
+
+
