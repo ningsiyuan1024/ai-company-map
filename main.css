@@ -8,3 +8,6 @@
 .filters select{width:100%}.city{min-width:84px}.company-content{min-width:0}.company-content strong{overflow-wrap:anywhere}.company-content small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
 
 .filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.filters select{min-width:0;padding:4px;font-size:12px}.company-content small.funding-line{color:#255d66;margin-top:3px}.detail .source-details+.actions{margin-top:10px}
+
+.local-basemap{background:#f2f1ec}.base-label{text-align:center;color:#556574;font-size:13px;font-weight:600;white-space:nowrap;text-shadow:0 1px #fff,1px 0 #fff,-1px 0 #fff,0 -1px #fff;pointer-events:none!important}.base-label.road-label{font-size:10px;font-weight:400;color:#7a807c}.local-basemap .leaflet-overlay-pane{pointer-events:none}
+#map.local-basemap{background:#f2f1ec}

@@ -40,7 +40,7 @@
    [c.name,...events(c).map(eventLabel),...c.aliases,c.category,...c.tags,...c.locations.flatMap(l=>[l.district,l.area,l.address])].join(' ').toLowerCase().includes(state.q.trim().toLowerCase()));
  function sync(){const q=new URLSearchParams();if(city!=="beijing")q.set("city",city);for(const key of ['round','investor'])if(state[key])q.set(key,state[key]);if(state.q)q.set('q',state.q);if(state.region!=='全部')q.set('region',state.region);if(state.selected)q.set('company',state.selected);try{history.replaceState(null,'',location.pathname+(q.size?'?'+q:''));}catch{}}
  function status(message,retry=false){$('map-status').hidden=!message;$('map-status-text').textContent=message;$('retry-map').hidden=!retry;}
- function fit(){if(!map)return;const points=filtered().flatMap(c=>visibleSites(c).map(site=>[site.lat,site.lng]));if(!points.length)return;const mobile=matchMedia('(max-width:700px)').matches;map.fitBounds(points,{paddingTopLeft:mobile?[70,70]:[100,100],paddingBottomRight:mobile?[85,75]:[160,90],maxZoom:points.length===1?15:13,animate:!reduced});}
+ function fit(){if(!map)return;const points=filtered().flatMap(c=>visibleSites(c).map(site=>[site.lat,site.lng]));if(!points.length)return;const mobile=matchMedia('(max-width:700px)').matches;map.fitBounds(points,{paddingTopLeft:mobile?[70,70]:[100,100],paddingBottomRight:mobile?[85,75]:[160,90],maxZoom:points.length===1?15:13,animate:false});}
  function icon(c,i){return L.divIcon({className:'map-pin',html:`<button class="pin-button" data-company="${esc(c.id)}" data-site="${i}" aria-label="查看 ${esc(c.name)}的位置" aria-pressed="${state.selected===c.id}">${pin}</button>`,iconSize:[44,44],iconAnchor:[22,41]});}
  function updateMarkers(){
    if(!map)return;
@@ -73,7 +73,7 @@
      <div class="tags">${c.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>${selector}
      <p class="location-heading"><strong>${esc(site?.name||locs[0]?.area||cityName)}</strong><small>${site?(precision[site.precision]||'参考点'):'位置待核验'}</small></p>
      <p class="address">${esc(site?.address||addresses[0]||'暂无公开地址')}</p>
-     ${events(c).length?`<details class="source-details"><summary>融资记录 · ${esc(events(c)[0][1])}（${esc(events(c)[0][0])}）</summary><div>${events(c).map(e=>`<p>${link(e[3],eventLabel(e))}</p>`).join('')}</div></details>`:''}<div class="actions">${link(c.recruit,c.recruitLabel,'primary')}${site?link('https://www.openstreetmap.org/?mlat='+site.lat+'&mlon='+site.lng+'#map=17/'+site.lat+'/'+site.lng,'查看地图','secondary'):''}</div>
+     ${events(c).length?`<details class="source-details"><summary>融资记录 · ${esc(events(c)[0][1])}（${esc(events(c)[0][0])}）</summary><div>${events(c).map(e=>`<p>${link(e[3],eventLabel(e))}</p>`).join('')}</div></details>`:''}<div class="actions">${link(c.recruit,c.recruitLabel,'primary')}${site?link(site.coord?'https://uri.amap.com/marker?position='+site.coord.join(',')+'&name='+encodeURIComponent(c.name):'https://www.openstreetmap.org/?mlat='+site.lat+'&mlon='+site.lng+'#map=17/'+site.lat+'/'+site.lng,'查看地图','secondary'):''}</div>
      <details class="source-details"><summary>位置与来源</summary><div>${addresses.filter(a=>site||a!==addresses[0]).map(a=>`<p>${esc(a)}</p>`).join('')}
      ${c.evidence?c.evidence.map(([label,url])=>link(url,label)).join(' '):link(source,'DINQ 城市数据')} ${link(site?.source,'点位来源')}<p>资料核对 ${esc(c.checked||date)}。实际工作地点以招聘方为准。</p></div></details>`;
    if(selector)$('site').onchange=e=>select(c.id,{siteIndex:Number(e.target.value)});
@@ -83,7 +83,53 @@
  function closeDetail(){const id=state.selected;state.selected=null;render();document.querySelector(`.company-row[data-id="${id}"]`)?.focus({preventScroll:true});}
  function reset(){for(const k of ['round','investor']){state[k]='';$(k).value='';}state.q='';state.region='全部';$('region').value='全部';state.selected=null;$('search').value='';render({fitMap:true});$('search').focus();}
  function startMap(){if(!window.L){$('map').classList.add('no-map');$('map').textContent='地图组件未能加载，公司目录仍可使用。';return;}map=L.map('map',{zoomControl:false,scrollWheelZoom:true,zoomAnimation:!reduced,fadeAnimation:!reduced,markerZoomAnimation:!reduced,minZoom:9,maxZoom:19}).setView([39.984,116.36],12);L.control.zoom({position:'topright',zoomInTitle:'放大地图',zoomOutTitle:'缩小地图'}).addTo(map);L.control.scale({position:'bottomleft',imperial:false,maxWidth:100}).addTo(map);map.attributionControl.setPrefix(false);
+ if(city==='beijing'){
+   if(!window.BEIJING_BASEMAP){status('北京底图未能加载，请刷新页面');return;}
+   map.getContainer().classList.add('local-basemap');
+   map.createPane('baseShapes');map.getPane('baseShapes').style.zIndex=200;
+   map.createPane('baseLabels');map.getPane('baseLabels').style.zIndex=350;
+   const data=window.BEIJING_BASEMAP;
+   const canvas=L.canvas({pane:'baseShapes',padding:0.5});
+   const weights={motorway:3.2,trunk:2.5,primary:1.8,secondary:1.2,tertiary:0.7};
+   const features=[...data.geojson.features].sort((a,b)=>(a.properties.kind==='road')-(b.properties.kind==='road'));
+   L.geoJSON({type:'FeatureCollection',features},{pane:'baseShapes',renderer:canvas,interactive:false,style:f=>{
+     const p=f.properties;
+     if(p.kind==='water')return {color:'#b8d4e2',weight:0,fillColor:'#c8e1eb',fillOpacity:1};
+     if(p.kind==='park')return {color:'#dce7d3',weight:0,fillColor:'#dce7d3',fillOpacity:0.8};
+     return {color:['motorway','trunk'].includes(p.class)?'#d5bf8b':'#c4c9cb',weight:weights[p.class],opacity:0.95};
+   }}).addTo(map);
+   const labelLayer=L.layerGroup().addTo(map);
+   function label(text,latlng,road=false){
+     L.marker(latlng,{pane:'baseLabels',interactive:false,keyboard:false,icon:L.divIcon({
+       className:road?'base-label road-label':'base-label',html:esc(text),iconSize:[120,20],iconAnchor:[60,10]
+     })}).addTo(labelLayer);
+   }
+   function labels(){
+     labelLayer.clearLayers();
+     const bounds=map.getBounds(),occupied=[];
+     const add=(text,latlng,road)=>{
+       if(!bounds.contains(latlng))return;
+       const pixel=map.latLngToContainerPoint(latlng);
+       if(occupied.some(p=>Math.abs(p.x-pixel.x)<105&&Math.abs(p.y-pixel.y)<32))return;
+       occupied.push(pixel);label(text,latlng,road);
+     };
+     data.places.forEach(p=>add(p.name,p.coord,false));
+     if(map.getZoom()<12)return;
+     const names=new Set();
+     for(const f of data.geojson.features){
+       const p=f.properties;
+       if(p.kind!=='road'||!p.name||names.has(p.name))continue;
+       if(map.getZoom()<14&&!['motorway','trunk','primary'].includes(p.class))continue;
+       const line=f.geometry.coordinates[0],mid=line[Math.floor(line.length/2)];
+       if(bounds.contains([mid[1],mid[0]])){names.add(p.name);add(p.name,[mid[1],mid[0]],true);}
+     }
+   }
+   map.on('moveend zoomend',labels);labels();
+   map.attributionControl.addAttribution('© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · <a href="./MAP-DATA-LICENSE.md" target="_blank">北京道路参考底图</a>');
+ }else{
  tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,maxNativeZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>',referrerPolicy:'strict-origin-when-cross-origin',keepBuffer:1,updateWhenIdle:true});tiles.on('tileload',()=>{loadedTiles++;if(loadedTiles){clearTimeout(loadTimer);status('');}});tiles.on('tileerror',()=>{failedTiles++;if(failedTiles>=4&&!loadedTiles)status('底图暂时无法连接',true);});tiles.addTo(map);
+ }
+
  for(const c of companies){
    c.sites.forEach((site,i)=>{
      const marker=L.marker([site.lat,site.lng],{icon:icon(c,i),keyboard:false,title:c.name}).bindTooltip(esc(c.name),{direction:'top',offset:[0,-36],className:'company-label'});
@@ -92,7 +138,7 @@
    });
  }
  updateMarkers();
- $('map').addEventListener('keydown',e=>{const b=e.target.closest('[data-company]');if(b&&(e.key==='Enter'||e.key===' ')){e.preventDefault();select(b.dataset.company,{keyboard:true,siteIndex:Number(b.dataset.site)});}});fit();loadTimer=setTimeout(()=>{if(!loadedTiles)status('底图暂时无法连接',true);},12000);if(location.protocol==='file:')status('在线底图请通过“打开地图”启动',false);new ResizeObserver(()=>map.invalidateSize({pan:false})).observe($('map'));
+ $('map').addEventListener('keydown',e=>{const b=e.target.closest('[data-company]');if(b&&(e.key==='Enter'||e.key===' ')){e.preventDefault();select(b.dataset.company,{keyboard:true,siteIndex:Number(b.dataset.site)});}});fit();if(city!=='beijing')loadTimer=setTimeout(()=>{if(!loadedTiles)status('底图暂时无法连接',true);},12000);if(location.protocol==='file:')status('在线底图请通过“打开地图”启动',false);new ResizeObserver(()=>map.invalidateSize({pan:false})).observe($('map'));
  }
  $('search').value=state.q;$('search').addEventListener('input',e=>{state.q=e.target.value;render({fitMap:true});});$('company-list').addEventListener('click',e=>{const b=e.target.closest('[data-id]');if(b)select(b.dataset.id,{keyboard:e.detail===0});});$('detail').addEventListener('click',e=>{if(e.target.closest('.close-detail'))closeDetail();});$('clear-filters').addEventListener('click',reset);$('reset-search').addEventListener('click',reset);$('fit-map').addEventListener('click',fit);$('retry-map').addEventListener('click',()=>{loadedTiles=0;failedTiles=0;status('正在连接底图…');tiles?.redraw();clearTimeout(loadTimer);loadTimer=setTimeout(()=>{if(!loadedTiles)status('底图暂时无法连接',true);},12000);});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.selected)closeDetail();if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}});render();startMap();if(state.selected)select(state.selected);
 })();
