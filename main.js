@@ -17,7 +17,7 @@
  $('city').onchange=()=>location.assign('?city='+encodeURIComponent($('city').value));
  $('region').innerHTML=options([['全部','全部区域'],...regionNames.map(r=>[r,r])],state.region);
  $('region').onchange=()=>{state.region=$('region').value;state.selected=null;state.site=0;render({fitMap:true});};
- $('coverage').textContent=`DINQ 快照 ${date} · ${companies.length} 家公司 · ${companies.flatMap(c=>c.sites).length} 个地理参考点。`;
+ $('coverage').textContent=`目录共 ${companies.length} 家公司 · ${companies.flatMap(c=>c.sites).length} 个地理参考点。`;
  const events = c => window.FUNDING_EVENTS[c.id] || [];
  const cityEvents = companies.flatMap(events);
  const setupFilter = (key,label,choices) => {
@@ -75,7 +75,7 @@
      <p class="address">${esc(site?.address||addresses[0]||'暂无公开地址')}</p>
      ${events(c).length?`<details class="source-details"><summary>融资记录 · ${esc(events(c)[0][1])}（${esc(events(c)[0][0])}）</summary><div>${events(c).map(e=>`<p>${link(e[3],eventLabel(e))}</p>`).join('')}</div></details>`:''}<div class="actions">${link(c.recruit,c.recruitLabel,'primary')}${site?link('https://www.openstreetmap.org/?mlat='+site.lat+'&mlon='+site.lng+'#map=17/'+site.lat+'/'+site.lng,'查看地图','secondary'):''}</div>
      <details class="source-details"><summary>位置与来源</summary><div>${addresses.filter(a=>site||a!==addresses[0]).map(a=>`<p>${esc(a)}</p>`).join('')}
-     ${link(source,'DINQ 城市数据')} ${link(site?.source,'点位来源')}<p>资料快照 ${esc(date)}。实际工作地点以招聘方为准。</p></div></details>`;
+     ${c.evidence?c.evidence.map(([label,url])=>link(url,label)).join(' '):link(source,'DINQ 城市数据')} ${link(site?.source,'点位来源')}<p>资料核对 ${esc(c.checked||date)}。实际工作地点以招聘方为准。</p></div></details>`;
    if(selector)$('site').onchange=e=>select(c.id,{siteIndex:Number(e.target.value)});
  }
  function render({fitMap=false}={}){const list=filtered();if(state.selected&&!list.some(c=>c.id===state.selected))state.selected=null;const focusId=document.activeElement?.closest?.('.company-row')?.dataset.id;$('result-count').textContent=`${list.length} 家公司`;$('clear-filters').hidden=!state.round&&!state.investor&&!state.q&&state.region==='全部';$('empty').hidden=list.length>0;$('company-list').hidden=!list.length;$('company-list').innerHTML=list.map(c=>`<button class="company-row" data-id="${c.id}" aria-label="查看 ${esc(c.name)}" aria-pressed="${state.selected===c.id}"><span class="company-initial" aria-hidden="true">${esc(Array.from(c.name)[0])}</span><span class="company-content"><strong translate="no">${esc(c.name)}</strong><small>${esc(regions(c).join(' / ')||cityName)} · ${esc(c.tags.slice(0,2).join(' / '))}</small>${events(c).some(matchesEvent)?`<small class="funding-line">${esc(eventLabel(events(c).find(matchesEvent)))}</small>`:''}${visibleSites(c).length?'':'<span class="pending">位置待核验</span>'}</span></button>`).join('');document.querySelectorAll('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===state.region)));renderDetail();updateMarkers();sync();if(focusId)document.querySelector(`.company-row[data-id="${focusId}"]`)?.focus({preventScroll:true});if(fitMap)fit();}
