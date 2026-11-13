@@ -156,3 +156,121 @@ window.DINQ_CATALOG.beijing.records.push(...[
     "checked": "2026-11-13"
   }
 ]);
+
+window.DINQ_CATALOG.beijing.records.push(...[
+  {
+    "id": "fangcun",
+    "name": "方寸跃迁",
+    "aliases": [],
+    "tags": [
+      "Agent安全",
+      "运行时监测"
+    ],
+    "category": "Agent安全",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://bonjour.bio/jobs-mapping/jobs/064577c4-e5c0-4cae-bfb5-9e7d31013ef6?src=list",
+    "recruitLabel": "Agent 软件工程师",
+    "evidence": [
+      [
+        "Bonjour! · 北京岗位",
+        "https://bonjour.bio/jobs-mapping/jobs/064577c4-e5c0-4cae-bfb5-9e7d31013ef6?src=list"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "tansuo-wujin",
+    "name": "探索无尽",
+    "aliases": [],
+    "tags": [
+      "生产力Agent",
+      "沙箱"
+    ],
+    "category": "生产力Agent",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://bonjour.bio/jobs-mapping/jobs/63ad8a7b-851a-43fb-ad7e-69d0f63d5beb?src=list",
+    "recruitLabel": "云端运行与沙箱工程师",
+    "evidence": [
+      [
+        "Bonjour! · 北京岗位",
+        "https://bonjour.bio/jobs-mapping/jobs/63ad8a7b-851a-43fb-ad7e-69d0f63d5beb?src=list"
+      ],
+      [
+        "Bonjour! · 北京桌面端基建与性能工程师",
+        "https://bonjour.bio/jobs-mapping/jobs/253e00a6-44fa-4e98-ae6e-11e0290b25d2?src=list"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "ambi-ai",
+    "name": "Ambi AI",
+    "aliases": [],
+    "tags": [
+      "Agent评测",
+      "AI产品"
+    ],
+    "category": "Agent评测",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://bonjour.bio/jobs-mapping/jobs/0650c54f-b8a3-45c8-97de-e93aaa1e1769?src=list",
+    "recruitLabel": "AI 全栈工程师",
+    "evidence": [
+      [
+        "Bonjour! · 北京岗位",
+        "https://bonjour.bio/jobs-mapping/jobs/0650c54f-b8a3-45c8-97de-e93aaa1e1769?src=list"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "fibona-ai",
+    "name": "Fibona AI",
+    "aliases": [],
+    "tags": [
+      "Agent研究",
+      "递归自我改进"
+    ],
+    "category": "Agent研究",
+    "locations": [
+      {
+        "area": "中关村",
+        "address": "北京中关村（亦可远程）",
+        "district": "海淀区"
+      }
+    ],
+    "sites": [],
+    "recruit": "https://offerdao.ai/j/agent_0baulc22to81po",
+    "recruitLabel": "RSI 研究员",
+    "evidence": [
+      [
+        "Offer岛 · 北京岗位",
+        "https://offerdao.ai/j/agent_0baulc22to81po"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "lightwheel",
+    "name": "光轮智能 / Lightwheel",
+    "aliases": [],
+    "tags": [
+      "具身智能",
+      "强化学习环境"
+    ],
+    "category": "具身智能",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://jobs.ivyea.com/jobs/20228",
+    "recruitLabel": "具身智能评测与强化学习环境算法工程师",
+    "evidence": [
+      [
+        "Ivyea Jobs · 北京岗位",
+        "https://jobs.ivyea.com/jobs/20228"
+      ]
+    ],
+    "checked": "2026-11-13"
+  }
+]);
