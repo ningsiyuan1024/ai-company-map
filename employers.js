@@ -59,3 +59,100 @@ window.DINQ_CATALOG.shanghai.records.push(...[
     "checked": "2026-11-13"
   }
 ]);
+
+window.DINQ_CATALOG.beijing.records.push(...[
+  {
+    "id": "haitian-ruisheng",
+    "name": "海天瑞声",
+    "aliases": [
+      "DataOcean AI",
+      "Speechocean"
+    ],
+    "tags": [
+      "训练数据",
+      "语音识别评测"
+    ],
+    "category": "训练数据",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://www.haitianruisheng.com/aboutus/saferjoin/catid-40.htm",
+    "recruitLabel": "北京词典研发工程师",
+    "evidence": [
+      [
+        "北京市经信局 · 通用人工智能产业创新伙伴计划首批数据伙伴",
+        "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202305/t20230524_3111710.html"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "datatang",
+    "name": "数据堂",
+    "aliases": [
+      "Datatang"
+    ],
+    "tags": [
+      "训练数据",
+      "语音与图像"
+    ],
+    "category": "训练数据",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://www.datatang.com/join-us",
+    "recruitLabel": "北京语音／图像数据产品经理",
+    "evidence": [
+      [
+        "北京市经信局 · 通用人工智能产业创新伙伴计划首批数据伙伴",
+        "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202305/t20230524_3111710.html"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "amazon",
+    "name": "亚马逊",
+    "aliases": [
+      "Amazon",
+      "亚马逊中国"
+    ],
+    "tags": [
+      "搜索推荐",
+      "生成式AI"
+    ],
+    "category": "搜索推荐",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing",
+    "recruitLabel": "北京应用科学家 · 10489936",
+    "evidence": [
+      [
+        "2025 财富世界 500 强 · 第 2 位",
+        "https://www.fortune.com/ranking/global500/2025/"
+      ]
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "id": "schneider-electric",
+    "name": "施耐德电气",
+    "aliases": [
+      "Schneider Electric"
+    ],
+    "tags": [
+      "数据中心",
+      "AI冷源控制"
+    ],
+    "category": "数据中心",
+    "locations": [],
+    "sites": [],
+    "recruit": "https://careers.se.com/jobs/139774?lang=zh-CN",
+    "recruitLabel": "北京数据中心系统架构师 · 139774",
+    "evidence": [
+      [
+        "2025 财富世界 500 强 · 第 378 位",
+        "https://www.fortune.com/ranking/global500/2025/"
+      ]
+    ],
+    "checked": "2026-11-13"
+  }
+]);
