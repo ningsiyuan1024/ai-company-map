@@ -1,0 +1,308 @@
+﻿id,公司,原分类,合并分类,标签
+deepseek,DeepSeek,大模型与平台,大模型与平台,大语言模型、Agent、AI Infra
+zhipu,智谱,大模型与平台,大模型与平台,大语言模型、多模态、Agent
+moonshot,月之暗面 / Kimi,大模型与平台,大模型与平台,大语言模型、AI Infra、Agent
+bytedance,字节跳动 Seed,大模型与平台,大模型与平台,大语言模型、视频生成、图像生成、具身智能
+alibaba,阿里巴巴 Qwen / Token Foundry,大模型与平台,大模型与平台,大语言模型、视频生成、AI Infra、电商、Alibaba Cloud、Qwen、千问
+tencent,腾讯,大模型与平台,大模型与平台,大语言模型、多模态、AI Infra
+minimax,MiniMax,大模型与平台,大模型与平台,大语言模型、视频生成、语音、AI Infra
+xiaomi,小米,大模型与平台,大模型与平台,大语言模型、Agent、AI Infra
+meituan,美团 LongCat,大模型与平台,大模型与平台,大语言模型、Agent、具身智能
+xiaohongshu,小红书 Dots,大模型与平台,大模型与平台,大语言模型、Agent、多模态
+stepfun,阶跃星辰 StepFun,大模型与平台,大模型与平台,大语言模型、多模态、端侧AI
+ant,蚂蚁集团 Ling,大模型与平台,大模型与平台,大语言模型、Agent、AI Infra
+baidu,百度,大模型与平台,大模型与平台,大语言模型、Agent、AI Infra
+iflytek,科大讯飞,大模型与平台,大模型与平台,大语言模型、语音、Agent
+kuaishou,快手 可灵 Kling,大模型与平台,大模型与平台,视频生成、多模态、强化学习
+kunlun,昆仑万维 Skywork,大模型与平台,大模型与平台,Agent、视频生成、音乐生成
+01ai,零一万物,大模型与平台,大模型与平台,大语言模型、企业AI、Agent
+jd,京东,大模型与平台,大模型与平台,大语言模型、Agent、AI安全
+modelbest,面壁智能,大模型与平台,大模型与平台,端侧AI、大语言模型、多模态
+huawei,华为,算力与芯片,算力与芯片,行业大模型、AI芯片、云计算
+luchen,潞晨科技,算力与芯片,算力与芯片,AI Infra、训练推理、大模型平台
+cambricon,寒武纪,算力与芯片,算力与芯片,AI芯片、AI软件栈
+hygon,海光信息,算力与芯片,算力与芯片,CPU、GPU/DCU、国产算力
+biren,壁仞科技,算力与芯片,算力与芯片,通用GPU、AI算力
+metax,沐曦,算力与芯片,算力与芯片,GPU、AI算力
+mthreads,摩尔线程,算力与芯片,算力与芯片,GPU、训练推理、AI软件栈
+iluvatar,天数智芯,算力与芯片,算力与芯片,GPU、AI算力
+horizon,地平线,算力与芯片,算力与芯片,智驾芯片、自动驾驶、嵌入式AI
+d_robotics,地瓜机器人,算力与芯片,算力与芯片,机器人开发平台、具身智能、端侧芯片
+blacksesame,黑芝麻智能,算力与芯片,算力与芯片,端侧AI芯片、智能驾驶、具身智能
+semidrive,芯驰科技,算力与芯片,算力与芯片,车规SoC、MCU、具身智能芯片
+infinigence,无问芯穹,算力与芯片,算力与芯片,AI Infra、异构算力、模型服务
+siliconflow,硅基流动,算力与芯片,算力与芯片,推理平台、AI Infra、模型API
+naive,Naive AI,AI应用与生成,内容生成与应用,基础模型、AI研究
+shengshu,生数科技,AI应用与生成,内容生成与应用,视频生成、世界模型、多模态
+aishi,爱诗科技,AI应用与生成,内容生成与应用,视频生成、视觉模型
+sand,Sand.ai,AI应用与生成,内容生成与应用,视频生成、音视频生成
+manus,Manus,AI应用与生成,内容生成与应用,AI Agent
+genspark,Genspark,AI应用与生成,内容生成与应用,AI Agent、AI Workspace
+liblib,LiblibAI,AI应用与生成,内容生成与应用,图像生成、创作社区、设计Agent
+lovart,Lovart,AI应用与生成,内容生成与应用,设计Agent
+oiioii,OiiOii,AI应用与生成,内容生成与应用,动画Agent、视频生成
+unitree,宇树科技,机器人与具身,机器人与具身智能,四足机器人、人形机器人、关节模组、具身智能
+agibot,智元机器人,机器人与具身,机器人与具身智能,人形机器人、具身基座模型
+ubtech,优必选,机器人与具身,机器人与具身智能,人形机器人、端侧智能
+galbot,银河通用,机器人与具身,机器人与具身智能,具身大模型、机器人操作
+fourier,傅利叶智能,机器人与具身,机器人与具身智能,人形机器人、康复机器人
+xpeng,小鹏,机器人与具身,机器人与具身智能,汽车AI、机器人、图灵AI芯片
+liauto,理想汽车,机器人与具身,机器人与具身智能,汽车AI、智能体、芯片
+dreame,追觅科技,机器人与具身,机器人与具身智能,智能硬件、机器人
+dataa,达闼,机器人与具身,机器人与具身智能,云端机器人、具身智能
+robotera,星动纪元,机器人与具身,机器人与具身智能,人形机器人、具身大模型
+limx,逐际动力,机器人与具身,机器人与具身智能,人形机器人、具身智能
+shlab,上海人工智能实验室,研究机构,研究机构,书生大模型、安全可信AI、AI for Science
+sii,上海创智学院,研究机构,研究机构,人工智能科研、具身智能
+mihoyo,米哈游,AI应用与生成,内容生成与应用,游戏AI、AI应用
+bilibili,哔哩哔哩,AI应用与生成,内容生成与应用,视频AI、推荐算法、搜索算法
+booster,加速进化,机器人与具身,机器人与具身智能,人形机器人、机器人开发平台
+noetix,松延动力,机器人与具身,机器人与具身智能,人形机器人、仿生机器人、VLA
+galaxea,星海图,机器人与具身,机器人与具身智能,具身基础模型、VLA、机器人本体
+sensetime,商汤科技,AI应用与企业服务,企业应用与服务,多模态大模型、计算机视觉、机器人
+megvii,旷视科技,AI应用与企业服务,企业应用与服务,计算机视觉、多模态大模型、具身智能
+bigai,北京通用人工智能研究院,研究机构,研究机构,通用人工智能、多智能体、机器人
+unisound,云知声,AI应用与企业服务,企业应用与服务,语音、多模态大模型、行业智能体
+realai,瑞莱智慧,AI应用与企业服务,企业应用与服务,AI安全、可信AI、隐私计算
+4paradigm,第四范式 / 范式,AI应用与企业服务,企业应用与服务,行业大模型、AI Infra、企业智能体
+baai,北京智源人工智能研究院,研究机构,研究机构,世界模型、具身智能、大模型
+witmem,知存科技,算力与芯片,算力与芯片,存内计算、AI芯片
+tsingmicro,清微智能,算力与芯片,算力与芯片,可重构芯片、智算芯片
+dptechnology,深势科技,AI应用与生成,内容生成与应用,AI for Science、玻尔、科学智能体、高性能计算
+spiritai,千寻智能,机器人与具身,机器人与具身智能,具身模型、人形机器人
+x2robot,自变量机器人,机器人与具身,机器人与具身智能,具身大模型、机器人操作
+xhumanoid,北京人形机器人创新中心 / 天工,机器人与具身,机器人与具身智能,人形机器人、天工、慧思开物
+phigentai,鉴智机器人,机器人与具身,机器人与具身智能,自动驾驶、机器人、感知
+tars,它石智航,机器人与具身,机器人与具身智能,具身智能、机器人
+linkerbot,灵心巧手,机器人与具身,机器人与具身智能,灵巧手、机器人操作、具身智能
+surgerii,术锐机器人,机器人与具身,机器人与具身智能,手术机器人、医疗机器人
+agilerobots,思灵机器人,机器人与具身,机器人与具身智能,具身智能、机器人操作、力控
+casbot,中科慧灵 / CASBOT,机器人与具身,机器人与具身智能,人形机器人、具身智能、灵巧手
+realman,睿尔曼智能,机器人与具身,机器人与具身智能,机械臂、具身智能、机器人数据
+mechmind,梅卡曼德机器人,机器人与具身,机器人与具身智能,机器人视觉、具身智能、机器人操作
+inspirerobots,因时机器人,机器人与具身,机器人与具身智能,灵巧手、微型伺服、运动执行器
+baichuan,百川智能,大模型与平台,大模型与平台,大模型、Agent、医疗AI
+zkj,中关村科金,AI应用与企业服务,企业应用与服务,行业大模型、Agent、智能客服
+bailian,百炼智能,AI应用与企业服务,企业应用与服务,B2B营销、Agent、NLP
+wenge,中科闻歌,AI应用与企业服务,企业应用与服务,大模型、企业AI、数据智能
+shukun,数坤科技,AI应用与企业服务,企业应用与服务,AI医疗、大模型、医学影像
+minglue,明略科技,AI应用与企业服务,企业应用与服务,大模型、Agent、企业AI
+laiye,来也科技,AI应用与企业服务,企业应用与服务,智能自动化、RPA、Agent
+xiaoice,小冰,AI应用与企业服务,企业应用与服务,AI应用、数字人、AIGC
+tingyu,庭宇科技,算力与芯片,算力与芯片,AI算力、基础设施、Agent
+gigaai,极佳科技 / 极佳视界,机器人与具身,机器人与具身智能,
+qcraft,轻舟智航,机器人与具身,机器人与具身智能,
+momenta,Momenta,机器人与具身,机器人与具身智能,
+uisee,驭势科技,机器人与具身,机器人与具身智能,自动驾驶、物理AI、VLA
+eacon,易控智驾,机器人与具身,机器人与具身智能,矿山无人驾驶、自动驾驶、大模型
+plus,智加科技,机器人与具身,机器人与具身智能,自动驾驶、卡车、物理AI
+trunktech,主线科技,机器人与具身,机器人与具身智能,
+neolix,新石器无人车,机器人与具身,机器人与具身智能,
+vast,VAST / Tripo,大模型与平台,大模型与平台,3D大模型、3D生成、世界模型
+pingcap,PingCAP / 平凯星辰,AI应用与企业服务,企业应用与服务,AI数据基础设施、分布式数据库、TiDB
+enflame,燧原科技,算力与芯片,算力与芯片,GPU、AI芯片、云端训练推理
+roborock,石头科技,机器人与具身,机器人与具身智能,家庭机器人、感知算法、智能硬件
+patsnap,智慧芽 PatSnap,AI应用与企业服务,企业应用与服务,AI研发情报、知识产权、Eureka
+rokae,珞石机器人,机器人与具身,机器人与具身智能,工业机器人、协作机器人、具身智能
+pony,小马智行,机器人与具身,机器人与具身智能,自动驾驶、Robotaxi、大模型、世界模型
+geekplus,极智嘉,机器人与具身,机器人与具身智能,AMR、机器人、具身智能、世界模型、仓储机器人
+wps,金山办公,AI应用与企业服务,企业应用与服务,WPS AI、办公AI、企业软件
+terminus,特斯联科技,AI应用与企业服务,企业应用与服务,
+deepexi,滴普科技,大模型与平台,大模型与平台,
+trs,拓尔思,大模型与平台,大模型与平台,
+quantgroup,量化派,AI应用与企业服务,企业应用与服务,
+kunlunxin,昆仑芯科技,算力与芯片,算力与芯片,
+biomap,百图生科,AI应用与企业服务,企业应用与服务,
+zhichi,智齿科技,AI应用与企业服务,企业应用与服务,
+anyverse,无界动力,机器人与具身,机器人与具身智能,
+whiterhino,白犀牛,机器人与具身,机器人与具身智能,
+vbot,维他动力 Vbot,机器人与具身,机器人与具身智能,
+aicc,国汽智控,机器人与具身,机器人与具身智能,
+tashan,他山科技,算力与芯片,算力与芯片,
+metis,剂泰科技,AI应用与企业服务,企业应用与服务,
+datacanvas,九章云极 DataCanvas,算力与芯片,算力与芯片,
+aibee,爱笔智能 Aibee,AI应用与企业服务,企业应用与服务,
+idriver,智行者,机器人与具身,机器人与具身智能,
+infervision,推想医疗,AI应用与企业服务,企业应用与服务,
+yunji,云迹科技,机器人与具身,机器人与具身智能,
+ninebot,九号公司,机器人与具身,机器人与具身智能,
+robstride,灵足时代,机器人与具身,机器人与具身智能,机器人关节模组、一体化电机、核心零部件
+rimbot,日冕机器人 RimBOT,机器人与具身,机器人与具身智能,具身基础模型、世界模型、灵巧操作
+pokebot,破壳机器人 PokeBot,机器人与具身,机器人与具身智能,家庭机器人、具身世界模型、VLA
+tokenrhythm,基元律动 TokenRhythm,算力与芯片,算力与芯片,AI Infra、AI Agent、MaaS
+xvirobotics,十六号机器人 XVI Robotics,机器人与具身,机器人与具身智能,人形机器人、VLA、AI Infra
+xiaoyubot,小雨智造,机器人与具身,机器人与具身智能,工业具身智能、一脑多形、焊接机器人
+amigosrobot,阿米奥机器人 Amigos,机器人与具身,机器人与具身智能,工业具身智能、VLA、柔性智造
+meshy,Meshy / 太极图形,AI应用与生成,内容生成与应用,AI 3D、图形计算、多模态模型
+kairosmaterials,开物纪 Kairos,AI应用与企业服务,企业应用与服务,AI for Science、材料大模型、生成式材料
+youware,YouWare / 新言意码,AI应用与生成,内容生成与应用,AI Coding、Vibe Coding、AI创作社区
+soundai,声智科技,AI应用与企业服务,企业应用与服务,声学AI、物理AI、多模态
+timecho,天谋科技 Timecho,算力与芯片,算力与芯片,时序数据库、AI Infra、时序大模型
+shumei,数美科技,AI应用与企业服务,企业应用与服务,AI风控、内容安全、AIGC
+langboat,澜舟科技,大模型与平台,大模型与平台,大模型、Agent、企业AI
+fenbeitong,分贝通,AI应用与企业服务,企业应用与服务,AI支出管理、Agent、企业AI
+yizhun,医准智能,AI应用与企业服务,企业应用与服务,医疗AI、医学影像
+stonewise,望石智慧,AI应用与企业服务,企业应用与服务,AI制药、AI4S、药物研发
+dexmal,原力灵机 Dexmal,机器人与具身,机器人与具身智能,具身基础模型、VLA、Dexbotic、DM0.5
+aubo,遨博智能 AUBO,机器人与具身,机器人与具身智能,协作机器人、具身智能、SLAM、ARCS
+qingcheng,清程极智,算力与芯片,算力与芯片,AI系统软件、大模型训练、大模型推理、MaaS
+jaguarmicro,云豹智能,算力与芯片,算力与芯片,DPU、ASIC芯片、AI数据中心
+eswincomputing,奕斯伟计算,算力与芯片,算力与芯片,AI芯片、RISC-V、智能计算、具身智能芯片
+houmo,后摩智能,算力与芯片,算力与芯片,存算一体、端侧AI、大模型推理、AI芯片
+spacemit,进迭时空 SpacemiT,算力与芯片,算力与芯片,RISC-V、AI CPU、大模型芯片、K3
+armchina,安谋科技 Arm China,算力与芯片,算力与芯片,芯片IP、周易NPU、CPU、AI处理器
+visinex,为旌科技 Visinex,算力与芯片,算力与芯片,端侧AI SoC、视觉AI、智能驾驶、NPU
+ai2robotics,智平方 AI² Robotics,机器人与具身,机器人与具身智能,具身大模型、GOVLA、AlphaBot、通用机器人
+beisen,北森 Beisen,AI应用与企业服务,企业应用与服务,AI面试官、HR SaaS、企业AI、Mavens
+manifoldai,流形空间 Manifold AI,机器人与具身,机器人与具身智能,世界模型、具身基础模型、机器人
+hidream,智象未来 HiDream,大模型与平台,大模型与平台,多模态、世界模型、文生图、文生视频
+tal,好未来 / 九章大模型,AI应用与企业服务,企业应用与服务,教育AI、大模型、智能硬件
+360,360 / 纳米AI,大模型与平台,大模型与平台,多模态、AI Agent、纳米AI
+infidive,潜入梦科技 infiDive,AI应用与企业服务,企业应用与服务,AI 互动内容、AI 游戏、AI 角色
+invoko,Invoko,AI应用与企业服务,企业应用与服务,桌面 Agent、Mac、AI 产品
+romangic,浪漫极客 Romangic,AI应用与企业服务,企业应用与服务,多模态、AI 摄影、语音与情感计算
+floatboat,Floatboat,AI应用与企业服务,企业应用与服务,Agent Workspace、全栈、企业 AI
+airjelly,AirJelly,AI应用与企业服务,企业应用与服务,主动式 Agent、桌面助手、RL
+eazo,Eazo,AI应用与企业服务,企业应用与服务,AI Coding、3D 世界、创作社区
+taonier,陶泥儿 TAONIER,AI应用与企业服务,企业应用与服务,AI 游戏、Agent 平台、全栈
+doka,Doka 相机,AI应用与企业服务,企业应用与服务,AI 摄影、实时构图、移动应用
+lulula,Lulula,AI应用与企业服务,企业应用与服务,端到端语音、语音 Agent、空间音效
+cijianlink,此间临客 / 幸识,AI应用与企业服务,企业应用与服务,AI 社交、消费互联网、产品设计
+curiosea,CurioSea,AI应用与企业服务,企业应用与服务,AI 教育、全栈、产品
+cloudsway,小宿科技 Cloudsway,AI应用与企业服务,企业应用与服务,Agent Infra、AI 搜索、模型聚合
+udesk,沃丰科技 Udesk,AI应用与企业服务,企业应用与服务,企业大模型、智能客服、语音AI
+qingcloud,青云科技 QingCloud,算力与芯片,算力与芯片,智算、AI Infra、云计算
+xera,拓元智慧 X-Era,机器人与具身,机器人与具身智能,世界动作模型、多模态、具身智能
+starwith,星曜同谐 Starwith,机器人与具身,机器人与具身智能,AI、机器人、数据平台
+apexin,超衍智能 Apex Intelligence,大模型与平台,大模型与平台,基础模型、AI for Science、Agent
+kanzhun_nanbeige,BOSS直聘 南北阁,大模型与平台,大模型与平台,基础模型、AI招聘、搜索推荐
+iquestlab,九坤至知创新研究院 IQuest,研究机构,研究机构,基础模型、后训练、Coding Agent
+mirros,MirroS,大模型与平台,大模型与平台,世界模型、物理RSI、多模态、具身智能
+jsdesign,即时设计,AI应用与生成,内容生成与应用,AI设计、图像生成、协作工具
+lynksoul,心影随形 Lynksoul,AI应用与生成,内容生成与应用,AI陪伴、游戏大模型、多模态
+aixcoder,硅心科技 aiXcoder,AI应用与生成,内容生成与应用,AI编程、代码大模型、企业Agent
+orionstar,猎户星空 OrionStar,机器人与具身,机器人与具身智能,机器人、AgentOS、交互智能、Orion大模型
+beingbeyond,智在无界 BeingBeyond,机器人与具身,机器人与具身智能,具身通用基础模型、世界模型、VLA
+artrobot,钢铁侠科技 ARTROBOT,机器人与具身,机器人与具身智能,仿人机器人、机器人运动脑、自动驾驶底盘
+youibot,优艾智合 Youibot,机器人与具身,机器人与具身智能,工业机器人、具身智能、工业巡检
+quiktech,青葵智造 QUIKTECH,机器人与具身,机器人与具身智能,AI4S、实验室机器人、具身智能、智能体
+physis,逆矩阵科技 Physis,大模型与平台,大模型与平台,世界模型、Physical AI、AI Infra
+psibot,灵初智能 PsiBot,机器人与具身,机器人与具身智能,灵巧操作、VLA、世界模型
+muka,莫刻机器人 MUKA Robotics,机器人与具身,机器人与具身智能,世界模型、视觉因果推理、具身模型
+symbiosis,共生知行 Symbiosis Robotics,机器人与具身,机器人与具身智能,全身智能、机器人基座模型、直接感知控制
+lingxizhiyong,灵犀智涌,机器人与具身,机器人与具身智能,工业具身智能、Harness、自进化机器人
+gongji,共绩科技,算力与芯片,算力与芯片,弹性算力、AI Infra、Serverless GPU
+evolvent,Evolvent AI,大模型与平台,大模型与平台,RSI、Agent Infra、合成数据
+latentverse,潜界科技 LatentVerse,机器人与具身,机器人与具身智能,世界模型、触觉、具身基座模型
+litchibot,厘清智能,机器人与具身,机器人与具身智能,Physical AI、世界模型、通用操作系统
+jinghua-security,荆华密算,算力与芯片,算力与芯片,密态计算、AI安全、隐私计算
+liberai,将闲科技 LiberAI,机器人与具身,机器人与具身智能,世界模型、具身基础模型、UMI数据
+facemind,脸谱心智 FaceMind,大模型与平台,大模型与平台,世界模型、大语言模型、AI陪伴
+originflow,渊澈太初 OriginFlow,机器人与具身,机器人与具身智能,具身数据、sEMG、多模态
+infplane,寅谱计算 Infplane,算力与芯片,算力与芯片,AI SSD、端侧推理、芯片与系统
+onetoken,万格智元 ONE TOKEN,算力与芯片,算力与芯片,端侧推理、Agent、端云协同
+omnimind,万象智维 OmniMind,算力与芯片,算力与芯片,端侧AI、Agent、推理引擎
+singularity_escape,奇点逃逸 Nexus,AI应用与企业服务,企业应用与服务,Agent、协作系统、自进化
+valhalla,英灵殿科技 Valhalla,AI应用与生成,内容生成与应用,AI for Science、分子世界模型、AI4Bio
+deeplang,深言 DeepLang,大模型与平台,大模型与平台,AI Agent、自然语言处理、语言模型
+sunrise,曦望 Sunrise,算力与芯片,算力与芯片,GPU、AI推理、AI Infra
+axera,爱芯元智 Axera,算力与芯片,算力与芯片,边缘AI、NPU、AI-ISP
+smartx,SmartX,AI应用与企业服务,企业应用与服务,AI Infra、模型训推、企业云
+recurrentai,循环智能,AI应用与企业服务,企业应用与服务,会话AI、企业Agent、销售科技
+frontis,衔远科技,AI应用与企业服务,企业应用与服务,企业Agent、强化学习、生成式AI
+deepwise,深睿医疗,AI应用与企业服务,企业应用与服务,医疗AI、多模态、医疗数据
+taosdata,涛思数据,AI应用与企业服务,企业应用与服务,AI数据基础设施、时序数据库、工业Agent
+zuoshou,左手医生,AI应用与企业服务,企业应用与服务,医疗AI、知识图谱、医疗Agent
+abcfintech,阿博茨科技,AI应用与企业服务,企业应用与服务,金融AI、AI Agent、数据分析
+digitforce,数势科技,AI应用与企业服务,企业应用与服务,数据Agent、AIOS、企业数据分析
+selectdb,飞轮科技,AI应用与企业服务,企业应用与服务,AI数据基础设施、实时数据仓库、Apache Doris
+welllink,蔚领时代,AI应用与企业服务,企业应用与服务,云渲染、AI基础设施、数字世界
+keendata,科杰科技,AI应用与企业服务,企业应用与服务,Agentic Lakehouse、AI数据基础设施、大模型开发
+moka,Moka AI,AI应用与企业服务,企业应用与服务,AI HR、企业Agent、AI原生SaaS
+weride,文远知行 WeRide,机器人与具身,机器人与具身智能,自动驾驶、Robotaxi、Robobus、L4
+deeproute,元戎启行 DeepRoute.ai,机器人与具身,机器人与具身智能,自动驾驶、端到端、辅助驾驶
+livsyn,灵生科技 LivSyn Robotics,机器人与具身,机器人与具身智能,具身智能、机器人数据采集、UMI
+ikingtec,云圣智能 i-KINGTEC,机器人与具身,机器人与具身智能,无人机、全自主巡检、工业无人机
+hairobotics,海柔创新 Hai Robotics,机器人与具身,机器人与具身智能,仓储机器人、ACR、物流自动化
+forwardx,灵动科技 ForwardX,机器人与具身,机器人与具身智能,AMR、仓储机器人、物流自动化
+seniorauto,斯年智驾 Senior Auto,机器人与具身,机器人与具身智能,自动驾驶、港口无人驾驶、L4物流
+kargobot,卡尔动力 KargoBot,机器人与具身,机器人与具身智能,自动驾驶、无人货运、L4
+deepway,深向 DeepWay,机器人与具身,机器人与具身智能,自动驾驶、智能重卡、新能源商用车
+rockai,路凯智行 Rock AI,机器人与具身,机器人与具身智能,矿山无人驾驶、自动驾驶、智能网联
+sensorsdata,神策数据 Sensors Data,AI应用与企业服务,企业应用与服务,AI Agent、客户数据平台、营销智能、机器学习
+51world,五一视界 51WORLD,AI应用与企业服务,企业应用与服务,物理AI、世界模型、数字孪生、AI仿真
+xyzeai,星源智,机器人与具身,机器人与具身智能,具身大脑、世界模型、端侧算力
+ti5robot,钛虎机器人,机器人与具身,机器人与具身智能,人形机器人、轻量化关节模组、协作机械臂
+aheadform,首形科技,机器人与具身,机器人与具身智能,仿生人形机器人、情感交互、机器人控制
+hightorque,高擎动力,机器人与具身,机器人与具身智能,小型人形机器人、双足机器人、伺服关节模组
+deeprobotics,云深处科技,机器人与具身,机器人与具身智能,四足机器人、人形机器人、轮足机器人
+aizhikai,具身智开,机器人与具身,机器人与具身智能,具身智能、运动控制、视觉感知、智能机器人
+yunxichu,云栖处机器人,机器人与具身,机器人与具身智能,服务机器人、智能清洁、安防巡逻、无人配送、RaaS
+elibot,艾利特机器人,机器人与具身,机器人与具身智能,协作机器人、复合机器人、运动控制、具身智能
+boyagongdao,博雅工道,机器人与具身,机器人与具身智能,水下机器人、无人船、仿生机器人、SLAM
+yaskawashougang,安川首钢机器人,机器人与具身,机器人与具身智能,工业机器人、自动化生产线、机器人系统集成
+deltai,德塔智能,机器人与具身,机器人与具身智能,具身智能、人形机器人、机器人数据采集、灵巧手
+siasun-semiconductor,新松半导体,机器人与具身,机器人与具身智能,半导体机械手、晶圆传输、伺服驱动、工业机器人
+whaleleap,鲸跃动力,机器人与具身,机器人与具身智能,具身智能、机器人劳动力、数据采集、灵巧操作
+google,Google / 谷歌,国际科技,综合科技雇主,外企、Google Cloud、AI、Pixel、YouTube
+evermind,EverMind,AI应用,其他AI应用,AI记忆、大模型、AI Agent、初创公司
+imprintx,知行具身 ImprintX,机器人与具身智能,机器人与具身智能,触觉传感器、机器人力控、灵巧手、机器人数据
+xynova,曦诺未来 Xynova,机器人与具身智能,机器人与具身智能,高自由度灵巧手、关节模组、微型电缸、柔性电子、机器人触觉
+happyelements,乐元素,游戏与互动内容,游戏与互动内容,游戏、AI工具、休闲游戏
+igg,IGG,游戏与互动内容,游戏与互动内容,游戏、AI漫剧、游戏AI、国际游戏公司
+lilith,莉莉丝游戏,游戏与互动内容,游戏与互动内容,游戏、AI NPC、游戏AI
+perfectworld,完美世界,游戏与互动内容,游戏与互动内容,游戏、电竞、游戏AI
+amd,AMD 超威,算力与芯片,算力与芯片,外企、GPU、AI芯片、AI Infra
+apple,Apple 苹果,智能硬件,智能硬件,外企、机器学习、智能硬件、AI Infra
+bosch,博世 Bosch,汽车与智能驾驶,汽车与智能驾驶,外企、智能驾驶、工业AI、具身上下游
+intel,英特尔 Intel,算力与芯片,算力与芯片,外企、CPU、AI芯片、AI Infra
+microsoft,微软 Microsoft,研究机构,研究机构,外企、大语言模型、多模态、具身智能、AI研究
+mobileye,Mobileye,汽车与智能驾驶,汽车与智能驾驶,外企、自动驾驶、Physical AI、人形机器人
+nvidia,英伟达 NVIDIA,算力与芯片,算力与芯片,外企、GPU、AI Infra、自动驾驶、机器人
+simpleai,深朴智能,机器人与具身,机器人与具身智能,
+spacewill,航天世景,AI应用,其他AI应用,
+chinawenfa,中文发集团,AI应用,其他AI应用,
+sidereus-ai,星使智算 AsterFire Go,AI应用,其他AI应用,
+nkdpharm,诺康达医药,AI应用,其他AI应用,
+tkfunds,泰康基金,AI应用,其他AI应用,
+yangcong,洋葱学园,AI应用,其他AI应用,
+bedicloud,北电数智,算力与芯片,算力与芯片,
+spinentropy,熵旋芯智,算力与芯片,算力与芯片,
+lizhi,荔枝集团,AI应用,其他AI应用,
+citicpress,中信出版,AI应用,其他AI应用,
+seene,深诣机器人,机器人与具身,机器人与具身智能,
+baiyangai,白杨智能,机器人与具身,机器人与具身智能,
+cetc-ai,中国电科智能科技研究院,研究机构,研究机构,
+applovin,AppLovin,国际科技,综合科技雇主,
+teleai,中电信人工智能科技（北京）有限公司,大模型与平台,大模型与平台,
+comindx,无为而智 ComindX,大模型与平台,大模型与平台,
+yonyou,用友,AI应用与企业服务,企业应用与服务,
+iqitek,量智开物,AI应用,其他AI应用,
+58,58同城,AI应用,其他AI应用,
+veloalpha,瞬原科技,AI应用,其他AI应用,
+sohu,搜狐集团,AI应用,其他AI应用,
+cre-meta,中电空间,AI应用与企业服务,企业应用与服务,领域大模型、空间数字孪生、AI平台
+zhongke-liangshu,中科量枢,AI基础设施,AI基础设施,量子AI、量子计算、Agent、AI基础设施
+unipat-ai,UniPat AI,AI应用与Agent,Agent研发与应用,AI原生、预测智能体、经济预测
+humanlaya,Humanlaya 原壤智能,AI数据与评测,数据服务与评测,AI原生、专家数据、模型评测
+listenhub,ListenHub 火星回响,AI应用与Agent,Agent研发与应用,AI原生、AI音频、AI视频、创作者工具
+transwarp,星环科技,AI应用与企业服务,企业应用与服务,企业AI、大数据、数据库
+leyantech,乐言科技,AI应用与企业服务,企业应用与服务,AI客服、电商AI、上交校友创业、上海交通大学、上交、上交系
+smartmore,思谋科技,具身机器人,机器人与具身智能,工业智能体、机器人、复旦校友创业、复旦大学、复旦、复旦系
+netease,网易 / 雷火 · 伏羲,游戏与互动内容,游戏与互动内容,游戏、人工智能、大模型、具身智能、音频、上市公司
+wizardquant,宽德投资 WizardQuant,AI应用,其他AI应用,量化投资、机器学习、深度学习
+zsquant,卓识基金 Zhuoshi Fund,金融科技与AI,金融科技与AI,量化投资、机器学习、AI Infra
+zding,正定私募 Definite Capital,AI应用,其他AI应用,量化投资、深度学习、机器学习
+joinquant,聚宽投资 JoinQuant,AI应用,其他AI应用,AI量化、机器学习、AI Infra、Agent
+lingjun,灵均投资 Lingjun,AI应用,其他AI应用,AI量化、机器学习、量化研究
+qianxiang,乾象投资 Qianxiang,AI应用,其他AI应用,AI量化、深度学习、AI Infra
+metaso,秘塔科技,AI应用与企业服务,企业应用与服务,AI搜索、大语言模型、AI写作、数据工程
+haitian-ruisheng,海天瑞声,训练数据,数据服务与评测,训练数据、语音识别评测
+datatang,数据堂,训练数据,数据服务与评测,训练数据、语音与图像
+amazon,亚马逊,搜索推荐,搜索推荐,搜索推荐、生成式AI
+schneider-electric,施耐德电气,数据中心,工业与数据中心,数据中心、AI冷源控制
+fangcun,方寸跃迁,Agent安全,Agent研发与应用,Agent安全、运行时监测
+tansuo-wujin,探索无尽,生产力Agent,Agent研发与应用,生产力Agent、沙箱
+ambi-ai,Ambi AI,Agent评测,Agent研发与应用,Agent评测、AI产品
+fibona-ai,Fibona AI,Agent研究,Agent研发与应用,Agent研究、递归自我改进
+lightwheel,光轮智能 / Lightwheel,具身智能,机器人与具身智能,具身智能、强化学习环境
