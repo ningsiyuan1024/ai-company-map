@@ -18,7 +18,21 @@
  $('region').innerHTML=options([['全部','全部区域'],...regionNames.map(r=>[r,r])],state.region);
  $('region').onchange=()=>{state.region=$('region').value;state.selected=null;state.site=0;render({fitMap:true});};
  $('coverage').textContent=`目录共 ${companies.length} 家公司 · ${companies.flatMap(c=>c.sites).length} 个地理参考点。`;
- const events = c => window.FUNDING_EVENTS[c.id] || [];
+ const finance = c => city==='beijing' ? window.BEIJING_FINANCE_2026?.records[c.id] : null;
+ const events = c => {
+   if(city!=='beijing')return window.FUNDING_EVENTS[c.id]||[];
+   const f=finance(c)?.financing;
+   if(!f||finance(c).listing)return [];
+   return [[f.date,f.round,f.investorNames||[],f.url]];
+ };
+ const roundGroup = e => {
+   const round=e[1];
+   if(round.startsWith('Pre-A'))return 'Pre-A';
+   if(round.startsWith('Pre-IPO'))return 'Pre-IPO';
+   if(round.startsWith('种子'))return '种子';
+   if(round.startsWith('天使'))return '天使';
+   return /^[A-H]/.test(round)?round[0]+'轮':'其他融资';
+ };
  const cityEvents = companies.flatMap(events);
  const setupFilter = (key,label,choices) => {
    state[key]=choices.includes(p.get(key)) ? p.get(key) : '';
@@ -26,9 +40,9 @@
    $(key).innerHTML=options([['',label],...choices.map(v=>[v,v])],state[key]);
    $(key).onchange=()=>{state[key]=$(key).value;state.selected=null;render({fitMap:true});};
  };
- setupFilter('round','融资记录',unique(cityEvents.map(e=>e[1][0]+'轮')).sort());
+ setupFilter('round','融资记录',unique(cityEvents.map(roundGroup)).sort());
  setupFilter('investor','投资机构',unique(cityEvents.flatMap(e=>e[2])).sort((a,b)=>a.localeCompare(b,'zh')));
- const matchesEvent = e => (!state.round||e[1][0]===state.round[0])&&(!state.investor||e[2].includes(state.investor));
+ const matchesEvent = e => (!state.round||roundGroup(e)===state.round)&&(!state.investor||e[2].includes(state.investor));
  const matchesFunding = c => (!state.round&&!state.investor)||events(c).some(matchesEvent);
  const eventLabel = e => e[0]+' · '+e[1]+' · '+e[2].join('、');
  const visibleSites = c => c.sites.filter(site=>state.region==='全部'||site.region===state.region);
@@ -59,6 +73,28 @@
  }
  const precision={area:'片区参考点',campus:'园区参考点',building:'楼宇参考点'};
  const safeUrl=url=>/^https?:\/\//i.test(url||'');
+ function financeDetails(c,link){
+   const record=finance(c);
+   if(!record||!(record.listing||record.financing||record.unicorn||record.otc))return '';
+   const lines=[];
+   if(record.listing){
+     const l=record.listing;
+     lines.push(link(l.url,record.listingScope+'已上市 · '+l.name+' · '+l.code+' · '+l.date));
+   }
+   if(record.otc){
+     const otc=record.otc;
+     lines.push(link(otc.url,'新三板挂牌 · '+otc.code+' · '+otc.date));
+   }
+   if(record.financing&&!record.listing){
+     const f=record.financing;
+     lines.push(link(f.url,f.date+' · '+f.round+' · '+f.publisher+'（来源 '+f.sourcePublished+'）'));
+   }
+   if(record.unicorn){
+     const u=record.unicorn;
+     lines.push(link(u.url,'2026胡润独角兽榜 · '+u.name+' · 2026-06-25'+(u.subsequentListing?'；另有后续上市证据':'')));
+   }
+   return '<details class="source-details"><summary>2026 融资与上市依据</summary><div>'+lines.map(l=>'<p>'+l+'</p>').join('')+'</div></details>';
+ }
  function renderDetail(){
    const c=companies.find(c=>c.id===state.selected);
    $('detail').hidden=!c;
@@ -73,12 +109,12 @@
      <div class="tags">${c.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>${selector}
      <p class="location-heading"><strong>${esc(site?.name||locs[0]?.area||cityName)}</strong><small>${site?(precision[site.precision]||'参考点'):'位置待核验'}</small></p>
      <p class="address">${esc(site?.address||addresses[0]||'暂无公开地址')}</p>
-     ${events(c).length?`<details class="source-details"><summary>融资记录 · ${esc(events(c)[0][1])}（${esc(events(c)[0][0])}）</summary><div>${events(c).map(e=>`<p>${link(e[3],eventLabel(e))}</p>`).join('')}</div></details>`:''}<div class="actions">${link(c.recruit,c.recruitLabel,'primary')}${site?link(site.coord?'https://uri.amap.com/marker?position='+site.coord.join(',')+'&name='+encodeURIComponent(c.name):'https://www.openstreetmap.org/?mlat='+site.lat+'&mlon='+site.lng+'#map=17/'+site.lat+'/'+site.lng,'查看地图','secondary'):''}</div>
+     ${city==='beijing'?financeDetails(c,link):(events(c).length?`<details class="source-details"><summary>融资记录 · ${esc(events(c)[0][1])}（${esc(events(c)[0][0])}）</summary><div>${events(c).map(e=>`<p>${link(e[3],eventLabel(e))}</p>`).join('')}</div></details>`:'')}<div class="actions">${link(c.recruit,c.recruitLabel,'primary')}${site?link(site.coord?'https://uri.amap.com/marker?position='+site.coord.join(',')+'&name='+encodeURIComponent(c.name):'https://www.openstreetmap.org/?mlat='+site.lat+'&mlon='+site.lng+'#map=17/'+site.lat+'/'+site.lng,'查看地图','secondary'):''}</div>
      <details class="source-details"><summary>位置与来源</summary><div>${addresses.filter(a=>site||a!==addresses[0]).map(a=>`<p>${esc(a)}</p>`).join('')}
      ${c.evidence?c.evidence.map(([label,url])=>link(url,label)).join(' '):link(source,'DINQ 城市数据')} ${link(site?.source,'点位来源')}<p>资料核对 ${esc(c.checked||date)}。实际工作地点以招聘方为准。</p></div></details>`;
    if(selector)$('site').onchange=e=>select(c.id,{siteIndex:Number(e.target.value)});
  }
- function render({fitMap=false}={}){const list=filtered();if(state.selected&&!list.some(c=>c.id===state.selected))state.selected=null;const focusId=document.activeElement?.closest?.('.company-row')?.dataset.id;$('result-count').textContent=`${list.length} 家公司`;$('clear-filters').hidden=!state.round&&!state.investor&&!state.q&&state.region==='全部';$('empty').hidden=list.length>0;$('company-list').hidden=!list.length;$('company-list').innerHTML=list.map(c=>`<button class="company-row" data-id="${c.id}" aria-label="查看 ${esc(c.name)}" aria-pressed="${state.selected===c.id}"><span class="company-initial" aria-hidden="true">${esc(Array.from(c.name)[0])}</span><span class="company-content"><strong translate="no">${esc(c.name)}</strong><small>${esc(regions(c).join(' / ')||cityName)} · ${esc(c.tags.slice(0,2).join(' / '))}</small>${events(c).some(matchesEvent)?`<small class="funding-line">${esc(eventLabel(events(c).find(matchesEvent)))}</small>`:''}${visibleSites(c).length?'':'<span class="pending">位置待核验</span>'}</span></button>`).join('');document.querySelectorAll('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===state.region)));renderDetail();updateMarkers();sync();if(focusId)document.querySelector(`.company-row[data-id="${focusId}"]`)?.focus({preventScroll:true});if(fitMap)fit();}
+ function render({fitMap=false}={}){const list=filtered();if(state.selected&&!list.some(c=>c.id===state.selected))state.selected=null;const focusId=document.activeElement?.closest?.('.company-row')?.dataset.id;$('result-count').textContent=`${list.length} 家公司`;$('clear-filters').hidden=!state.round&&!state.investor&&!state.q&&state.region==='全部';$('empty').hidden=list.length>0;$('company-list').hidden=!list.length;$('company-list').innerHTML=list.map(c=>`<button class="company-row" data-id="${c.id}" aria-label="查看 ${esc(c.name)}" aria-pressed="${state.selected===c.id}"><span class="company-initial" aria-hidden="true">${esc(Array.from(c.name)[0])}</span><span class="company-content"><strong translate="no">${esc(c.name)}</strong><small>${esc(regions(c).join(' / ')||cityName)} · ${esc(c.tags.slice(0,2).join(' / '))}</small>${finance(c)?.listing?'<small class="funding-line">'+esc(finance(c).listingScope+'已上市')+'</small>':''}${finance(c)?.unicorn?'<small class="funding-line">2026胡润独角兽榜'+(finance(c).listing?' · 已有上市证据':'')+'</small>':''}${events(c).some(matchesEvent)?`<small class="funding-line">${esc(eventLabel(events(c).find(matchesEvent)))}</small>`:''}${visibleSites(c).length?'':'<span class="pending">位置待核验</span>'}</span></button>`).join('');document.querySelectorAll('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===state.region)));renderDetail();updateMarkers();sync();if(focusId)document.querySelector(`.company-row[data-id="${focusId}"]`)?.focus({preventScroll:true});if(fitMap)fit();}
  function select(id,{keyboard=false,siteIndex}={}){const c=companies.find(c=>c.id===id);if(!c)return;state.selected=id;state.site=siteIndex??c.sites.indexOf(visibleSites(c)[0]);render();const site=activeSite(c);if(map&&site){const mobile=matchMedia('(max-width:700px)').matches;map.setView([site.lat,site.lng],Math.max(map.getZoom(),14),{animate:false});if(mobile||map.getSize().x<600){const size=map.getSize();const available=Math.max(70,size.y-$('detail').getBoundingClientRect().height-40);map.panBy([0,(size.y-available)/2],{animate:false});}}if(keyboard)$('detail').focus({preventScroll:true});}
  function closeDetail(){const id=state.selected;state.selected=null;render();document.querySelector(`.company-row[data-id="${id}"]`)?.focus({preventScroll:true});}
  function reset(){for(const k of ['round','investor']){state[k]='';$(k).value='';}state.q='';state.region='全部';$('region').value='全部';state.selected=null;$('search').value='';render({fitMap:true});$('search').focus();}

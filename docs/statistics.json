@@ -454,60 +454,30 @@
     "Agent研究": 1,
     "强化学习环境": 1
   },
-  "financingRecords": [
-    {
-      "id": "infinigence",
-      "公司": "无问芯穹",
-      "披露时间": "2024-09",
-      "记录轮次": "A轮",
-      "机构": "启明创投、洪泰基金、顺为资本",
-      "来源": "https://www.qimingvc.com/cn/node/6953"
+  "hurunMatched": 19,
+  "finance2026": {
+    "total": 307,
+    "asOf": "2026-11-14",
+    "stage": {
+      "B轮系列": 19,
+      "已上市主体／集团团队": 72,
+      "F轮系列": 1,
+      "2026来源待核准": 130,
+      "轮次未具名": 5,
+      "D轮系列": 4,
+      "C轮系列": 13,
+      "Pre-A": 17,
+      "A轮系列": 19,
+      "E轮系列": 2,
+      "Pre-IPO": 3,
+      "种子／天使": 21,
+      "新三板挂牌": 1
     },
-    {
-      "id": "shengshu",
-      "公司": "生数科技",
-      "披露时间": "2026-04",
-      "记录轮次": "B轮",
-      "机构": "阿里云、光合创投、百度风投",
-      "来源": "https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202604/t20260414_243817.html"
-    },
-    {
-      "id": "aishi",
-      "公司": "爱诗科技",
-      "披露时间": "2026-07",
-      "记录轮次": "C轮追加",
-      "机构": "阿里巴巴、Mirae Asset、钟鼎资本",
-      "来源": "https://pixverse.ai/en/blog/pixverse-closes-series-c-extension-and-announces-expansion-into-interactive-entertainment"
-    },
-    {
-      "id": "fourier",
-      "公司": "傅利叶智能",
-      "披露时间": "2020-10",
-      "记录轮次": "C轮",
-      "机构": "元璟资本、前海母基金",
-      "来源": "https://www.vbdata.cn/comp/a228682036bf11e785a3ad8ca7049da0"
-    },
-    {
-      "id": "robotera",
-      "公司": "星动纪元",
-      "披露时间": "2026-07",
-      "记录轮次": "B++轮",
-      "机构": "中金资本、弘毅投资",
-      "来源": "https://vc.pedaily.cn/invest/428530.html"
-    },
-    {
-      "id": "x2robot",
-      "公司": "自变量机器人",
-      "披露时间": "2026-04",
-      "记录轮次": "B轮",
-      "机构": "小米战投、红杉中国",
-      "来源": "https://pdf.dfcfw.com/pdf/H3_AP202604271821596312_1.pdf"
-    }
-  ],
-  "stageCoverage": {
-    "A轮记录": 1,
-    "B轮记录": 3,
-    "C轮记录": 2
-  },
-  "hurunMatched": 19
+    "otcVerified": 1,
+    "listingVerified": 72,
+    "financingVerified": 108,
+    "unicorn2026Matched": 58,
+    "unicornWithLaterListingEvidence": 4,
+    "anyEvidence": 200
+  }
 }

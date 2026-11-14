@@ -1,0 +1,6409 @@
+{
+  "summary": {
+    "total": 307,
+    "asOf": "2026-11-14",
+    "stage": {
+      "B轮系列": 19,
+      "已上市主体／集团团队": 72,
+      "F轮系列": 1,
+      "2026来源待核准": 130,
+      "轮次未具名": 5,
+      "D轮系列": 4,
+      "C轮系列": 13,
+      "Pre-A": 17,
+      "A轮系列": 19,
+      "E轮系列": 2,
+      "Pre-IPO": 3,
+      "种子／天使": 21,
+      "新三板挂牌": 1
+    },
+    "otcVerified": 1,
+    "listingVerified": 72,
+    "financingVerified": 108,
+    "unicorn2026Matched": 58,
+    "unicornWithLaterListingEvidence": 4,
+    "anyEvidence": 200
+  },
+  "records": {
+    "deepseek": {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "DeepSeek",
+        "company": "DeepSeek 杭州深度求索人工智能基础技术研究有限公司",
+        "round": "B轮",
+        "date": "2026-10-30",
+        "url": "https://vc.pedaily.cn/invest/447445.html",
+        "investors": "石溪资本 中芯聚源 CPE源峰 君联资本 宁德时代 腾讯投资 IDG资本 拾象科技 Monolith砺思资本 吉利汽车产业基金 国家人工智能产业投资基金 中国移动 中国电信投资 中金公司 中信证券 中国人寿 长鑫存储 中芯国际 VIVO公司 美团战略投资部 美的集团 立讯精密 携程 小红书 博裕资本 朱一明 梁文锋",
+        "investorNames": [
+          "石溪资本",
+          "中芯聚源",
+          "CPE源峰",
+          "君联资本",
+          "宁德时代",
+          "腾讯投资",
+          "IDG资本",
+          "拾象科技",
+          "Monolith砺思资本",
+          "吉利汽车产业基金",
+          "国家人工智能产业投资基金",
+          "中国移动",
+          "中国电信投资",
+          "中金公司",
+          "中信证券",
+          "中国人寿",
+          "长鑫存储",
+          "中芯国际",
+          "VIVO公司",
+          "美团战略投资部",
+          "美的集团",
+          "立讯精密",
+          "携程",
+          "小红书",
+          "博裕资本",
+          "朱一明",
+          "梁文锋"
+        ],
+        "title": "DeepSeek完成1055亿人民币B轮融资",
+        "sourcePublished": "2026-10-30",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "深度求索",
+        "rank": 12,
+        "headquarters": "中国-杭州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "zhipu": {
+      "id": "zhipu",
+      "name": "智谱",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "zhipu",
+        "code": "02513",
+        "name": "智谱",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658173.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "moonshot": {
+      "id": "moonshot",
+      "name": "月之暗面 / Kimi",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "月之暗面",
+        "company": "月之暗面 北京月之暗面科技股份有限公司",
+        "round": "F轮",
+        "date": "2026-07-29",
+        "url": "https://vc.pedaily.cn/invest/426134.html",
+        "investors": "美元机构 人民币机构",
+        "investorNames": [
+          "美元机构",
+          "人民币机构"
+        ],
+        "title": "月之暗面完成超35亿美元F轮融资",
+        "sourcePublished": "2026-07-29",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "月之暗面",
+        "rank": 35,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "F轮系列"
+    },
+    "bytedance": {
+      "id": "bytedance",
+      "name": "字节跳动 Seed",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "字节跳动",
+        "rank": 3,
+        "headquarters": "中国-北京",
+        "scope": "所属集团",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "alibaba": {
+      "id": "alibaba",
+      "name": "阿里巴巴 Qwen / Token Foundry",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "alibaba",
+        "code": "09988",
+        "name": "阿里巴巴-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至2026年10月31日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660001.PDF"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "tencent": {
+      "id": "tencent",
+      "name": "腾讯",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "tencent",
+        "code": "00700",
+        "name": "腾讯控股",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659458.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "minimax": {
+      "id": "minimax",
+      "name": "MiniMax",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "minimax",
+        "code": "00100",
+        "name": "MINIMAX-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660277.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "MiniMax",
+        "company": "MiniMax 上海稀宇极智科技有限公司",
+        "round": "股权融资",
+        "date": "2026-07-10",
+        "url": "https://vc.pedaily.cn/invest/452518.html",
+        "investors": "多家顶级国际主权基金 长线基金 一线中资机构 顶级多策略基金",
+        "investorNames": [
+          "多家顶级国际主权基金",
+          "长线基金",
+          "一线中资机构",
+          "顶级多策略基金"
+        ],
+        "title": "MiniMax完成160亿港元股权融资轮融资",
+        "sourcePublished": "2026-07-10",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "xiaomi": {
+      "id": "xiaomi",
+      "name": "小米",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "xiaomi",
+        "code": "01810",
+        "name": "小米集团-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659059.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "meituan": {
+      "id": "meituan",
+      "name": "美团 LongCat",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "meituan",
+        "code": "03690",
+        "name": "美团-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658255.PDF"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "xiaohongshu": {
+      "id": "xiaohongshu",
+      "name": "小红书 Dots",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "小红书",
+        "rank": 12,
+        "headquarters": "中国-上海",
+        "scope": "所属集团",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "stepfun": {
+      "id": "stepfun",
+      "name": "阶跃星辰 StepFun",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "阶跃星辰",
+        "company": "阶跃星辰 上海阶跃星辰智能科技股份有限公司",
+        "round": "战略融资",
+        "date": "2026-06-05",
+        "url": "https://vc.pedaily.cn/invest/451840.html",
+        "investors": "康冠科技",
+        "investorNames": [
+          "康冠科技"
+        ],
+        "title": "阶跃星辰完成1.5亿人民币战略融资轮融资",
+        "sourcePublished": "2026-06-05",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "阶跃星辰",
+        "rank": 152,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "轮次未具名"
+    },
+    "ant": {
+      "id": "ant",
+      "name": "蚂蚁集团 Ling",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "蚂蚁集团",
+        "rank": 6,
+        "headquarters": "中国-杭州",
+        "scope": "所属集团",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "baidu": {
+      "id": "baidu",
+      "name": "百度",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "baidu",
+        "code": "09888",
+        "name": "百度集团-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658140.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "iflytek": {
+      "id": "iflytek",
+      "name": "科大讯飞",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "iflytek",
+        "code": "002230",
+        "name": "科大讯飞",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-20",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485550.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "kuaishou": {
+      "id": "kuaishou",
+      "name": "快手 可灵 Kling",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "kuaishou",
+        "code": "01024",
+        "name": "快手-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659152.PDF"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "kunlun": {
+      "id": "kunlun",
+      "name": "昆仑万维 Skywork",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "kunlun",
+        "code": "300418",
+        "name": "昆仑万维",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-10-29",
+        "title": "2026年三季度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644210.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "01ai": {
+      "id": "01ai",
+      "name": "零一万物",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "零一万物",
+        "company": "零一万物 北京零一万物科技有限公司",
+        "round": "战略融资",
+        "date": "2026-10-30",
+        "url": "https://vc.pedaily.cn/invest/447327.html",
+        "investors": "市区两级国资联动投资",
+        "investorNames": [
+          "市区两级国资联动投资"
+        ],
+        "title": "零一万物完成数亿人民币战略融资轮融资",
+        "sourcePublished": "2026-10-30",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "零一万物",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "轮次未具名"
+    },
+    "jd": {
+      "id": "jd",
+      "name": "京东",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "jd",
+        "code": "09618",
+        "name": "京东集团-sw",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-04-16",
+        "title": "2025年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-04-16/1225112888.PDF"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "modelbest": {
+      "id": "modelbest",
+      "name": "面壁智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "面壁智能",
+        "company": "面壁智能 北京面壁智能科技股份有限公司",
+        "round": "D++轮",
+        "date": "2026-07-15",
+        "url": "https://vc.pedaily.cn/invest/425963.html",
+        "investors": "国家级基金 央企 汽车制造商等各类产业方 知名财务投资人 川创投",
+        "investorNames": [
+          "国家级基金",
+          "央企",
+          "汽车制造商等各类产业方",
+          "知名财务投资人",
+          "川创投"
+        ],
+        "title": "面壁智能完成数亿人民币D++轮融资",
+        "sourcePublished": "2026-07-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "D轮系列"
+    },
+    "huawei": {
+      "id": "huawei",
+      "name": "华为",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "luchen": {
+      "id": "luchen",
+      "name": "潞晨科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "潞晨科技",
+        "company": "潞晨科技 北京潞晨科技有限公司",
+        "round": "B轮",
+        "date": "2026-03-18",
+        "url": "https://vc.pedaily.cn/invest/423479.html",
+        "investors": "博华产投 博华产投 某美元投资机构",
+        "investorNames": [
+          "博华产投",
+          "博华产投",
+          "某美元投资机构"
+        ],
+        "title": "潞晨科技完成数亿人民币B轮融资",
+        "sourcePublished": "2026-03-18",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "cambricon": {
+      "id": "cambricon",
+      "name": "寒武纪",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "cambricon",
+        "code": "688256",
+        "name": "寒武纪",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-07",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464969.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "hygon": {
+      "id": "hygon",
+      "name": "海光信息",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "hygon",
+        "code": "688041",
+        "name": "海光信息",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-13",
+        "title": "海光信息技术股份有限公司2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "biren": {
+      "id": "biren",
+      "name": "壁仞科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "biren",
+        "code": "06082",
+        "name": "壁仞科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658237.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "metax": {
+      "id": "metax",
+      "name": "沐曦",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "metax",
+        "code": "688802",
+        "name": "沐曦",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-30",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225535168.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "mthreads": {
+      "id": "mthreads",
+      "name": "摩尔线程",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "mthreads",
+        "code": "688795",
+        "name": "摩尔线程",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-09",
+        "title": "摩尔线程2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225465335.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "iluvatar": {
+      "id": "iluvatar",
+      "name": "天数智芯",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "iluvatar",
+        "code": "09903",
+        "name": "天数智芯",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658222.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "horizon": {
+      "id": "horizon",
+      "name": "地平线",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "horizon",
+        "code": "09660",
+        "name": "地平线机器人-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至2026年10月31日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659631.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "d_robotics": {
+      "id": "d_robotics",
+      "name": "地瓜机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "地瓜机器人",
+        "company": "地瓜机器人 深圳地瓜机器人有限公司",
+        "round": "C轮",
+        "date": "2026-09-17",
+        "url": "https://vc.pedaily.cn/invest/426973.html",
+        "investors": "未来资产 美团战略投资部 合肥国投 南山战新投 璟泉资本 凯辉基金 华美国际集团 广发信德 超越摩尔投资 中关村发展启航产业投资基金 高瓴创投 五源资本 线性资本 黄浦江资本 Vertex Growth Fund Prosperity7 Ventures 和暄资本 云锋基金 美团龙珠 九阳家办 敦鸿资产 凯联资本 沸点资本 九合创投 初心资本 沄柏资本 庚辛资本",
+        "investorNames": [
+          "未来资产",
+          "美团战略投资部",
+          "合肥国投",
+          "南山战新投",
+          "璟泉资本",
+          "凯辉基金",
+          "华美国际集团",
+          "广发信德",
+          "超越摩尔投资",
+          "中关村发展启航产业投资基金",
+          "高瓴创投",
+          "五源资本",
+          "线性资本",
+          "黄浦江资本",
+          "Vertex Growth Fund",
+          "Prosperity7 Ventures",
+          "和暄资本",
+          "云锋基金",
+          "美团龙珠",
+          "九阳家办",
+          "敦鸿资产",
+          "凯联资本",
+          "沸点资本",
+          "九合创投",
+          "初心资本",
+          "沄柏资本",
+          "庚辛资本"
+        ],
+        "title": "地瓜机器人完成4亿美元C轮融资",
+        "sourcePublished": "2026-09-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "地瓜机器人",
+        "rank": 875,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "blacksesame": {
+      "id": "blacksesame",
+      "name": "黑芝麻智能",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "blacksesame",
+        "code": "02533",
+        "name": "黑芝麻智能",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至2026年10月31日止月份股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660411.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "semidrive": {
+      "id": "semidrive",
+      "name": "芯驰科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "芯驰科技",
+        "company": "芯驰科技 北京芯驰半导体科技股份有限公司",
+        "round": "C+轮",
+        "date": "2026-09-21",
+        "url": "https://vc.pedaily.cn/invest/427128.html",
+        "investors": "华登科技 陕投集团 陕西金资 新时代基金",
+        "investorNames": [
+          "华登科技",
+          "陕投集团",
+          "陕西金资",
+          "新时代基金"
+        ],
+        "title": "芯驰科技完成数亿人民币C+轮融资",
+        "sourcePublished": "2026-09-21",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "芯驰科技",
+        "rank": 583,
+        "headquarters": "中国-南京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "infinigence": {
+      "id": "infinigence",
+      "name": "无问芯穹",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "无问芯穹",
+        "company": "无问芯穹 上海无问芯穹智能科技股份有限公司",
+        "round": "C轮",
+        "date": "2026-10-12",
+        "url": "https://vc.pedaily.cn/invest/427290.html",
+        "investors": "高新金投集团 君联资本 珠海科技产业集团 厦门国兴投资 徐汇资本 孚腾资本 中国保险投资基金 国开科创 Dabanc Holding 联想创投 九坤创投 同歌创投 腾讯投资 百度 HongShan红杉中国 洪泰基金 惠远资本 启明创投 达晨财智 顺为资本 Monolith砺思资本",
+        "investorNames": [
+          "高新金投集团",
+          "君联资本",
+          "珠海科技产业集团",
+          "厦门国兴投资",
+          "徐汇资本",
+          "孚腾资本",
+          "中国保险投资基金",
+          "国开科创",
+          "Dabanc Holding",
+          "联想创投",
+          "九坤创投",
+          "同歌创投",
+          "腾讯投资",
+          "百度",
+          "HongShan红杉中国",
+          "洪泰基金",
+          "惠远资本",
+          "启明创投",
+          "达晨财智",
+          "顺为资本",
+          "Monolith砺思资本"
+        ],
+        "title": "无问芯穹完成23亿人民币C轮融资",
+        "sourcePublished": "2026-10-12",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "无问芯穹",
+        "rank": 1118,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "siliconflow": {
+      "id": "siliconflow",
+      "name": "硅基流动",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "硅基流动",
+        "company": "硅基流动 北京硅基流动科技股份有限公司",
+        "round": "C轮",
+        "date": "2026-09-20",
+        "url": "https://vc.pedaily.cn/invest/427032.html",
+        "investors": "中网投 国新基金 中移和创 中国东方资产国际 京能同鑫 上海仪电智算基金 建投华科 北创投 翠微基金 成都科创投 江西金控 倍特基金 中泰资本 华安嘉业 华胜天成 新紫光集团 智路资本 拓尔思 鹏鹞环保 兆讯科技 睿智基金 执君基金 悟新智融 天创资本 山东铁投 山东铁路发展基金 耀途资本  Glory Ventures 盛奕基金 国泰创投",
+        "investorNames": [
+          "中网投",
+          "国新基金",
+          "中移和创",
+          "中国东方资产国际",
+          "京能同鑫",
+          "上海仪电智算基金",
+          "建投华科",
+          "北创投",
+          "翠微基金",
+          "成都科创投",
+          "江西金控",
+          "倍特基金",
+          "中泰资本",
+          "华安嘉业",
+          "华胜天成",
+          "新紫光集团",
+          "智路资本",
+          "拓尔思",
+          "鹏鹞环保",
+          "兆讯科技",
+          "睿智基金",
+          "执君基金",
+          "悟新智融",
+          "天创资本",
+          "山东铁投",
+          "山东铁路发展基金",
+          "耀途资本  Glory Ventures",
+          "盛奕基金",
+          "国泰创投"
+        ],
+        "title": "硅基流动完成C轮融资",
+        "sourcePublished": "2026-09-20",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "C轮系列"
+    },
+    "naive": {
+      "id": "naive",
+      "name": "Naive AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Naive.ai",
+        "company": "Naive.ai 北京智衍慧生科技有限公司",
+        "round": "Pre-A+轮",
+        "date": "2026-09-09",
+        "url": "https://vc.pedaily.cn/invest/428598.html",
+        "investors": "星睿资本 腾讯投资 国汽投资 广发乾和 HongShan红杉中国 经纬创投",
+        "investorNames": [
+          "星睿资本",
+          "腾讯投资",
+          "国汽投资",
+          "广发乾和",
+          "HongShan红杉中国",
+          "经纬创投"
+        ],
+        "title": "Naive.ai完成1.2亿美元Pre-A+轮融资",
+        "sourcePublished": "2026-09-09",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "shengshu": {
+      "id": "shengshu",
+      "name": "生数科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "生数科技",
+        "company": "生数科技 北京生数科技股份有限公司",
+        "round": "B+轮",
+        "date": "2026-07-06",
+        "url": "https://vc.pedaily.cn/invest/425796.html",
+        "investors": "未披露",
+        "investorNames": [
+          "未披露"
+        ],
+        "title": "生数科技完成5亿美元B+轮融资",
+        "sourcePublished": "2026-07-06",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "生数科技",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "aishi": {
+      "id": "aishi",
+      "name": "爱诗科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "round": "C轮追加",
+        "date": "2026-07-14",
+        "sourcePublished": "2026-07-14",
+        "company": "爱诗科技／PixVerse",
+        "investors": "阿里巴巴、Mirae Asset、钟鼎资本",
+        "publisher": "PixVerse 官方公告",
+        "sourceType": "企业官方融资公告",
+        "title": "PixVerse Closes Series C Extension",
+        "url": "https://pixverse.ai/en/blog/pixverse-closes-series-c-extension-and-announces-expansion-into-interactive-entertainment"
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "爱诗科技",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "sand": {
+      "id": "sand",
+      "name": "Sand.ai",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Sand.ai",
+        "company": "Sand.ai 北京三呆科技有限公司",
+        "round": "A+轮",
+        "date": "2026-11-05",
+        "url": "https://vc.pedaily.cn/invest/449851.html",
+        "investors": "基石资本 网宿科技 时代资本 磐霖资本 东证资本 天创资本 山东铁投 山东铁路发展基金 浦东创投集团 国方创新 经纬创投 华业天成资本 中科创星",
+        "investorNames": [
+          "基石资本",
+          "网宿科技",
+          "时代资本",
+          "磐霖资本",
+          "东证资本",
+          "天创资本",
+          "山东铁投",
+          "山东铁路发展基金",
+          "浦东创投集团",
+          "国方创新",
+          "经纬创投",
+          "华业天成资本",
+          "中科创星"
+        ],
+        "title": "Sand.ai完成2亿美元A+轮融资",
+        "sourcePublished": "2026-11-05",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "manus": {
+      "id": "manus",
+      "name": "Manus",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "genspark": {
+      "id": "genspark",
+      "name": "Genspark",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Genspark",
+        "company": "Genspark Mainfunc Inc.",
+        "round": "B+轮",
+        "date": "2026-06-15",
+        "url": "https://vc.pedaily.cn/invest/431681.html",
+        "investors": "未来资产",
+        "investorNames": [
+          "未来资产"
+        ],
+        "title": "Genspark完成1亿美元B+轮融资",
+        "sourcePublished": "2026-06-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "Main Func",
+        "rank": 1037,
+        "headquarters": "美国-帕洛阿尔托",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "liblib": {
+      "id": "liblib",
+      "name": "LiblibAI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "lovart": {
+      "id": "lovart",
+      "name": "Lovart",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "oiioii": {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "OiiOii",
+        "company": "OiiOii 上海天码形空科技有限公司",
+        "round": "Pre-A+轮",
+        "date": "2026-03-24",
+        "url": "https://vc.pedaily.cn/invest/424646.html",
+        "investors": "春华资本 星连资本 光合创投",
+        "investorNames": [
+          "春华资本",
+          "星连资本",
+          "光合创投"
+        ],
+        "title": "OiiOii完成数千万人民币Pre-A+轮融资",
+        "sourcePublished": "2026-03-24",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "unitree": {
+      "id": "unitree",
+      "name": "宇树科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "unitree",
+        "code": "688836",
+        "name": "宇树科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-17",
+        "title": "宇树科技首次公开发行股票科创板上市公告书",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-18/1225478658.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "宇树科技",
+        "company": "宇树科技 宇树科技股份有限公司",
+        "round": "D轮",
+        "date": "2026-08-06",
+        "url": "https://vc.pedaily.cn/invest/426838.html",
+        "investors": "全国社保基金 DeepSeek 中信证券投资",
+        "investorNames": [
+          "全国社保基金",
+          "DeepSeek",
+          "中信证券投资"
+        ],
+        "title": "宇树科技完成12.20亿人民币D轮融资",
+        "sourcePublished": "2026-08-06",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "宇树科技",
+        "rank": 148,
+        "headquarters": "中国-杭州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": true
+      },
+      "stage": "已上市主体／集团团队"
+    },
+    "agibot": {
+      "id": "agibot",
+      "name": "智元机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "智元机器人",
+        "company": "智元机器人 智元创新（上海）科技股份有限公司",
+        "round": "战略融资",
+        "date": "2026-10-15",
+        "url": "https://vc.pedaily.cn/invest/452446.html",
+        "investors": "未披露",
+        "investorNames": [
+          "未披露"
+        ],
+        "title": "智元机器人完成15亿人民币战略融资轮融资",
+        "sourcePublished": "2026-10-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "智元机器人",
+        "rank": 611,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "轮次未具名"
+    },
+    "ubtech": {
+      "id": "ubtech",
+      "name": "优必选",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "ubtech",
+        "code": "09880",
+        "name": "优必选",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-02",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225652540.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "galbot": {
+      "id": "galbot",
+      "name": "银河通用",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "银河通用机器人",
+        "company": "银河通用机器人 北京银河通用机器人股份有限公司",
+        "round": "B++轮",
+        "date": "2026-03-02",
+        "url": "https://vc.pedaily.cn/invest/422579.html",
+        "investors": "国家人工智能产业投资基金 中国石化 中信集团 中国银行 上汽集团 中芯聚源 亦庄国投 未来产业投资 鲲鹏基金 无锡创投 福建产投",
+        "investorNames": [
+          "国家人工智能产业投资基金",
+          "中国石化",
+          "中信集团",
+          "中国银行",
+          "上汽集团",
+          "中芯聚源",
+          "亦庄国投",
+          "未来产业投资",
+          "鲲鹏基金",
+          "无锡创投",
+          "福建产投"
+        ],
+        "title": "银河通用机器人完成25亿人民币B++轮融资",
+        "sourcePublished": "2026-03-02",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "银河通用机器人",
+        "rank": 385,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "fourier": {
+      "id": "fourier",
+      "name": "傅利叶智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "round": "E轮",
+        "date": "2025",
+        "sourcePublished": "2026-01-06",
+        "company": "傅利叶智能",
+        "investors": "",
+        "investorNames": [],
+        "publisher": "国金证券2026年度策略报告",
+        "sourceType": "券商研报对历史融资阶段的2026年回顾",
+        "title": "机器人行业2026年度策略：行业跨越0-1，坚守核心供应链",
+        "url": "https://pdf.dfcfw.com/pdf/H3_AP202601061815848979_1.pdf"
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "傅利叶智能",
+        "rank": 1118,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "E轮系列"
+    },
+    "xpeng": {
+      "id": "xpeng",
+      "name": "小鹏",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "xpeng",
+        "code": "09868",
+        "name": "小鹏集团-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660151.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "liauto": {
+      "id": "liauto",
+      "name": "理想汽车",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "liauto",
+        "code": "02015",
+        "name": "理想汽车-Ｗ",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659491.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "dreame": {
+      "id": "dreame",
+      "name": "追觅科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "dataa": {
+      "id": "dataa",
+      "name": "达闼",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "robotera": {
+      "id": "robotera",
+      "name": "星动纪元",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "星动纪元",
+        "company": "星动纪元 北京星动纪元科技股份有限公司",
+        "round": "B++轮",
+        "date": "2026-07-06",
+        "url": "https://vc.pedaily.cn/invest/428530.html",
+        "investors": "国调基金 江西国控 国元股投 中新基金 杭州资本 中金资本私募 九坤创投 弘毅投资 君泰资本 盛赫资本 厚雪资本 清控天诚 千山资本",
+        "investorNames": [
+          "国调基金",
+          "江西国控",
+          "国元股投",
+          "中新基金",
+          "杭州资本",
+          "中金资本私募",
+          "九坤创投",
+          "弘毅投资",
+          "君泰资本",
+          "盛赫资本",
+          "厚雪资本",
+          "清控天诚",
+          "千山资本"
+        ],
+        "title": "星动纪元完成10亿人民币B++轮融资",
+        "sourcePublished": "2026-07-06",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "星动纪元",
+        "rank": 875,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "limx": {
+      "id": "limx",
+      "name": "逐际动力",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "逐际动力",
+        "company": "逐际动力 深圳逐际动力科技股份有限公司",
+        "round": "Pre-IPO",
+        "date": "2026-07-14",
+        "url": "https://vc.pedaily.cn/invest/425889.html",
+        "investors": "IDG资本 蓝思科技 GGG Group Redstone VC 华山资本Westsummit Capital 合肥滨湖产发集团 Stone Venture 绿洲资本 基石资本 南山战新投 尚颀资本 蔚来资本",
+        "investorNames": [
+          "IDG资本",
+          "蓝思科技",
+          "GGG Group",
+          "Redstone VC",
+          "华山资本Westsummit Capital",
+          "合肥滨湖产发集团",
+          "Stone Venture",
+          "绿洲资本",
+          "基石资本",
+          "南山战新投",
+          "尚颀资本",
+          "蔚来资本"
+        ],
+        "title": "逐际动力完成近2亿美元Pre-IPO轮融资",
+        "sourcePublished": "2026-07-14",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "逐际动力",
+        "rank": 1279,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "Pre-IPO"
+    },
+    "shlab": {
+      "id": "shlab",
+      "name": "上海人工智能实验室",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "sii": {
+      "id": "sii",
+      "name": "上海创智学院",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "mihoyo": {
+      "id": "mihoyo",
+      "name": "米哈游",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "米哈游",
+        "rank": 25,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "bilibili": {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "bilibili",
+        "code": "09626",
+        "name": "哔哩哔哩-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660552.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "booster": {
+      "id": "booster",
+      "name": "加速进化",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "加速进化",
+        "company": "加速进化 北京加速进化科技有限公司",
+        "round": "C轮",
+        "date": "2026-04-17",
+        "url": "https://vc.pedaily.cn/invest/424698.html",
+        "investors": "北京高精尖产业发展基金 北工投资 华控基金 联想之星 国海创新资本 交银投资 深创投 源码资本 英诺天使基金 IDG资本 首程资本 洪泰基金",
+        "investorNames": [
+          "北京高精尖产业发展基金",
+          "北工投资",
+          "华控基金",
+          "联想之星",
+          "国海创新资本",
+          "交银投资",
+          "深创投",
+          "源码资本",
+          "英诺天使基金",
+          "IDG资本",
+          "首程资本",
+          "洪泰基金"
+        ],
+        "title": "加速进化完成10亿人民币C轮融资",
+        "sourcePublished": "2026-04-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "加速进化",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "noetix": {
+      "id": "noetix",
+      "name": "松延动力",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "松延动力",
+        "company": "松延动力 北京松延动力科技集团股份有限公司",
+        "round": "B+轮",
+        "date": "2026-07-30",
+        "url": "https://vc.pedaily.cn/invest/427629.html",
+        "investors": "神骐资本 苏州市产投 山东省新动能基金 财金投资 源禾资本 厚雪资本 紫建电子 九合创投 金浦投资 赟汇资本",
+        "investorNames": [
+          "神骐资本",
+          "苏州市产投",
+          "山东省新动能基金",
+          "财金投资",
+          "源禾资本",
+          "厚雪资本",
+          "紫建电子",
+          "九合创投",
+          "金浦投资",
+          "赟汇资本"
+        ],
+        "title": "松延动力完成B+轮融资",
+        "sourcePublished": "2026-07-30",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "galaxea": {
+      "id": "galaxea",
+      "name": "星海图",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "星海图",
+        "company": "星海图 星海图（北京）人工智能科技股份有限公司",
+        "round": "B+轮",
+        "date": "2026-04-02",
+        "url": "https://vc.pedaily.cn/invest/424207.html",
+        "investors": "华登国际 蓝思科技 矽芯投资 时代伯乐 航发基金 ACCF Capital 弘章资本 御海资本 金融街资本 金浦投资 北京科创基金 国元股投 中金资本 普华资本 洪泰基金 广发乾和",
+        "investorNames": [
+          "华登国际",
+          "蓝思科技",
+          "矽芯投资",
+          "时代伯乐",
+          "航发基金",
+          "ACCF Capital",
+          "弘章资本",
+          "御海资本",
+          "金融街资本",
+          "金浦投资",
+          "北京科创基金",
+          "国元股投",
+          "中金资本",
+          "普华资本",
+          "洪泰基金",
+          "广发乾和"
+        ],
+        "title": "星海图完成近20亿人民币B+轮融资",
+        "sourcePublished": "2026-04-02",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "星海图",
+        "rank": 438,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "sensetime": {
+      "id": "sensetime",
+      "name": "商汤科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "sensetime",
+        "code": "00020",
+        "name": "商汤-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657070.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "megvii": {
+      "id": "megvii",
+      "name": "旷视科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "旷视科技",
+        "rank": 494,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "bigai": {
+      "id": "bigai",
+      "name": "北京通用人工智能研究院",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "unisound": {
+      "id": "unisound",
+      "name": "云知声",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "unisound",
+        "code": "09678",
+        "name": "云知声",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-02",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225652132.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "realai": {
+      "id": "realai",
+      "name": "瑞莱智慧",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "瑞莱智慧",
+        "company": "瑞莱智慧 北京瑞莱智慧科技有限公司",
+        "round": "B轮",
+        "date": "2026-07-21",
+        "url": "https://vc.pedaily.cn/invest/425986.html",
+        "investors": "星连资本 招商资本 卓源亚洲 卓源资本 福迪创投 水木清华校友种子基金 聚迎丰基金",
+        "investorNames": [
+          "星连资本",
+          "招商资本",
+          "卓源亚洲",
+          "卓源资本",
+          "福迪创投",
+          "水木清华校友种子基金",
+          "聚迎丰基金"
+        ],
+        "title": "瑞莱智慧完成数亿人民币B轮融资",
+        "sourcePublished": "2026-07-21",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "4paradigm": {
+      "id": "4paradigm",
+      "name": "第四范式 / 范式",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "4paradigm",
+        "code": "06682",
+        "name": "范式智能",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657760.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "baai": {
+      "id": "baai",
+      "name": "北京智源人工智能研究院",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "witmem": {
+      "id": "witmem",
+      "name": "知存科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "tsingmicro": {
+      "id": "tsingmicro",
+      "name": "清微智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "清微智能",
+        "company": "清微智能 北京清微智能科技股份有限公司",
+        "round": "Pre-IPO",
+        "date": "2026-03-19",
+        "url": "https://vc.pedaily.cn/invest/428601.html",
+        "investors": "慕华科创 卓源亚洲 源余资本 晓池资本 广发乾和 华德资本 明智资本 三七互娱创投基金 中科物联 北工投资 玄素投资 北京金控集团 中贝通信 策源资本 米聚资本 云锋基金 软通动力 润泽家办 中芯聚源 华强创投 凯旋资本 源码资本 曜为资本 紫荆文化 水木创投 图灵资本 温州湾新区 电控产投 首建投 中电智慧 星竹投资 南京赫清 中网投 允泰资本 商汤国香资本 考拉基金 鼎青投资 拓锋投资",
+        "investorNames": [
+          "慕华科创",
+          "卓源亚洲",
+          "源余资本",
+          "晓池资本",
+          "广发乾和",
+          "华德资本",
+          "明智资本",
+          "三七互娱创投基金",
+          "中科物联",
+          "北工投资",
+          "玄素投资",
+          "北京金控集团",
+          "中贝通信",
+          "策源资本",
+          "米聚资本",
+          "云锋基金",
+          "软通动力",
+          "润泽家办",
+          "中芯聚源",
+          "华强创投",
+          "凯旋资本",
+          "源码资本",
+          "曜为资本",
+          "紫荆文化",
+          "水木创投",
+          "图灵资本",
+          "温州湾新区",
+          "电控产投",
+          "首建投",
+          "中电智慧",
+          "星竹投资",
+          "南京赫清",
+          "中网投",
+          "允泰资本",
+          "商汤国香资本",
+          "考拉基金",
+          "鼎青投资",
+          "拓锋投资"
+        ],
+        "title": "清微智能完成Pre-IPO轮融资",
+        "sourcePublished": "2026-03-19",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "清微智能",
+        "rank": 438,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "Pre-IPO"
+    },
+    "dptechnology": {
+      "id": "dptechnology",
+      "name": "深势科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "spiritai": {
+      "id": "spiritai",
+      "name": "千寻智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "千寻智能",
+        "company": "千寻智能 千寻智能（北京）科技股份有限公司",
+        "round": "A++轮",
+        "date": "2026-06-03",
+        "url": "https://vc.pedaily.cn/invest/425301.html",
+        "investors": "一线美元基金 大型产业投资方 国资基金",
+        "investorNames": [
+          "一线美元基金",
+          "大型产业投资方",
+          "国资基金"
+        ],
+        "title": "千寻智能完成15亿人民币A++轮融资",
+        "sourcePublished": "2026-06-03",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "千寻智能",
+        "rank": 875,
+        "headquarters": "中国-杭州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "A轮系列"
+    },
+    "x2robot": {
+      "id": "x2robot",
+      "name": "自变量机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "自变量机器人",
+        "company": "自变量机器人 自变量科技（深圳）股份有限公司",
+        "round": "C轮",
+        "date": "2026-06-30",
+        "url": "https://vc.pedaily.cn/invest/425718.html",
+        "investors": "深投控 源码资本 IDG资本 中金资本 航空工业弘华基金 毅达资本 数智毅达 国海创新资本 宝安区产业投资引导基金 中国保险投资基金 盛景嘉成 国联投资",
+        "investorNames": [
+          "深投控",
+          "源码资本",
+          "IDG资本",
+          "中金资本",
+          "航空工业弘华基金",
+          "毅达资本",
+          "数智毅达",
+          "国海创新资本",
+          "宝安区产业投资引导基金",
+          "中国保险投资基金",
+          "盛景嘉成",
+          "国联投资"
+        ],
+        "title": "自变量机器人完成C轮融资",
+        "sourcePublished": "2026-06-30",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "自变量机器人",
+        "rank": 875,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "xhumanoid": {
+      "id": "xhumanoid",
+      "name": "北京人形机器人创新中心 / 天工",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "国家地方共建具身智能机器人创新中心",
+        "company": "国家地方共建具身智能机器人创新中心 北京人形机器人创新中心有限公司",
+        "round": "A轮",
+        "date": "2026-06-01",
+        "url": "https://vc.pedaily.cn/invest/443336.html",
+        "investors": "英诺天使基金",
+        "investorNames": [
+          "英诺天使基金"
+        ],
+        "title": "国家地方共建具身智能机器人创新中心完成A轮融资",
+        "sourcePublished": "2026-06-01",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "phigentai": {
+      "id": "phigentai",
+      "name": "鉴智机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "tars": {
+      "id": "tars",
+      "name": "它石智航",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "它石智航",
+        "company": "它石智航 上海它石智航技术有限公司",
+        "round": "Pre-A+轮",
+        "date": "2026-07-31",
+        "url": "https://vc.pedaily.cn/invest/428097.html",
+        "investors": "常盛投资 洪泰基金 北京国管 徐汇科创投 上海国投先导",
+        "investorNames": [
+          "常盛投资",
+          "洪泰基金",
+          "北京国管",
+          "徐汇科创投",
+          "上海国投先导"
+        ],
+        "title": "它石智航完成Pre-A+轮融资",
+        "sourcePublished": "2026-07-31",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "它石智航",
+        "rank": 720,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "Pre-A"
+    },
+    "linkerbot": {
+      "id": "linkerbot",
+      "name": "灵心巧手",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "灵心巧手",
+        "company": "灵心巧手 灵心巧手（北京）科技股份有限公司",
+        "round": "B+轮",
+        "date": "2026-04-30",
+        "url": "https://vc.pedaily.cn/invest/424880.html",
+        "investors": "中关村科学城 中银资产 复星创富 贝克资本 玖兆投资 弘章资本 元诺资本 中科英智 宇信科技 博佳资本 力合金融 力合资本 华福资本 德同资本",
+        "investorNames": [
+          "中关村科学城",
+          "中银资产",
+          "复星创富",
+          "贝克资本",
+          "玖兆投资",
+          "弘章资本",
+          "元诺资本",
+          "中科英智",
+          "宇信科技",
+          "博佳资本",
+          "力合金融",
+          "力合资本",
+          "华福资本",
+          "德同资本"
+        ],
+        "title": "灵心巧手完成B+轮融资",
+        "sourcePublished": "2026-04-30",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "灵心巧手",
+        "rank": 438,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "surgerii": {
+      "id": "surgerii",
+      "name": "术锐机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "agilerobots": {
+      "id": "agilerobots",
+      "name": "思灵机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "思灵机器人",
+        "company": "思灵机器人 北京思灵机器人科技有限责任公司",
+        "round": "D轮",
+        "date": "2026-11-12",
+        "url": "https://vc.pedaily.cn/invest/457808.html",
+        "investors": "英伟达 SoftBank Capital 日立创投 T.Capital",
+        "investorNames": [
+          "英伟达",
+          "SoftBank Capital",
+          "日立创投",
+          "T.Capital"
+        ],
+        "title": "思灵机器人完成5亿美元D轮融资",
+        "sourcePublished": "2026-11-12",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "思灵机器人",
+        "rank": 1279,
+        "headquarters": "德国-慕尼黑",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "D轮系列"
+    },
+    "casbot": {
+      "id": "casbot",
+      "name": "中科慧灵 / CASBOT",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "中科慧灵",
+        "company": "中科慧灵 北京中科慧灵机器人技术有限公司",
+        "round": "A++轮",
+        "date": "2026-10-26",
+        "url": "https://vc.pedaily.cn/invest/447374.html",
+        "investors": "知来投资 涌铧投资 茂天资本 元禾辰坤 国科科智 鲁宁投资",
+        "investorNames": [
+          "知来投资",
+          "涌铧投资",
+          "茂天资本",
+          "元禾辰坤",
+          "国科科智",
+          "鲁宁投资"
+        ],
+        "title": "中科慧灵完成数亿人民币A++轮融资",
+        "sourcePublished": "2026-10-26",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "realman": {
+      "id": "realman",
+      "name": "睿尔曼智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "睿尔曼",
+        "company": "睿尔曼 睿尔曼智能科技（北京）股份有限公司",
+        "round": "C轮",
+        "date": "2026-03-05",
+        "url": "https://vc.pedaily.cn/invest/423822.html",
+        "investors": "大洋电机 上河动量 九派资本",
+        "investorNames": [
+          "大洋电机",
+          "上河动量",
+          "九派资本"
+        ],
+        "title": "睿尔曼完成近5亿人民币C轮融资",
+        "sourcePublished": "2026-03-05",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "C轮系列"
+    },
+    "mechmind": {
+      "id": "mechmind",
+      "name": "梅卡曼德机器人",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "mechmind",
+        "code": "09615",
+        "name": "梅卡曼德机器人",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659202.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "梅卡曼德机器人",
+        "rank": 1279,
+        "headquarters": "中国-雄安",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": true
+      },
+      "stage": "已上市主体／集团团队"
+    },
+    "inspirerobots": {
+      "id": "inspirerobots",
+      "name": "因时机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "因时机器人",
+        "company": "因时机器人 北京因时科技股份有限公司",
+        "round": "C+轮",
+        "date": "2026-02-25",
+        "url": "https://vc.pedaily.cn/invest/421554.html",
+        "investors": "北京市人工智能产业投资基金 启明创投 博原资本 春华资本 北京金财基金 TCL创投 宏源汇富",
+        "investorNames": [
+          "北京市人工智能产业投资基金",
+          "启明创投",
+          "博原资本",
+          "春华资本",
+          "北京金财基金",
+          "TCL创投",
+          "宏源汇富"
+        ],
+        "title": "因时机器人完成数亿人民币C+轮融资",
+        "sourcePublished": "2026-02-25",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "C轮系列"
+    },
+    "baichuan": {
+      "id": "baichuan",
+      "name": "百川智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "百川智能",
+        "rank": 467,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "zkj": {
+      "id": "zkj",
+      "name": "中关村科金",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "中关村科金",
+        "rank": 541,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "bailian": {
+      "id": "bailian",
+      "name": "百炼智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "wenge": {
+      "id": "wenge",
+      "name": "中科闻歌",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "wenge",
+        "code": "01956",
+        "name": "中科闻歌",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657073.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "shukun": {
+      "id": "shukun",
+      "name": "数坤科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "minglue": {
+      "id": "minglue",
+      "name": "明略科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "minglue",
+        "code": "02718",
+        "name": "明略科技-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至2026年10月31日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657153.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "laiye": {
+      "id": "laiye",
+      "name": "来也科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "xiaoice": {
+      "id": "xiaoice",
+      "name": "小冰",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "tingyu": {
+      "id": "tingyu",
+      "name": "庭宇科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "庭宇科技",
+        "company": "庭宇科技 北京庭宇科技有限公司",
+        "round": "B++轮",
+        "date": "2026-06-25",
+        "url": "https://vc.pedaily.cn/invest/429289.html",
+        "investors": "三七互娱创投基金 金光紫金 北创投 广州产投集团 广发信德 金能基金 国舜投资",
+        "investorNames": [
+          "三七互娱创投基金",
+          "金光紫金",
+          "北创投",
+          "广州产投集团",
+          "广发信德",
+          "金能基金",
+          "国舜投资"
+        ],
+        "title": "庭宇科技完成B++轮融资",
+        "sourcePublished": "2026-06-25",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "gigaai": {
+      "id": "gigaai",
+      "name": "极佳科技 / 极佳视界",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "极佳视界",
+        "company": "极佳视界 北京极佳视界科技有限公司",
+        "round": "B+轮",
+        "date": "2026-06-15",
+        "url": "https://vc.pedaily.cn/invest/457861.html",
+        "investors": "狮城资本 海富产业基金 建投投资 万向钱潮 复星锐正资本 华盖资本 金创投 德屹资本 华仓资本 元石基金 国中资本 达晨财智 图灵资管",
+        "investorNames": [
+          "狮城资本",
+          "海富产业基金",
+          "建投投资",
+          "万向钱潮",
+          "复星锐正资本",
+          "华盖资本",
+          "金创投",
+          "德屹资本",
+          "华仓资本",
+          "元石基金",
+          "国中资本",
+          "达晨财智",
+          "图灵资管"
+        ],
+        "title": "极佳视界完成10亿人民币B+轮融资",
+        "sourcePublished": "2026-06-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "极佳视界",
+        "rank": 875,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    },
+    "qcraft": {
+      "id": "qcraft",
+      "name": "轻舟智航",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "轻舟智航",
+        "company": "轻舟智航 北京轻舟智航智能技术有限公司",
+        "round": "D轮",
+        "date": "2026-03-23",
+        "url": "https://vc.pedaily.cn/invest/423701.html",
+        "investors": "某国内头部主机厂 光大金控 梁溪科创母基金 华德资本 某头部汽车电子零部件公司",
+        "investorNames": [
+          "某国内头部主机厂",
+          "光大金控",
+          "梁溪科创母基金",
+          "华德资本",
+          "某头部汽车电子零部件公司"
+        ],
+        "title": "轻舟智航完成1亿美元D轮融资",
+        "sourcePublished": "2026-03-23",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "轻舟智航",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "D轮系列"
+    },
+    "momenta": {
+      "id": "momenta",
+      "name": "Momenta",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "momenta",
+        "code": "06880",
+        "name": "MOMENTA-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至2026年10月31日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659037.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "初速度",
+        "company": "初速度 北京初速度科技有限公司",
+        "round": "Pre-IPO",
+        "date": "2026-04-23",
+        "url": "https://vc.pedaily.cn/invest/428911.html",
+        "investors": "Stone Ventures 高榕创投 高成投资 众为资本",
+        "investorNames": [
+          "Stone Ventures",
+          "高榕创投",
+          "高成投资",
+          "众为资本"
+        ],
+        "title": "初速度完成约5亿美元Pre-IPO轮融资",
+        "sourcePublished": "2026-04-23",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "Momenta",
+        "rank": 148,
+        "headquarters": "中国-苏州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": true
+      },
+      "stage": "已上市主体／集团团队"
+    },
+    "uisee": {
+      "id": "uisee",
+      "name": "驭势科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "uisee",
+        "code": "01511",
+        "name": "驭势科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-03",
+        "title": "截至2026年10月31日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225656144.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "eacon": {
+      "id": "eacon",
+      "name": "易控智驾",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "eacon",
+        "code": "07687",
+        "name": "易控智驾",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660367.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "plus": {
+      "id": "plus",
+      "name": "智加科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "智加科技",
+        "rank": 1118,
+        "headquarters": "美国-库比蒂诺",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "trunktech": {
+      "id": "trunktech",
+      "name": "主线科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "neolix": {
+      "id": "neolix",
+      "name": "新石器无人车",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "新石器",
+        "company": "新石器 新石器慧通科技股份有限公司",
+        "round": "E轮",
+        "date": "2026-10-20",
+        "url": "https://vc.pedaily.cn/invest/427401.html",
+        "investors": "博裕资本 阿里巴巴 Monolith砺思资本 Granite Asia Capital 祥峰投资中国基金 Stone Venture 信宸资本",
+        "investorNames": [
+          "博裕资本",
+          "阿里巴巴",
+          "Monolith砺思资本",
+          "Granite Asia Capital",
+          "祥峰投资中国基金",
+          "Stone Venture",
+          "信宸资本"
+        ],
+        "title": "新石器完成4亿美元E轮融资",
+        "sourcePublished": "2026-10-20",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "新石器慧通",
+        "rank": 611,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "E轮系列"
+    },
+    "vast": {
+      "id": "vast",
+      "name": "VAST / Tripo",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "VAST",
+        "company": "VAST 北京三启万物科技股份有限公司",
+        "round": "B轮",
+        "date": "2026-09-01",
+        "url": "https://vc.pedaily.cn/invest/426736.html",
+        "investors": "经纬创投 完美世界 蓝色光标 芯动能投资 延趣游戏 中科创达 广电投资 三七互娱创投基金 鼎晖投资 中金资本 CMC资本 洪泰基金 三正健康 中平资本 福建产投 福创投 卓源亚洲 江西金控 达晨财智 春华资本 4399游戏 慕华科创 绿洲资本 渶策资本 华控基金",
+        "investorNames": [
+          "经纬创投",
+          "完美世界",
+          "蓝色光标",
+          "芯动能投资",
+          "延趣游戏",
+          "中科创达",
+          "广电投资",
+          "三七互娱创投基金",
+          "鼎晖投资",
+          "中金资本",
+          "CMC资本",
+          "洪泰基金",
+          "三正健康",
+          "中平资本",
+          "福建产投",
+          "福创投",
+          "卓源亚洲",
+          "江西金控",
+          "达晨财智",
+          "春华资本",
+          "4399游戏",
+          "慕华科创",
+          "绿洲资本",
+          "渶策资本",
+          "华控基金"
+        ],
+        "title": "VAST完成30亿人民币B轮融资",
+        "sourcePublished": "2026-09-01",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "pingcap": {
+      "id": "pingcap",
+      "name": "PingCAP / 平凯星辰",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "平凯星辰",
+        "rank": 385,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "enflame": {
+      "id": "enflame",
+      "name": "燧原科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "enflame",
+        "code": "688801",
+        "name": "燧原科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-09-09",
+        "title": "燧原科技首次公开发行股票科创板上市公告书",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-09-10/1225556294.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "燧原科技",
+        "rank": 160,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": true
+      },
+      "stage": "已上市主体／集团团队"
+    },
+    "roborock": {
+      "id": "roborock",
+      "name": "石头科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "roborock",
+        "code": "688169",
+        "name": "石头科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-24",
+        "title": "北京石头世纪科技股份有限公司2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497305.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "patsnap": {
+      "id": "patsnap",
+      "name": "智慧芽 PatSnap",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "智慧芽",
+        "rank": 1209,
+        "headquarters": "中国-苏州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "rokae": {
+      "id": "rokae",
+      "name": "珞石机器人",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "rokae",
+        "code": "03752",
+        "name": "珞石机器人",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-03",
+        "title": "截至2026年10月31日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225655297.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "pony": {
+      "id": "pony",
+      "name": "小马智行",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "pony",
+        "code": "02026",
+        "name": "小马智行-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660084.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "geekplus": {
+      "id": "geekplus",
+      "name": "极智嘉",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "geekplus",
+        "code": "02590",
+        "name": "极智嘉-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660254.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "wps": {
+      "id": "wps",
+      "name": "金山办公",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "wps",
+        "code": "688111",
+        "name": "金山办公",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-19",
+        "title": "金山办公2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482678.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "terminus": {
+      "id": "terminus",
+      "name": "特斯联科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "特斯联",
+        "rank": 438,
+        "headquarters": "中国-重庆",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "deepexi": {
+      "id": "deepexi",
+      "name": "滴普科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "deepexi",
+        "code": "01384",
+        "name": "滴普科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657451.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "trs": {
+      "id": "trs",
+      "name": "拓尔思",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "trs",
+        "code": "300229",
+        "name": "拓尔思",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-28",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225523925.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "quantgroup": {
+      "id": "quantgroup",
+      "name": "量化派",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "quantgroup",
+        "code": "02685",
+        "name": "量化派",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659145.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "量化派",
+        "company": "量化派 量化派控股有限公司",
+        "round": "股权融资",
+        "date": "2026-07-10",
+        "url": "https://vc.pedaily.cn/invest/426056.html",
+        "investors": "国富量子",
+        "investorNames": [
+          "国富量子"
+        ],
+        "title": "量化派完成6000万港元股权融资轮融资",
+        "sourcePublished": "2026-07-10",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "kunlunxin": {
+      "id": "kunlunxin",
+      "name": "昆仑芯科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "昆仑芯科技",
+        "rank": 376,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "biomap": {
+      "id": "biomap",
+      "name": "百图生科",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "百图生科",
+        "rank": 1037,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "zhichi": {
+      "id": "zhichi",
+      "name": "智齿科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "anyverse": {
+      "id": "anyverse",
+      "name": "无界动力",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "无界动力",
+        "company": "无界动力 无界动力（北京）技术研发有限公司",
+        "round": "天使+++轮",
+        "date": "2026-06-26",
+        "url": "https://vc.pedaily.cn/invest/448889.html",
+        "investors": "京东关联基金 C资本 弘毅投资 盛宇投资 线性资本 HongShan红杉中国 华业天成资本 雅瑞资本",
+        "investorNames": [
+          "京东关联基金",
+          "C资本",
+          "弘毅投资",
+          "盛宇投资",
+          "线性资本",
+          "HongShan红杉中国",
+          "华业天成资本",
+          "雅瑞资本"
+        ],
+        "title": "无界动力完成4亿人民币天使+++轮融资",
+        "sourcePublished": "2026-06-26",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "whiterhino": {
+      "id": "whiterhino",
+      "name": "白犀牛",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "白犀牛",
+        "company": "白犀牛 白犀牛智达（北京）科技有限公司",
+        "round": "C+轮",
+        "date": "2026-10-08",
+        "url": "https://vc.pedaily.cn/invest/427249.html",
+        "investors": "隐山资本 湘潭国资 深重投 财信金控 韩国友利金融集团 博正资本",
+        "investorNames": [
+          "隐山资本",
+          "湘潭国资",
+          "深重投",
+          "财信金控",
+          "韩国友利金融集团",
+          "博正资本"
+        ],
+        "title": "白犀牛完成1亿美元C+轮融资",
+        "sourcePublished": "2026-10-08",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "C轮系列"
+    },
+    "vbot": {
+      "id": "vbot",
+      "name": "维他动力 Vbot",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "维他动力",
+        "company": "维他动力 维他动力（北京）科技有限公司",
+        "round": "Pre-A++轮",
+        "date": "2026-10-13",
+        "url": "https://vc.pedaily.cn/invest/451802.html",
+        "investors": "江特电机 关联投资方",
+        "investorNames": [
+          "江特电机",
+          "关联投资方"
+        ],
+        "title": "维他动力完成3亿人民币Pre-A++轮融资",
+        "sourcePublished": "2026-10-13",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "aicc": {
+      "id": "aicc",
+      "name": "国汽智控",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "tashan": {
+      "id": "tashan",
+      "name": "他山科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "他山科技",
+        "company": "他山科技 北京他山科技股份有限公司",
+        "round": "B轮",
+        "date": "2026-07-10",
+        "url": "https://vc.pedaily.cn/invest/425828.html",
+        "investors": "均胜电子 太平创新 奥克斯 鹏翎股份 Lavender Hill Capital Partners 洪山资本 道氏技术 彬复资本 奥成投资 国石智达",
+        "investorNames": [
+          "均胜电子",
+          "太平创新",
+          "奥克斯",
+          "鹏翎股份",
+          "Lavender Hill Capital Partners",
+          "洪山资本",
+          "道氏技术",
+          "彬复资本",
+          "奥成投资",
+          "国石智达"
+        ],
+        "title": "他山科技完成数亿人民币B轮融资",
+        "sourcePublished": "2026-07-10",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "metis": {
+      "id": "metis",
+      "name": "剂泰科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "metis",
+        "code": "07666",
+        "name": "剂泰科技-P",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至2026年10月31日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658166.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "datacanvas": {
+      "id": "datacanvas",
+      "name": "九章云极 DataCanvas",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "aibee": {
+      "id": "aibee",
+      "name": "爱笔智能 Aibee",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "爱笔",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "idriver": {
+      "id": "idriver",
+      "name": "智行者",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "智行者",
+        "company": "智行者 北京智行者科技股份有限公司",
+        "round": "战略融资",
+        "date": "2026-01-05",
+        "url": "https://vc.pedaily.cn/invest/405777.html",
+        "investors": "黄石国投集团",
+        "investorNames": [
+          "黄石国投集团"
+        ],
+        "title": "智行者完成4亿人民币战略融资轮融资",
+        "sourcePublished": "2026-01-05",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "智行者",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "轮次未具名"
+    },
+    "infervision": {
+      "id": "infervision",
+      "name": "推想医疗",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "推想科技",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "yunji": {
+      "id": "yunji",
+      "name": "云迹科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "yunji",
+        "code": "02670",
+        "name": "云迹",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657438.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "ninebot": {
+      "id": "ninebot",
+      "name": "九号公司",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "ninebot",
+        "code": "689009",
+        "name": "九号公司",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-10",
+        "title": "九号有限公司2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466718.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "robstride": {
+      "id": "robstride",
+      "name": "灵足时代",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "灵足时代",
+        "company": "灵足时代 北京灵足时代科技有限公司",
+        "round": "A轮",
+        "date": "2026-03-27",
+        "url": "https://vc.pedaily.cn/invest/430759.html",
+        "investors": "九鼎投资",
+        "investorNames": [
+          "九鼎投资"
+        ],
+        "title": "灵足时代完成A轮融资",
+        "sourcePublished": "2026-03-27",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "rimbot": {
+      "id": "rimbot",
+      "name": "日冕机器人 RimBOT",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "日冕机器人",
+        "company": "日冕机器人 日冕开物（北京）科技有限公司",
+        "round": "种子轮",
+        "date": "2026-07-17",
+        "url": "https://vc.pedaily.cn/invest/440465.html",
+        "investors": "百度风投",
+        "investorNames": [
+          "百度风投"
+        ],
+        "title": "日冕机器人完成数亿人民币种子轮融资",
+        "sourcePublished": "2026-07-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "pokebot": {
+      "id": "pokebot",
+      "name": "破壳机器人 PokeBot",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "破壳机器人",
+        "company": "破壳机器人 破壳时刻（上海）智能科技有限责任公司",
+        "round": "Pre-A轮",
+        "date": "2026-08-03",
+        "url": "https://vc.pedaily.cn/invest/426232.html",
+        "investors": "顺为资本 经纬创投 钟鼎资本 九坤创投 钧山投资 SEE Fund无限基金 猎聘网战投 元诺资本 云启资本 小米集团 弘晖基金 英诺天使基金 东方嘉富 常盛投资 华建函数投资",
+        "investorNames": [
+          "顺为资本",
+          "经纬创投",
+          "钟鼎资本",
+          "九坤创投",
+          "钧山投资",
+          "SEE Fund无限基金",
+          "猎聘网战投",
+          "元诺资本",
+          "云启资本",
+          "小米集团",
+          "弘晖基金",
+          "英诺天使基金",
+          "东方嘉富",
+          "常盛投资",
+          "华建函数投资"
+        ],
+        "title": "破壳机器人完成亿美元级Pre-A轮融资",
+        "sourcePublished": "2026-08-03",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "tokenrhythm": {
+      "id": "tokenrhythm",
+      "name": "基元律动 TokenRhythm",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "基元律动",
+        "company": "基元律动 上海基元律动科技有限公司",
+        "round": "天使轮",
+        "date": "2026-08-26",
+        "url": "https://vc.pedaily.cn/invest/426628.html",
+        "investors": "弘晖基金 江苏聚合资本 尚势资本 深圳聚合资本",
+        "investorNames": [
+          "弘晖基金",
+          "江苏聚合资本",
+          "尚势资本",
+          "深圳聚合资本"
+        ],
+        "title": "基元律动完成天使轮融资",
+        "sourcePublished": "2026-08-26",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "xvirobotics": {
+      "id": "xvirobotics",
+      "name": "十六号机器人 XVI Robotics",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "XVI Robotics",
+        "company": "XVI Robotics 北京十六号机器人科技有限公司",
+        "round": "A轮",
+        "date": "2026-06-23",
+        "url": "https://vc.pedaily.cn/invest/428081.html",
+        "investors": "襄禾资本 靖亚资本 英诺天使基金",
+        "investorNames": [
+          "襄禾资本",
+          "靖亚资本",
+          "英诺天使基金"
+        ],
+        "title": "XVI Robotics完成A轮融资",
+        "sourcePublished": "2026-06-23",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "xiaoyubot": {
+      "id": "xiaoyubot",
+      "name": "小雨智造",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "小雨智造",
+        "company": "小雨智造 北京小雨智造科技有限公司",
+        "round": "B++轮",
+        "date": "2026-09-08",
+        "url": "https://vc.pedaily.cn/invest/426931.html",
+        "investors": "Blooming Star Kamet Capital Partners 盈峰投资",
+        "investorNames": [
+          "Blooming Star",
+          "Kamet Capital Partners",
+          "盈峰投资"
+        ],
+        "title": "小雨智造完成数亿人民币B++轮融资",
+        "sourcePublished": "2026-09-08",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "amigosrobot": {
+      "id": "amigosrobot",
+      "name": "阿米奥机器人 Amigos",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "meshy": {
+      "id": "meshy",
+      "name": "Meshy / 太极图形",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Meshy",
+        "company": "Meshy 北京格拉飞可斯科技有限公司",
+        "round": "B轮",
+        "date": "2026-07-20",
+        "url": "https://vc.pedaily.cn/invest/426008.html",
+        "investors": "IDG资本 经纬创投 Monolith砺思资本 Granite Asia HongShan红杉中国 BAI资本 源码资本",
+        "investorNames": [
+          "IDG资本",
+          "经纬创投",
+          "Monolith砺思资本",
+          "Granite Asia",
+          "HongShan红杉中国",
+          "BAI资本",
+          "源码资本"
+        ],
+        "title": "Meshy完成近4亿美元B轮融资",
+        "sourcePublished": "2026-07-20",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "kairosmaterials": {
+      "id": "kairosmaterials",
+      "name": "开物纪 Kairos",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "开物纪",
+        "company": "开物纪 北京开物纪创材智能科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-07-09",
+        "url": "https://vc.pedaily.cn/invest/431215.html",
+        "investors": "中金资本私募",
+        "investorNames": [
+          "中金资本私募"
+        ],
+        "title": "开物纪完成Pre-A轮融资",
+        "sourcePublished": "2026-07-09",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "youware": {
+      "id": "youware",
+      "name": "YouWare / 新言意码",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "soundai": {
+      "id": "soundai",
+      "name": "声智科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "timecho": {
+      "id": "timecho",
+      "name": "天谋科技 Timecho",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "shumei": {
+      "id": "shumei",
+      "name": "数美科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "langboat": {
+      "id": "langboat",
+      "name": "澜舟科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "fenbeitong": {
+      "id": "fenbeitong",
+      "name": "分贝通",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "yizhun": {
+      "id": "yizhun",
+      "name": "医准智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "stonewise": {
+      "id": "stonewise",
+      "name": "望石智慧",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "dexmal": {
+      "id": "dexmal",
+      "name": "原力灵机 Dexmal",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "原力灵机",
+        "company": "原力灵机 原力灵机（重庆）智能科技股份有限公司",
+        "round": "C轮",
+        "date": "2026-06-05",
+        "url": "https://vc.pedaily.cn/invest/425319.html",
+        "investors": "智谱AI 阶跃星辰 商汤科技 阿里巴巴 华勤技术 恒旭资本 元禾璞华 兴证资本 招银国际资本 启明创投 厚雪资本 润璋创投",
+        "investorNames": [
+          "智谱AI",
+          "阶跃星辰",
+          "商汤科技",
+          "阿里巴巴",
+          "华勤技术",
+          "恒旭资本",
+          "元禾璞华",
+          "兴证资本",
+          "招银国际资本",
+          "启明创投",
+          "厚雪资本",
+          "润璋创投"
+        ],
+        "title": "原力灵机完成C轮融资",
+        "sourcePublished": "2026-06-05",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "C轮系列"
+    },
+    "aubo": {
+      "id": "aubo",
+      "name": "遨博智能 AUBO",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "qingcheng": {
+      "id": "qingcheng",
+      "name": "清程极智",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "清程极智",
+        "company": "清程极智 北京清程极智科技有限公司",
+        "round": "A轮",
+        "date": "2026-10-15",
+        "url": "https://vc.pedaily.cn/invest/427349.html",
+        "investors": "中国电信和瀚晖资本联合领投 老股东星连资本追投 领阳投资 华胜天成 建信（北京）投资 直真科技 商汤科技 苏州毅鸣等多家产业资本和市场化基金共同跟投",
+        "investorNames": [
+          "中国电信和瀚晖资本联合领投",
+          "老股东星连资本追投",
+          "领阳投资",
+          "华胜天成",
+          "建信（北京）投资",
+          "直真科技",
+          "商汤科技",
+          "苏州毅鸣等多家产业资本和市场化基金共同跟投"
+        ],
+        "title": "清程极智完成A轮融资",
+        "sourcePublished": "2026-10-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "jaguarmicro": {
+      "id": "jaguarmicro",
+      "name": "云豹智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "云豹智能",
+        "rank": 611,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "eswincomputing": {
+      "id": "eswincomputing",
+      "name": "奕斯伟计算",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "eswincomputing",
+        "code": "01256",
+        "name": "奕斯伟计算",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-04",
+        "title": "截至2026年10月31日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658479.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "houmo": {
+      "id": "houmo",
+      "name": "后摩智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "后摩智能",
+        "company": "后摩智能 后摩智能科技股份有限公司",
+        "round": "B轮",
+        "date": "2026-11-04",
+        "url": "https://vc.pedaily.cn/invest/449840.html",
+        "investors": "上下游产业资本 国有资本 国际投资人",
+        "investorNames": [
+          "上下游产业资本",
+          "国有资本",
+          "国际投资人"
+        ],
+        "title": "后摩智能完成数十亿元B轮融资",
+        "sourcePublished": "2026-11-04",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "spacemit": {
+      "id": "spacemit",
+      "name": "进迭时空 SpacemiT",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "进迭时空",
+        "company": "进迭时空 进迭时空（北京）智能科技有限公司",
+        "round": "B+轮",
+        "date": "2026-10-15",
+        "url": "https://vc.pedaily.cn/invest/440630.html",
+        "investors": "尚颀资本 启明创投 云晖资本 Forebright Capital 耀途资本  Glory Ventures 深投控 商汤国香资本 招银国际资本 比依股份 建发新兴投资",
+        "investorNames": [
+          "尚颀资本",
+          "启明创投",
+          "云晖资本",
+          "Forebright Capital",
+          "耀途资本  Glory Ventures",
+          "深投控",
+          "商汤国香资本",
+          "招银国际资本",
+          "比依股份",
+          "建发新兴投资"
+        ],
+        "title": "进迭时空完成B+轮融资",
+        "sourcePublished": "2026-10-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "B轮系列"
+    },
+    "armchina": {
+      "id": "armchina",
+      "name": "安谋科技 Arm China",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "visinex": {
+      "id": "visinex",
+      "name": "为旌科技 Visinex",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "ai2robotics": {
+      "id": "ai2robotics",
+      "name": "智平方 AI² Robotics",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "智平方",
+        "company": "智平方 智平方（深圳）科技股份有限公司",
+        "round": "C轮",
+        "date": "2026-06-29",
+        "url": "https://vc.pedaily.cn/invest/425721.html",
+        "investors": "国家中小企业体系基金 中国文化产业体系基金 广东省人工智能基金 深创投 南山战新投 粤港澳大湾区系列基金 中国生物制药 康龙化成 贵州茅台 招商资本 五洲新春 万丰控股 中贝通信 多家特斯拉核心生态链企业 多家保险公司 中金资本 中信建投资本 洪泰基金 金沙江联合资本 博华产投 博华产投 航信资本 达晨财智 敦鸿资产 道得投资 锡创投 梁溪科技城创投 Forebright Capital 君礼资本 诚元祥投资",
+        "investorNames": [
+          "国家中小企业体系基金",
+          "中国文化产业体系基金",
+          "广东省人工智能基金",
+          "深创投",
+          "南山战新投",
+          "粤港澳大湾区系列基金",
+          "中国生物制药",
+          "康龙化成",
+          "贵州茅台",
+          "招商资本",
+          "五洲新春",
+          "万丰控股",
+          "中贝通信",
+          "多家特斯拉核心生态链企业",
+          "多家保险公司",
+          "中金资本",
+          "中信建投资本",
+          "洪泰基金",
+          "金沙江联合资本",
+          "博华产投",
+          "博华产投",
+          "航信资本",
+          "达晨财智",
+          "敦鸿资产",
+          "道得投资",
+          "锡创投",
+          "梁溪科技城创投",
+          "Forebright Capital",
+          "君礼资本",
+          "诚元祥投资"
+        ],
+        "title": "智平方完成50亿人民币C轮融资",
+        "sourcePublished": "2026-06-29",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "智平方",
+        "rank": 875,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "C轮系列"
+    },
+    "beisen": {
+      "id": "beisen",
+      "name": "北森 Beisen",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "beisen",
+        "code": "09669",
+        "name": "北森控股",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-03",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225655989.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "manifoldai": {
+      "id": "manifoldai",
+      "name": "流形空间 Manifold AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "hidream": {
+      "id": "hidream",
+      "name": "智象未来 HiDream",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "智象未来",
+        "company": "智象未来 智象未来（合肥）科技股份有限公司",
+        "round": "C+轮",
+        "date": "2026-09-15",
+        "url": "https://vc.pedaily.cn/invest/427897.html",
+        "investors": "新微资本 成都交子金控集团 工银资本",
+        "investorNames": [
+          "新微资本",
+          "成都交子金控集团",
+          "工银资本"
+        ],
+        "title": "智象未来完成C+轮融资",
+        "sourcePublished": "2026-09-15",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "C轮系列"
+    },
+    "tal": {
+      "id": "tal",
+      "name": "好未来 / 九章大模型",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "tal",
+        "code": "TAL",
+        "name": "TAL Education Group American Depositary Shares",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "360": {
+      "id": "360",
+      "name": "360 / 纳米AI",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "360",
+        "code": "601360",
+        "name": "360 / 纳米AI",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-19",
+        "title": "三六零安全科技股份有限公司2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225483359.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "infidive": {
+      "id": "infidive",
+      "name": "潜入梦科技 infiDive",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "invoko": {
+      "id": "invoko",
+      "name": "Invoko",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "romangic": {
+      "id": "romangic",
+      "name": "浪漫极客 Romangic",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "floatboat": {
+      "id": "floatboat",
+      "name": "Floatboat",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "FloatBoat",
+        "company": "FloatBoat 阿喔咿科技（北京）有限公司",
+        "round": "天使轮",
+        "date": "2026-03-18",
+        "url": "https://vc.pedaily.cn/invest/423513.html",
+        "investors": "HongShan红杉中国 微光创投",
+        "investorNames": [
+          "HongShan红杉中国",
+          "微光创投"
+        ],
+        "title": "FloatBoat完成天使轮融资",
+        "sourcePublished": "2026-03-18",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "airjelly": {
+      "id": "airjelly",
+      "name": "AirJelly",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "eazo": {
+      "id": "eazo",
+      "name": "Eazo",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "taonier": {
+      "id": "taonier",
+      "name": "陶泥儿 TAONIER",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "陶泥儿 TAONIER",
+        "company": "陶泥儿 TAONIER 北京清智创游科技有限公司",
+        "round": "天使轮",
+        "date": "2026-06-08",
+        "url": "https://vc.pedaily.cn/invest/435116.html",
+        "investors": "水木创投",
+        "investorNames": [
+          "水木创投"
+        ],
+        "title": "陶泥儿 TAONIER完成天使轮融资",
+        "sourcePublished": "2026-06-08",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "doka": {
+      "id": "doka",
+      "name": "Doka 相机",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "lulula": {
+      "id": "lulula",
+      "name": "Lulula",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "cijianlink": {
+      "id": "cijianlink",
+      "name": "此间临客 / 幸识",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "curiosea": {
+      "id": "curiosea",
+      "name": "CurioSea",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "cloudsway": {
+      "id": "cloudsway",
+      "name": "小宿科技 Cloudsway",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "udesk": {
+      "id": "udesk",
+      "name": "沃丰科技 Udesk",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "qingcloud": {
+      "id": "qingcloud",
+      "name": "青云科技 QingCloud",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "qingcloud",
+        "code": "688316",
+        "name": "青云科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-10-08",
+        "title": "关于2021年限制性股票激励计划预留授予部分第三个归属期归属结果暨股份上市公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597077.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "xera": {
+      "id": "xera",
+      "name": "拓元智慧 X-Era",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "拓元智慧",
+        "company": "拓元智慧 拓元智慧（深圳）科技有限公司",
+        "round": "A+轮",
+        "date": "2026-07-02",
+        "url": "https://vc.pedaily.cn/invest/453064.html",
+        "investors": "建潘集团 德韬资本",
+        "investorNames": [
+          "建潘集团",
+          "德韬资本"
+        ],
+        "title": "拓元智慧完成A+轮融资",
+        "sourcePublished": "2026-07-02",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "starwith": {
+      "id": "starwith",
+      "name": "星曜同谐 Starwith",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "星曜同谐",
+        "company": "星曜同谐 北京星曜同谐科技有限公司",
+        "round": "天使轮",
+        "date": "2026-08-02",
+        "url": "https://vc.pedaily.cn/invest/428319.html",
+        "investors": "蓝驰创投 顺为资本 德石投资",
+        "investorNames": [
+          "蓝驰创投",
+          "顺为资本",
+          "德石投资"
+        ],
+        "title": "星曜同谐完成天使轮融资",
+        "sourcePublished": "2026-08-02",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "apexin": {
+      "id": "apexin",
+      "name": "超衍智能 Apex Intelligence",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "超衍智能",
+        "company": "超衍智能 超衍智能科技（北京）有限公司",
+        "round": "天使+轮",
+        "date": "2026-09-16",
+        "url": "https://vc.pedaily.cn/invest/426992.html",
+        "investors": "中关村科学城 深创投 上海未来产业基金",
+        "investorNames": [
+          "中关村科学城",
+          "深创投",
+          "上海未来产业基金"
+        ],
+        "title": "超衍智能完成近4亿人民币天使+轮融资",
+        "sourcePublished": "2026-09-16",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "kanzhun_nanbeige": {
+      "id": "kanzhun_nanbeige",
+      "name": "BOSS直聘 南北阁",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "kanzhun_nanbeige",
+        "code": "02076",
+        "name": "BOSS直聘-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至2026年10月31日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660149.PDF"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "iquestlab": {
+      "id": "iquestlab",
+      "name": "九坤至知创新研究院 IQuest",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "mirros": {
+      "id": "mirros",
+      "name": "MirroS",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Mirros",
+        "company": "Mirros 北京无限镜元科技有限公司",
+        "round": "天使轮",
+        "date": "2026-08-06",
+        "url": "https://vc.pedaily.cn/invest/428317.html",
+        "investors": "星连资本 蓝驰创投 SEE Fund无限基金 HongShan红杉中国 尚势资本",
+        "investorNames": [
+          "星连资本",
+          "蓝驰创投",
+          "SEE Fund无限基金",
+          "HongShan红杉中国",
+          "尚势资本"
+        ],
+        "title": "Mirros完成天使轮融资",
+        "sourcePublished": "2026-08-06",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "jsdesign": {
+      "id": "jsdesign",
+      "name": "即时设计",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "lynksoul": {
+      "id": "lynksoul",
+      "name": "心影随形 Lynksoul",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "aixcoder": {
+      "id": "aixcoder",
+      "name": "硅心科技 aiXcoder",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "orionstar": {
+      "id": "orionstar",
+      "name": "猎户星空 OrionStar",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "beingbeyond": {
+      "id": "beingbeyond",
+      "name": "智在无界 BeingBeyond",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "智在无界",
+        "company": "智在无界 北京智在无界科技有限公司",
+        "round": "天使轮",
+        "date": "2026-01-13",
+        "url": "https://vc.pedaily.cn/invest/417106.html",
+        "investors": "领航新界 考拉基金 灵心巧手",
+        "investorNames": [
+          "领航新界",
+          "考拉基金",
+          "灵心巧手"
+        ],
+        "title": "智在无界完成天使轮融资",
+        "sourcePublished": "2026-01-13",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "artrobot": {
+      "id": "artrobot",
+      "name": "钢铁侠科技 ARTROBOT",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "youibot": {
+      "id": "youibot",
+      "name": "优艾智合 Youibot",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "quiktech": {
+      "id": "quiktech",
+      "name": "青葵智造 QUIKTECH",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "青葵智造",
+        "company": "青葵智造 青葵智造（北京）科技有限公司",
+        "round": "A轮",
+        "date": "2026-11-13",
+        "url": "https://vc.pedaily.cn/invest/457797.html",
+        "investors": "创东方投资 飞荣达 金辉大数据",
+        "investorNames": [
+          "创东方投资",
+          "飞荣达",
+          "金辉大数据"
+        ],
+        "title": "青葵智造完成亿元A轮融资",
+        "sourcePublished": "2026-11-13",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "physis": {
+      "id": "physis",
+      "name": "逆矩阵科技 Physis",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "逆矩阵科技",
+        "company": "逆矩阵科技 北京逆矩阵科技有限公司",
+        "round": "种子+轮",
+        "date": "2026-06-17",
+        "url": "https://vc.pedaily.cn/invest/448845.html",
+        "investors": "经纬创投 光合创投 五源资本 BAI资本 钟鼎资本 蚂蚁集团 高瓴创投 燕缘创投",
+        "investorNames": [
+          "经纬创投",
+          "光合创投",
+          "五源资本",
+          "BAI资本",
+          "钟鼎资本",
+          "蚂蚁集团",
+          "高瓴创投",
+          "燕缘创投"
+        ],
+        "title": "逆矩阵科技完成超亿美元种子+轮融资",
+        "sourcePublished": "2026-06-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "psibot": {
+      "id": "psibot",
+      "name": "灵初智能 PsiBot",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "灵初智能",
+        "company": "灵初智能 上海灵初智能科技有限公司",
+        "round": "A轮",
+        "date": "2026-08-27",
+        "url": "https://vc.pedaily.cn/invest/426640.html",
+        "investors": "拓普集团 瑞丞基金 蓝思科技 三七互娱创投基金 芜湖投控 复星创富 华金资本",
+        "investorNames": [
+          "拓普集团",
+          "瑞丞基金",
+          "蓝思科技",
+          "三七互娱创投基金",
+          "芜湖投控",
+          "复星创富",
+          "华金资本"
+        ],
+        "title": "灵初智能完成超亿美元A轮融资",
+        "sourcePublished": "2026-08-27",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "灵初智能",
+        "rank": 1118,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "A轮系列"
+    },
+    "muka": {
+      "id": "muka",
+      "name": "莫刻机器人 MUKA Robotics",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "莫刻机器人",
+        "company": "莫刻机器人 北京莫刻机器人科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-09-29",
+        "url": "https://vc.pedaily.cn/invest/427827.html",
+        "investors": "锦秋基金 Monolith砺思资本 英诺天使基金",
+        "investorNames": [
+          "锦秋基金",
+          "Monolith砺思资本",
+          "英诺天使基金"
+        ],
+        "title": "莫刻机器人完成Pre-A轮融资",
+        "sourcePublished": "2026-09-29",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "symbiosis": {
+      "id": "symbiosis",
+      "name": "共生知行 Symbiosis Robotics",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "symbiosis robotics",
+        "company": "symbiosis robotics 北京共生知行科技有限公司",
+        "round": "种子轮",
+        "date": "2026-08-17",
+        "url": "https://vc.pedaily.cn/invest/429717.html",
+        "investors": "驰星创投",
+        "investorNames": [
+          "驰星创投"
+        ],
+        "title": "symbiosis robotics完成数千万人民币种子轮融资",
+        "sourcePublished": "2026-08-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "lingxizhiyong": {
+      "id": "lingxizhiyong",
+      "name": "灵犀智涌",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "gongji": {
+      "id": "gongji",
+      "name": "共绩科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "共绩科技",
+        "company": "共绩科技 北京共绩科技有限公司",
+        "round": "A轮",
+        "date": "2026-11-03",
+        "url": "https://vc.pedaily.cn/invest/457214.html",
+        "investors": "中网投 宁德时代 溥泉资本 元禾璞华 赛目科技 德石投资 启恒共创 春华资本 力合中科 新进创投",
+        "investorNames": [
+          "中网投",
+          "宁德时代",
+          "溥泉资本",
+          "元禾璞华",
+          "赛目科技",
+          "德石投资",
+          "启恒共创",
+          "春华资本",
+          "力合中科",
+          "新进创投"
+        ],
+        "title": "共绩科技完成数亿人民币A轮融资",
+        "sourcePublished": "2026-11-03",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "evolvent": {
+      "id": "evolvent",
+      "name": "Evolvent AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "latentverse": {
+      "id": "latentverse",
+      "name": "潜界科技 LatentVerse",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "潜界科技",
+        "company": "潜界科技 北京潜界科技有限公司",
+        "round": "种子轮",
+        "date": "2026-08-11",
+        "url": "https://vc.pedaily.cn/invest/427840.html",
+        "investors": "高瓴创投 清流资本 英诺天使基金 智元机器人 星动纪元 源码律动 祥峰投资中国基金",
+        "investorNames": [
+          "高瓴创投",
+          "清流资本",
+          "英诺天使基金",
+          "智元机器人",
+          "星动纪元",
+          "源码律动",
+          "祥峰投资中国基金"
+        ],
+        "title": "潜界科技完成数亿人民币种子轮融资",
+        "sourcePublished": "2026-08-11",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "litchibot": {
+      "id": "litchibot",
+      "name": "厘清智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "厘清智能",
+        "company": "厘清智能 北京厘清智能科技有限公司",
+        "round": "天使+轮",
+        "date": "2026-10-08",
+        "url": "https://vc.pedaily.cn/invest/427230.html",
+        "investors": "蚂蚁集团 CMC资本 国汽投资 中金资本 上海人工智能产业投资基金 中关村科学城 上海未来产业基金 德石投资 澄凯基金 顺为资本 世纪金源集团 峰瑞资本 水木清华校友种子基金",
+        "investorNames": [
+          "蚂蚁集团",
+          "CMC资本",
+          "国汽投资",
+          "中金资本",
+          "上海人工智能产业投资基金",
+          "中关村科学城",
+          "上海未来产业基金",
+          "德石投资",
+          "澄凯基金",
+          "顺为资本",
+          "世纪金源集团",
+          "峰瑞资本",
+          "水木清华校友种子基金"
+        ],
+        "title": "厘清智能完成数亿人民币天使+轮融资",
+        "sourcePublished": "2026-10-08",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "jinghua-security": {
+      "id": "jinghua-security",
+      "name": "荆华密算",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "荆华密算",
+        "company": "荆华密算 荆华密算（北京）科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-10-13",
+        "url": "https://vc.pedaily.cn/invest/427303.html",
+        "investors": "中关村科学城 北创投",
+        "investorNames": [
+          "中关村科学城",
+          "北创投"
+        ],
+        "title": "荆华密算完成近亿元Pre-A轮融资",
+        "sourcePublished": "2026-10-13",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "liberai": {
+      "id": "liberai",
+      "name": "将闲科技 LiberAI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "LiberAI",
+        "company": "LiberAI 北京将闲科技有限公司",
+        "round": "Pre-A++轮",
+        "date": "2026-09-17",
+        "url": "https://vc.pedaily.cn/invest/426971.html",
+        "investors": "中关村科学城 达晨财智 高信资本 华映资本",
+        "investorNames": [
+          "中关村科学城",
+          "达晨财智",
+          "高信资本",
+          "华映资本"
+        ],
+        "title": "LiberAI完成数亿人民币Pre-A++轮融资",
+        "sourcePublished": "2026-09-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "facemind": {
+      "id": "facemind",
+      "name": "脸谱心智 FaceMind",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "脸谱心智",
+        "company": "脸谱心智 上海脸谱心智智能科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-06-26",
+        "url": "https://vc.pedaily.cn/invest/425618.html",
+        "investors": "星连资本 三六零",
+        "investorNames": [
+          "星连资本",
+          "三六零"
+        ],
+        "title": "脸谱心智完成数千万元Pre-A轮融资",
+        "sourcePublished": "2026-06-26",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "originflow": {
+      "id": "originflow",
+      "name": "渊澈太初 OriginFlow",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "渊澈智能",
+        "company": "渊澈智能 北京渊澈太初智能科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-05-21",
+        "url": "https://vc.pedaily.cn/invest/425101.html",
+        "investors": "Monolith砺思资本 普华资本 元禾原点 元禾璞华 国方创新",
+        "investorNames": [
+          "Monolith砺思资本",
+          "普华资本",
+          "元禾原点",
+          "元禾璞华",
+          "国方创新"
+        ],
+        "title": "渊澈智能完成超5亿人民币Pre-A轮融资",
+        "sourcePublished": "2026-05-21",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "infplane": {
+      "id": "infplane",
+      "name": "寅谱计算 Infplane",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "onetoken": {
+      "id": "onetoken",
+      "name": "万格智元 ONE TOKEN",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "万格智元",
+        "company": "万格智元 万格智元（北京）智能科技有限公司",
+        "round": "A轮",
+        "date": "2026-10-31",
+        "url": "https://vc.pedaily.cn/invest/457023.html",
+        "investors": "彩讯股份 创世伙伴CCV 松禾资本 零一创投",
+        "investorNames": [
+          "彩讯股份",
+          "创世伙伴CCV",
+          "松禾资本",
+          "零一创投"
+        ],
+        "title": "万格智元完成A轮融资",
+        "sourcePublished": "2026-10-31",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "omnimind": {
+      "id": "omnimind",
+      "name": "万象智维 OmniMind",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "万象智维",
+        "company": "万象智维 北京万象智维科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-11-09",
+        "url": "https://vc.pedaily.cn/invest/457693.html",
+        "investors": "新盛集团 FutureX天际资本",
+        "investorNames": [
+          "新盛集团",
+          "FutureX天际资本"
+        ],
+        "title": "万象智维完成数千万人民币Pre-A轮融资",
+        "sourcePublished": "2026-11-09",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "singularity_escape": {
+      "id": "singularity_escape",
+      "name": "奇点逃逸 Nexus",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "奇点逃逸",
+        "company": "奇点逃逸 北京奇点逃逸科技有限公司",
+        "round": "种子轮",
+        "date": "2026-08-03",
+        "url": "https://vc.pedaily.cn/invest/428171.html",
+        "investors": "星连资本 水木创投 奇绩创坛",
+        "investorNames": [
+          "星连资本",
+          "水木创投",
+          "奇绩创坛"
+        ],
+        "title": "奇点逃逸完成千万级人民币种子轮融资",
+        "sourcePublished": "2026-08-03",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "valhalla": {
+      "id": "valhalla",
+      "name": "英灵殿科技 Valhalla",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "英灵殿科技",
+        "company": "英灵殿科技 英灵殿科技（杭州）有限公司",
+        "round": "天使+轮",
+        "date": "2026-07-27",
+        "url": "https://vc.pedaily.cn/invest/426163.html",
+        "investors": "五源资本 真格基金 中科创星 襄禾资本 国方创新 国方创新 陆石投资 奇绩创坛 L2F 光源创业者基金",
+        "investorNames": [
+          "五源资本",
+          "真格基金",
+          "中科创星",
+          "襄禾资本",
+          "国方创新",
+          "国方创新",
+          "陆石投资",
+          "奇绩创坛",
+          "L2F 光源创业者基金"
+        ],
+        "title": "英灵殿科技完成近5000万美元天使+轮融资",
+        "sourcePublished": "2026-07-27",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "deeplang": {
+      "id": "deeplang",
+      "name": "深言 DeepLang",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "sunrise": {
+      "id": "sunrise",
+      "name": "曦望 Sunrise",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "曦望",
+        "rank": 1037,
+        "headquarters": "中国-杭州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "axera": {
+      "id": "axera",
+      "name": "爱芯元智 Axera",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "axera",
+        "code": "00600",
+        "name": "爱芯元智",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659035.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "smartx": {
+      "id": "smartx",
+      "name": "SmartX",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "recurrentai": {
+      "id": "recurrentai",
+      "name": "循环智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "frontis": {
+      "id": "frontis",
+      "name": "衔远科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "deepwise": {
+      "id": "deepwise",
+      "name": "深睿医疗",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "taosdata": {
+      "id": "taosdata",
+      "name": "涛思数据",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "zuoshou": {
+      "id": "zuoshou",
+      "name": "左手医生",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "abcfintech": {
+      "id": "abcfintech",
+      "name": "阿博茨科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "digitforce": {
+      "id": "digitforce",
+      "name": "数势科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "selectdb": {
+      "id": "selectdb",
+      "name": "飞轮科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "welllink": {
+      "id": "welllink",
+      "name": "蔚领时代",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "keendata": {
+      "id": "keendata",
+      "name": "科杰科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "moka": {
+      "id": "moka",
+      "name": "Moka AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "weride": {
+      "id": "weride",
+      "name": "文远知行 WeRide",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "weride",
+        "code": "00800",
+        "name": "文远知行-W",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659536.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "deeproute": {
+      "id": "deeproute",
+      "name": "元戎启行 DeepRoute.ai",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "元戎启行",
+        "rank": 978,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "livsyn": {
+      "id": "livsyn",
+      "name": "灵生科技 LivSyn Robotics",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "灵生科技",
+        "company": "灵生科技 北京灵生科技有限公司",
+        "round": "A轮",
+        "date": "2026-10-08",
+        "url": "https://vc.pedaily.cn/invest/427238.html",
+        "investors": "华方资本 道禾长期投资 苏文电能 某具身智能领域头部产业战略投资方",
+        "investorNames": [
+          "华方资本",
+          "道禾长期投资",
+          "苏文电能",
+          "某具身智能领域头部产业战略投资方"
+        ],
+        "title": "灵生科技完成亿级人民币A轮融资",
+        "sourcePublished": "2026-10-08",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "ikingtec": {
+      "id": "ikingtec",
+      "name": "云圣智能 i-KINGTEC",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "hairobotics": {
+      "id": "hairobotics",
+      "name": "海柔创新 Hai Robotics",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "海柔创新",
+        "company": "海柔创新 深圳市海柔创新智能科技集团股份有限公司",
+        "round": "Pre-IPO",
+        "date": "2026-04-01",
+        "url": "https://vc.pedaily.cn/invest/424217.html",
+        "investors": "General Atlantic泛大西洋投资集团 方源资本 IDG资本",
+        "investorNames": [
+          "General Atlantic泛大西洋投资集团",
+          "方源资本",
+          "IDG资本"
+        ],
+        "title": "海柔创新完成Pre-IPO轮融资",
+        "sourcePublished": "2026-04-01",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "海柔创新",
+        "rank": 875,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "Pre-IPO"
+    },
+    "forwardx": {
+      "id": "forwardx",
+      "name": "灵动科技 ForwardX",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "seniorauto": {
+      "id": "seniorauto",
+      "name": "斯年智驾 Senior Auto",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "kargobot": {
+      "id": "kargobot",
+      "name": "卡尔动力 KargoBot",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "deepway": {
+      "id": "deepway",
+      "name": "深向 DeepWay",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "深向科技",
+        "rank": 1209,
+        "headquarters": "中国-合肥",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "rockai": {
+      "id": "rockai",
+      "name": "路凯智行 Rock AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "sensorsdata": {
+      "id": "sensorsdata",
+      "name": "神策数据 Sensors Data",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "51world": {
+      "id": "51world",
+      "name": "五一视界 51WORLD",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "51world",
+        "code": "06651",
+        "name": "五一视界",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-03",
+        "title": "截至二零二六年十月三十一日止月份之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225655270.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "xyzeai": {
+      "id": "xyzeai",
+      "name": "星源智",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "ti5robot": {
+      "id": "ti5robot",
+      "name": "钛虎机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "钛虎机器人",
+        "company": "钛虎机器人 钛虎机器人科技（上海）有限公司",
+        "round": "战略融资",
+        "date": "2026-05-06",
+        "url": "https://vc.pedaily.cn/invest/430512.html",
+        "investors": "金创投 泰中合投资 余杭国投集团 国舜投资",
+        "investorNames": [
+          "金创投",
+          "泰中合投资",
+          "余杭国投集团",
+          "国舜投资"
+        ],
+        "title": "钛虎机器人完成战略融资轮融资",
+        "sourcePublished": "2026-05-06",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "轮次未具名"
+    },
+    "aheadform": {
+      "id": "aheadform",
+      "name": "首形科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "首形科技",
+        "company": "首形科技 首形科技（上海）有限公司",
+        "round": "A++轮",
+        "date": "2026-10-24",
+        "url": "https://vc.pedaily.cn/invest/446948.html",
+        "investors": "锦秋基金 吉利资本",
+        "investorNames": [
+          "锦秋基金",
+          "吉利资本"
+        ],
+        "title": "首形科技完成A++轮融资",
+        "sourcePublished": "2026-10-24",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "hightorque": {
+      "id": "hightorque",
+      "name": "高擎动力",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "deeprobotics": {
+      "id": "deeprobotics",
+      "name": "云深处科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "aizhikai": {
+      "id": "aizhikai",
+      "name": "具身智开",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "yunxichu": {
+      "id": "yunxichu",
+      "name": "云栖处机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "elibot": {
+      "id": "elibot",
+      "name": "艾利特机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "艾利特机器人",
+        "rank": 1118,
+        "headquarters": "中国-苏州",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "boyagongdao": {
+      "id": "boyagongdao",
+      "name": "博雅工道",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "博雅工道",
+        "company": "博雅工道 博雅工道海洋科技集团股份有限公司",
+        "round": "D+轮",
+        "date": "2026-04-16",
+        "url": "https://vc.pedaily.cn/invest/444062.html",
+        "investors": "开物投资",
+        "investorNames": [
+          "开物投资"
+        ],
+        "title": "博雅工道完成D+轮融资",
+        "sourcePublished": "2026-04-16",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "D轮系列"
+    },
+    "yaskawashougang": {
+      "id": "yaskawashougang",
+      "name": "安川首钢机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "deltai": {
+      "id": "deltai",
+      "name": "德塔智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "德塔智能",
+        "company": "德塔智能 北京德塔源创智能科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-10-26",
+        "url": "https://vc.pedaily.cn/invest/447584.html",
+        "investors": "华金资本 智盈投资",
+        "investorNames": [
+          "华金资本",
+          "智盈投资"
+        ],
+        "title": "德塔智能完成Pre-A轮融资",
+        "sourcePublished": "2026-10-26",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "siasun-semiconductor": {
+      "id": "siasun-semiconductor",
+      "name": "新松半导体",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "whaleleap": {
+      "id": "whaleleap",
+      "name": "鲸跃动力",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "鲸跃动力",
+        "company": "鲸跃动力 鲸跃动力（北京）科技有限公司",
+        "round": "种子轮",
+        "date": "2026-05-18",
+        "url": "https://vc.pedaily.cn/invest/427449.html",
+        "investors": "星海图",
+        "investorNames": [
+          "星海图"
+        ],
+        "title": "鲸跃动力完成数千万人民币种子轮融资",
+        "sourcePublished": "2026-05-18",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "google": {
+      "id": "google",
+      "name": "Google / 谷歌",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "google",
+        "code": "GOOGL",
+        "name": "Alphabet Inc. - Class A Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "evermind": {
+      "id": "evermind",
+      "name": "EverMind",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "imprintx": {
+      "id": "imprintx",
+      "name": "知行具身 ImprintX",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "知行具身",
+        "company": "知行具身 知行具身（北京）科技有限公司",
+        "round": "天使轮",
+        "date": "2026-06-16",
+        "url": "https://vc.pedaily.cn/invest/430581.html",
+        "investors": "澄凯基金 嘉道私人资本 英诺天使基金 灵心巧手",
+        "investorNames": [
+          "澄凯基金",
+          "嘉道私人资本",
+          "英诺天使基金",
+          "灵心巧手"
+        ],
+        "title": "知行具身完成天使轮融资",
+        "sourcePublished": "2026-06-16",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "xynova": {
+      "id": "xynova",
+      "name": "曦诺未来 Xynova",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "曦诺未来",
+        "company": "曦诺未来 杭州曦诺未来科技股份有限公司",
+        "round": "A+轮",
+        "date": "2026-07-17",
+        "url": "https://vc.pedaily.cn/invest/425932.html",
+        "investors": "美团战略投资部 蔚来资本 招商资本 某互联网大厂 小米集团",
+        "investorNames": [
+          "美团战略投资部",
+          "蔚来资本",
+          "招商资本",
+          "某互联网大厂",
+          "小米集团"
+        ],
+        "title": "曦诺未来完成5亿元A+轮融资",
+        "sourcePublished": "2026-07-17",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "happyelements": {
+      "id": "happyelements",
+      "name": "乐元素",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "igg": {
+      "id": "igg",
+      "name": "IGG",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "igg",
+        "code": "00799",
+        "name": "IGG",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至二零二六年十月三十一日止之股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225659661.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "lilith": {
+      "id": "lilith",
+      "name": "莉莉丝游戏",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "莉莉丝",
+        "rank": 256,
+        "headquarters": "中国-上海",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "perfectworld": {
+      "id": "perfectworld",
+      "name": "完美世界",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "perfectworld",
+        "code": "002624",
+        "name": "完美世界",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-19",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482115.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "amd": {
+      "id": "amd",
+      "name": "AMD 超威",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "amd",
+        "code": "AMD",
+        "name": "Advanced Micro Devices, Inc. - Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "apple": {
+      "id": "apple",
+      "name": "Apple 苹果",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "apple",
+        "code": "AAPL",
+        "name": "Apple Inc. - Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "bosch": {
+      "id": "bosch",
+      "name": "博世 Bosch",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "intel": {
+      "id": "intel",
+      "name": "英特尔 Intel",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "intel",
+        "code": "INTC",
+        "name": "Intel Corporation - Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "microsoft": {
+      "id": "microsoft",
+      "name": "微软 Microsoft",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "microsoft",
+        "code": "MSFT",
+        "name": "Microsoft Corporation - Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "mobileye": {
+      "id": "mobileye",
+      "name": "Mobileye",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "mobileye",
+        "code": "MBLY",
+        "name": "Mobileye Global Inc. - Class A Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "nvidia": {
+      "id": "nvidia",
+      "name": "英伟达 NVIDIA",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "nvidia",
+        "code": "NVDA",
+        "name": "NVIDIA Corporation - Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "simpleai": {
+      "id": "simpleai",
+      "name": "深朴智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "深朴智能",
+        "company": "深朴智能 北京深朴智能科技有限公司",
+        "round": "Pre-A+轮",
+        "date": "2026-09-04",
+        "url": "https://vc.pedaily.cn/invest/426730.html",
+        "investors": "珂玺资本 上海知识产权基金 金浦投资 亳州产投 上城资本 乾融控股 线性资本",
+        "investorNames": [
+          "珂玺资本",
+          "上海知识产权基金",
+          "金浦投资",
+          "亳州产投",
+          "上城资本",
+          "乾融控股",
+          "线性资本"
+        ],
+        "title": "深朴智能完成数亿元Pre-A+轮融资",
+        "sourcePublished": "2026-09-04",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "spacewill": {
+      "id": "spacewill",
+      "name": "航天世景",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "chinawenfa": {
+      "id": "chinawenfa",
+      "name": "中文发集团",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "sidereus-ai": {
+      "id": "sidereus-ai",
+      "name": "星使智算 AsterFire Go",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "星使智算",
+        "company": "星使智算 北京星使智算科技有限公司",
+        "round": "A轮",
+        "date": "2026-06-30",
+        "url": "https://vc.pedaily.cn/invest/430155.html",
+        "investors": "沂景资本",
+        "investorNames": [
+          "沂景资本"
+        ],
+        "title": "星使智算完成A轮融资",
+        "sourcePublished": "2026-06-30",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "nkdpharm": {
+      "id": "nkdpharm",
+      "name": "诺康达医药",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "tkfunds": {
+      "id": "tkfunds",
+      "name": "泰康基金",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "yangcong": {
+      "id": "yangcong",
+      "name": "洋葱学园",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "bedicloud": {
+      "id": "bedicloud",
+      "name": "北电数智",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "北电数智",
+        "company": "北电数智 北京电子数智科技有限责任公司",
+        "round": "A+轮",
+        "date": "2026-08-27",
+        "url": "https://vc.pedaily.cn/invest/428942.html",
+        "investors": "德信汇富 浚泉信 国扬基金 建投投资 嘉树投资 清诺资本 吉信汇金",
+        "investorNames": [
+          "德信汇富",
+          "浚泉信",
+          "国扬基金",
+          "建投投资",
+          "嘉树投资",
+          "清诺资本",
+          "吉信汇金"
+        ],
+        "title": "北电数智完成A+轮融资",
+        "sourcePublished": "2026-08-27",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "spinentropy": {
+      "id": "spinentropy",
+      "name": "熵旋芯智",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "熵旋芯智",
+        "company": "熵旋芯智 北京熵旋芯智科技有限公司",
+        "round": "天使轮",
+        "date": "2026-05-27",
+        "url": "https://vc.pedaily.cn/invest/430331.html",
+        "investors": "英诺天使基金 海贝资本 华建函数投资",
+        "investorNames": [
+          "英诺天使基金",
+          "海贝资本",
+          "华建函数投资"
+        ],
+        "title": "熵旋芯智完成数千万人民币天使轮融资",
+        "sourcePublished": "2026-05-27",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "lizhi": {
+      "id": "lizhi",
+      "name": "荔枝集团",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "citicpress": {
+      "id": "citicpress",
+      "name": "中信出版",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "citicpress",
+        "code": "300788",
+        "name": "中信出版",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-24",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498001.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "seene": {
+      "id": "seene",
+      "name": "深诣机器人",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "baiyangai": {
+      "id": "baiyangai",
+      "name": "白杨智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "白杨智能",
+        "company": "白杨智能 北京白杨智能科技有限公司",
+        "round": "A轮",
+        "date": "2026-01-06",
+        "url": "https://vc.pedaily.cn/invest/452135.html",
+        "investors": "海通创新 京国瑞投资 中金资本 中信建投资本 长兴基金 先进技术成果转化研究院 卓远资本 中科海讯 翠亨集团 泰雅语松",
+        "investorNames": [
+          "海通创新",
+          "京国瑞投资",
+          "中金资本",
+          "中信建投资本",
+          "长兴基金",
+          "先进技术成果转化研究院",
+          "卓远资本",
+          "中科海讯",
+          "翠亨集团",
+          "泰雅语松"
+        ],
+        "title": "白杨智能完成3亿人民币A轮融资",
+        "sourcePublished": "2026-01-06",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "cetc-ai": {
+      "id": "cetc-ai",
+      "name": "中国电科智能科技研究院",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "applovin": {
+      "id": "applovin",
+      "name": "AppLovin",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "applovin",
+        "code": "APP",
+        "name": "Applovin Corporation - Class A Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "teleai": {
+      "id": "teleai",
+      "name": "中电信人工智能科技（北京）有限公司",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "comindx": {
+      "id": "comindx",
+      "name": "无为而智 ComindX",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "yonyou": {
+      "id": "yonyou",
+      "name": "用友",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "yonyou",
+        "code": "600588",
+        "name": "用友网络",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-10-30",
+        "title": "用友网络2026年第三季度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648003.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "iqitek": {
+      "id": "iqitek",
+      "name": "量智开物",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "58": {
+      "id": "58",
+      "name": "58同城",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "58同城",
+        "rank": 146,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "veloalpha": {
+      "id": "veloalpha",
+      "name": "瞬原科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "瞬原科技",
+        "company": "瞬原科技 北京瞬原科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-11-11",
+        "url": "https://vc.pedaily.cn/invest/457199.html",
+        "investors": "海松资本",
+        "investorNames": [
+          "海松资本"
+        ],
+        "title": "瞬原科技完成Pre-A轮融资",
+        "sourcePublished": "2026-11-11",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "sohu": {
+      "id": "sohu",
+      "name": "搜狐集团",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "sohu",
+        "code": "SOHU",
+        "name": "Sohu.com Limited  - American Depositary Shares",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "cre-meta": {
+      "id": "cre-meta",
+      "name": "中电空间",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "zhongke-liangshu": {
+      "id": "zhongke-liangshu",
+      "name": "中科量枢",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "中科量枢",
+        "company": "中科量枢 北京中科量枢科技有限公司",
+        "round": "天使+轮",
+        "date": "2026-07-20",
+        "url": "https://vc.pedaily.cn/invest/426004.html",
+        "investors": "国融工发",
+        "investorNames": [
+          "国融工发"
+        ],
+        "title": "中科量枢完成数千万元天使+轮融资",
+        "sourcePublished": "2026-07-20",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "unipat-ai": {
+      "id": "unipat-ai",
+      "name": "UniPat AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "UniPat AI",
+        "company": "UniPat AI 模式星辰（北京）科技有限公司",
+        "round": "A轮",
+        "date": "2026-09-11",
+        "url": "https://vc.pedaily.cn/invest/427566.html",
+        "investors": "阿里巴巴 腾讯投资 HongShan红杉中国",
+        "investorNames": [
+          "阿里巴巴",
+          "腾讯投资",
+          "HongShan红杉中国"
+        ],
+        "title": "UniPat AI完成3亿美元A轮融资",
+        "sourcePublished": "2026-09-11",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "A轮系列"
+    },
+    "humanlaya": {
+      "id": "humanlaya",
+      "name": "Humanlaya 原壤智能",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Humanlaya Data",
+        "company": "Humanlaya Data 宗匠（北京）智能科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-09-09",
+        "url": "https://vc.pedaily.cn/invest/427638.html",
+        "investors": "鼎晖投资 HongShan红杉中国 今日资本 BAI资本",
+        "investorNames": [
+          "鼎晖投资",
+          "HongShan红杉中国",
+          "今日资本",
+          "BAI资本"
+        ],
+        "title": "Humanlaya Data完成数亿人民币Pre-A轮融资",
+        "sourcePublished": "2026-09-09",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "listenhub": {
+      "id": "listenhub",
+      "name": "ListenHub 火星回响",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "ListenHub",
+        "company": "ListenHub 北京火星电波科技有限公司",
+        "round": "天使+轮",
+        "date": "2026-01-01",
+        "url": "https://vc.pedaily.cn/invest/405593.html",
+        "investors": "FutureX天际资本 小米联合创始人王川",
+        "investorNames": [
+          "FutureX天际资本",
+          "小米联合创始人王川"
+        ],
+        "title": "ListenHub完成200万美元天使+轮融资",
+        "sourcePublished": "2026-01-01",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "transwarp": {
+      "id": "transwarp",
+      "name": "星环科技",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "transwarp",
+        "code": "688031",
+        "name": "星环科技",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-26",
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225509278.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "leyantech": {
+      "id": "leyantech",
+      "name": "乐言科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "smartmore": {
+      "id": "smartmore",
+      "name": "思谋科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "思谋科技",
+        "rank": 1118,
+        "headquarters": "中国-深圳",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "2026来源待核准"
+    },
+    "netease": {
+      "id": "netease",
+      "name": "网易 / 雷火 · 伏羲",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "netease",
+        "code": "09999",
+        "name": "网易",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-11-05",
+        "title": "截至2026年10月31日止月份股份发行人的证券变动月报表",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225660387.PDF"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "wizardquant": {
+      "id": "wizardquant",
+      "name": "宽德投资 WizardQuant",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "zsquant": {
+      "id": "zsquant",
+      "name": "卓识基金 Zhuoshi Fund",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "zding": {
+      "id": "zding",
+      "name": "正定私募 Definite Capital",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "joinquant": {
+      "id": "joinquant",
+      "name": "聚宽投资 JoinQuant",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "lingjun": {
+      "id": "lingjun",
+      "name": "灵均投资 Lingjun",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "qianxiang": {
+      "id": "qianxiang",
+      "name": "乾象投资 Qianxiang",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "metaso": {
+      "id": "metaso",
+      "name": "秘塔科技",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "haitian-ruisheng": {
+      "id": "haitian-ruisheng",
+      "name": "海天瑞声",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "haitian-ruisheng",
+        "code": "688787",
+        "name": "海天瑞声",
+        "publisher": "巨潮资讯／交易所法定披露",
+        "date": "2026-08-26",
+        "title": "海天瑞声2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225512561.PDF"
+      },
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "datatang": {
+      "id": "datatang",
+      "name": "数据堂",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "新三板挂牌",
+      "otc": {
+        "code": "831428",
+        "date": "2026-08-27",
+        "title": "数据堂2026年半年度报告",
+        "publisher": "数据堂法定披露（东方财富转载）",
+        "url": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608271828548712&pageIndex=1"
+      }
+    },
+    "amazon": {
+      "id": "amazon",
+      "name": "亚马逊",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "amazon",
+        "code": "AMZN",
+        "name": "Amazon.com, Inc. - Common Stock",
+        "publisher": "Nasdaq Trader／美国交易所证券目录",
+        "date": "2026-11-13",
+        "title": "2026-11-13 证券名录",
+        "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "schneider-electric": {
+      "id": "schneider-electric",
+      "name": "施耐德电气",
+      "checked": "2026-11-14",
+      "listing": {
+        "id": "schneider-electric",
+        "code": "SU / FR0000121972",
+        "name": "Schneider Electric SE",
+        "publisher": "Euronext Paris",
+        "date": "2026-11-09",
+        "title": "2026-11-09 交易所证券行情记录",
+        "url": "https://live.euronext.com/fr/product/equities/FR0000121972-XPAR/market-information"
+      },
+      "listingScope": "所属集团",
+      "financing": null,
+      "unicorn": null,
+      "stage": "已上市主体／集团团队"
+    },
+    "fangcun": {
+      "id": "fangcun",
+      "name": "方寸跃迁",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "方寸跃迁",
+        "company": "方寸跃迁 方寸跃迁（雄安）科技有限公司",
+        "round": "天使+轮",
+        "date": "2026-07-23",
+        "url": "https://vc.pedaily.cn/invest/428108.html",
+        "investors": "水木清华校友种子基金 星连资本 SEE Fund无限基金",
+        "investorNames": [
+          "水木清华校友种子基金",
+          "星连资本",
+          "SEE Fund无限基金"
+        ],
+        "title": "方寸跃迁完成天使+轮融资",
+        "sourcePublished": "2026-07-23",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "种子／天使"
+    },
+    "tansuo-wujin": {
+      "id": "tansuo-wujin",
+      "name": "探索无尽",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "ambi-ai": {
+      "id": "ambi-ai",
+      "name": "Ambi AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "Ambi AI",
+        "company": "Ambi AI 深圳天予时至科技有限公司",
+        "round": "Pre-A轮",
+        "date": "2026-10-13",
+        "url": "https://vc.pedaily.cn/invest/431302.html",
+        "investors": "光合创投 华勤技术",
+        "investorNames": [
+          "光合创投",
+          "华勤技术"
+        ],
+        "title": "Ambi AI完成2600万美元Pre-A轮融资",
+        "sourcePublished": "2026-10-13",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": null,
+      "stage": "Pre-A"
+    },
+    "fibona-ai": {
+      "id": "fibona-ai",
+      "name": "Fibona AI",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": null,
+      "unicorn": null,
+      "stage": "2026来源待核准"
+    },
+    "lightwheel": {
+      "id": "lightwheel",
+      "name": "光轮智能 / Lightwheel",
+      "checked": "2026-11-14",
+      "listing": null,
+      "listingScope": "公司主体",
+      "financing": {
+        "brand": "光轮科技",
+        "company": "光轮科技 光轮智能（北京）科技股份有限公司",
+        "round": "B轮",
+        "date": "2026-06-23",
+        "url": "https://vc.pedaily.cn/invest/425670.html",
+        "investors": "中关村科学城 四川发展 山东发展投资集团 巨人网络 宇信股份 宝通科技 中科产投 图灵资管 天钺资本 建投投资 三七互娱创投基金 森马服饰",
+        "investorNames": [
+          "中关村科学城",
+          "四川发展",
+          "山东发展投资集团",
+          "巨人网络",
+          "宇信股份",
+          "宝通科技",
+          "中科产投",
+          "图灵资管",
+          "天钺资本",
+          "建投投资",
+          "三七互娱创投基金",
+          "森马服饰"
+        ],
+        "title": "光轮科技完成10亿人民币B轮融资",
+        "sourcePublished": "2026-06-23",
+        "publisher": "清科投资界",
+        "sourceType": "行业投融资数据库",
+        "verified": true
+      },
+      "unicorn": {
+        "list": "2026胡润全球独角兽榜",
+        "published": "2026-06-25",
+        "name": "光轮智能",
+        "rank": 1279,
+        "headquarters": "中国-北京",
+        "scope": "公司主体",
+        "url": "https://hurun.cn/zh-CN/Rank/HsRankDetails?pagetype=unicorn&num=E9A16F3H",
+        "subsequentListing": false
+      },
+      "stage": "B轮系列"
+    }
+  }
+}
