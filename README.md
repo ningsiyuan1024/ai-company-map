@@ -55,6 +55,17 @@ python -m http.server 8766 --bind 127.0.0.1
 
 ## 数据与核验
 
+| 对照信息源 | 核对内容 |
+| --- | --- |
+| [胡润研究院](https://www.hurun.net/) | AI 企业榜单、独角兽身份 |
+| [香港交易所披露易](https://www.hkexnews.hk/) | 上市公告、公司定期披露 |
+| [巨潮资讯](https://www.cninfo.com.cn/) | 上市公告书、财务报告 |
+| [Nasdaq Trader](https://www.nasdaqtrader.com/) | 美国上市主体与证券代码 |
+| [泛欧交易所 Euronext](https://www.euronext.com/) | 欧洲上市主体与证券信息 |
+| [清科投资界](https://www.pedaily.cn/) | 融资轮次、投资方、披露日期 |
+| [国金证券](https://www.gjzq.com.cn/) | 企业融资阶段研究资料 |
+| [企业官方公告（如 PixVerse）](https://pixverse.ai/) | 企业直接披露的融资与上市信息 |
+
 公司目录以 [DINQ](https://jobs.dinq.me/) 的 2026-11-01 公开快照为基础，补充企业官方招聘页及 Bonjour!、Offer岛、Ivyea Jobs 等招聘平台中明确标注北京的团队。公司详情提供对应来源链接，补充记录的核对日期保存在数据中。
 
 部分原目录中的招聘入口因失效、归属无法确认或页面无法核验而被隐藏。招聘页面可能随时间变化，岗位详情与是否接受申请以原招聘方为准。
