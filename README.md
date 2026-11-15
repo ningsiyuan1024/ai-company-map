@@ -1,61 +1,26 @@
-# AI 公司地图
+# 北京 AI 公司地图
 
-[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)
+在地图上找北京的 AI 公司，查看公司位置、业务方向和招聘入口。
 
-浏览北京 AI 团队的地理分布，搜索公司、技术方向和地址，查看公开招聘入口。支持切换上海、深圳、杭州和广州，目前主要维护北京目录。
+**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [统计与操作截图](docs/README.md) · [补充公司 / 纠错](https://github.com/ningsiyuan1024/ai-company-map/issues)
 
-## 项目导览
+[![北京 AI 公司地图预览](docs/images/01-beijing-map.png)](https://ningsiyuan1024.github.io/ai-company-map/)
 
-| 想了解什么 | 从这里开始 |
-| --- | --- |
-| 直接使用 | [在线地图](https://ningsiyuan1024.github.io/ai-company-map/) |
-| 页面与交互实现 | [页面](index.html) · [交互](main.js) · [样式](main.css) |
-| 公司目录与补充记录 | [目录](catalog.js) · [补充雇主](employers.js) |
-| 融资来源 | [融资记录](funding.js) |
-| 地图数据与许可 | [底图说明](MAP-DATA-LICENSE.md) |
+目前收录 **307 家北京公司与团队**，涵盖大模型、Agent、机器人、自动驾驶、AI 芯片等方向。另可切换上海、深圳、杭州和广州。数据更新于 2026 年 11 月 14 日，目前主要维护北京。
 
-这个项目把分散的公司与招聘来源整理成可浏览、可筛选、可回查的地图。阅读数据时，请同时看来源、核对日期与位置精度。
+## 怎么用
 
-## 当前收录
+1. 搜索公司名或感兴趣的方向，也可以按区域、融资阶段、投资机构筛选。
+2. 点击公司，查看地址、公司介绍和信息来源。
+3. 点击招聘入口，前往招聘页面了解岗位。
 
-截至 2026 年 11 月 14 日，五城共 674 条城市公司记录，跨城市按公司 ID 去重后为 496 家。北京收录 307 家公司、156 个地理参考点。一家公司可以有多个地点，也有仅确认到城市的记录。
+复制浏览器地址，即可分享当前筛选结果或选中的公司。
 
-| 城市 | 公司记录 | 地理参考点 |
-| --- | ---: | ---: |
-| 北京 | 307 | 156 |
-| 上海 | 141 | 83 |
-| 深圳 | 103 | 45 |
-| 杭州 | 76 | 44 |
-| 广州 | 47 | 27 |
+## 信息从哪里来
 
-## 统计与操作截图
+公司名单以 [DINQ](https://jobs.dinq.me/) 的公开目录为基础，补充企业官网和招聘平台中明确在北京招聘的团队。融资阶段、上市和独角兽信息对照以下来源，具体依据可在[核验明细](docs/FINANCE-2026.md)中查看。
 
-[北京方向统计、阶段核验、名单校对与操作截图](docs/README.md) · [2026 融资与上市核验明细](docs/FINANCE-2026.md)
-
-## 使用
-
-- 搜索公司名、别名、技术方向或地址，按城市和区域筛选。
-- 查看公司详情中的招聘入口、地址与原始来源。
-- 按已披露融资记录和投资机构筛选。北京采用 2026 年发布或生成的融资、上市和独角兽证据，详情保留主体、轮次、日期和来源。
-- 复制浏览器地址即可分享当前筛选或选中的公司。
-
-北京底图随网站一起加载，包含主要道路、绿地、水域和地名。其他城市使用 OpenStreetMap 在线瓦片。北京底图是区域分布参考图，细节精度适合浏览公司分布；公司具体办公地点以招聘方确认为准。
-
-## 本地运行
-
-需要 Python 3。下载仓库并解压，或使用 Git 克隆，然后在项目目录运行：
-
-```bash
-git clone https://github.com/ningsiyuan1024/ai-company-map.git
-cd ai-company-map
-python -m http.server 8766 --bind 127.0.0.1
-```
-
-浏览器打开 <http://127.0.0.1:8766/>。页面为纯静态 HTML、CSS 和 JavaScript，无需安装前端依赖或填写 API 密钥。部署时将本目录上传到静态网站托管服务即可。
-
-## 数据与核验
-
-| 对照信息源 | 核对内容 |
+| 对照信息源 | 用来核对什么 |
 | --- | --- |
 | [胡润研究院](https://www.hurun.net/) | AI 企业榜单、独角兽身份 |
 | [香港交易所披露易](https://www.hkexnews.hk/) | 上市公告、公司定期披露 |
@@ -66,22 +31,31 @@ python -m http.server 8766 --bind 127.0.0.1
 | [国金证券](https://www.gjzq.com.cn/) | 企业融资阶段研究资料 |
 | [企业官方公告（如 PixVerse）](https://pixverse.ai/) | 企业直接披露的融资与上市信息 |
 
-公司目录以 [DINQ](https://jobs.dinq.me/) 的 2026-11-01 公开快照为基础，补充企业官方招聘页及 Bonjour!、Offer岛、Ivyea Jobs 等招聘平台中明确标注北京的团队。公司详情提供对应来源链接，补充记录的核对日期保存在数据中。
+北京融资、上市和独角兽核验采用 2026 年发布或生成的资料。尚未查到可靠依据的信息会标为待核实，完整来源和统计口径见[数据说明](docs/FINANCE-2026.md)。
 
-部分原目录中的招聘入口因失效、归属无法确认或页面无法核验而被隐藏。招聘页面可能随时间变化，岗位详情与是否接受申请以原招聘方为准。
+招聘入口不代表当前一定有在招岗位。部分位置仅确认到园区、片区或城市，具体办公地点和岗位以招聘方为准。
 
-楼宇、园区或片区参考点按来源精度展示。原始 GCJ-02 坐标近似转换为 WGS84，转换前坐标保存在点位的 `coord` 字段。仅确认到城市的公司仍可搜索，核准坐标后再添加地图点位。
+## 补充与纠错
 
-北京底图来自 Geofabrik 的 OpenStreetMap 数据快照，日期为 2026-11-12。图形数据随仓库分发，许可与处理说明见 [MAP-DATA-LICENSE.md](MAP-DATA-LICENSE.md)。
+发现遗漏公司、失效链接或错误地址，欢迎[提交反馈](https://github.com/ningsiyuan1024/ai-company-map/issues)。请附公司名称、需要修改的内容和来源链接。补充北京公司时，请提供能确认北京团队或岗位的页面。
 
-## 补充或纠错
+<details>
+<summary>本地运行与部署</summary>
 
-欢迎通过 [Issues](https://github.com/ningsiyuan1024/ai-company-map/issues) 或 Pull Request 提交。补充北京公司时，请附公司名称、明确包含北京的招聘或团队来源链接，以及核对日期。补充地图点位时，请同时提供原始坐标、坐标系、来源链接和位置精度。
+需要 Python 3。在终端运行以下命令后，打开 <http://127.0.0.1:8766/>。
 
-主要文件分别为页面 `index.html`、交互逻辑 `main.js`、样式 `main.css`，以及目录 `catalog.js`、补充雇主 `employers.js`、融资记录 `funding.js` 和北京底图 `beijing-basemap.js`。
+```bash
+git clone https://github.com/ningsiyuan1024/ai-company-map.git
+cd ai-company-map
+python -m http.server 8766 --bind 127.0.0.1
+```
+
+网站使用 HTML、CSS 和 JavaScript，无需安装前端依赖或配置 API 密钥，也可直接部署到静态网站托管平台。
+
+北京底图随网站加载，其他城市使用 OpenStreetMap 在线地图。底图来源、坐标处理与许可见[地图数据说明](MAP-DATA-LICENSE.md)。
+
+</details>
 
 ## 许可
 
-本项目自有页面与交互代码使用 [MIT License](LICENSE)。第三方组件保留各自许可，Leaflet 见 [组件许可](vendor/leaflet/LICENSE)，坐标转换库见 [COORDTRANSFORM-LICENSE](COORDTRANSFORM-LICENSE)。
-
-北京底图数据库使用 ODbL 1.0。公司、招聘和融资来源内容的权利归原权利人，代码的 MIT 许可不覆盖这些来源内容。使用或再分发数据时，请保留来源并核对原始来源的使用条件。
+本项目自有代码采用 [MIT License](LICENSE)。北京底图遵循 ODbL 1.0，见[地图数据说明](MAP-DATA-LICENSE.md)。第三方组件保留各自许可，包括 [Leaflet](vendor/leaflet/LICENSE) 和[坐标转换库](COORDTRANSFORM-LICENSE)。公司、招聘和融资来源内容的权利归原权利人，使用或再分发时请保留来源并核对其使用条件。
