@@ -18,7 +18,7 @@
 
 ![北京创业公司技术方向 TOP 10](docs/images/direction-tags.png)
 
-[下载统计概览图](docs/images/beijing-company-overview.png)
+[下载统计概览图](docs/images/beijing-company-overview.png) · [更多图表与下载](docs/CHARTS.md)
 
 ## 使用
 

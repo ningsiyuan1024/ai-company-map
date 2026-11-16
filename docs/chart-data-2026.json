@@ -1,0 +1,4097 @@
+{
+  "asOf": "2026-11-16",
+  "sampleTotal": 110,
+  "scope": "北京目录中具有明确融资轮次、未确认上市或挂牌的创业公司；同一公司旗下产品合并计数。",
+  "sectorCounts": {
+    "大模型与平台": 10,
+    "算力与基础设施": 19,
+    "内容与通用AI应用": 12,
+    "机器人与具身智能": 58,
+    "企业与数据服务": 7,
+    "Agent 产品与服务": 4
+  },
+  "rows": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "directoryIds": [
+        "deepseek"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-10-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-30",
+      "source": "https://vc.pedaily.cn/invest/447445.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Agent",
+        "大语言模型"
+      ],
+      "sector": "大模型与平台",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "CPE源峰",
+        "IDG资本",
+        "VIVO公司",
+        "中信证券",
+        "中国人寿",
+        "中国电信投资",
+        "中国移动",
+        "中芯国际",
+        "中芯聚源",
+        "中金公司",
+        "博裕资本",
+        "吉利汽车产业基金",
+        "君联资本",
+        "国家人工智能产业投资基金",
+        "宁德时代",
+        "小红书",
+        "拾象科技",
+        "携程",
+        "朱一明",
+        "梁文锋",
+        "石溪资本",
+        "砺思资本",
+        "立讯精密",
+        "美团战略投资部",
+        "美的集团",
+        "腾讯投资",
+        "长鑫存储"
+      ]
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面 / Kimi",
+      "directoryIds": [
+        "moonshot"
+      ],
+      "stage": "F 轮",
+      "round": "F轮",
+      "eventDate": "2026-07-29",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-29",
+      "source": "https://vc.pedaily.cn/invest/426134.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Agent",
+        "大语言模型"
+      ],
+      "sector": "大模型与平台",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "人民币机构",
+        "美元机构"
+      ]
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰 StepFun",
+      "directoryIds": [
+        "stepfun"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-05-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-09",
+      "source": "https://vc.pedaily.cn/invest/424960.html",
+      "note": "保留随后战略融资记录；统计取最近具名轮次。",
+      "tags": [
+        "多模态",
+        "大语言模型",
+        "端侧AI"
+      ],
+      "sector": "大模型与平台",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "modelbest",
+      "name": "面壁智能",
+      "directoryIds": [
+        "modelbest"
+      ],
+      "stage": "D 轮",
+      "round": "D++轮",
+      "eventDate": "2026-07-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-15",
+      "source": "https://vc.pedaily.cn/invest/425963.html",
+      "note": "",
+      "tags": [
+        "多模态",
+        "大语言模型",
+        "端侧AI"
+      ],
+      "sector": "大模型与平台",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "国家级基金",
+        "央企",
+        "川创投",
+        "汽车制造商等各类产业方",
+        "知名财务投资人"
+      ]
+    },
+    {
+      "id": "luchen",
+      "name": "潞晨科技",
+      "directoryIds": [
+        "luchen"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-03-18",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-18",
+      "source": "https://vc.pedaily.cn/invest/423479.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "大模型平台",
+        "训练推理"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "大兴区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "博华产投",
+        "某美元投资机构"
+      ]
+    },
+    {
+      "id": "d_robotics",
+      "name": "地瓜机器人",
+      "directoryIds": [
+        "d_robotics"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-09-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-17",
+      "source": "https://vc.pedaily.cn/invest/426973.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人开发平台",
+        "端侧芯片"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "Prosperity7 Ventures",
+        "Vertex Growth Fund",
+        "中关村发展启航产业投资基金",
+        "九合创投",
+        "九阳家办",
+        "云锋基金",
+        "五源资本",
+        "凯联资本",
+        "凯辉基金",
+        "初心资本",
+        "华美国际集团",
+        "南山战新投",
+        "合肥国投",
+        "和暄资本",
+        "广发信德",
+        "庚辛资本",
+        "敦鸿资产",
+        "未来资产",
+        "沄柏资本",
+        "沸点资本",
+        "璟泉资本",
+        "线性资本",
+        "美团战略投资部",
+        "美团龙珠",
+        "超越摩尔投资",
+        "高瓴创投",
+        "黄浦江资本"
+      ]
+    },
+    {
+      "id": "semidrive",
+      "name": "芯驰科技",
+      "directoryIds": [
+        "semidrive"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-09-21",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-21",
+      "source": "https://vc.pedaily.cn/invest/427128.html",
+      "note": "",
+      "tags": [
+        "MCU",
+        "具身智能芯片",
+        "车规SoC"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "大兴区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "华登科技",
+        "新时代基金",
+        "陕投集团",
+        "陕西金资"
+      ]
+    },
+    {
+      "id": "infinigence",
+      "name": "无问芯穹",
+      "directoryIds": [
+        "infinigence"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-10-12",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-12",
+      "source": "https://vc.pedaily.cn/invest/427290.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "异构算力",
+        "模型服务"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "Dabanc Holding",
+        "中国保险投资基金",
+        "九坤创投",
+        "厦门国兴投资",
+        "同歌创投",
+        "君联资本",
+        "启明创投",
+        "国开科创",
+        "孚腾资本",
+        "徐汇资本",
+        "惠远资本",
+        "洪泰基金",
+        "珠海科技产业集团",
+        "百度",
+        "砺思资本",
+        "红杉中国",
+        "联想创投",
+        "腾讯投资",
+        "达晨财智",
+        "顺为资本",
+        "高新金投集团"
+      ]
+    },
+    {
+      "id": "siliconflow",
+      "name": "硅基流动",
+      "directoryIds": [
+        "siliconflow"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-09-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-20",
+      "source": "https://vc.pedaily.cn/invest/427032.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "推理平台",
+        "模型API"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "上海仪电智算基金",
+        "中国东方资产国际",
+        "中泰资本",
+        "中移和创",
+        "中网投",
+        "京能同鑫",
+        "倍特基金",
+        "兆讯科技",
+        "北创投",
+        "华安嘉业",
+        "华胜天成",
+        "国新基金",
+        "国泰创投",
+        "天创资本",
+        "山东铁投",
+        "山东铁路发展基金",
+        "建投华科",
+        "悟新智融",
+        "成都科创投",
+        "执君基金",
+        "拓尔思",
+        "新紫光集团",
+        "智路资本",
+        "江西金控",
+        "盛奕基金",
+        "睿智基金",
+        "翠微基金",
+        "耀途资本  Glory Ventures",
+        "鹏鹞环保"
+      ]
+    },
+    {
+      "id": "naive",
+      "name": "Naive AI",
+      "directoryIds": [
+        "naive"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-09-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-09",
+      "source": "https://vc.pedaily.cn/invest/428598.html",
+      "note": "",
+      "tags": [
+        "AI研究",
+        "基础模型"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "国汽投资",
+        "广发乾和",
+        "星睿资本",
+        "红杉中国",
+        "经纬中国",
+        "腾讯投资"
+      ]
+    },
+    {
+      "id": "shengshu",
+      "name": "生数科技",
+      "directoryIds": [
+        "shengshu"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-07-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-06",
+      "source": "https://vc.pedaily.cn/invest/425796.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "多模态",
+        "视频生成"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "未披露"
+      ]
+    },
+    {
+      "id": "aishi",
+      "name": "爱诗科技",
+      "directoryIds": [
+        "aishi"
+      ],
+      "stage": "C 轮",
+      "round": "C轮追加",
+      "eventDate": "2026-07-14",
+      "publisher": "PixVerse 官方公告",
+      "sourcePublished": "2026-07-14",
+      "source": "https://pixverse.ai/en/blog/pixverse-closes-series-c-extension-and-announces-expansion-into-interactive-entertainment",
+      "note": "",
+      "tags": [
+        "视觉模型",
+        "视频生成"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "sand",
+      "name": "Sand.ai",
+      "directoryIds": [
+        "sand"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-11-05",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-05",
+      "source": "https://vc.pedaily.cn/invest/449851.html",
+      "note": "",
+      "tags": [
+        "视频生成",
+        "音视频生成"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "东证资本",
+        "中科创星",
+        "华业天成资本",
+        "国方创新",
+        "基石资本",
+        "天创资本",
+        "山东铁投",
+        "山东铁路发展基金",
+        "时代资本",
+        "浦东创投集团",
+        "磐霖资本",
+        "经纬中国",
+        "网宿科技"
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "directoryIds": [
+        "genspark"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-06-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-15",
+      "source": "https://vc.pedaily.cn/invest/431681.html",
+      "note": "",
+      "tags": [
+        "AI Workspace",
+        "Agent"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "未来资产"
+      ]
+    },
+    {
+      "id": "evoken",
+      "name": "演语科技（Liblib / Lovart）",
+      "directoryIds": [
+        "liblib",
+        "lovart"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-06",
+      "publisher": "极客公园（36氪刊载）",
+      "sourcePublished": "2026-06-18",
+      "source": "https://www.36kr.com/p/3858046706832640",
+      "note": "演语科技旗下产品；按公司合并计数。",
+      "tags": [
+        "创作社区",
+        "图像生成",
+        "设计Agent"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "directoryIds": [
+        "oiioii"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-03-24",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-24",
+      "source": "https://vc.pedaily.cn/invest/424646.html",
+      "note": "",
+      "tags": [
+        "动画Agent",
+        "视频生成"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "光合创投",
+        "星连资本",
+        "春华资本"
+      ]
+    },
+    {
+      "id": "agibot",
+      "name": "智元机器人",
+      "directoryIds": [
+        "agibot"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2025-05",
+      "publisher": "OFweek产业研究中心／高维产业咨询",
+      "sourcePublished": "2026",
+      "source": "https://www.cdut.edu.cn/__local/F/52/9E/B1D5CD3F12BB2D865491DE62813_AF41147E_2C5D750.pdf#page=32",
+      "note": "2026机器人产业蓝皮书，印刷第27页融资表；发布年确定，未标注精确日期。",
+      "tags": [
+        "人形机器人",
+        "具身基座模型"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "galbot",
+      "name": "银河通用",
+      "directoryIds": [
+        "galbot"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-03-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-02",
+      "source": "https://vc.pedaily.cn/invest/422579.html",
+      "note": "",
+      "tags": [
+        "具身大模型",
+        "机器人操作"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "上汽集团",
+        "中信集团",
+        "中国石化",
+        "中国银行",
+        "中芯聚源",
+        "亦庄国投",
+        "国家人工智能产业投资基金",
+        "无锡创投",
+        "未来产业投资",
+        "福建产投",
+        "鲲鹏基金"
+      ]
+    },
+    {
+      "id": "fourier",
+      "name": "傅利叶智能",
+      "directoryIds": [
+        "fourier"
+      ],
+      "stage": "E 轮",
+      "round": "E轮",
+      "eventDate": "2025",
+      "publisher": "国金证券2026年度策略报告",
+      "sourcePublished": "2026-01-06",
+      "source": "https://pdf.dfcfw.com/pdf/H3_AP202601061815848979_1.pdf",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "康复机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": []
+    },
+    {
+      "id": "robotera",
+      "name": "星动纪元",
+      "directoryIds": [
+        "robotera"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-07-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-06",
+      "source": "https://vc.pedaily.cn/invest/428530.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身大模型"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "中新基金",
+        "中金资本私募",
+        "九坤创投",
+        "千山资本",
+        "厚雪资本",
+        "君泰资本",
+        "国元股投",
+        "国调基金",
+        "弘毅投资",
+        "杭州资本",
+        "江西国控",
+        "清控天诚",
+        "盛赫资本"
+      ]
+    },
+    {
+      "id": "limx",
+      "name": "逐际动力",
+      "directoryIds": [
+        "limx"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-07-14",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-14",
+      "source": "https://vc.pedaily.cn/invest/425889.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "GGG Group",
+        "IDG资本",
+        "Redstone VC",
+        "Stone Venture",
+        "华山资本Westsummit Capital",
+        "南山战新投",
+        "合肥滨湖产发集团",
+        "基石资本",
+        "尚颀资本",
+        "绿洲资本",
+        "蓝思科技",
+        "蔚来资本"
+      ]
+    },
+    {
+      "id": "booster",
+      "name": "加速进化",
+      "directoryIds": [
+        "booster"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-04-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-17",
+      "source": "https://vc.pedaily.cn/invest/424698.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "机器人开发平台"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "IDG资本",
+        "交银投资",
+        "北京高精尖产业发展基金",
+        "北工投资",
+        "华控基金",
+        "国海创新资本",
+        "洪泰基金",
+        "深创投",
+        "源码资本",
+        "联想之星",
+        "英诺天使基金",
+        "首程资本"
+      ]
+    },
+    {
+      "id": "noetix",
+      "name": "松延动力",
+      "directoryIds": [
+        "noetix"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-07-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-30",
+      "source": "https://vc.pedaily.cn/invest/427629.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "人形机器人",
+        "仿生机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "昌平区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "九合创投",
+        "厚雪资本",
+        "山东省新动能基金",
+        "源禾资本",
+        "神骐资本",
+        "紫建电子",
+        "苏州市产投",
+        "财金投资",
+        "赟汇资本",
+        "金浦投资"
+      ]
+    },
+    {
+      "id": "galaxea",
+      "name": "星海图",
+      "directoryIds": [
+        "galaxea"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-04-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-02",
+      "source": "https://vc.pedaily.cn/invest/424207.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "具身基础模型",
+        "机器人本体"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "ACCF Capital",
+        "中金资本",
+        "北京科创基金",
+        "华登国际",
+        "国元股投",
+        "广发乾和",
+        "弘章资本",
+        "御海资本",
+        "时代伯乐",
+        "普华资本",
+        "洪泰基金",
+        "矽芯投资",
+        "航发基金",
+        "蓝思科技",
+        "金浦投资",
+        "金融街资本"
+      ]
+    },
+    {
+      "id": "realai",
+      "name": "瑞莱智慧",
+      "directoryIds": [
+        "realai"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-07-21",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-21",
+      "source": "https://vc.pedaily.cn/invest/425986.html",
+      "note": "",
+      "tags": [
+        "AI安全",
+        "可信AI",
+        "隐私计算"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "卓源亚洲",
+        "卓源资本",
+        "招商资本",
+        "星连资本",
+        "水木清华校友种子基金",
+        "福迪创投",
+        "聚迎丰基金"
+      ]
+    },
+    {
+      "id": "tsingmicro",
+      "name": "清微智能",
+      "directoryIds": [
+        "tsingmicro"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-03-19",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-19",
+      "source": "https://vc.pedaily.cn/invest/428601.html",
+      "note": "",
+      "tags": [
+        "可重构芯片",
+        "智算芯片"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "三七互娱创投基金",
+        "中电智慧",
+        "中科物联",
+        "中网投",
+        "中芯聚源",
+        "中贝通信",
+        "云锋基金",
+        "允泰资本",
+        "凯旋资本",
+        "北京金控集团",
+        "北工投资",
+        "华强创投",
+        "华德资本",
+        "卓源亚洲",
+        "南京赫清",
+        "商汤国香资本",
+        "图灵资本",
+        "广发乾和",
+        "慕华科创",
+        "拓锋投资",
+        "明智资本",
+        "星竹投资",
+        "晓池资本",
+        "曜为资本",
+        "水木创投",
+        "润泽家办",
+        "温州湾新区",
+        "源余资本",
+        "源码资本",
+        "玄素投资",
+        "电控产投",
+        "策源资本",
+        "米聚资本",
+        "紫荆文化",
+        "考拉基金",
+        "软通动力",
+        "首建投",
+        "鼎青投资"
+      ]
+    },
+    {
+      "id": "dptechnology",
+      "name": "深势科技",
+      "directoryIds": [
+        "dptechnology"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2025-12",
+      "publisher": "启明创投",
+      "sourcePublished": "2026-04-15",
+      "source": "https://www.qimingvc.com/en/node/7609",
+      "note": "2026年投资机构资料回顾2025年12月C轮，未将事件日期改为2026年。",
+      "tags": [
+        "AI for Science",
+        "玻尔",
+        "科学智能体",
+        "高性能计算"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": []
+    },
+    {
+      "id": "spiritai",
+      "name": "千寻智能",
+      "directoryIds": [
+        "spiritai"
+      ],
+      "stage": "A 轮",
+      "round": "A++轮",
+      "eventDate": "2026-06-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-03",
+      "source": "https://vc.pedaily.cn/invest/425301.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身模型"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "一线美元基金",
+        "国资基金",
+        "大型产业投资方"
+      ]
+    },
+    {
+      "id": "x2robot",
+      "name": "自变量机器人",
+      "directoryIds": [
+        "x2robot"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-06-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-30",
+      "source": "https://vc.pedaily.cn/invest/425718.html",
+      "note": "",
+      "tags": [
+        "具身大模型",
+        "机器人操作"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "IDG资本",
+        "中国保险投资基金",
+        "中金资本",
+        "国海创新资本",
+        "国联投资",
+        "宝安区产业投资引导基金",
+        "数智毅达",
+        "毅达资本",
+        "深投控",
+        "源码资本",
+        "盛景嘉成",
+        "航空工业弘华基金"
+      ]
+    },
+    {
+      "id": "xhumanoid",
+      "name": "北京人形机器人创新中心 / 天工",
+      "directoryIds": [
+        "xhumanoid"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-06-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-01",
+      "source": "https://vc.pedaily.cn/invest/443336.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "天工",
+        "慧思开物"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "英诺天使基金"
+      ]
+    },
+    {
+      "id": "tars",
+      "name": "它石智航",
+      "directoryIds": [
+        "tars"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-07-31",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-31",
+      "source": "https://vc.pedaily.cn/invest/428097.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "上海国投先导",
+        "北京国管",
+        "常盛投资",
+        "徐汇科创投",
+        "洪泰基金"
+      ]
+    },
+    {
+      "id": "linkerbot",
+      "name": "灵心巧手",
+      "directoryIds": [
+        "linkerbot"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-04-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-30",
+      "source": "https://vc.pedaily.cn/invest/424880.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人操作",
+        "灵巧手"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "中关村科学城",
+        "中科英智",
+        "中银资产",
+        "元诺资本",
+        "力合资本",
+        "力合金融",
+        "华福资本",
+        "博佳资本",
+        "复星创富",
+        "宇信科技",
+        "弘章资本",
+        "德同资本",
+        "玖兆投资",
+        "贝克资本"
+      ]
+    },
+    {
+      "id": "agilerobots",
+      "name": "思灵机器人",
+      "directoryIds": [
+        "agilerobots"
+      ],
+      "stage": "D 轮",
+      "round": "D轮",
+      "eventDate": "2026-11-12",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-12",
+      "source": "https://vc.pedaily.cn/invest/457808.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "力控",
+        "机器人操作"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "SoftBank Capital",
+        "T.Capital",
+        "日立创投",
+        "英伟达"
+      ]
+    },
+    {
+      "id": "casbot",
+      "name": "中科慧灵 / CASBOT",
+      "directoryIds": [
+        "casbot"
+      ],
+      "stage": "A 轮",
+      "round": "A++轮",
+      "eventDate": "2026-10-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-26",
+      "source": "https://vc.pedaily.cn/invest/447374.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身智能",
+        "灵巧手"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "元禾辰坤",
+        "国科科智",
+        "涌铧投资",
+        "知来投资",
+        "茂天资本",
+        "鲁宁投资"
+      ]
+    },
+    {
+      "id": "realman",
+      "name": "睿尔曼智能",
+      "directoryIds": [
+        "realman"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-03-05",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-05",
+      "source": "https://vc.pedaily.cn/invest/423822.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人数据",
+        "机械臂"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "石景山区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "上河动量",
+        "九派资本",
+        "大洋电机"
+      ]
+    },
+    {
+      "id": "inspirerobots",
+      "name": "因时机器人",
+      "directoryIds": [
+        "inspirerobots"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-02-25",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-02-25",
+      "source": "https://vc.pedaily.cn/invest/421554.html",
+      "note": "",
+      "tags": [
+        "微型伺服",
+        "灵巧手",
+        "运动执行器"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "石景山区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "TCL创投",
+        "北京市人工智能产业投资基金",
+        "北京金财基金",
+        "博原资本",
+        "启明创投",
+        "宏源汇富",
+        "春华资本"
+      ]
+    },
+    {
+      "id": "tingyu",
+      "name": "庭宇科技",
+      "directoryIds": [
+        "tingyu"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-06-25",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-25",
+      "source": "https://vc.pedaily.cn/invest/429289.html",
+      "note": "",
+      "tags": [
+        "AI算力",
+        "Agent",
+        "基础设施"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "三七互娱创投基金",
+        "北创投",
+        "国舜投资",
+        "广发信德",
+        "广州产投集团",
+        "金光紫金",
+        "金能基金"
+      ]
+    },
+    {
+      "id": "gigaai",
+      "name": "极佳科技 / 极佳视界",
+      "directoryIds": [
+        "gigaai"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-06-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-15",
+      "source": "https://vc.pedaily.cn/invest/457861.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "万向钱潮",
+        "元石基金",
+        "华仓资本",
+        "华盖资本",
+        "国中资本",
+        "图灵资管",
+        "复星锐正资本",
+        "建投投资",
+        "德屹资本",
+        "海富产业基金",
+        "狮城资本",
+        "达晨财智",
+        "金创投"
+      ]
+    },
+    {
+      "id": "qcraft",
+      "name": "轻舟智航",
+      "directoryIds": [
+        "qcraft"
+      ],
+      "stage": "D 轮",
+      "round": "D轮",
+      "eventDate": "2026-03-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-23",
+      "source": "https://vc.pedaily.cn/invest/423701.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "光大金控",
+        "华德资本",
+        "某国内头部主机厂",
+        "某头部汽车电子零部件公司",
+        "梁溪科创母基金"
+      ]
+    },
+    {
+      "id": "neolix",
+      "name": "新石器无人车",
+      "directoryIds": [
+        "neolix"
+      ],
+      "stage": "E 轮",
+      "round": "E轮",
+      "eventDate": "2026-10-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-20",
+      "source": "https://vc.pedaily.cn/invest/427401.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "Granite Asia Capital",
+        "Stone Venture",
+        "信宸资本",
+        "博裕资本",
+        "砺思资本",
+        "祥峰投资中国基金",
+        "阿里巴巴"
+      ]
+    },
+    {
+      "id": "vast",
+      "name": "VAST / Tripo",
+      "directoryIds": [
+        "vast"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-09-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-01",
+      "source": "https://vc.pedaily.cn/invest/426736.html",
+      "note": "",
+      "tags": [
+        "3D大模型",
+        "3D生成",
+        "世界模型"
+      ],
+      "sector": "大模型与平台",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "4399游戏",
+        "CMC资本",
+        "三七互娱创投基金",
+        "三正健康",
+        "中平资本",
+        "中科创达",
+        "中金资本",
+        "华控基金",
+        "卓源亚洲",
+        "完美世界",
+        "广电投资",
+        "延趣游戏",
+        "慕华科创",
+        "春华资本",
+        "江西金控",
+        "洪泰基金",
+        "渶策资本",
+        "福创投",
+        "福建产投",
+        "经纬中国",
+        "绿洲资本",
+        "芯动能投资",
+        "蓝色光标",
+        "达晨财智",
+        "鼎晖投资"
+      ]
+    },
+    {
+      "id": "anyverse",
+      "name": "无界动力",
+      "directoryIds": [
+        "anyverse"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+++轮",
+      "eventDate": "2026-06-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-26",
+      "source": "https://vc.pedaily.cn/invest/448889.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "C资本",
+        "京东关联基金",
+        "华业天成资本",
+        "弘毅投资",
+        "盛宇投资",
+        "红杉中国",
+        "线性资本",
+        "雅瑞资本"
+      ]
+    },
+    {
+      "id": "whiterhino",
+      "name": "白犀牛",
+      "directoryIds": [
+        "whiterhino"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-10-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-08",
+      "source": "https://vc.pedaily.cn/invest/427249.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "博正资本",
+        "深重投",
+        "湘潭国资",
+        "财信金控",
+        "隐山资本",
+        "韩国友利金融集团"
+      ]
+    },
+    {
+      "id": "vbot",
+      "name": "维他动力 Vbot",
+      "directoryIds": [
+        "vbot"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A++轮",
+      "eventDate": "2026-10-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-13",
+      "source": "https://vc.pedaily.cn/invest/451802.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "关联投资方",
+        "江特电机"
+      ]
+    },
+    {
+      "id": "tashan",
+      "name": "他山科技",
+      "directoryIds": [
+        "tashan"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-07-10",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-10",
+      "source": "https://vc.pedaily.cn/invest/425828.html",
+      "note": "",
+      "tags": [],
+      "sector": "算力与基础设施",
+      "regions": [
+        "门头沟区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "Lavender Hill Capital Partners",
+        "国石智达",
+        "均胜电子",
+        "太平创新",
+        "奥克斯",
+        "奥成投资",
+        "彬复资本",
+        "洪山资本",
+        "道氏技术",
+        "鹏翎股份"
+      ]
+    },
+    {
+      "id": "robstride",
+      "name": "灵足时代",
+      "directoryIds": [
+        "robstride"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-03-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-27",
+      "source": "https://vc.pedaily.cn/invest/430759.html",
+      "note": "",
+      "tags": [
+        "一体化电机",
+        "机器人关节模组",
+        "核心零部件"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "九鼎投资"
+      ]
+    },
+    {
+      "id": "rimbot",
+      "name": "日冕机器人 RimBOT",
+      "directoryIds": [
+        "rimbot"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-07-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-17",
+      "source": "https://vc.pedaily.cn/invest/440465.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身基础模型",
+        "灵巧操作"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "百度风投"
+      ]
+    },
+    {
+      "id": "pokebot",
+      "name": "破壳机器人 PokeBot",
+      "directoryIds": [
+        "pokebot"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-08-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-03",
+      "source": "https://vc.pedaily.cn/invest/426232.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "具身世界模型",
+        "家庭机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "SEE Fund无限基金",
+        "东方嘉富",
+        "九坤创投",
+        "云启资本",
+        "元诺资本",
+        "华建函数投资",
+        "小米集团",
+        "常盛投资",
+        "弘晖基金",
+        "猎聘网战投",
+        "经纬中国",
+        "英诺天使基金",
+        "钟鼎资本",
+        "钧山投资",
+        "顺为资本"
+      ]
+    },
+    {
+      "id": "tokenrhythm",
+      "name": "基元律动 TokenRhythm",
+      "directoryIds": [
+        "tokenrhythm"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-08-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-26",
+      "source": "https://vc.pedaily.cn/invest/426628.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Agent",
+        "MaaS"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "尚势资本",
+        "弘晖基金",
+        "江苏聚合资本",
+        "深圳聚合资本"
+      ]
+    },
+    {
+      "id": "xvirobotics",
+      "name": "十六号机器人 XVI Robotics",
+      "directoryIds": [
+        "xvirobotics"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-06-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-23",
+      "source": "https://vc.pedaily.cn/invest/428081.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "VLA",
+        "人形机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "怀柔区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "英诺天使基金",
+        "襄禾资本",
+        "靖亚资本"
+      ]
+    },
+    {
+      "id": "xiaoyubot",
+      "name": "小雨智造",
+      "directoryIds": [
+        "xiaoyubot"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-09-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-08",
+      "source": "https://vc.pedaily.cn/invest/426931.html",
+      "note": "",
+      "tags": [
+        "一脑多形",
+        "工业具身智能",
+        "焊接机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "Blooming Star",
+        "Kamet Capital Partners",
+        "盈峰投资"
+      ]
+    },
+    {
+      "id": "meshy",
+      "name": "Meshy / 太极图形",
+      "directoryIds": [
+        "meshy"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-07-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-20",
+      "source": "https://vc.pedaily.cn/invest/426008.html",
+      "note": "",
+      "tags": [
+        "AI 3D",
+        "图形计算",
+        "多模态模型"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "BAI资本",
+        "Granite Asia",
+        "IDG资本",
+        "源码资本",
+        "砺思资本",
+        "红杉中国",
+        "经纬中国"
+      ]
+    },
+    {
+      "id": "kairosmaterials",
+      "name": "开物纪 Kairos",
+      "directoryIds": [
+        "kairosmaterials"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-07-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-09",
+      "source": "https://vc.pedaily.cn/invest/431215.html",
+      "note": "",
+      "tags": [
+        "AI for Science",
+        "材料大模型",
+        "生成式材料"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "中金资本私募"
+      ]
+    },
+    {
+      "id": "dexmal",
+      "name": "原力灵机 Dexmal",
+      "directoryIds": [
+        "dexmal"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-06-05",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-05",
+      "source": "https://vc.pedaily.cn/invest/425319.html",
+      "note": "",
+      "tags": [
+        "DM0.5",
+        "Dexbotic",
+        "VLA",
+        "具身基础模型"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "元禾璞华",
+        "兴证资本",
+        "华勤技术",
+        "厚雪资本",
+        "启明创投",
+        "商汤科技",
+        "恒旭资本",
+        "招银国际资本",
+        "智谱AI",
+        "润璋创投",
+        "阶跃星辰",
+        "阿里巴巴"
+      ]
+    },
+    {
+      "id": "qingcheng",
+      "name": "清程极智",
+      "directoryIds": [
+        "qingcheng"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-10-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-15",
+      "source": "https://vc.pedaily.cn/invest/427349.html",
+      "note": "",
+      "tags": [
+        "AI系统软件",
+        "MaaS",
+        "大模型推理",
+        "大模型训练"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "中国电信和瀚晖资本联合领投",
+        "华胜天成",
+        "商汤科技",
+        "建信（北京）投资",
+        "直真科技",
+        "老股东星连资本追投",
+        "苏州毅鸣等多家产业资本和市场化基金共同跟投",
+        "领阳投资"
+      ]
+    },
+    {
+      "id": "houmo",
+      "name": "后摩智能",
+      "directoryIds": [
+        "houmo"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-11-04",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-04",
+      "source": "https://vc.pedaily.cn/invest/449840.html",
+      "note": "",
+      "tags": [
+        "AI芯片",
+        "大模型推理",
+        "存算一体",
+        "端侧AI"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "大兴区",
+        "朝阳区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "上下游产业资本",
+        "国有资本",
+        "国际投资人"
+      ]
+    },
+    {
+      "id": "spacemit",
+      "name": "进迭时空 SpacemiT",
+      "directoryIds": [
+        "spacemit"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-10-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-15",
+      "source": "https://vc.pedaily.cn/invest/440630.html",
+      "note": "",
+      "tags": [
+        "AI CPU",
+        "K3",
+        "RISC-V",
+        "大模型芯片"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "Forebright Capital",
+        "云晖资本",
+        "启明创投",
+        "商汤国香资本",
+        "尚颀资本",
+        "建发新兴投资",
+        "招银国际资本",
+        "比依股份",
+        "深投控",
+        "耀途资本  Glory Ventures"
+      ]
+    },
+    {
+      "id": "ai2robotics",
+      "name": "智平方 AI² Robotics",
+      "directoryIds": [
+        "ai2robotics"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-06-29",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-29",
+      "source": "https://vc.pedaily.cn/invest/425721.html",
+      "note": "",
+      "tags": [
+        "AlphaBot",
+        "GOVLA",
+        "具身大模型",
+        "通用机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "Forebright Capital",
+        "万丰控股",
+        "中信建投资本",
+        "中国文化产业体系基金",
+        "中国生物制药",
+        "中贝通信",
+        "中金资本",
+        "五洲新春",
+        "南山战新投",
+        "博华产投",
+        "君礼资本",
+        "国家中小企业体系基金",
+        "多家保险公司",
+        "多家特斯拉核心生态链企业",
+        "广东省人工智能基金",
+        "康龙化成",
+        "招商资本",
+        "敦鸿资产",
+        "梁溪科技城创投",
+        "洪泰基金",
+        "深创投",
+        "粤港澳大湾区系列基金",
+        "航信资本",
+        "诚元祥投资",
+        "贵州茅台",
+        "达晨财智",
+        "道得投资",
+        "金沙江联合资本",
+        "锡创投"
+      ]
+    },
+    {
+      "id": "hidream",
+      "name": "智象未来 HiDream",
+      "directoryIds": [
+        "hidream"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-09-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-15",
+      "source": "https://vc.pedaily.cn/invest/427897.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "多模态",
+        "文生图",
+        "文生视频"
+      ],
+      "sector": "大模型与平台",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "工银资本",
+        "成都交子金控集团",
+        "新微资本"
+      ]
+    },
+    {
+      "id": "floatboat",
+      "name": "Floatboat",
+      "directoryIds": [
+        "floatboat"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-03-18",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-18",
+      "source": "https://vc.pedaily.cn/invest/423513.html",
+      "note": "",
+      "tags": [
+        "Agent Workspace",
+        "企业 AI",
+        "全栈"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "微光创投",
+        "红杉中国"
+      ]
+    },
+    {
+      "id": "taonier",
+      "name": "陶泥儿 TAONIER",
+      "directoryIds": [
+        "taonier"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-06-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-08",
+      "source": "https://vc.pedaily.cn/invest/435116.html",
+      "note": "",
+      "tags": [
+        "AI 游戏",
+        "Agent 平台",
+        "全栈"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "水木创投"
+      ]
+    },
+    {
+      "id": "xera",
+      "name": "拓元智慧 X-Era",
+      "directoryIds": [
+        "xera"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-07-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-02",
+      "source": "https://vc.pedaily.cn/invest/453064.html",
+      "note": "",
+      "tags": [
+        "世界动作模型",
+        "具身智能",
+        "多模态"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "建潘集团",
+        "德韬资本"
+      ]
+    },
+    {
+      "id": "starwith",
+      "name": "星曜同谐 Starwith",
+      "directoryIds": [
+        "starwith"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-08-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-02",
+      "source": "https://vc.pedaily.cn/invest/428319.html",
+      "note": "",
+      "tags": [
+        "AI",
+        "数据平台",
+        "机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "德石投资",
+        "蓝驰创投",
+        "顺为资本"
+      ]
+    },
+    {
+      "id": "apexin",
+      "name": "超衍智能 Apex Intelligence",
+      "directoryIds": [
+        "apexin"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-09-16",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-16",
+      "source": "https://vc.pedaily.cn/invest/426992.html",
+      "note": "",
+      "tags": [
+        "AI for Science",
+        "Agent",
+        "基础模型"
+      ],
+      "sector": "大模型与平台",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "上海未来产业基金",
+        "中关村科学城",
+        "深创投"
+      ]
+    },
+    {
+      "id": "mirros",
+      "name": "MirroS",
+      "directoryIds": [
+        "mirros"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-08-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-06",
+      "source": "https://vc.pedaily.cn/invest/428317.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身智能",
+        "多模态",
+        "物理RSI"
+      ],
+      "sector": "大模型与平台",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "SEE Fund无限基金",
+        "尚势资本",
+        "星连资本",
+        "红杉中国",
+        "蓝驰创投"
+      ]
+    },
+    {
+      "id": "beingbeyond",
+      "name": "智在无界 BeingBeyond",
+      "directoryIds": [
+        "beingbeyond"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-01-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-01-13",
+      "source": "https://vc.pedaily.cn/invest/417106.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "世界模型",
+        "具身通用基础模型"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "灵心巧手",
+        "考拉基金",
+        "领航新界"
+      ]
+    },
+    {
+      "id": "quiktech",
+      "name": "青葵智造 QUIKTECH",
+      "directoryIds": [
+        "quiktech"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-11-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-13",
+      "source": "https://vc.pedaily.cn/invest/457797.html",
+      "note": "",
+      "tags": [
+        "AI4S",
+        "具身智能",
+        "实验室机器人",
+        "智能体"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "创东方投资",
+        "金辉大数据",
+        "飞荣达"
+      ]
+    },
+    {
+      "id": "physis",
+      "name": "逆矩阵科技 Physis",
+      "directoryIds": [
+        "physis"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子+轮",
+      "eventDate": "2026-06-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-17",
+      "source": "https://vc.pedaily.cn/invest/448845.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Physical AI",
+        "世界模型"
+      ],
+      "sector": "大模型与平台",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "BAI资本",
+        "五源资本",
+        "光合创投",
+        "燕缘创投",
+        "经纬中国",
+        "蚂蚁集团",
+        "钟鼎资本",
+        "高瓴创投"
+      ]
+    },
+    {
+      "id": "psibot",
+      "name": "灵初智能 PsiBot",
+      "directoryIds": [
+        "psibot"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-08-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-27",
+      "source": "https://vc.pedaily.cn/invest/426640.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "世界模型",
+        "灵巧操作"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "三七互娱创投基金",
+        "华金资本",
+        "复星创富",
+        "拓普集团",
+        "瑞丞基金",
+        "芜湖投控",
+        "蓝思科技"
+      ]
+    },
+    {
+      "id": "muka",
+      "name": "莫刻机器人 MUKA Robotics",
+      "directoryIds": [
+        "muka"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-09-29",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-29",
+      "source": "https://vc.pedaily.cn/invest/427827.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身模型",
+        "视觉因果推理"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "砺思资本",
+        "英诺天使基金",
+        "锦秋基金"
+      ]
+    },
+    {
+      "id": "symbiosis",
+      "name": "共生知行 Symbiosis Robotics",
+      "directoryIds": [
+        "symbiosis"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-08-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-17",
+      "source": "https://vc.pedaily.cn/invest/429717.html",
+      "note": "",
+      "tags": [
+        "全身智能",
+        "机器人基座模型",
+        "直接感知控制"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "驰星创投"
+      ]
+    },
+    {
+      "id": "gongji",
+      "name": "共绩科技",
+      "directoryIds": [
+        "gongji"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-11-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-03",
+      "source": "https://vc.pedaily.cn/invest/457214.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Serverless GPU",
+        "弹性算力"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "中网投",
+        "元禾璞华",
+        "力合中科",
+        "启恒共创",
+        "宁德时代",
+        "德石投资",
+        "新进创投",
+        "春华资本",
+        "溥泉资本",
+        "赛目科技"
+      ]
+    },
+    {
+      "id": "latentverse",
+      "name": "潜界科技 LatentVerse",
+      "directoryIds": [
+        "latentverse"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-08-11",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-11",
+      "source": "https://vc.pedaily.cn/invest/427840.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身基座模型",
+        "触觉"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "星动纪元",
+        "智元机器人",
+        "清流资本",
+        "源码律动",
+        "祥峰投资中国基金",
+        "英诺天使基金",
+        "高瓴创投"
+      ]
+    },
+    {
+      "id": "litchibot",
+      "name": "厘清智能",
+      "directoryIds": [
+        "litchibot"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-10-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-08",
+      "source": "https://vc.pedaily.cn/invest/427230.html",
+      "note": "",
+      "tags": [
+        "Physical AI",
+        "世界模型",
+        "通用操作系统"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "CMC资本",
+        "上海人工智能产业投资基金",
+        "上海未来产业基金",
+        "世纪金源集团",
+        "中关村科学城",
+        "中金资本",
+        "国汽投资",
+        "峰瑞资本",
+        "德石投资",
+        "水木清华校友种子基金",
+        "澄凯基金",
+        "蚂蚁集团",
+        "顺为资本"
+      ]
+    },
+    {
+      "id": "jinghua-security",
+      "name": "荆华密算",
+      "directoryIds": [
+        "jinghua-security"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-10-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-13",
+      "source": "https://vc.pedaily.cn/invest/427303.html",
+      "note": "",
+      "tags": [
+        "AI安全",
+        "密态计算",
+        "隐私计算"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "中关村科学城",
+        "北创投"
+      ]
+    },
+    {
+      "id": "liberai",
+      "name": "将闲科技 LiberAI",
+      "directoryIds": [
+        "liberai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A++轮",
+      "eventDate": "2026-09-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-17",
+      "source": "https://vc.pedaily.cn/invest/426971.html",
+      "note": "",
+      "tags": [
+        "UMI数据",
+        "世界模型",
+        "具身基础模型"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "中关村科学城",
+        "华映资本",
+        "达晨财智",
+        "高信资本"
+      ]
+    },
+    {
+      "id": "facemind",
+      "name": "脸谱心智 FaceMind",
+      "directoryIds": [
+        "facemind"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-06-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-26",
+      "source": "https://vc.pedaily.cn/invest/425618.html",
+      "note": "",
+      "tags": [
+        "AI陪伴",
+        "世界模型",
+        "大语言模型"
+      ],
+      "sector": "大模型与平台",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "三六零",
+        "星连资本"
+      ]
+    },
+    {
+      "id": "originflow",
+      "name": "渊澈太初 OriginFlow",
+      "directoryIds": [
+        "originflow"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-05-21",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-21",
+      "source": "https://vc.pedaily.cn/invest/425101.html",
+      "note": "",
+      "tags": [
+        "sEMG",
+        "具身数据",
+        "多模态"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "元禾原点",
+        "元禾璞华",
+        "国方创新",
+        "普华资本",
+        "砺思资本"
+      ]
+    },
+    {
+      "id": "onetoken",
+      "name": "万格智元 ONE TOKEN",
+      "directoryIds": [
+        "onetoken"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-10-31",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-31",
+      "source": "https://vc.pedaily.cn/invest/457023.html",
+      "note": "",
+      "tags": [
+        "Agent",
+        "端云协同",
+        "端侧推理"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "创世伙伴CCV",
+        "彩讯股份",
+        "松禾资本",
+        "零一创投"
+      ]
+    },
+    {
+      "id": "omnimind",
+      "name": "万象智维 OmniMind",
+      "directoryIds": [
+        "omnimind"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-11-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-09",
+      "source": "https://vc.pedaily.cn/invest/457693.html",
+      "note": "",
+      "tags": [
+        "Agent",
+        "推理引擎",
+        "端侧AI"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "FutureX天际资本",
+        "新盛集团"
+      ]
+    },
+    {
+      "id": "singularity_escape",
+      "name": "奇点逃逸 Nexus",
+      "directoryIds": [
+        "singularity_escape"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-08-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-03",
+      "source": "https://vc.pedaily.cn/invest/428171.html",
+      "note": "",
+      "tags": [
+        "Agent",
+        "协作系统",
+        "自进化"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "奇绩创坛",
+        "星连资本",
+        "水木创投"
+      ]
+    },
+    {
+      "id": "valhalla",
+      "name": "英灵殿科技 Valhalla",
+      "directoryIds": [
+        "valhalla"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-07-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-27",
+      "source": "https://vc.pedaily.cn/invest/426163.html",
+      "note": "",
+      "tags": [
+        "AI for Science",
+        "AI4Bio",
+        "分子世界模型"
+      ],
+      "sector": "内容与通用AI应用",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "L2F 光源创业者基金",
+        "中科创星",
+        "五源资本",
+        "国方创新",
+        "奇绩创坛",
+        "真格基金",
+        "襄禾资本",
+        "陆石投资"
+      ]
+    },
+    {
+      "id": "moka",
+      "name": "Moka AI",
+      "directoryIds": [
+        "moka"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2021-11",
+      "publisher": "36氪",
+      "sourcePublished": "2026-05-23",
+      "source": "https://www.36kr.com/p/3819979202253189",
+      "note": "2026年报道确认历史C轮；事件月份另由企业官网发展历程确认。",
+      "tags": [
+        "AI HR",
+        "AI原生SaaS",
+        "企业Agent"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "livsyn",
+      "name": "灵生科技 LivSyn Robotics",
+      "directoryIds": [
+        "livsyn"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-10-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-08",
+      "source": "https://vc.pedaily.cn/invest/427238.html",
+      "note": "",
+      "tags": [
+        "UMI",
+        "具身智能",
+        "机器人数据采集"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "华方资本",
+        "某具身智能领域头部产业战略投资方",
+        "苏文电能",
+        "道禾长期投资"
+      ]
+    },
+    {
+      "id": "hairobotics",
+      "name": "海柔创新 Hai Robotics",
+      "directoryIds": [
+        "hairobotics"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-04-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-01",
+      "source": "https://vc.pedaily.cn/invest/424217.html",
+      "note": "",
+      "tags": [
+        "ACR",
+        "仓储机器人",
+        "物流自动化"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "General Atlantic泛大西洋投资集团",
+        "IDG资本",
+        "方源资本"
+      ]
+    },
+    {
+      "id": "seniorauto",
+      "name": "斯年智驾 Senior Auto",
+      "directoryIds": [
+        "seniorauto"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-07-15",
+      "publisher": "斯年智驾官方公告",
+      "sourcePublished": "2026-07-15",
+      "source": "https://www.senior.auto/news-detail/1404.html",
+      "note": "2026-09-09另有战略融资，未采用数据库C+写法。",
+      "tags": [
+        "L4物流",
+        "港口无人驾驶",
+        "自动驾驶"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "kargobot",
+      "name": "卡尔动力 KargoBot",
+      "directoryIds": [
+        "kargobot"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-03-02",
+      "publisher": "投中网",
+      "sourcePublished": "2026-03-02",
+      "source": "https://m.chinaventure.com.cn/news/110-20260302-390298.html",
+      "note": "",
+      "tags": [
+        "L4",
+        "无人货运",
+        "自动驾驶"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "deepway",
+      "name": "深向 DeepWay",
+      "directoryIds": [
+        "deepway"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-04-21",
+      "publisher": "普华永道",
+      "sourcePublished": "2026-11",
+      "source": "https://www.pwccn.com/zh/automotive/china-auto-ma-review-outlook-nov2026.pdf",
+      "note": "2026年上半年汽车行业并购回顾，自动驾驶商用车交易表。",
+      "tags": [
+        "新能源商用车",
+        "智能重卡",
+        "自动驾驶"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "朝阳区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "ti5robot",
+      "name": "钛虎机器人",
+      "directoryIds": [
+        "ti5robot"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-03-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-30",
+      "source": "https://vc.pedaily.cn/invest/452437.html",
+      "note": "2026-05-06另有未注明字母轮次的战略融资。",
+      "tags": [
+        "人形机器人",
+        "协作机械臂",
+        "轻量化关节模组"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": true,
+      "investors": []
+    },
+    {
+      "id": "aheadform",
+      "name": "首形科技",
+      "directoryIds": [
+        "aheadform"
+      ],
+      "stage": "A 轮",
+      "round": "A++轮",
+      "eventDate": "2026-10-24",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-24",
+      "source": "https://vc.pedaily.cn/invest/446948.html",
+      "note": "",
+      "tags": [
+        "仿生人形机器人",
+        "情感交互",
+        "机器人控制"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "吉利资本",
+        "锦秋基金"
+      ]
+    },
+    {
+      "id": "deeprobotics",
+      "name": "云深处科技",
+      "directoryIds": [
+        "deeprobotics"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2025-12-09",
+      "publisher": "OFweek产业研究中心／高维产业咨询",
+      "sourcePublished": "2026",
+      "source": "https://www.cdut.edu.cn/__local/F/52/9E/B1D5CD3F12BB2D865491DE62813_AF41147E_2C5D750.pdf#page=32",
+      "note": "同表回顾2025年C轮；AWE2026主办方资料亦确认该轮次。",
+      "tags": [
+        "人形机器人",
+        "四足机器人",
+        "轮足机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区",
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": []
+    },
+    {
+      "id": "elibot",
+      "name": "艾利特机器人",
+      "directoryIds": [
+        "elibot"
+      ],
+      "stage": "D 轮",
+      "round": "D+轮",
+      "eventDate": "2026-03-25",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-25",
+      "source": "https://m.pedaily.cn/news/562059",
+      "note": "公开具名轮次归入D轮系列，不以无法确认的后续金额或阶段推断。",
+      "tags": [
+        "具身智能",
+        "协作机器人",
+        "复合机器人",
+        "运动控制"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": false,
+      "investors": []
+    },
+    {
+      "id": "boyagongdao",
+      "name": "博雅工道",
+      "directoryIds": [
+        "boyagongdao"
+      ],
+      "stage": "D 轮",
+      "round": "D+轮",
+      "eventDate": "2026-04-16",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-16",
+      "source": "https://vc.pedaily.cn/invest/444062.html",
+      "note": "",
+      "tags": [
+        "SLAM",
+        "仿生机器人",
+        "无人船",
+        "水下机器人"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "北京经济技术开发区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "开物投资"
+      ]
+    },
+    {
+      "id": "deltai",
+      "name": "德塔智能",
+      "directoryIds": [
+        "deltai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-10-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-26",
+      "source": "https://vc.pedaily.cn/invest/447584.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身智能",
+        "机器人数据采集",
+        "灵巧手"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "华金资本",
+        "智盈投资"
+      ]
+    },
+    {
+      "id": "whaleleap",
+      "name": "鲸跃动力",
+      "directoryIds": [
+        "whaleleap"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-05-18",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-18",
+      "source": "https://vc.pedaily.cn/invest/427449.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "数据采集",
+        "机器人劳动力",
+        "灵巧操作"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": false,
+      "investors": [
+        "星海图"
+      ]
+    },
+    {
+      "id": "imprintx",
+      "name": "知行具身 ImprintX",
+      "directoryIds": [
+        "imprintx"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-06-16",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-16",
+      "source": "https://vc.pedaily.cn/invest/430581.html",
+      "note": "",
+      "tags": [
+        "机器人力控",
+        "机器人数据",
+        "灵巧手",
+        "触觉传感器"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [
+        "海淀区"
+      ],
+      "hasRecruit": true,
+      "investors": [
+        "嘉道私人资本",
+        "澄凯基金",
+        "灵心巧手",
+        "英诺天使基金"
+      ]
+    },
+    {
+      "id": "xynova",
+      "name": "曦诺未来 Xynova",
+      "directoryIds": [
+        "xynova"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-07-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-17",
+      "source": "https://vc.pedaily.cn/invest/425932.html",
+      "note": "",
+      "tags": [
+        "关节模组",
+        "微型电缸",
+        "机器人触觉",
+        "柔性电子",
+        "高自由度灵巧手"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "小米集团",
+        "招商资本",
+        "某互联网大厂",
+        "美团战略投资部",
+        "蔚来资本"
+      ]
+    },
+    {
+      "id": "simpleai",
+      "name": "深朴智能",
+      "directoryIds": [
+        "simpleai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-09-04",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-04",
+      "source": "https://vc.pedaily.cn/invest/426730.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "上城资本",
+        "上海知识产权基金",
+        "乾融控股",
+        "亳州产投",
+        "珂玺资本",
+        "线性资本",
+        "金浦投资"
+      ]
+    },
+    {
+      "id": "sidereus-ai",
+      "name": "星使智算 AsterFire Go",
+      "directoryIds": [
+        "sidereus-ai"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-06-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-30",
+      "source": "https://vc.pedaily.cn/invest/430155.html",
+      "note": "",
+      "tags": [],
+      "sector": "内容与通用AI应用",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "沂景资本"
+      ]
+    },
+    {
+      "id": "bedicloud",
+      "name": "北电数智",
+      "directoryIds": [
+        "bedicloud"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-08-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-27",
+      "source": "https://vc.pedaily.cn/invest/428942.html",
+      "note": "",
+      "tags": [],
+      "sector": "算力与基础设施",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "吉信汇金",
+        "嘉树投资",
+        "国扬基金",
+        "建投投资",
+        "德信汇富",
+        "浚泉信",
+        "清诺资本"
+      ]
+    },
+    {
+      "id": "spinentropy",
+      "name": "熵旋芯智",
+      "directoryIds": [
+        "spinentropy"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-05-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-27",
+      "source": "https://vc.pedaily.cn/invest/430331.html",
+      "note": "",
+      "tags": [],
+      "sector": "算力与基础设施",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "华建函数投资",
+        "海贝资本",
+        "英诺天使基金"
+      ]
+    },
+    {
+      "id": "baiyangai",
+      "name": "白杨智能",
+      "directoryIds": [
+        "baiyangai"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-01-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-01-06",
+      "source": "https://vc.pedaily.cn/invest/452135.html",
+      "note": "",
+      "tags": [],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "中信建投资本",
+        "中科海讯",
+        "中金资本",
+        "京国瑞投资",
+        "先进技术成果转化研究院",
+        "卓远资本",
+        "泰雅语松",
+        "海通创新",
+        "翠亨集团",
+        "长兴基金"
+      ]
+    },
+    {
+      "id": "veloalpha",
+      "name": "瞬原科技",
+      "directoryIds": [
+        "veloalpha"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-11-11",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-11",
+      "source": "https://vc.pedaily.cn/invest/457199.html",
+      "note": "",
+      "tags": [],
+      "sector": "内容与通用AI应用",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "海松资本"
+      ]
+    },
+    {
+      "id": "zhongke-liangshu",
+      "name": "中科量枢",
+      "directoryIds": [
+        "zhongke-liangshu"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-07-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-20",
+      "source": "https://vc.pedaily.cn/invest/426004.html",
+      "note": "",
+      "tags": [
+        "AI基础设施",
+        "Agent",
+        "量子AI",
+        "量子计算"
+      ],
+      "sector": "算力与基础设施",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "国融工发"
+      ]
+    },
+    {
+      "id": "unipat-ai",
+      "name": "UniPat AI",
+      "directoryIds": [
+        "unipat-ai"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-09-11",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-11",
+      "source": "https://vc.pedaily.cn/invest/427566.html",
+      "note": "",
+      "tags": [
+        "AI原生",
+        "经济预测",
+        "预测智能体"
+      ],
+      "sector": "Agent 产品与服务",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "红杉中国",
+        "腾讯投资",
+        "阿里巴巴"
+      ]
+    },
+    {
+      "id": "humanlaya",
+      "name": "Humanlaya 原壤智能",
+      "directoryIds": [
+        "humanlaya"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-09-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-09",
+      "source": "https://vc.pedaily.cn/invest/427638.html",
+      "note": "",
+      "tags": [
+        "AI原生",
+        "专家数据",
+        "模型评测"
+      ],
+      "sector": "企业与数据服务",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "BAI资本",
+        "今日资本",
+        "红杉中国",
+        "鼎晖投资"
+      ]
+    },
+    {
+      "id": "listenhub",
+      "name": "ListenHub 火星回响",
+      "directoryIds": [
+        "listenhub"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-01-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-01-01",
+      "source": "https://vc.pedaily.cn/invest/405593.html",
+      "note": "",
+      "tags": [
+        "AI原生",
+        "AI视频",
+        "AI音频",
+        "创作者工具"
+      ],
+      "sector": "Agent 产品与服务",
+      "regions": [],
+      "hasRecruit": false,
+      "investors": [
+        "FutureX天际资本",
+        "小米联合创始人王川"
+      ]
+    },
+    {
+      "id": "fangcun",
+      "name": "方寸跃迁",
+      "directoryIds": [
+        "fangcun"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-07-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-23",
+      "source": "https://vc.pedaily.cn/invest/428108.html",
+      "note": "",
+      "tags": [
+        "Agent安全",
+        "运行时监测"
+      ],
+      "sector": "Agent 产品与服务",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "SEE Fund无限基金",
+        "星连资本",
+        "水木清华校友种子基金"
+      ]
+    },
+    {
+      "id": "ambi-ai",
+      "name": "Ambi AI",
+      "directoryIds": [
+        "ambi-ai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-10-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-13",
+      "source": "https://vc.pedaily.cn/invest/431302.html",
+      "note": "",
+      "tags": [
+        "AI产品",
+        "Agent评测"
+      ],
+      "sector": "Agent 产品与服务",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "光合创投",
+        "华勤技术"
+      ]
+    },
+    {
+      "id": "lightwheel",
+      "name": "光轮智能 / Lightwheel",
+      "directoryIds": [
+        "lightwheel"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-06-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-23",
+      "source": "https://vc.pedaily.cn/invest/425670.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "强化学习环境"
+      ],
+      "sector": "机器人与具身智能",
+      "regions": [],
+      "hasRecruit": true,
+      "investors": [
+        "三七互娱创投基金",
+        "中关村科学城",
+        "中科产投",
+        "四川发展",
+        "图灵资管",
+        "天钺资本",
+        "宇信股份",
+        "宝通科技",
+        "山东发展投资集团",
+        "巨人网络",
+        "建投投资",
+        "森马服饰"
+      ]
+    }
+  ],
+  "stageSectorMatrix": {
+    "rows": [
+      "机器人与具身智能",
+      "算力与基础设施",
+      "内容与通用AI应用",
+      "大模型与平台",
+      "企业与数据服务",
+      "Agent 产品与服务"
+    ],
+    "columns": [
+      "种子 / 天使轮",
+      "Pre-A",
+      "A 轮",
+      "B 轮",
+      "C 轮",
+      "D 轮及以后",
+      "Pre-IPO"
+    ],
+    "counts": [
+      [
+        9,
+        8,
+        12,
+        10,
+        10,
+        6,
+        3
+      ],
+      [
+        3,
+        2,
+        4,
+        5,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        3,
+        2,
+        4,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "tagPairs": [
+    {
+      "tags": [
+        "AI Infra",
+        "Agent"
+      ],
+      "companies": 3
+    },
+    {
+      "tags": [
+        "世界模型",
+        "多模态"
+      ],
+      "companies": 3
+    },
+    {
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ],
+      "companies": 3
+    },
+    {
+      "tags": [
+        "AI Infra",
+        "大语言模型"
+      ],
+      "companies": 2
+    },
+    {
+      "tags": [
+        "Agent",
+        "大语言模型"
+      ],
+      "companies": 2
+    },
+    {
+      "tags": [
+        "VLA",
+        "世界模型"
+      ],
+      "companies": 2
+    },
+    {
+      "tags": [
+        "VLA",
+        "人形机器人"
+      ],
+      "companies": 2
+    },
+    {
+      "tags": [
+        "具身智能",
+        "多模态"
+      ],
+      "companies": 2
+    },
+    {
+      "tags": [
+        "多模态",
+        "大语言模型"
+      ],
+      "companies": 2
+    }
+  ],
+  "districts": {
+    "companiesWithRegion": 77,
+    "counts": {
+      "海淀区": 60,
+      "北京经济技术开发区": 9,
+      "大兴区": 3,
+      "石景山区": 2,
+      "朝阳区": 2,
+      "昌平区": 1,
+      "门头沟区": 1,
+      "怀柔区": 1
+    }
+  },
+  "investors": {
+    "companiesWithNames": 97,
+    "counts": {
+      "红杉中国": 8,
+      "英诺天使基金": 8,
+      "IDG资本": 6,
+      "砺思资本": 6,
+      "洪泰基金": 6,
+      "经纬中国": 6,
+      "星连资本": 6,
+      "中金资本": 6,
+      "中关村科学城": 6,
+      "达晨财智": 5,
+      "三七互娱创投基金": 5,
+      "腾讯投资": 4,
+      "启明创投": 4,
+      "顺为资本": 4,
+      "春华资本": 4,
+      "源码资本": 4,
+      "中芯聚源": 3,
+      "美团战略投资部": 3,
+      "五源资本": 3,
+      "南山战新投": 3,
+      "线性资本": 3,
+      "高瓴创投": 3,
+      "九坤创投": 3,
+      "中网投": 3,
+      "北创投": 3,
+      "广发乾和": 3,
+      "国方创新": 3,
+      "光合创投": 3,
+      "厚雪资本": 3,
+      "蓝思科技": 3,
+      "深创投": 3,
+      "金浦投资": 3,
+      "卓源亚洲": 3,
+      "招商资本": 3,
+      "水木清华校友种子基金": 3,
+      "水木创投": 3,
+      "建投投资": 3,
+      "阿里巴巴": 3,
+      "SEE Fund无限基金": 3,
+      "BAI资本": 3,
+      "元禾璞华": 3,
+      "德石投资": 3,
+      "博裕资本": 2,
+      "君联资本": 2,
+      "国家人工智能产业投资基金": 2,
+      "宁德时代": 2,
+      "博华产投": 2,
+      "九合创投": 2,
+      "云锋基金": 2,
+      "广发信德": 2,
+      "敦鸿资产": 2,
+      "未来资产": 2,
+      "中国保险投资基金": 2,
+      "华胜天成": 2,
+      "天创资本": 2,
+      "山东铁投": 2,
+      "山东铁路发展基金": 2,
+      "江西金控": 2,
+      "耀途资本  Glory Ventures": 2,
+      "国汽投资": 2,
+      "中科创星": 2,
+      "华业天成资本": 2,
+      "基石资本": 2,
+      "福建产投": 2,
+      "中金资本私募": 2,
+      "国元股投": 2,
+      "弘毅投资": 2,
+      "Stone Venture": 2,
+      "尚颀资本": 2,
+      "绿洲资本": 2,
+      "蔚来资本": 2,
+      "北工投资": 2,
+      "华控基金": 2,
+      "国海创新资本": 2,
+      "弘章资本": 2,
+      "普华资本": 2,
+      "中贝通信": 2,
+      "华德资本": 2,
+      "商汤国香资本": 2,
+      "慕华科创": 2,
+      "考拉基金": 2,
+      "深投控": 2,
+      "常盛投资": 2,
+      "元诺资本": 2,
+      "复星创富": 2,
+      "图灵资管": 2,
+      "祥峰投资中国基金": 2,
+      "CMC资本": 2,
+      "鼎晖投资": 2,
+      "华建函数投资": 2,
+      "小米集团": 2,
+      "弘晖基金": 2,
+      "钟鼎资本": 2,
+      "尚势资本": 2,
+      "襄禾资本": 2,
+      "华勤技术": 2,
+      "商汤科技": 2,
+      "招银国际资本": 2,
+      "Forebright Capital": 2,
+      "中信建投资本": 2,
+      "蓝驰创投": 2,
+      "上海未来产业基金": 2,
+      "灵心巧手": 2,
+      "蚂蚁集团": 2,
+      "华金资本": 2,
+      "锦秋基金": 2,
+      "澄凯基金": 2,
+      "FutureX天际资本": 2,
+      "奇绩创坛": 2,
+      "CPE源峰": 1,
+      "VIVO公司": 1,
+      "中信证券": 1,
+      "中国人寿": 1,
+      "中国电信投资": 1,
+      "中国移动": 1,
+      "中芯国际": 1,
+      "中金公司": 1,
+      "吉利汽车产业基金": 1,
+      "小红书": 1,
+      "拾象科技": 1,
+      "携程": 1,
+      "朱一明": 1,
+      "梁文锋": 1,
+      "石溪资本": 1,
+      "立讯精密": 1,
+      "美的集团": 1,
+      "长鑫存储": 1,
+      "人民币机构": 1,
+      "美元机构": 1,
+      "国家级基金": 1,
+      "央企": 1,
+      "川创投": 1,
+      "汽车制造商等各类产业方": 1,
+      "知名财务投资人": 1,
+      "某美元投资机构": 1,
+      "Prosperity7 Ventures": 1,
+      "Vertex Growth Fund": 1,
+      "中关村发展启航产业投资基金": 1,
+      "九阳家办": 1,
+      "凯联资本": 1,
+      "凯辉基金": 1,
+      "初心资本": 1,
+      "华美国际集团": 1,
+      "合肥国投": 1,
+      "和暄资本": 1,
+      "庚辛资本": 1,
+      "沄柏资本": 1,
+      "沸点资本": 1,
+      "璟泉资本": 1,
+      "美团龙珠": 1,
+      "超越摩尔投资": 1,
+      "黄浦江资本": 1,
+      "华登科技": 1,
+      "新时代基金": 1,
+      "陕投集团": 1,
+      "陕西金资": 1,
+      "Dabanc Holding": 1,
+      "厦门国兴投资": 1,
+      "同歌创投": 1,
+      "国开科创": 1,
+      "孚腾资本": 1,
+      "徐汇资本": 1,
+      "惠远资本": 1,
+      "珠海科技产业集团": 1,
+      "百度": 1,
+      "联想创投": 1,
+      "高新金投集团": 1,
+      "上海仪电智算基金": 1,
+      "中国东方资产国际": 1,
+      "中泰资本": 1,
+      "中移和创": 1,
+      "京能同鑫": 1,
+      "倍特基金": 1,
+      "兆讯科技": 1,
+      "华安嘉业": 1,
+      "国新基金": 1,
+      "国泰创投": 1,
+      "建投华科": 1,
+      "悟新智融": 1,
+      "成都科创投": 1,
+      "执君基金": 1,
+      "拓尔思": 1,
+      "新紫光集团": 1,
+      "智路资本": 1,
+      "盛奕基金": 1,
+      "睿智基金": 1,
+      "翠微基金": 1,
+      "鹏鹞环保": 1,
+      "星睿资本": 1,
+      "未披露": 1,
+      "东证资本": 1,
+      "时代资本": 1,
+      "浦东创投集团": 1,
+      "磐霖资本": 1,
+      "网宿科技": 1,
+      "上汽集团": 1,
+      "中信集团": 1,
+      "中国石化": 1,
+      "中国银行": 1,
+      "亦庄国投": 1,
+      "无锡创投": 1,
+      "未来产业投资": 1,
+      "鲲鹏基金": 1,
+      "中新基金": 1,
+      "千山资本": 1,
+      "君泰资本": 1,
+      "国调基金": 1,
+      "杭州资本": 1,
+      "江西国控": 1,
+      "清控天诚": 1,
+      "盛赫资本": 1,
+      "GGG Group": 1,
+      "Redstone VC": 1,
+      "华山资本Westsummit Capital": 1,
+      "合肥滨湖产发集团": 1,
+      "交银投资": 1,
+      "北京高精尖产业发展基金": 1,
+      "联想之星": 1,
+      "首程资本": 1,
+      "山东省新动能基金": 1,
+      "源禾资本": 1,
+      "神骐资本": 1,
+      "紫建电子": 1,
+      "苏州市产投": 1,
+      "财金投资": 1,
+      "赟汇资本": 1,
+      "ACCF Capital": 1,
+      "北京科创基金": 1,
+      "华登国际": 1,
+      "御海资本": 1,
+      "时代伯乐": 1,
+      "矽芯投资": 1,
+      "航发基金": 1,
+      "金融街资本": 1,
+      "卓源资本": 1,
+      "福迪创投": 1,
+      "聚迎丰基金": 1,
+      "中电智慧": 1,
+      "中科物联": 1,
+      "允泰资本": 1,
+      "凯旋资本": 1,
+      "北京金控集团": 1,
+      "华强创投": 1,
+      "南京赫清": 1,
+      "图灵资本": 1,
+      "拓锋投资": 1,
+      "明智资本": 1,
+      "星竹投资": 1,
+      "晓池资本": 1,
+      "曜为资本": 1,
+      "润泽家办": 1,
+      "温州湾新区": 1,
+      "源余资本": 1,
+      "玄素投资": 1,
+      "电控产投": 1,
+      "策源资本": 1,
+      "米聚资本": 1,
+      "紫荆文化": 1,
+      "软通动力": 1,
+      "首建投": 1,
+      "鼎青投资": 1,
+      "一线美元基金": 1,
+      "国资基金": 1,
+      "大型产业投资方": 1,
+      "国联投资": 1,
+      "宝安区产业投资引导基金": 1,
+      "数智毅达": 1,
+      "毅达资本": 1,
+      "盛景嘉成": 1,
+      "航空工业弘华基金": 1,
+      "上海国投先导": 1,
+      "北京国管": 1,
+      "徐汇科创投": 1,
+      "中科英智": 1,
+      "中银资产": 1,
+      "力合资本": 1,
+      "力合金融": 1,
+      "华福资本": 1,
+      "博佳资本": 1,
+      "宇信科技": 1,
+      "德同资本": 1,
+      "玖兆投资": 1,
+      "贝克资本": 1,
+      "SoftBank Capital": 1,
+      "T.Capital": 1,
+      "日立创投": 1,
+      "英伟达": 1,
+      "元禾辰坤": 1,
+      "国科科智": 1,
+      "涌铧投资": 1,
+      "知来投资": 1,
+      "茂天资本": 1,
+      "鲁宁投资": 1,
+      "上河动量": 1,
+      "九派资本": 1,
+      "大洋电机": 1,
+      "TCL创投": 1,
+      "北京市人工智能产业投资基金": 1,
+      "北京金财基金": 1,
+      "博原资本": 1,
+      "宏源汇富": 1,
+      "国舜投资": 1,
+      "广州产投集团": 1,
+      "金光紫金": 1,
+      "金能基金": 1,
+      "万向钱潮": 1,
+      "元石基金": 1,
+      "华仓资本": 1,
+      "华盖资本": 1,
+      "国中资本": 1,
+      "复星锐正资本": 1,
+      "德屹资本": 1,
+      "海富产业基金": 1,
+      "狮城资本": 1,
+      "金创投": 1,
+      "光大金控": 1,
+      "某国内头部主机厂": 1,
+      "某头部汽车电子零部件公司": 1,
+      "梁溪科创母基金": 1,
+      "Granite Asia Capital": 1,
+      "信宸资本": 1,
+      "4399游戏": 1,
+      "三正健康": 1,
+      "中平资本": 1,
+      "中科创达": 1,
+      "完美世界": 1,
+      "广电投资": 1,
+      "延趣游戏": 1,
+      "渶策资本": 1,
+      "福创投": 1,
+      "芯动能投资": 1,
+      "蓝色光标": 1,
+      "C资本": 1,
+      "京东关联基金": 1,
+      "盛宇投资": 1,
+      "雅瑞资本": 1,
+      "博正资本": 1,
+      "深重投": 1,
+      "湘潭国资": 1,
+      "财信金控": 1,
+      "隐山资本": 1,
+      "韩国友利金融集团": 1,
+      "关联投资方": 1,
+      "江特电机": 1,
+      "Lavender Hill Capital Partners": 1,
+      "国石智达": 1,
+      "均胜电子": 1,
+      "太平创新": 1,
+      "奥克斯": 1,
+      "奥成投资": 1,
+      "彬复资本": 1,
+      "洪山资本": 1,
+      "道氏技术": 1,
+      "鹏翎股份": 1,
+      "九鼎投资": 1,
+      "百度风投": 1,
+      "东方嘉富": 1,
+      "云启资本": 1,
+      "猎聘网战投": 1,
+      "钧山投资": 1,
+      "江苏聚合资本": 1,
+      "深圳聚合资本": 1,
+      "靖亚资本": 1,
+      "Blooming Star": 1,
+      "Kamet Capital Partners": 1,
+      "盈峰投资": 1,
+      "Granite Asia": 1,
+      "兴证资本": 1,
+      "恒旭资本": 1,
+      "智谱AI": 1,
+      "润璋创投": 1,
+      "阶跃星辰": 1,
+      "中国电信和瀚晖资本联合领投": 1,
+      "建信（北京）投资": 1,
+      "直真科技": 1,
+      "老股东星连资本追投": 1,
+      "苏州毅鸣等多家产业资本和市场化基金共同跟投": 1,
+      "领阳投资": 1,
+      "上下游产业资本": 1,
+      "国有资本": 1,
+      "国际投资人": 1,
+      "云晖资本": 1,
+      "建发新兴投资": 1,
+      "比依股份": 1,
+      "万丰控股": 1,
+      "中国文化产业体系基金": 1,
+      "中国生物制药": 1,
+      "五洲新春": 1,
+      "君礼资本": 1,
+      "国家中小企业体系基金": 1,
+      "多家保险公司": 1,
+      "多家特斯拉核心生态链企业": 1,
+      "广东省人工智能基金": 1,
+      "康龙化成": 1,
+      "梁溪科技城创投": 1,
+      "粤港澳大湾区系列基金": 1,
+      "航信资本": 1,
+      "诚元祥投资": 1,
+      "贵州茅台": 1,
+      "道得投资": 1,
+      "金沙江联合资本": 1,
+      "锡创投": 1,
+      "工银资本": 1,
+      "成都交子金控集团": 1,
+      "新微资本": 1,
+      "微光创投": 1,
+      "建潘集团": 1,
+      "德韬资本": 1,
+      "领航新界": 1,
+      "创东方投资": 1,
+      "金辉大数据": 1,
+      "飞荣达": 1,
+      "燕缘创投": 1,
+      "拓普集团": 1,
+      "瑞丞基金": 1,
+      "芜湖投控": 1,
+      "驰星创投": 1,
+      "力合中科": 1,
+      "启恒共创": 1,
+      "新进创投": 1,
+      "溥泉资本": 1,
+      "赛目科技": 1,
+      "星动纪元": 1,
+      "智元机器人": 1,
+      "清流资本": 1,
+      "源码律动": 1,
+      "上海人工智能产业投资基金": 1,
+      "世纪金源集团": 1,
+      "峰瑞资本": 1,
+      "华映资本": 1,
+      "高信资本": 1,
+      "三六零": 1,
+      "元禾原点": 1,
+      "创世伙伴CCV": 1,
+      "彩讯股份": 1,
+      "松禾资本": 1,
+      "零一创投": 1,
+      "新盛集团": 1,
+      "L2F 光源创业者基金": 1,
+      "真格基金": 1,
+      "陆石投资": 1,
+      "华方资本": 1,
+      "某具身智能领域头部产业战略投资方": 1,
+      "苏文电能": 1,
+      "道禾长期投资": 1,
+      "General Atlantic泛大西洋投资集团": 1,
+      "方源资本": 1,
+      "吉利资本": 1,
+      "开物投资": 1,
+      "智盈投资": 1,
+      "星海图": 1,
+      "嘉道私人资本": 1,
+      "某互联网大厂": 1,
+      "上城资本": 1,
+      "上海知识产权基金": 1,
+      "乾融控股": 1,
+      "亳州产投": 1,
+      "珂玺资本": 1,
+      "沂景资本": 1,
+      "吉信汇金": 1,
+      "嘉树投资": 1,
+      "国扬基金": 1,
+      "德信汇富": 1,
+      "浚泉信": 1,
+      "清诺资本": 1,
+      "海贝资本": 1,
+      "中科海讯": 1,
+      "京国瑞投资": 1,
+      "先进技术成果转化研究院": 1,
+      "卓远资本": 1,
+      "泰雅语松": 1,
+      "海通创新": 1,
+      "翠亨集团": 1,
+      "长兴基金": 1,
+      "海松资本": 1,
+      "国融工发": 1,
+      "今日资本": 1,
+      "小米联合创始人王川": 1,
+      "中科产投": 1,
+      "四川发展": 1,
+      "天钺资本": 1,
+      "宇信股份": 1,
+      "宝通科技": 1,
+      "山东发展投资集团": 1,
+      "巨人网络": 1,
+      "森马服饰": 1
+    }
+  },
+  "recruitment": {
+    "withEntry": 65,
+    "bySector": {
+      "机器人与具身智能": {
+        "withEntry": 32,
+        "total": 58
+      },
+      "算力与基础设施": {
+        "withEntry": 10,
+        "total": 19
+      },
+      "内容与通用AI应用": {
+        "withEntry": 8,
+        "total": 12
+      },
+      "大模型与平台": {
+        "withEntry": 7,
+        "total": 10
+      },
+      "企业与数据服务": {
+        "withEntry": 5,
+        "total": 7
+      },
+      "Agent 产品与服务": {
+        "withEntry": 3,
+        "total": 4
+      }
+    }
+  }
+}
