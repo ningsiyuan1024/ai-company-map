@@ -2,7 +2,7 @@
 
 在地图上找北京的 AI 公司，查看公司位置、业务方向和招聘入口。
 
-**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [统计与操作截图](docs/README.md) · [补充公司 / 纠错](https://github.com/ningsiyuan1024/ai-company-map/issues)
+**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [补充公司 / 纠错](https://github.com/ningsiyuan1024/ai-company-map/issues)
 
 [![北京 AI 公司地图预览](docs/images/01-beijing-map.png)](https://ningsiyuan1024.github.io/ai-company-map/)
 
@@ -18,8 +18,6 @@
 
 ![北京公司方向标签统计](docs/images/direction-tags.png)
 
-[统计口径与数据明细](docs/README.md) · [融资、上市与独角兽核验依据](docs/FINANCE-2026.md)
-
 ## 使用
 
 1. 搜索公司名或感兴趣的方向，也可以按区域、融资阶段、投资机构筛选。
@@ -30,9 +28,8 @@
 
 ## 信息源
 
-| 对照信息源 | 核对内容 |
+| 信息源 | 信息内容 |
 | --- | --- |
-| [DINQ](https://jobs.dinq.me/) | 公司目录、招聘入口 |
 | [胡润研究院](https://www.hurun.net/) | AI 企业榜单、独角兽身份 |
 | [香港交易所披露易](https://www.hkexnews.hk/) | 上市公告、公司定期披露 |
 | [巨潮资讯](https://www.cninfo.com.cn/) | 上市公告书、财务报告 |
