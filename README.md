@@ -2,7 +2,7 @@
 
 在地图上找北京的 AI 公司，查看公司位置、业务方向和招聘入口。
 
-**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [补充公司 / 纠错](https://github.com/ningsiyuan1024/ai-company-map/issues)
+**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)
 
 [![北京 AI 公司地图预览](docs/images/01-beijing-map.png)](https://ningsiyuan1024.github.io/ai-company-map/)
 
@@ -37,9 +37,7 @@
 | [国金证券](https://www.gjzq.com.cn/) | 企业融资阶段研究资料 |
 | [企业官方公告（如 PixVerse）](https://pixverse.ai/) | 企业直接披露的融资与上市信息 |
 
-## 补充与纠错
-
-发现遗漏公司、失效链接或错误地址，欢迎[提交反馈](https://github.com/ningsiyuan1024/ai-company-map/issues)。请附公司名称、需要修改的内容和来源链接。补充北京公司时，请提供能确认北京团队或岗位的页面。
+[欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)。
 
 <details>
 <summary>本地运行与部署</summary>
