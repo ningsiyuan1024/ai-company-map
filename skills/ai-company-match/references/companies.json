@@ -1,0 +1,7549 @@
+{
+  "asOf": "2026-11-14",
+  "city": "北京",
+  "total": 307,
+  "notice": "公司方向与招聘入口快照，不是实时岗位列表；位置不代表具体岗位工作地点。第三方资料归原权利人所有。",
+  "companies": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "aliases": [
+        "深度求索"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区科学院南路2号融科资讯中心C座北楼5层"
+        }
+      ],
+      "recruitUrl": "https://talent.deepseek.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deepseek"
+    },
+    {
+      "id": "zhipu",
+      "name": "智谱",
+      "aliases": [
+        "智谱华章",
+        "Z.ai",
+        "GLM",
+        "智谱清言"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "多模态",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院9号楼10层"
+        }
+      ],
+      "recruitUrl": "https://www.zhipuai.cn/zh/joinus",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zhipu"
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面 / Kimi",
+      "aliases": [
+        "Moonshot AI",
+        "Kimi"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "AI Infra",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路76号京东科技大厦1栋13层"
+        }
+      ],
+      "recruitUrl": "https://careers.kimi.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=moonshot"
+    },
+    {
+      "id": "bytedance",
+      "name": "字节跳动 Seed",
+      "aliases": [
+        "Seed",
+        "Seedance",
+        "Seedream",
+        "豆包"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "视频生成",
+        "图像生成",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北三环西路27号方恒时尚中心"
+        }
+      ],
+      "recruitUrl": "https://seed.bytedance.com/zh/career?view_from=homepage_tab",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=bytedance"
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴 Qwen / Token Foundry",
+      "aliases": [
+        "通义",
+        "通义实验室",
+        "千问",
+        "Qwen",
+        "Token Foundry",
+        "ATH",
+        "Wan",
+        "通义万相",
+        "Alibaba",
+        "阿里云",
+        "Aliyun",
+        "千问事业部",
+        "夸克",
+        "Quark",
+        "百炼",
+        "ModelScope"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "视频生成",
+        "AI Infra",
+        "电商",
+        "Alibaba Cloud",
+        "Qwen",
+        "千问"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区崔各庄乡广善路18、20、21号院，阿里巴巴·北京朝阳科技园"
+        },
+        {
+          "district": null,
+          "address": "北京市"
+        }
+      ],
+      "recruitUrl": "https://careers-tongyi.alibaba.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=alibaba"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯",
+      "aliases": [
+        "Tencent",
+        "Hunyuan",
+        "混元"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "多模态",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西北旺东路10号院西区9号楼腾讯北京总部大楼"
+        },
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区天辰东路1号院亚洲金融大厦E座"
+        }
+      ],
+      "recruitUrl": "https://careers.tencent.com/zh-cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tencent"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "aliases": [
+        "稀宇科技",
+        "海螺"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "视频生成",
+        "语音",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西土城路1号院6号楼保利·蓟门壹号大厦8层"
+        }
+      ],
+      "recruitUrl": "https://minimax.cn/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=minimax"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "aliases": [
+        "Xiaomi",
+        "MiMo",
+        "小米汽车"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区安宁庄路小米科技园"
+        }
+      ],
+      "recruitUrl": "https://hr.xiaomi.com/website/opportunities.html?project=%E6%A0%A1%E6%8B%9B",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xiaomi"
+    },
+    {
+      "id": "meituan",
+      "name": "美团 LongCat",
+      "aliases": [
+        "LongCat"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区望京东路4号，恒基伟业大厦B座及C座（高德标注恒电大厦B、C座）"
+        },
+        {
+          "district": null,
+          "address": "北京市"
+        }
+      ],
+      "recruitUrl": "https://zhaopin.meituan.com/web/campus",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=meituan"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书 Dots",
+      "aliases": [
+        "RED",
+        "Dots"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "多模态"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        },
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区安定路5号院5号楼中海国际中心B座"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xiaohongshu"
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰 StepFun",
+      "aliases": [
+        "StepFun",
+        "Step",
+        "跃问"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "多模态",
+        "端侧AI"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区苏州街3号大恒科技大厦南座"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/campus-recruitment/step/94905#/",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=stepfun"
+    },
+    {
+      "id": "ant",
+      "name": "蚂蚁集团 Ling",
+      "aliases": [
+        "Ling",
+        "百灵",
+        "Ring"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区魏公村路6号院丽金置地中心东座（北京创新科技总部）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ant"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "aliases": [
+        "Baidu",
+        "文心",
+        "ERNIE"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区上地十街10号百度大厦"
+        }
+      ],
+      "recruitUrl": "https://talent.baidu.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=baidu"
+    },
+    {
+      "id": "iflytek",
+      "name": "科大讯飞",
+      "aliases": [
+        "iFLYTEK",
+        "讯飞星火",
+        "Spark"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "语音",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        }
+      ],
+      "recruitUrl": "https://iflytek.zhiye.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=iflytek"
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手 可灵 Kling",
+      "aliases": [
+        "Kuaishou",
+        "Kling",
+        "可灵AI"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "视频生成",
+        "多模态",
+        "强化学习"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西二旗中路29号元中心"
+        }
+      ],
+      "recruitUrl": "https://zhaopin.kuaishou.cn/recruit/e/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=kuaishou"
+    },
+    {
+      "id": "kunlun",
+      "name": "昆仑万维 Skywork",
+      "aliases": [
+        "Skywork",
+        "天工",
+        "SkyReels",
+        "Mureka"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "Agent",
+        "视频生成",
+        "音乐生成"
+      ],
+      "locations": [
+        {
+          "district": "东城区",
+          "address": "北京市东城区西总布胡同46号明阳国际中心B座"
+        }
+      ],
+      "recruitUrl": "https://www.kunlun.com/html/join/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=kunlun"
+    },
+    {
+      "id": "01ai",
+      "name": "零一万物",
+      "aliases": [
+        "01.AI",
+        "Yi"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "企业AI",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街3号鼎好DH3大厦A座"
+        }
+      ],
+      "recruitUrl": "https://01ai.jobs.feishu.cn/index/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=01ai"
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "aliases": [
+        "JD.com",
+        "京东科技"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "AI安全"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市亦庄经济开发区科创十一街18号院京东集团总部"
+        }
+      ],
+      "recruitUrl": "https://zhaopin.jd.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=jd"
+    },
+    {
+      "id": "modelbest",
+      "name": "面壁智能",
+      "aliases": [
+        "ModelBest",
+        "MiniCPM",
+        "面壁小钢炮"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "端侧AI",
+        "大语言模型",
+        "多模态"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区清华科技园科建大厦3F"
+        }
+      ],
+      "recruitUrl": "https://modelbest.jobs.feishu.cn/career/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=modelbest"
+    },
+    {
+      "id": "huawei",
+      "name": "华为",
+      "aliases": [
+        "盘古",
+        "昇腾",
+        "Pangu",
+        "Ascend"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "行业大模型",
+        "AI芯片",
+        "云计算"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北清路156号华为北京研究所"
+        },
+        {
+          "district": "丰台区",
+          "address": "北京市丰台区丽泽路20号院1号楼丽泽SOHO"
+        },
+        {
+          "district": null,
+          "address": "北京"
+        }
+      ],
+      "recruitUrl": "https://career.huawei.com/cn",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=huawei"
+    },
+    {
+      "id": "luchen",
+      "name": "潞晨科技",
+      "aliases": [
+        "Colossal-AI",
+        "Luchen",
+        "HPC-AI"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI Infra",
+        "训练推理",
+        "大模型平台"
+      ],
+      "locations": [
+        {
+          "district": "大兴区",
+          "address": "北京市大兴区荣华南路2号大族广场"
+        }
+      ],
+      "recruitUrl": "https://www.luchentech.com/join",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=luchen"
+    },
+    {
+      "id": "cambricon",
+      "name": "寒武纪",
+      "aliases": [
+        "Cambricon"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI芯片",
+        "AI软件栈"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路7号致真大厦D座5、11、13、16、21层"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/m/apply/cambricon/1113",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=cambricon"
+    },
+    {
+      "id": "hygon",
+      "name": "海光信息",
+      "aliases": [
+        "Hygon",
+        "DCU"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "CPU",
+        "GPU/DCU",
+        "国产算力"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东北旺西路8号中关村软件园27号楼C座4-5层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=hygon"
+    },
+    {
+      "id": "biren",
+      "name": "壁仞科技",
+      "aliases": [
+        "Biren Technology",
+        "壁砺"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "通用GPU",
+        "AI算力"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京"
+        }
+      ],
+      "recruitUrl": "https://www.birentech.com/join",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=biren"
+    },
+    {
+      "id": "metax",
+      "name": "沐曦",
+      "aliases": [
+        "MetaX",
+        "沐曦股份"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "GPU",
+        "AI算力"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区丰豪东路9号院2号楼3单元9层"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区融科资讯中心C座南楼6F"
+        }
+      ],
+      "recruitUrl": "https://recruitment.metax-tech.com/social-recruitment/metax-tech/58147",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=metax"
+    },
+    {
+      "id": "mthreads",
+      "name": "摩尔线程",
+      "aliases": [
+        "Moore Threads",
+        "MUSA"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "GPU",
+        "训练推理",
+        "AI软件栈"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区东湖街道望京国际研发园I座3层"
+        }
+      ],
+      "recruitUrl": "https://www.mthreads.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=mthreads"
+    },
+    {
+      "id": "iluvatar",
+      "name": "天数智芯",
+      "aliases": [
+        "Iluvatar CoreX",
+        "天垓",
+        "智铠"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "GPU",
+        "AI算力"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀北二街10号泰鹏大厦8层806-820室"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/iluvatar/98705",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=iluvatar"
+    },
+    {
+      "id": "horizon",
+      "name": "地平线",
+      "aliases": [
+        "Horizon Robotics"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "智驾芯片",
+        "自动驾驶",
+        "嵌入式AI"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区丰豪东路9号院IC-Park2A楼"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=horizon"
+    },
+    {
+      "id": "d_robotics",
+      "name": "地瓜机器人",
+      "aliases": [
+        "D-Robotics"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "机器人开发平台",
+        "具身智能",
+        "端侧芯片"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区丰豪东路9号院中关村集成电路设计园（IC PARK）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=d_robotics"
+    },
+    {
+      "id": "blacksesame",
+      "name": "黑芝麻智能",
+      "aliases": [
+        "Black Sesame Technologies"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "端侧AI芯片",
+        "智能驾驶",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院清华科技园8号楼科技大厦D座7层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=blacksesame"
+    },
+    {
+      "id": "semidrive",
+      "name": "芯驰科技",
+      "aliases": [
+        "SemiDrive",
+        "芯驰"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "车规SoC",
+        "MCU",
+        "具身智能芯片"
+      ],
+      "locations": [
+        {
+          "district": "大兴区",
+          "address": "北京市北京经济技术开发区荣华南路2号院1号楼2602室"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/apply/semidrive/42940",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=semidrive"
+    },
+    {
+      "id": "infinigence",
+      "name": "无问芯穹",
+      "aliases": [
+        "Infinigence",
+        "Infini AI",
+        "Agentic Infra"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI Infra",
+        "异构算力",
+        "模型服务"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路8号东升大厦AB座群楼三层SA301、302、303、304、321、322、323、324、325单元"
+        }
+      ],
+      "recruitUrl": "https://infinigence.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=infinigence"
+    },
+    {
+      "id": "siliconflow",
+      "name": "硅基流动",
+      "aliases": [
+        "SiliconFlow",
+        "SiliconCloud"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "推理平台",
+        "AI Infra",
+        "模型API"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院8号楼D座23层2301"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=siliconflow"
+    },
+    {
+      "id": "naive",
+      "name": "Naive AI",
+      "aliases": [
+        "NaiveAI",
+        "naive.ai",
+        "Naive AI Lab"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "基础模型",
+        "AI研究"
+      ],
+      "locations": [],
+      "recruitUrl": "https://naive.ai/en/contact/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=naive"
+    },
+    {
+      "id": "shengshu",
+      "name": "生数科技",
+      "aliases": [
+        "Vidu",
+        "Genspi",
+        "Motubrain"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "视频生成",
+        "世界模型",
+        "多模态"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路8号原点大厦A座801"
+        }
+      ],
+      "recruitUrl": "https://shengshu.jobs.feishu.cn/index/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=shengshu"
+    },
+    {
+      "id": "aishi",
+      "name": "爱诗科技",
+      "aliases": [
+        "PixVerse",
+        "爱诗"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "视频生成",
+        "视觉模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区未来科技大厦7层"
+        }
+      ],
+      "recruitUrl": "https://pixverse.ai/en/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aishi"
+    },
+    {
+      "id": "sand",
+      "name": "Sand.ai",
+      "aliases": [
+        "Magi",
+        "VidMuse"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "视频生成",
+        "音视频生成"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区成府路28号五道口购物中心楼上（具体楼层待核）"
+        }
+      ],
+      "recruitUrl": "https://sand.ai/about-us",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sand"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "aliases": [
+        "Manus AI"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI Agent"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京"
+        }
+      ],
+      "recruitUrl": "https://careers.manus.im/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=manus"
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "aliases": [
+        "MainFunc",
+        "Genspark Inc."
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI Agent",
+        "AI Workspace"
+      ],
+      "locations": [],
+      "recruitUrl": "https://genspark.ai/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=genspark"
+    },
+    {
+      "id": "liblib",
+      "name": "LiblibAI",
+      "aliases": [
+        "哩布哩布AI",
+        "星流"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "图像生成",
+        "创作社区",
+        "设计Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区信息路12号中关村发展大厦"
+        }
+      ],
+      "recruitUrl": "https://www.liblib.art/us/joinus",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=liblib"
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "aliases": [
+        "Lovart AI"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "设计Agent"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.linkedin.com/company/lovart-ai",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lovart"
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "aliases": [
+        "OiiOii AI"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "动画Agent",
+        "视频生成"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=oiioii"
+    },
+    {
+      "id": "unitree",
+      "name": "宇树科技",
+      "aliases": [
+        "Unitree",
+        "宇树科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "四足机器人",
+        "人形机器人",
+        "关节模组",
+        "具身智能"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.unitree.com/cn/position/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=unitree"
+    },
+    {
+      "id": "agibot",
+      "name": "智元机器人",
+      "aliases": [
+        "Agibot",
+        "智元创新"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "具身基座模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京海淀区互联网金融中心"
+        }
+      ],
+      "recruitUrl": "https://agirobot.jobs.feishu.cn/socialrecruitment",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=agibot"
+    },
+    {
+      "id": "ubtech",
+      "name": "优必选",
+      "aliases": [
+        "UBTECH"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "端侧智能"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市经济技术开发区经海五路3号院南区36号楼"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ubtech"
+    },
+    {
+      "id": "galbot",
+      "name": "银河通用",
+      "aliases": [
+        "Galbot",
+        "北京银河通用机器人"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身大模型",
+        "机器人操作"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街鼎好DH3大厦A座"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/yinhetongyong/165929#/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=galbot"
+    },
+    {
+      "id": "fourier",
+      "name": "傅利叶智能",
+      "aliases": [
+        "Fourier"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "康复机器人"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=fourier"
+    },
+    {
+      "id": "xpeng",
+      "name": "小鹏",
+      "aliases": [
+        "XPENG",
+        "小鹏集团"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "汽车AI",
+        "机器人",
+        "图灵AI芯片"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体团队办公地址待核实）"
+        }
+      ],
+      "recruitUrl": "https://xiaopeng.jobs.feishu.cn/campus",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xpeng"
+    },
+    {
+      "id": "liauto",
+      "name": "理想汽车",
+      "aliases": [
+        "Li Auto",
+        "理想"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "汽车AI",
+        "智能体",
+        "芯片"
+      ],
+      "locations": [
+        {
+          "district": "顺义区",
+          "address": "北京市顺义区文良街11号理想汽车研发总部"
+        }
+      ],
+      "recruitUrl": "https://li.jobs.feishu.cn/index",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=liauto"
+    },
+    {
+      "id": "dreame",
+      "name": "追觅科技",
+      "aliases": [
+        "Dreame",
+        "追觅"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "智能硬件",
+        "机器人"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": "https://dreame.zhiye.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=dreame"
+    },
+    {
+      "id": "dataa",
+      "name": "达闼",
+      "aliases": [
+        "Dataa",
+        "CloudMinds",
+        "达闼机器人"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "云端机器人",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区望京SOHO T3B座38层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=dataa"
+    },
+    {
+      "id": "robotera",
+      "name": "星动纪元",
+      "aliases": [
+        "Robot Era",
+        "ROBOTERA"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "具身大模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院3号楼清华科技园创业大厦710室"
+        }
+      ],
+      "recruitUrl": "https://k0fqxcszc9.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=robotera"
+    },
+    {
+      "id": "limx",
+      "name": "逐际动力",
+      "aliases": [
+        "LimX Dynamics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（岗位可选城市，具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=limx"
+    },
+    {
+      "id": "shlab",
+      "name": "上海人工智能实验室",
+      "aliases": [
+        "Shanghai AI Lab",
+        "上海AI Lab",
+        "浦江实验室"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [
+        "书生大模型",
+        "安全可信AI",
+        "AI for Science"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体基地地址待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=shlab"
+    },
+    {
+      "id": "sii",
+      "name": "上海创智学院",
+      "aliases": [
+        "Shanghai Innovation Institute"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [
+        "人工智能科研",
+        "具身智能"
+      ],
+      "locations": [],
+      "recruitUrl": "https://sii-czxy.jobs.feishu.cn/campus",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sii"
+    },
+    {
+      "id": "mihoyo",
+      "name": "米哈游",
+      "aliases": [
+        "miHoYo",
+        "HoYoverse"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "游戏AI",
+        "AI应用"
+      ],
+      "locations": [],
+      "recruitUrl": "https://jobs.mihoyo.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=mihoyo"
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "aliases": [
+        "BiliBili",
+        "bilibili",
+        "B站"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "视频AI",
+        "推荐算法",
+        "搜索算法"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京朝阳区望京（楼宇待官方复核）"
+        }
+      ],
+      "recruitUrl": "https://jobs.bilibili.com/social",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=bilibili"
+    },
+    {
+      "id": "booster",
+      "name": "加速进化",
+      "aliases": [
+        "Booster Robotics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "机器人开发平台"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京海淀区物联智谷A座3层"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区永泰庄北路26号物联智谷A座3层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=booster"
+    },
+    {
+      "id": "noetix",
+      "name": "松延动力",
+      "aliases": [
+        "Noetix Robotics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "仿生机器人",
+        "VLA"
+      ],
+      "locations": [
+        {
+          "district": "昌平区",
+          "address": "北京市昌平区小汤山镇未来科学城滨河大道3号院未来视界1号楼（B座）松延大厦"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=noetix"
+    },
+    {
+      "id": "galaxea",
+      "name": "星海图",
+      "aliases": [
+        "Galaxea AI",
+        "星海图（北京）人工智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身基础模型",
+        "VLA",
+        "机器人本体"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市亦庄经海5路机器人产业园3号院14栋"
+        }
+      ],
+      "recruitUrl": "https://galaxea.zhiye.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=galaxea"
+    },
+    {
+      "id": "sensetime",
+      "name": "商汤科技",
+      "aliases": [
+        "SenseTime",
+        "日日新",
+        "元萝卜"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "多模态大模型",
+        "计算机视觉",
+        "机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（官网仅公开行政区）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路58号理想国际大厦"
+        }
+      ],
+      "recruitUrl": "https://hr-jobs.sensetime.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sensetime"
+    },
+    {
+      "id": "megvii",
+      "name": "旷视科技",
+      "aliases": [
+        "MEGVII",
+        "Face++",
+        "幻方智能体"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "计算机视觉",
+        "多模态大模型",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（官方北京市筛选职位明确，具体办公楼未核实）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区科学院南路2号融科资讯中心A座3层"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区建材城中路27号金隅智造工场S1/N6"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/campus_apply/megviihr/38642#/jobs",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=megvii"
+    },
+    {
+      "id": "bigai",
+      "name": "北京通用人工智能研究院",
+      "aliases": [
+        "BIGAI",
+        "通研院"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [
+        "通用人工智能",
+        "多智能体",
+        "机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区颐和园路2号未来科技大厦"
+        }
+      ],
+      "recruitUrl": "https://www.bigai.ai/blog/vacancies/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=bigai"
+    },
+    {
+      "id": "unisound",
+      "name": "云知声",
+      "aliases": [
+        "Unisound",
+        "山海大模型"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "语音",
+        "多模态大模型",
+        "行业智能体"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区建材城中路27号金隅智造工场N6号楼一层101-124"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=unisound"
+    },
+    {
+      "id": "realai",
+      "name": "瑞莱智慧",
+      "aliases": [
+        "RealAI",
+        "RealSafe"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI安全",
+        "可信AI",
+        "隐私计算"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京海淀清华科技园科技大厦A座19层"
+        }
+      ],
+      "recruitUrl": "https://realai.ai/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=realai"
+    },
+    {
+      "id": "4paradigm",
+      "name": "第四范式 / 范式",
+      "aliases": [
+        "4Paradigm",
+        "Phancy",
+        "Sage",
+        "HAMi",
+        "式说"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "行业大模型",
+        "AI Infra",
+        "企业智能体"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区上地西路28号弘源新时代A座"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/4paradigm/102013",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=4paradigm"
+    },
+    {
+      "id": "baai",
+      "name": "北京智源人工智能研究院",
+      "aliases": [
+        "BAAI",
+        "智源研究院",
+        "悟界",
+        "Emu",
+        "BGE"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [
+        "世界模型",
+        "具身智能",
+        "大模型"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体职位工作现场请向招聘方确认）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区成府路150号智源大厦"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/baai/42173",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=baai"
+    },
+    {
+      "id": "witmem",
+      "name": "知存科技",
+      "aliases": [
+        "Witmem"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "存内计算",
+        "AI芯片"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公地址待核）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街3号鼎好DH3-A座16层"
+        }
+      ],
+      "recruitUrl": "https://en.witmem.com/jobs.php",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=witmem"
+    },
+    {
+      "id": "tsingmicro",
+      "name": "清微智能",
+      "aliases": [
+        "TsingMicro"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "可重构芯片",
+        "智算芯片"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区宝盛南路1号院26号楼领智中心南楼2层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tsingmicro"
+    },
+    {
+      "id": "dptechnology",
+      "name": "深势科技",
+      "aliases": [
+        "DP Technology",
+        "Deep Potential"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI for Science",
+        "玻尔",
+        "科学智能体",
+        "高性能计算"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村大街3号鼎好大厦A座12层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=dptechnology"
+    },
+    {
+      "id": "spiritai",
+      "name": "千寻智能",
+      "aliases": [
+        "Spirit AI",
+        "万境千寻",
+        "千寻科技（本表指千寻智能）",
+        "千寻智能"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身模型",
+        "人形机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村软件园（具体楼栋待核）"
+        }
+      ],
+      "recruitUrl": "https://nwd4iy9rd2s.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=spiritai"
+    },
+    {
+      "id": "x2robot",
+      "name": "自变量机器人",
+      "aliases": [
+        "X Square Robot",
+        "X2 Robot"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身大模型",
+        "机器人操作"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        }
+      ],
+      "recruitUrl": "https://x2-robot.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=x2robot"
+    },
+    {
+      "id": "xhumanoid",
+      "name": "北京人形机器人创新中心 / 天工",
+      "aliases": [
+        "X-Humanoid",
+        "国家地方共建具身智能机器人创新中心"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "天工",
+        "慧思开物"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市北京经济技术开发区（通州）经海五路3号院46号楼1层101室"
+        }
+      ],
+      "recruitUrl": "https://zitd5je6f7j.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xhumanoid"
+    },
+    {
+      "id": "phigentai",
+      "name": "鉴智机器人",
+      "aliases": [
+        "Phigent Robotics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "机器人",
+        "感知"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        }
+      ],
+      "recruitUrl": "https://phigentai.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=phigentai"
+    },
+    {
+      "id": "tars",
+      "name": "它石智航",
+      "aliases": [
+        "TARS"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身智能",
+        "机器人"
+      ],
+      "locations": [],
+      "recruitUrl": "https://tarsrobot.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tars"
+    },
+    {
+      "id": "linkerbot",
+      "name": "灵心巧手",
+      "aliases": [
+        "Linkerbot",
+        "Linker Hand",
+        "灵心巧手(北京)科技股份有限公司",
+        "灵心巧手"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "灵巧手",
+        "机器人操作",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区大钟寺东路中嘉大厦3层"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区大钟寺东路京仪科技孵化器D座3层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=linkerbot"
+    },
+    {
+      "id": "surgerii",
+      "name": "术锐机器人",
+      "aliases": [
+        "SHURUI",
+        "Surgerii",
+        "北京术锐机器人股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "手术机器人",
+        "医疗机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区永泰庄北路1号天地邻枫7号楼一层102室"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=surgerii"
+    },
+    {
+      "id": "agilerobots",
+      "name": "思灵机器人",
+      "aliases": [
+        "Agile Robots",
+        "北京思灵机器人科技有限责任公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身智能",
+        "机器人操作",
+        "力控"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区永泰庄北路1号中关村东升国际科学园2栋D单元"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=agilerobots"
+    },
+    {
+      "id": "casbot",
+      "name": "中科慧灵 / CASBOT",
+      "aliases": [
+        "灵宝CASBOT",
+        "北京中科慧灵机器人技术有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "具身智能",
+        "灵巧手"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西小口路66号中关村东升科技园·北领地B-2号楼1层A101"
+        }
+      ],
+      "recruitUrl": "https://casbot.tech/join",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=casbot"
+    },
+    {
+      "id": "realman",
+      "name": "睿尔曼智能",
+      "aliases": [
+        "RealMan",
+        "睿尔曼智能科技（北京）"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "机械臂",
+        "具身智能",
+        "机器人数据"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        },
+        {
+          "district": "石景山区",
+          "address": "北京市石景山区群明湖大街6号院4号楼"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/realman/149934?locale=zh-CN",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=realman"
+    },
+    {
+      "id": "mechmind",
+      "name": "梅卡曼德机器人",
+      "aliases": [
+        "Mech-Mind",
+        "梅卡曼德（雄安）机器人科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "机器人视觉",
+        "具身智能",
+        "机器人操作"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区创业路6号自主创新大厦2号楼1层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=mechmind"
+    },
+    {
+      "id": "inspirerobots",
+      "name": "因时机器人",
+      "aliases": [
+        "Inspire Robots",
+        "北京因时机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "灵巧手",
+        "微型伺服",
+        "运动执行器"
+      ],
+      "locations": [
+        {
+          "district": "石景山区",
+          "address": "北京市石景山区秀池北路1号院5号楼4层101A"
+        }
+      ],
+      "recruitUrl": "https://www.inspire-robots.com/about%20us/joinus/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=inspirerobots"
+    },
+    {
+      "id": "baichuan",
+      "name": "百川智能",
+      "aliases": [
+        "Baichuan",
+        "百川大模型"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大模型",
+        "Agent",
+        "医疗AI"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（官方职位所在地；具体办公地址待核）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区清华园街道赛尔大厦B座17层"
+        }
+      ],
+      "recruitUrl": "https://careers.baichuan-inc.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=baichuan"
+    },
+    {
+      "id": "zkj",
+      "name": "中关村科金",
+      "aliases": [
+        "得助",
+        "北京中科金得助智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "行业大模型",
+        "Agent",
+        "智能客服"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区宏泰东街绿地中国锦大厦五层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zkj"
+    },
+    {
+      "id": "bailian",
+      "name": "百炼智能",
+      "aliases": [
+        "北京百炼智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "B2B营销",
+        "Agent",
+        "NLP"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区北苑路186号院1号楼万科时代中心奥林A座15层1501室"
+        }
+      ],
+      "recruitUrl": "https://www.bailian-ai.com/joinus",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=bailian"
+    },
+    {
+      "id": "wenge",
+      "name": "中科闻歌",
+      "aliases": [
+        "闻歌",
+        "北京中科闻歌科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "大模型",
+        "企业AI",
+        "数据智能"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路9号银谷大厦715"
+        }
+      ],
+      "recruitUrl": "https://www.wenge.com/cityMini/site/69cb894fe4b03b4745b93d86",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=wenge"
+    },
+    {
+      "id": "shukun",
+      "name": "数坤科技",
+      "aliases": [
+        "数坤",
+        "数坤（北京）网络科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI医疗",
+        "大模型",
+        "医学影像"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区北辰世纪中心B座8层、9层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=shukun"
+    },
+    {
+      "id": "minglue",
+      "name": "明略科技",
+      "aliases": [
+        "Mininglamp"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "大模型",
+        "Agent",
+        "企业AI"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区望京北路1号中国数码港大厦"
+        }
+      ],
+      "recruitUrl": "https://mininglamp.zhiye.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=minglue"
+    },
+    {
+      "id": "laiye",
+      "name": "来也科技",
+      "aliases": [
+        "Laiye",
+        "来也科技（北京）有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "智能自动化",
+        "RPA",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区利泽中二路2号望京科技园A座6层"
+        }
+      ],
+      "recruitUrl": "https://laiye.zhiye.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=laiye"
+    },
+    {
+      "id": "xiaoice",
+      "name": "小冰",
+      "aliases": [
+        "小冰公司",
+        "北京小冰红棉科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI应用",
+        "数字人",
+        "AIGC"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路67号"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xiaoice"
+    },
+    {
+      "id": "tingyu",
+      "name": "庭宇科技",
+      "aliases": [
+        "庭宇",
+        "北京庭宇科技有限公司",
+        "Lybic"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI算力",
+        "基础设施",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西小口路66号东升科技园B6栋C座608室"
+        }
+      ],
+      "recruitUrl": "https://www.tingyutech.com/zh/careers/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tingyu"
+    },
+    {
+      "id": "gigaai",
+      "name": "极佳科技 / 极佳视界",
+      "aliases": [
+        "GigaAI",
+        "极佳科技",
+        "极佳视界",
+        "北京极佳视界科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院8号启迪科技大厦22层"
+        }
+      ],
+      "recruitUrl": "https://gigaai0118.jobs.feishu.cn/index/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=gigaai"
+    },
+    {
+      "id": "qcraft",
+      "name": "轻舟智航",
+      "aliases": [
+        "QCraft",
+        "北京轻舟智航科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区学清嘉创大厦C座11层"
+        }
+      ],
+      "recruitUrl": "https://qcraft.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=qcraft"
+    },
+    {
+      "id": "momenta",
+      "name": "Momenta",
+      "aliases": [
+        "初速度",
+        "北京初速度科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "中国北京市海淀区学清路甲18号学院8号5F-AB区"
+        },
+        {
+          "district": "北京经济技术开发区",
+          "address": "中国北京市经济技术开发区经惠东路12号院2号楼101-1"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=momenta"
+    },
+    {
+      "id": "uisee",
+      "name": "驭势科技",
+      "aliases": [
+        "UISEE",
+        "驭势科技（北京）股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "物理AI",
+        "VLA"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区东三环北路霞光里18号佳程广场B座12层C单元"
+        }
+      ],
+      "recruitUrl": "https://www.uisee.com/joinus.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=uisee"
+    },
+    {
+      "id": "eacon",
+      "name": "易控智驾",
+      "aliases": [
+        "EACON",
+        "易控智驾科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "矿山无人驾驶",
+        "自动驾驶",
+        "大模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区清华东路中关村东升科技园三期东畔科创中心B座8-9层"
+        }
+      ],
+      "recruitUrl": "https://www.eacon.com/join/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=eacon"
+    },
+    {
+      "id": "plus",
+      "name": "智加科技",
+      "aliases": [
+        "Plus",
+        "SmartXTruck",
+        "苏州智加科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "卡车",
+        "物理AI"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        }
+      ],
+      "recruitUrl": "https://www.smartxtruck.com/join-us.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=plus"
+    },
+    {
+      "id": "trunktech",
+      "name": "主线科技",
+      "aliases": [
+        "TrunkTech",
+        "Trunk",
+        "北京主线科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院7号楼威盛大厦501室"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/trunk/39504#/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=trunktech"
+    },
+    {
+      "id": "neolix",
+      "name": "新石器无人车",
+      "aliases": [
+        "Neolix",
+        "新石器慧通科技股份有限公司",
+        "新石器"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市经济技术开发区康定街11号康盛工业园1号楼"
+        }
+      ],
+      "recruitUrl": "https://r3c0qt6yjw.jobs.feishu.cn/neolix/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=neolix"
+    },
+    {
+      "id": "vast",
+      "name": "VAST / Tripo",
+      "aliases": [
+        "VAST AI",
+        "Tripo",
+        "三启万物",
+        "北京三启万物科技股份有限公司",
+        "哇嘶嗒科技",
+        "北京哇嘶嗒科技有限公司",
+        "北京三启万物科技有限公司"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "3D大模型",
+        "3D生成",
+        "世界模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区清华同方科技广场二期D座西楼601"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路8号东升大厦C座三层301单元"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=vast"
+    },
+    {
+      "id": "pingcap",
+      "name": "PingCAP / 平凯星辰",
+      "aliases": [
+        "平凯星辰",
+        "PingCAP",
+        "TiDB",
+        "平凯星辰（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI数据基础设施",
+        "分布式数据库",
+        "TiDB"
+      ],
+      "locations": [],
+      "recruitUrl": "https://careers.pingcap.com/apply/pingcap/39950/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=pingcap"
+    },
+    {
+      "id": "enflame",
+      "name": "燧原科技",
+      "aliases": [
+        "Enflame",
+        "上海燧原科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "GPU",
+        "AI芯片",
+        "云端训练推理"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/m/campus-recruitment/enflame/168420?locale=zh-CN#/home",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=enflame"
+    },
+    {
+      "id": "roborock",
+      "name": "石头科技",
+      "aliases": [
+        "Roborock",
+        "北京石头世纪科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "家庭机器人",
+        "感知算法",
+        "智能硬件"
+      ],
+      "locations": [
+        {
+          "district": "昌平区",
+          "address": "北京市昌平区安居路17号院3号楼10层1001"
+        }
+      ],
+      "recruitUrl": "https://roborock.zhiye.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=roborock"
+    },
+    {
+      "id": "patsnap",
+      "name": "智慧芽 PatSnap",
+      "aliases": [
+        "PatSnap",
+        "智慧芽",
+        "智慧芽信息科技（苏州）有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI研发情报",
+        "知识产权",
+        "Eureka"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=patsnap"
+    },
+    {
+      "id": "rokae",
+      "name": "珞石机器人",
+      "aliases": [
+        "ROKAE",
+        "珞石（山东）机器人集团股份有限公司",
+        "珞石（北京）机器人有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "工业机器人",
+        "协作机器人",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区农科院西路6号海青大厦A座7层"
+        }
+      ],
+      "recruitUrl": "https://www.rokae.com/cn/about/107/Careers.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=rokae"
+    },
+    {
+      "id": "pony",
+      "name": "小马智行",
+      "aliases": [
+        "Pony.ai",
+        "Pony AI",
+        "北京小马智行科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "Robotaxi",
+        "大模型",
+        "世界模型"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市大兴区亦庄经济技术开发区荣昌东街2号"
+        }
+      ],
+      "recruitUrl": "https://careers.pony.ai/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=pony"
+    },
+    {
+      "id": "geekplus",
+      "name": "极智嘉",
+      "aliases": [
+        "Geekplus",
+        "Geek+",
+        "极智嘉科技",
+        "北京极智嘉科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "AMR",
+        "机器人",
+        "具身智能",
+        "世界模型",
+        "仓储机器人"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公室未核实）"
+        },
+        {
+          "district": "顺义区",
+          "address": "北京市顺义区安祥大街12号院北京环普国际科创园5号楼8–9层"
+        }
+      ],
+      "recruitUrl": "https://www.geekplus.com/zh-cn/company/career",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=geekplus"
+    },
+    {
+      "id": "wps",
+      "name": "金山办公",
+      "aliases": [
+        "WPS",
+        "北京金山办公软件股份有限公司",
+        "Kingsoft Office"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "WPS AI",
+        "办公AI",
+        "企业软件"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区小营西路33号金山软件大厦"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/apply/wps/3471#/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=wps"
+    },
+    {
+      "id": "terminus",
+      "name": "特斯联科技",
+      "aliases": [],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=terminus"
+    },
+    {
+      "id": "deepexi",
+      "name": "滴普科技",
+      "aliases": [],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deepexi"
+    },
+    {
+      "id": "trs",
+      "name": "拓尔思",
+      "aliases": [],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区建枫路（南延）6号院3号楼"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=trs"
+    },
+    {
+      "id": "quantgroup",
+      "name": "量化派",
+      "aliases": [],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村街19号7楼B711室"
+        },
+        {
+          "district": "朝阳区",
+          "address": "北京市酒仙桥街道恒通国际商务园B12A"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=quantgroup"
+    },
+    {
+      "id": "kunlunxin",
+      "name": "昆仑芯科技",
+      "aliases": [],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=kunlunxin"
+    },
+    {
+      "id": "biomap",
+      "name": "百图生科",
+      "aliases": [
+        "BioMap"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=biomap"
+    },
+    {
+      "id": "zhichi",
+      "name": "智齿科技",
+      "aliases": [
+        "Sobot"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": "丰台区",
+          "address": "北京市丰台区汉威国际广场二区9号楼2M层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zhichi"
+    },
+    {
+      "id": "anyverse",
+      "name": "无界动力",
+      "aliases": [
+        "Anyverse Dynamics",
+        "无界动力（北京）技术研发有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村具身智能产业园"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=anyverse"
+    },
+    {
+      "id": "whiterhino",
+      "name": "白犀牛",
+      "aliases": [
+        "Rino.ai",
+        "白犀牛智达（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=whiterhino"
+    },
+    {
+      "id": "vbot",
+      "name": "维他动力 Vbot",
+      "aliases": [
+        "Vbot",
+        "维他动力（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区宝盛南路1号院20号楼国泰大厦3层308"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=vbot"
+    },
+    {
+      "id": "aicc",
+      "name": "国汽智控",
+      "aliases": [
+        "AICC",
+        "国汽智控（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公点待核实）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aicc"
+    },
+    {
+      "id": "tashan",
+      "name": "他山科技",
+      "aliases": [
+        "Tashan",
+        "北京他山科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [],
+      "locations": [
+        {
+          "district": "门头沟区",
+          "address": "北京市门头沟区莲石湖西路98号院7号楼901"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tashan"
+    },
+    {
+      "id": "metis",
+      "name": "剂泰科技",
+      "aliases": [
+        "METiS"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区永腾北路9号贝伦产业园9栋4A"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=metis"
+    },
+    {
+      "id": "datacanvas",
+      "name": "九章云极 DataCanvas",
+      "aliases": [
+        "DataCanvas",
+        "北京九章云极科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区和盈中心C座6层及8层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=datacanvas"
+    },
+    {
+      "id": "aibee",
+      "name": "爱笔智能 Aibee",
+      "aliases": [
+        "Aibee",
+        "爱笔智能"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北清路81号中关村壹号B1栋15–16层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aibee"
+    },
+    {
+      "id": "idriver",
+      "name": "智行者",
+      "aliases": [
+        "iDriverplus",
+        "北京智行者科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西小口路66号中关村东升科技园北领地C-3栋"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=idriver"
+    },
+    {
+      "id": "infervision",
+      "name": "推想医疗",
+      "aliases": [
+        "Infervision",
+        "推想科技",
+        "北京推想科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区远洋国际中心E座18层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=infervision"
+    },
+    {
+      "id": "yunji",
+      "name": "云迹科技",
+      "aliases": [],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区永泰庄北路1号中关村东升国际科学园1号楼B座"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=yunji"
+    },
+    {
+      "id": "ninebot",
+      "name": "九号公司",
+      "aliases": [],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西小口路66号中关村东升科技园A4号楼"
+        }
+      ],
+      "recruitUrl": "https://join.ninebot.com/campus",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ninebot"
+    },
+    {
+      "id": "robstride",
+      "name": "灵足时代",
+      "aliases": [
+        "RobStride",
+        "北京灵足时代科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "机器人关节模组",
+        "一体化电机",
+        "核心零部件"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市经济技术开发区经海五路3号院49号楼8层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=robstride"
+    },
+    {
+      "id": "rimbot",
+      "name": "日冕机器人 RimBOT",
+      "aliases": [
+        "RimBOT",
+        "RIMBOT",
+        "日冕开物",
+        "北京日冕机器人有限公司",
+        "日冕开物（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身基础模型",
+        "世界模型",
+        "灵巧操作"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区优盛大厦"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区小营西路10号院1号楼B座7层L701-L707室"
+        }
+      ],
+      "recruitUrl": "https://rimbot.chuyihr.com/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=rimbot"
+    },
+    {
+      "id": "pokebot",
+      "name": "破壳机器人 PokeBot",
+      "aliases": [
+        "PokeBot",
+        "破壳",
+        "破壳（北京）智能科技有限公司",
+        "破壳时刻（上海）智能科技有限责任公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "家庭机器人",
+        "具身世界模型",
+        "VLA"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区学院路"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村大街32号5层A0485"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/pokebot/182184?locale=zh-CN#/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=pokebot"
+    },
+    {
+      "id": "tokenrhythm",
+      "name": "基元律动 TokenRhythm",
+      "aliases": [
+        "TokenRhythm",
+        "Token Rhythm",
+        "北京基元律动科技有限公司",
+        "上海基元律动科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI Infra",
+        "AI Agent",
+        "MaaS"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区学院路"
+        }
+      ],
+      "recruitUrl": "https://ncn4bmkgzpgg.jobs.feishu.cn/index",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tokenrhythm"
+    },
+    {
+      "id": "xvirobotics",
+      "name": "十六号机器人 XVI Robotics",
+      "aliases": [
+        "XVI Robotics",
+        "XVI",
+        "北京十六号机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "VLA",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        },
+        {
+          "district": "怀柔区",
+          "address": "北京市怀柔区雁栖经济开发区雁栖南四街25号院3号楼三层4162号"
+        }
+      ],
+      "recruitUrl": "https://xvirobotics.com/careers.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xvirobotics"
+    },
+    {
+      "id": "xiaoyubot",
+      "name": "小雨智造",
+      "aliases": [
+        "XiaoYu Bot",
+        "北京小雨智造科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "工业具身智能",
+        "一脑多形",
+        "焊接机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东升科技园北领地B3楼"
+        }
+      ],
+      "recruitUrl": "https://xiaoyubot.jobs.feishu.cn/index",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xiaoyubot"
+    },
+    {
+      "id": "amigosrobot",
+      "name": "阿米奥机器人 Amigos",
+      "aliases": [
+        "Amigos Robot",
+        "Amigos Robotics",
+        "北京阿米奥机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "工业具身智能",
+        "VLA",
+        "柔性智造"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区优盛大厦C座"
+        },
+        {
+          "district": "石景山区",
+          "address": "北京市石景山区料仓路6号院15号楼3层101E室"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=amigosrobot"
+    },
+    {
+      "id": "meshy",
+      "name": "Meshy / 太极图形",
+      "aliases": [
+        "Meshy AI",
+        "MeshyAI",
+        "Taichi Graphics",
+        "太极图形",
+        "北京格拉飞可斯科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI 3D",
+        "图形计算",
+        "多模态模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村创业大街（雇主页注明6楼，未披露楼号）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街34号6层601房间"
+        }
+      ],
+      "recruitUrl": "https://www.meshy.ai/zh/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=meshy"
+    },
+    {
+      "id": "kairosmaterials",
+      "name": "开物纪 Kairos",
+      "aliases": [
+        "Kairos Materials",
+        "开物纪智能",
+        "北京开物纪智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI for Science",
+        "材料大模型",
+        "生成式材料"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区大牛房二环路19号院5号楼1至5层101"
+        }
+      ],
+      "recruitUrl": "https://www.kairosmaterials.com/careers/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=kairosmaterials"
+    },
+    {
+      "id": "youware",
+      "name": "YouWare / 新言意码",
+      "aliases": [
+        "Youware",
+        "新言意码",
+        "深圳新言意码科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI Coding",
+        "Vibe Coding",
+        "AI创作社区"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=youware"
+    },
+    {
+      "id": "soundai",
+      "name": "声智科技",
+      "aliases": [
+        "SoundAI"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "声学AI",
+        "物理AI",
+        "多模态"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀西大街70号中关村创业大街9号楼"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=soundai"
+    },
+    {
+      "id": "timecho",
+      "name": "天谋科技 Timecho",
+      "aliases": [
+        "天谋科技",
+        "Timecho"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "时序数据库",
+        "AI Infra",
+        "时序大模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区奥北科技园领智中心C座601"
+        }
+      ],
+      "recruitUrl": "https://www.timecho.com/aboutus#about-join-wrapper",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=timecho"
+    },
+    {
+      "id": "shumei",
+      "name": "数美科技",
+      "aliases": [
+        "北京数美时代科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI风控",
+        "内容安全",
+        "AIGC"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区来广营望京诚盈中心3号楼14层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=shumei"
+    },
+    {
+      "id": "langboat",
+      "name": "澜舟科技",
+      "aliases": [
+        "Langboat",
+        "孟子"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "大模型",
+        "Agent",
+        "企业AI"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路52号方正国际大厦16层1603"
+        }
+      ],
+      "recruitUrl": "https://www.langboat.com/about?module=join",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=langboat"
+    },
+    {
+      "id": "fenbeitong",
+      "name": "分贝通",
+      "aliases": [
+        "分贝通·小贝"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI支出管理",
+        "Agent",
+        "企业AI"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区东大桥路12号润诚中心"
+        }
+      ],
+      "recruitUrl": "https://www.fenbeitong.com/joinus.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=fenbeitong"
+    },
+    {
+      "id": "yizhun",
+      "name": "医准智能",
+      "aliases": [
+        "北京医准智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "医疗AI",
+        "医学影像"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路7号北航致真大厦A座3层"
+        }
+      ],
+      "recruitUrl": "https://www.yizhun-ai.com/join",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=yizhun"
+    },
+    {
+      "id": "stonewise",
+      "name": "望石智慧",
+      "aliases": [
+        "StoneWise",
+        "北京望石智慧科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI制药",
+        "AI4S",
+        "药物研发"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街1号中关村梦想实验室2F"
+        }
+      ],
+      "recruitUrl": "https://stonewise.cn/jrwm",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=stonewise"
+    },
+    {
+      "id": "dexmal",
+      "name": "原力灵机 Dexmal",
+      "aliases": [
+        "Dexmal",
+        "DEXMAL",
+        "北京原力灵机智能科技有限公司",
+        "原力灵机（重庆）智能科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身基础模型",
+        "VLA",
+        "Dexbotic",
+        "DM0.5"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区西三旗街道金隅智造工场N3"
+        }
+      ],
+      "recruitUrl": "https://dexmal-inc.jobs.feishu.cn/index/position/list?keywords=&category=&location=CT_11&project=&type=&job_hot_flag=&current=1&limit=100&functionCategory=&tag=",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=dexmal"
+    },
+    {
+      "id": "aubo",
+      "name": "遨博智能 AUBO",
+      "aliases": [
+        "AUBO",
+        "遨博机器人",
+        "遨博（北京）智能科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "协作机器人",
+        "具身智能",
+        "SLAM",
+        "ARCS"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路7号致真大厦C座18层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aubo"
+    },
+    {
+      "id": "qingcheng",
+      "name": "清程极智",
+      "aliases": [
+        "Qingcheng AI",
+        "赤兔推理",
+        "清程极智科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI系统软件",
+        "大模型训练",
+        "大模型推理",
+        "MaaS"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路6号锦秋国际大厦B座7层"
+        }
+      ],
+      "recruitUrl": "https://chitu-ai.jobs.feishu.cn/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=qingcheng"
+    },
+    {
+      "id": "jaguarmicro",
+      "name": "云豹智能",
+      "aliases": [
+        "JaguarMicro"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "DPU",
+        "ASIC芯片",
+        "AI数据中心"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区上地创业路6号自主创新大厦4002室"
+        }
+      ],
+      "recruitUrl": "https://www.jaguarmicro.com/contact2.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=jaguarmicro"
+    },
+    {
+      "id": "eswincomputing",
+      "name": "奕斯伟计算",
+      "aliases": [
+        "ESWIN Computing",
+        "北京奕斯伟计算技术股份有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI芯片",
+        "RISC-V",
+        "智能计算",
+        "具身智能芯片"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（官网确认总部，具体办公楼待核）"
+        }
+      ],
+      "recruitUrl": "https://eswinchipch.zhiye.com/social",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=eswincomputing"
+    },
+    {
+      "id": "houmo",
+      "name": "后摩智能",
+      "aliases": [
+        "Houmo",
+        "Houmo.AI",
+        "后摩智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "存算一体",
+        "端侧AI",
+        "大模型推理",
+        "AI芯片"
+      ],
+      "locations": [
+        {
+          "district": "大兴区",
+          "address": "北京市北京经济技术开发区经惠东路7号院1号楼3层301-1室"
+        },
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区曙光西里甲5号院16号楼凤凰置地广场A座写字楼7层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=houmo"
+    },
+    {
+      "id": "spacemit",
+      "name": "进迭时空 SpacemiT",
+      "aliases": [
+        "SpacemiT",
+        "进迭时空",
+        "进迭时空（杭州）科技有限公司",
+        "进迭时空（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "RISC-V",
+        "AI CPU",
+        "大模型芯片",
+        "K3"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路65号8层815"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/space-t1/67915",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=spacemit"
+    },
+    {
+      "id": "armchina",
+      "name": "安谋科技 Arm China",
+      "aliases": [
+        "Arm China",
+        "安谋中国",
+        "安谋科技（中国）有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "芯片IP",
+        "周易NPU",
+        "CPU",
+        "AI处理器"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路58号理想国际大厦913-916室"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/apply/armchina/885#/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=armchina"
+    },
+    {
+      "id": "visinex",
+      "name": "为旌科技 Visinex",
+      "aliases": [
+        "Visinex",
+        "为迅科技",
+        "上海为旌科技有限公司",
+        "北京为迅科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "端侧AI SoC",
+        "视觉AI",
+        "智能驾驶",
+        "NPU"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村软件园一期华夏科技大厦一层109C号"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/visinextek/41635#/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=visinex"
+    },
+    {
+      "id": "ai2robotics",
+      "name": "智平方 AI² Robotics",
+      "aliases": [
+        "AI² Robotics",
+        "AI2 Robotics",
+        "智平方",
+        "智平方（深圳）科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身大模型",
+        "GOVLA",
+        "AlphaBot",
+        "通用机器人"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        }
+      ],
+      "recruitUrl": "https://ai2robotics.jobs.feishu.cn/index/position/list?location=CT_11&current=1&limit=100",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ai2robotics"
+    },
+    {
+      "id": "beisen",
+      "name": "北森 Beisen",
+      "aliases": [
+        "Beisen",
+        "iTalentX",
+        "Mavens",
+        "北森控股",
+        "北京北森云计算股份有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI面试官",
+        "HR SaaS",
+        "企业AI",
+        "Mavens"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区上地东路35号颐泉汇大厦B座7层"
+        },
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区霄云里南街9号院华瑞大厦19层"
+        }
+      ],
+      "recruitUrl": "https://beisen.zhiye.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=beisen"
+    },
+    {
+      "id": "manifoldai",
+      "name": "流形空间 Manifold AI",
+      "aliases": [
+        "Manifold AI（流形空间）"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "世界模型",
+        "具身基础模型",
+        "机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（具体办公楼待核）"
+        },
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/manifoldai",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=manifoldai"
+    },
+    {
+      "id": "hidream",
+      "name": "智象未来 HiDream",
+      "aliases": [
+        "HiDream.ai",
+        "智象元一",
+        "Vivago"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "多模态",
+        "世界模型",
+        "文生图",
+        "文生视频"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区苏州街16号神州数码大厦"
+        }
+      ],
+      "recruitUrl": "https://hidreamai.com/home/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=hidream"
+    },
+    {
+      "id": "tal",
+      "name": "好未来 / 九章大模型",
+      "aliases": [
+        "TAL",
+        "学而思",
+        "MathGPT",
+        "九章爱学"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "教育AI",
+        "大模型",
+        "智能硬件"
+      ],
+      "locations": [
+        {
+          "district": "昌平区",
+          "address": "北京市昌平区沙河镇七辛中街9号院1号楼好未来大楼"
+        }
+      ],
+      "recruitUrl": "https://job.tal.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tal"
+    },
+    {
+      "id": "360",
+      "name": "360 / 纳米AI",
+      "aliases": [
+        "三六零",
+        "360智脑",
+        "360 AI Research",
+        "360人工智能研究院"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "多模态",
+        "AI Agent",
+        "纳米AI"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区酒仙桥路6号院（电子城·国际电子总部）"
+        }
+      ],
+      "recruitUrl": "https://research.360.cn/about",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=360"
+    },
+    {
+      "id": "infidive",
+      "name": "潜入梦科技 infiDive",
+      "aliases": [
+        "潜入梦科技 infiDive"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI 互动内容",
+        "AI 游戏",
+        "AI 角色"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/infidive",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=infidive"
+    },
+    {
+      "id": "invoko",
+      "name": "Invoko",
+      "aliases": [
+        "Invoko"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "桌面 Agent",
+        "Mac",
+        "AI 产品"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/invoko",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=invoko"
+    },
+    {
+      "id": "romangic",
+      "name": "浪漫极客 Romangic",
+      "aliases": [
+        "Romangic（浪漫极客）"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "多模态",
+        "AI 摄影",
+        "语音与情感计算"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东北旺西路（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/romangic",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=romangic"
+    },
+    {
+      "id": "floatboat",
+      "name": "Floatboat",
+      "aliases": [
+        "Floatboat"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "Agent Workspace",
+        "全栈",
+        "企业 AI"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/floatboat",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=floatboat"
+    },
+    {
+      "id": "airjelly",
+      "name": "AirJelly",
+      "aliases": [
+        "AirJelly"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "主动式 Agent",
+        "桌面助手",
+        "RL"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/airjelly",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=airjelly"
+    },
+    {
+      "id": "eazo",
+      "name": "Eazo",
+      "aliases": [
+        "Eazo"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI Coding",
+        "3D 世界",
+        "创作社区"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/eazo",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=eazo"
+    },
+    {
+      "id": "taonier",
+      "name": "陶泥儿 TAONIER",
+      "aliases": [
+        "陶泥儿 TAONIER"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI 游戏",
+        "Agent 平台",
+        "全栈"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/taonier",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=taonier"
+    },
+    {
+      "id": "doka",
+      "name": "Doka 相机",
+      "aliases": [
+        "Doka 相机"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI 摄影",
+        "实时构图",
+        "移动应用"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/doka",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=doka"
+    },
+    {
+      "id": "lulula",
+      "name": "Lulula",
+      "aliases": [
+        "Lulula"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "端到端语音",
+        "语音 Agent",
+        "空间音效"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/lulula",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lulula"
+    },
+    {
+      "id": "cijianlink",
+      "name": "此间临客 / 幸识",
+      "aliases": [
+        "幸识"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI 社交",
+        "消费互联网",
+        "产品设计"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/cijianlink",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=cijianlink"
+    },
+    {
+      "id": "curiosea",
+      "name": "CurioSea",
+      "aliases": [
+        "CurioSea"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI 教育",
+        "全栈",
+        "产品"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/curiosea",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=curiosea"
+    },
+    {
+      "id": "cloudsway",
+      "name": "小宿科技 Cloudsway",
+      "aliases": [
+        "小宿科技"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "Agent Infra",
+        "AI 搜索",
+        "模型聚合"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公楼未公开）"
+        }
+      ],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/team/xiaosu",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=cloudsway"
+    },
+    {
+      "id": "udesk",
+      "name": "沃丰科技 Udesk",
+      "aliases": [
+        "Udesk",
+        "GaussMind",
+        "北京沃丰时代数据科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "企业大模型",
+        "智能客服",
+        "语音AI"
+      ],
+      "locations": [
+        {
+          "district": "西城区",
+          "address": "北京市西城区西直门南大街2号成铭大厦C座14层"
+        }
+      ],
+      "recruitUrl": "https://www.udesk.cn/joinus.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=udesk"
+    },
+    {
+      "id": "qingcloud",
+      "name": "青云科技 QingCloud",
+      "aliases": [
+        "QingCloud",
+        "青云QingCloud",
+        "688316"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "智算",
+        "AI Infra",
+        "云计算"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区酒仙桥路6号院电子城·国际电子总部9号楼11层"
+        }
+      ],
+      "recruitUrl": "https://www.qingcloud.com/jobs/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=qingcloud"
+    },
+    {
+      "id": "xera",
+      "name": "拓元智慧 X-Era",
+      "aliases": [
+        "X-Era AI",
+        "拓元智慧",
+        "ex-ai"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "世界动作模型",
+        "多模态",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京分部（官网未公开具体办公楼）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xera"
+    },
+    {
+      "id": "starwith",
+      "name": "星曜同谐 Starwith",
+      "aliases": [
+        "Starwith",
+        "STARWITH",
+        "星曜科技",
+        "北京星曜同谐科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "AI",
+        "机器人",
+        "数据平台"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区学院路"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=starwith"
+    },
+    {
+      "id": "apexin",
+      "name": "超衍智能 Apex Intelligence",
+      "aliases": [
+        "超衍智能",
+        "Apex Intelligence",
+        "Apexin"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "基础模型",
+        "AI for Science",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公室未公开）"
+        }
+      ],
+      "recruitUrl": "https://icnal2nuefj7.jobs.feishu.cn/index",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=apexin"
+    },
+    {
+      "id": "kanzhun_nanbeige",
+      "name": "BOSS直聘 南北阁",
+      "aliases": [
+        "BOSS直聘",
+        "南北阁",
+        "Nanbeige",
+        "KANZHUN",
+        "北京华品博睿网络技术有限公司"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "基础模型",
+        "AI招聘",
+        "搜索推荐"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区太阳宫中路16号院1号楼冠捷大厦21层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=kanzhun_nanbeige"
+    },
+    {
+      "id": "iquestlab",
+      "name": "九坤至知创新研究院 IQuest",
+      "aliases": [
+        "至知创新研究院",
+        "IQuest",
+        "IQuest Research",
+        "IQuestLab",
+        "九坤投资 AI团队"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [
+        "基础模型",
+        "后训练",
+        "Coding Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区五道口（楼宇待核实）"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路1号院清华科技园8号楼B座赛尔大厦9F"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=iquestlab"
+    },
+    {
+      "id": "mirros",
+      "name": "MirroS",
+      "aliases": [
+        "MirroS AI",
+        "MirroS Lab",
+        "MirroS-Lab",
+        "无限镜元",
+        "北京无限镜元科技有限公司"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "世界模型",
+        "物理RSI",
+        "多模态",
+        "具身智能"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=mirros"
+    },
+    {
+      "id": "jsdesign",
+      "name": "即时设计",
+      "aliases": [
+        "JSDesign",
+        "即时AI",
+        "A1.art",
+        "北京雪云锐创科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI设计",
+        "图像生成",
+        "协作工具"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区金泰国益大厦1501"
+        },
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区高碑店"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=jsdesign"
+    },
+    {
+      "id": "lynksoul",
+      "name": "心影随形 Lynksoul",
+      "aliases": [
+        "心影随形",
+        "心影随行",
+        "逗逗AI",
+        "逗逗游戏伙伴",
+        "北京心影随形科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI陪伴",
+        "游戏大模型",
+        "多模态"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村软件园17号楼高科岭B201A"
+        }
+      ],
+      "recruitUrl": "https://m.liepin.com/company/13717107/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lynksoul"
+    },
+    {
+      "id": "aixcoder",
+      "name": "硅心科技 aiXcoder",
+      "aliases": [
+        "aiXcoder",
+        "硅心科技",
+        "北京硅心科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI编程",
+        "代码大模型",
+        "企业Agent"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路76号京东科技大厦6层603B"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aixcoder"
+    },
+    {
+      "id": "orionstar",
+      "name": "猎户星空 OrionStar",
+      "aliases": [
+        "OrionStar",
+        "北京猎户星空科技有限公司",
+        "猎户"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "机器人",
+        "AgentOS",
+        "交互智能",
+        "Orion大模型"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区三间房南里7号万东科技文创园11号楼（猎豹移动大厦）"
+        }
+      ],
+      "recruitUrl": "https://orionstar.jobs.feishu.cn/index",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=orionstar"
+    },
+    {
+      "id": "beingbeyond",
+      "name": "智在无界 BeingBeyond",
+      "aliases": [
+        "BeingBeyond",
+        "北京智在无界科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身通用基础模型",
+        "世界模型",
+        "VLA"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区鼎好DH3A座702室"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/beingbeyond/163871?locale=zh-CN#/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=beingbeyond"
+    },
+    {
+      "id": "artrobot",
+      "name": "钢铁侠科技 ARTROBOT",
+      "aliases": [
+        "北京钢铁侠科技有限公司",
+        "ARTROBOT",
+        "ART ROBOT"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "仿人机器人",
+        "机器人运动脑",
+        "自动驾驶底盘"
+      ],
+      "locations": [
+        {
+          "district": "丰台区",
+          "address": "北京市丰台区南四环西路186号汉威国际广场4区8号楼3层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=artrobot"
+    },
+    {
+      "id": "youibot",
+      "name": "优艾智合 Youibot",
+      "aliases": [
+        "YOUiBOT",
+        "优艾智合机器人",
+        "深圳市优艾智合机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "工业机器人",
+        "具身智能",
+        "工业巡检"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=youibot"
+    },
+    {
+      "id": "quiktech",
+      "name": "青葵智造 QUIKTECH",
+      "aliases": [
+        "青葵智造（北京）科技有限公司",
+        "Quiktech",
+        "青葵"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "AI4S",
+        "实验室机器人",
+        "具身智能",
+        "智能体"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=quiktech"
+    },
+    {
+      "id": "physis",
+      "name": "逆矩阵科技 Physis",
+      "aliases": [
+        "逆矩阵",
+        "逆矩阵科技",
+        "北京逆矩阵科技有限公司",
+        "Physis"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "世界模型",
+        "Physical AI",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公室未公开）"
+        }
+      ],
+      "recruitUrl": "https://gcndfehc1xtb.jobs.feishu.cn/index",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=physis"
+    },
+    {
+      "id": "psibot",
+      "name": "灵初智能 PsiBot",
+      "aliases": [
+        "灵初智能",
+        "北京灵初智能科技有限公司",
+        "上海灵初智能科技有限公司",
+        "PsiBot"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "灵巧操作",
+        "VLA",
+        "世界模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村大街1号海龙大厦"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=psibot"
+    },
+    {
+      "id": "muka",
+      "name": "莫刻机器人 MUKA Robotics",
+      "aliases": [
+        "莫刻机器人",
+        "北京莫刻机器人科技有限公司",
+        "MUKA",
+        "MUKA Robotics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "世界模型",
+        "视觉因果推理",
+        "具身模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区苏州桥（岗位所在片区）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=muka"
+    },
+    {
+      "id": "symbiosis",
+      "name": "共生知行 Symbiosis Robotics",
+      "aliases": [
+        "共生知行",
+        "北京共生知行科技有限公司",
+        "Symbiosis Robotics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "全身智能",
+        "机器人基座模型",
+        "直接感知控制"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=symbiosis"
+    },
+    {
+      "id": "lingxizhiyong",
+      "name": "灵犀智涌",
+      "aliases": [
+        "灵犀智涌",
+        "灵犀智涌科技（上海）有限公司",
+        "ROSS Harness"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "工业具身智能",
+        "Harness",
+        "自进化机器人"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lingxizhiyong"
+    },
+    {
+      "id": "gongji",
+      "name": "共绩科技",
+      "aliases": [
+        "共绩科技",
+        "北京共绩科技有限公司",
+        "共绩算力",
+        "Gongji"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "弹性算力",
+        "AI Infra",
+        "Serverless GPU"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北四环西路67号中关村国际创新大厦"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村东路8号东升大厦505A"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=gongji"
+    },
+    {
+      "id": "evolvent",
+      "name": "Evolvent AI",
+      "aliases": [
+        "Evolvent AI",
+        "Evolvent"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "RSI",
+        "Agent Infra",
+        "合成数据"
+      ],
+      "locations": [],
+      "recruitUrl": "https://evolvent.co/zh/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=evolvent"
+    },
+    {
+      "id": "latentverse",
+      "name": "潜界科技 LatentVerse",
+      "aliases": [
+        "北京潜界科技有限公司",
+        "LatentVerse",
+        "潜界"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "世界模型",
+        "触觉",
+        "具身基座模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村国际创新大厦"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=latentverse"
+    },
+    {
+      "id": "litchibot",
+      "name": "厘清智能",
+      "aliases": [
+        "北京厘清智能科技有限公司",
+        "Liqing Intelligence",
+        "Litchibot"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "Physical AI",
+        "世界模型",
+        "通用操作系统"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区（政府公开落地信息；具体办公楼待核）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=litchibot"
+    },
+    {
+      "id": "jinghua-security",
+      "name": "荆华密算",
+      "aliases": [
+        "荆华密算（北京）科技有限公司",
+        "荆华密算(北京)科技有限公司",
+        "北京荆华密算科技"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "密态计算",
+        "AI安全",
+        "隐私计算"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区AI原点社区A座204室"
+        }
+      ],
+      "recruitUrl": "https://www.zhaopin.com/companydetail/jobs-CZL1508002050/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=jinghua-security"
+    },
+    {
+      "id": "liberai",
+      "name": "将闲科技 LiberAI",
+      "aliases": [
+        "北京将闲科技有限公司",
+        "LiberAI",
+        "Liber AI"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "世界模型",
+        "具身基础模型",
+        "UMI数据"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区上地 / 西二旗与清河站附近（招聘区域）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=liberai"
+    },
+    {
+      "id": "facemind",
+      "name": "脸谱心智 FaceMind",
+      "aliases": [
+        "FaceMind",
+        "上海脸谱心智智能科技有限公司",
+        "脸谱心智"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "世界模型",
+        "大语言模型",
+        "AI陪伴"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=facemind"
+    },
+    {
+      "id": "originflow",
+      "name": "渊澈太初 OriginFlow",
+      "aliases": [
+        "OriginFlow",
+        "北京渊澈太初智能科技有限公司",
+        "渊澈太初"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身数据",
+        "sEMG",
+        "多模态"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区中关村银谷大厦802室"
+        }
+      ],
+      "recruitUrl": "https://www.originflow.ai/career",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=originflow"
+    },
+    {
+      "id": "infplane",
+      "name": "寅谱计算 Infplane",
+      "aliases": [
+        "寅谱",
+        "Infplane Computing",
+        "寅谱（北京）计算技术有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "AI SSD",
+        "端侧推理",
+        "芯片与系统"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东升科技园二期6号院4号楼6006"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=infplane"
+    },
+    {
+      "id": "onetoken",
+      "name": "万格智元 ONE TOKEN",
+      "aliases": [
+        "万格智元",
+        "One-Token",
+        "ONE TOKEN",
+        "万格智元（北京）智能科技有限公司",
+        "cPilot",
+        "Amis"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "端侧推理",
+        "Agent",
+        "端云协同"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区五道口（具体办公室待确认）"
+        }
+      ],
+      "recruitUrl": "https://www.onetokencareers.com/jobs.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=onetoken"
+    },
+    {
+      "id": "omnimind",
+      "name": "万象智维 OmniMind",
+      "aliases": [
+        "万象智维",
+        "OmniMind",
+        "Omnimind",
+        "北京万象智维科技有限公司"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "端侧AI",
+        "Agent",
+        "推理引擎"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市（具体办公室未公开）"
+        }
+      ],
+      "recruitUrl": "https://omnimind.com.cn/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=omnimind"
+    },
+    {
+      "id": "singularity_escape",
+      "name": "奇点逃逸 Nexus",
+      "aliases": [
+        "奇点逃逸",
+        "Nexus",
+        "奇点逃逸（北京）科技有限公司",
+        "薛传奕"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "Agent",
+        "协作系统",
+        "自进化"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=singularity_escape"
+    },
+    {
+      "id": "valhalla",
+      "name": "英灵殿科技 Valhalla",
+      "aliases": [
+        "英灵殿科技",
+        "Valhalla Technology",
+        "英灵殿科技（杭州）有限公司",
+        "Valhalla"
+      ],
+      "city": "北京",
+      "category": "AI应用与生成",
+      "tags": [
+        "AI for Science",
+        "分子世界模型",
+        "AI4Bio"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.liepin.com/company/21436143/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=valhalla"
+    },
+    {
+      "id": "deeplang",
+      "name": "深言 DeepLang",
+      "aliases": [
+        "深言",
+        "DeepLang",
+        "深言科技",
+        "语鲸",
+        "深言达意"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [
+        "AI Agent",
+        "自然语言处理",
+        "语言模型"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东升大厦A座501"
+        }
+      ],
+      "recruitUrl": "https://deeplang.jobs.feishu.cn/index/position/list",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deeplang"
+    },
+    {
+      "id": "sunrise",
+      "name": "曦望 Sunrise",
+      "aliases": [
+        "曦望",
+        "Sunrise",
+        "曦望芯科",
+        "Sunrise AI"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "GPU",
+        "AI推理",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京研发中心（具体门牌待核）"
+        }
+      ],
+      "recruitUrl": "https://jobs.sunrise-ai.com/index/position/list",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sunrise"
+    },
+    {
+      "id": "axera",
+      "name": "爱芯元智 Axera",
+      "aliases": [
+        "爱芯元智",
+        "Axera",
+        "北京爱芯",
+        "00600.HK"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "边缘AI",
+        "NPU",
+        "AI-ISP"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京（具体办公地址待核）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=axera"
+    },
+    {
+      "id": "smartx",
+      "name": "SmartX",
+      "aliases": [
+        "志凌海纳",
+        "北京志凌海纳科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI Infra",
+        "模型训推",
+        "企业云"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路甲48号盈都大厦A座7、8层"
+        }
+      ],
+      "recruitUrl": "https://www.smartx.com/jobs/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=smartx"
+    },
+    {
+      "id": "recurrentai",
+      "name": "循环智能",
+      "aliases": [
+        "Recurrent AI",
+        "Recurrent.ai",
+        "北京睿科伦智能科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "会话AI",
+        "企业Agent",
+        "销售科技"
+      ],
+      "locations": [
+        {
+          "district": "西城区",
+          "address": "北京市西城区西直门外大街1号楼西环广场T3座10层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=recurrentai"
+    },
+    {
+      "id": "frontis",
+      "name": "衔远科技",
+      "aliases": [
+        "Frontis AI",
+        "ProductGPT",
+        "北京衔远科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "企业Agent",
+        "强化学习",
+        "生成式AI"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区首享科技大厦3层"
+        }
+      ],
+      "recruitUrl": "https://frontis.cn/about.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=frontis"
+    },
+    {
+      "id": "deepwise",
+      "name": "深睿医疗",
+      "aliases": [
+        "Deepwise",
+        "北京深睿博联科技有限责任公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "医疗AI",
+        "多模态",
+        "医疗数据"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deepwise"
+    },
+    {
+      "id": "taosdata",
+      "name": "涛思数据",
+      "aliases": [
+        "TDengine",
+        "北京涛思数据科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI数据基础设施",
+        "时序数据库",
+        "工业Agent"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区金辉大厦11层"
+        }
+      ],
+      "recruitUrl": "https://www.taosdata.com/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=taosdata"
+    },
+    {
+      "id": "zuoshou",
+      "name": "左手医生",
+      "aliases": [
+        "左医科技",
+        "北京左医科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "医疗AI",
+        "知识图谱",
+        "医疗Agent"
+      ],
+      "locations": [
+        {
+          "district": "通州区",
+          "address": "北京经济技术开发区科谷一街8号院7号楼4层401室"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zuoshou"
+    },
+    {
+      "id": "abcfintech",
+      "name": "阿博茨科技",
+      "aliases": [
+        "ABC Technology",
+        "北京阿博茨科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "金融AI",
+        "AI Agent",
+        "数据分析"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区学院8号写字楼氪空间（学院8号）创新中心"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=abcfintech"
+    },
+    {
+      "id": "digitforce",
+      "name": "数势科技",
+      "aliases": [
+        "DigitForce",
+        "北京数势科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "数据Agent",
+        "AIOS",
+        "企业数据分析"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区花园路庚坊国际大厦15层"
+        }
+      ],
+      "recruitUrl": "https://www.digitforce.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=digitforce"
+    },
+    {
+      "id": "selectdb",
+      "name": "飞轮科技",
+      "aliases": [
+        "SelectDB",
+        "飞轮",
+        "北京飞轮数据科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI数据基础设施",
+        "实时数据仓库",
+        "Apache Doris"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.selectdb.com/join-us",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=selectdb"
+    },
+    {
+      "id": "welllink",
+      "name": "蔚领时代",
+      "aliases": [
+        "Well-Link",
+        "蔚领时代（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "云渲染",
+        "AI基础设施",
+        "数字世界"
+      ],
+      "locations": [],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/weiling/42293",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=welllink"
+    },
+    {
+      "id": "keendata",
+      "name": "科杰科技",
+      "aliases": [
+        "KeenData",
+        "科杰大数据",
+        "北京科杰科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "Agentic Lakehouse",
+        "AI数据基础设施",
+        "大模型开发"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东升科技园北街6号院10号楼11层"
+        }
+      ],
+      "recruitUrl": "https://www.keendata.com/joinus.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=keendata"
+    },
+    {
+      "id": "moka",
+      "name": "Moka AI",
+      "aliases": [
+        "Moka",
+        "北京希瑞亚斯科技有限公司",
+        "Moka Eva"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI HR",
+        "企业Agent",
+        "AI原生SaaS"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区知春路68号领航科技大厦5层（东区）"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/moka/118263",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=moka"
+    },
+    {
+      "id": "weride",
+      "name": "文远知行 WeRide",
+      "aliases": [
+        "WeRide",
+        "广州文远知行科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "Robotaxi",
+        "Robobus",
+        "L4"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.weride.ai/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=weride"
+    },
+    {
+      "id": "deeproute",
+      "name": "元戎启行 DeepRoute.ai",
+      "aliases": [
+        "DeepRoute.ai"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "端到端",
+        "辅助驾驶"
+      ],
+      "locations": [],
+      "recruitUrl": "https://app.mokahr.com/campus-recruitment/deeproute/145894",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deeproute"
+    },
+    {
+      "id": "livsyn",
+      "name": "灵生科技 LivSyn Robotics",
+      "aliases": [
+        "LivSyn Robotics",
+        "北京灵生科技有限公司",
+        "灵生科技"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身智能",
+        "机器人数据采集",
+        "UMI"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区锦秋国际大厦B座6层"
+        }
+      ],
+      "recruitUrl": "https://m.liepin.com/company/21182187/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=livsyn"
+    },
+    {
+      "id": "ikingtec",
+      "name": "云圣智能 i-KINGTEC",
+      "aliases": [
+        "i-KINGTEC",
+        "北京云圣智能科技有限责任公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "无人机",
+        "全自主巡检",
+        "工业无人机"
+      ],
+      "locations": [],
+      "recruitUrl": "https://ikingtec.zhiye.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ikingtec"
+    },
+    {
+      "id": "hairobotics",
+      "name": "海柔创新 Hai Robotics",
+      "aliases": [
+        "HAI ROBOTICS",
+        "海柔创新科技（深圳）有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "仓储机器人",
+        "ACR",
+        "物流自动化"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=hairobotics"
+    },
+    {
+      "id": "forwardx",
+      "name": "灵动科技 ForwardX",
+      "aliases": [
+        "ForwardX Robotics",
+        "灵动科技（安徽）有限公司",
+        "灵动科技（北京）有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "AMR",
+        "仓储机器人",
+        "物流自动化"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区建材城东路10号院京城尚德智造产业园C4栋"
+        }
+      ],
+      "recruitUrl": "https://www.forwardx.com/join-the-team/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=forwardx"
+    },
+    {
+      "id": "seniorauto",
+      "name": "斯年智驾 Senior Auto",
+      "aliases": [
+        "Senior Auto",
+        "Senior Automation",
+        "北京斯年智驾科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "港口无人驾驶",
+        "L4物流"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区安宁庄东路16号融科融智蜂巢工场东区3号楼"
+        }
+      ],
+      "recruitUrl": "https://www.senior.auto/join.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=seniorauto"
+    },
+    {
+      "id": "kargobot",
+      "name": "卡尔动力 KargoBot",
+      "aliases": [
+        "KargoBot",
+        "卡尔动力（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "无人货运",
+        "L4"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区北清路81号院A1座5层"
+        }
+      ],
+      "recruitUrl": "https://www.kargobot.ai/career",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=kargobot"
+    },
+    {
+      "id": "deepway",
+      "name": "深向 DeepWay",
+      "aliases": [
+        "DeepWay",
+        "深向科技"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "自动驾驶",
+        "智能重卡",
+        "新能源商用车"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区望京东路1号院中轻大厦A座10层"
+        }
+      ],
+      "recruitUrl": "https://www.deepway.com/join",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deepway"
+    },
+    {
+      "id": "rockai",
+      "name": "路凯智行 Rock AI",
+      "aliases": [
+        "北京路凯智行科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "矿山无人驾驶",
+        "自动驾驶",
+        "智能网联"
+      ],
+      "locations": [],
+      "recruitUrl": "https://m.liepin.com/company/12551579/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=rockai"
+    },
+    {
+      "id": "sensorsdata",
+      "name": "神策数据 Sensors Data",
+      "aliases": [
+        "神策数据",
+        "Sensors Data",
+        "神策网络科技（北京）有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI Agent",
+        "客户数据平台",
+        "营销智能",
+        "机器学习"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区东北旺西路8号中关村软件园17号楼C301"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sensorsdata"
+    },
+    {
+      "id": "51world",
+      "name": "五一视界 51WORLD",
+      "aliases": [
+        "51WORLD",
+        "五一视界",
+        "北京五一视界数字孪生科技股份有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "物理AI",
+        "世界模型",
+        "数字孪生",
+        "AI仿真"
+      ],
+      "locations": [
+        {
+          "district": "东城区",
+          "address": "北京市东城区香河园路1号当代MOMA倍格创业2层"
+        }
+      ],
+      "recruitUrl": "https://51world.zhiye.com/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=51world"
+    },
+    {
+      "id": "xyzeai",
+      "name": "星源智",
+      "aliases": [
+        "XYZ Embodied AI",
+        "北京星源智机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身大脑",
+        "世界模型",
+        "端侧算力"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街3号鼎好大厦A座2层203-1"
+        },
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市北京经济技术开发区经海五路3号院中关村（亦庄）国际机器人产业园"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xyzeai"
+    },
+    {
+      "id": "ti5robot",
+      "name": "钛虎机器人",
+      "aliases": [
+        "Ti5 Robot",
+        "TIS Robot",
+        "钛虎机器人科技（上海）有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "人形机器人",
+        "轻量化关节模组",
+        "协作机械臂"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市北京经济技术开发区经海五路3号院中关村（亦庄）国际机器人产业园"
+        }
+      ],
+      "recruitUrl": "https://ti5robot1.zhiye.com/campus/jobs",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ti5robot"
+    },
+    {
+      "id": "aheadform",
+      "name": "首形科技",
+      "aliases": [
+        "AheadForm",
+        "首形科技（北京）有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "仿生人形机器人",
+        "情感交互",
+        "机器人控制"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京大兴区锋创科技园6号楼"
+        }
+      ],
+      "recruitUrl": "https://www.aheadform.com/zh/recruiting",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aheadform"
+    },
+    {
+      "id": "hightorque",
+      "name": "高擎动力",
+      "aliases": [
+        "High Torque",
+        "广州高擎动力科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "小型人形机器人",
+        "双足机器人",
+        "伺服关节模组"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京亦庄（具体街道与楼宇待核）"
+        }
+      ],
+      "recruitUrl": "https://www.hightorque.cn/category/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=hightorque"
+    },
+    {
+      "id": "deeprobotics",
+      "name": "云深处科技",
+      "aliases": [
+        "DEEP Robotics",
+        "杭州云深处科技股份有限公司",
+        "云深处科技股份有限公司",
+        "北京云深处科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "四足机器人",
+        "人形机器人",
+        "轮足机器人"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市北京经济技术开发区（通州）经海五路3号院15号楼6层601室"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京海淀区中关村"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deeprobotics"
+    },
+    {
+      "id": "aizhikai",
+      "name": "具身智开",
+      "aliases": [
+        "Robokai",
+        "具身智开（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身智能",
+        "运动控制",
+        "视觉感知",
+        "智能机器人"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市北京经济技术开发区"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=aizhikai"
+    },
+    {
+      "id": "yunxichu",
+      "name": "云栖处机器人",
+      "aliases": [
+        "Cloud Nest Robotics",
+        "CLOUD NEST ROBOTICS",
+        "北京云栖处智能机器人有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "服务机器人",
+        "智能清洁",
+        "安防巡逻",
+        "无人配送",
+        "RaaS"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市亦庄经济技术开发区凉水河一街10号院6号楼"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=yunxichu"
+    },
+    {
+      "id": "elibot",
+      "name": "艾利特机器人",
+      "aliases": [
+        "ELITE Robots",
+        "艾利特智能机器人股份有限公司",
+        "北京艾利特机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "协作机器人",
+        "复合机器人",
+        "运动控制",
+        "具身智能"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市大兴区北京经济技术开发区荣华南路10号院5号楼611室"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=elibot"
+    },
+    {
+      "id": "boyagongdao",
+      "name": "博雅工道",
+      "aliases": [
+        "ROBOSEA",
+        "博雅工道海洋科技集团股份有限公司",
+        "博雅工道（北京）机器人科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "水下机器人",
+        "无人船",
+        "仿生机器人",
+        "SLAM"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市经济技术开发区经海七路10号院联东U谷6号楼"
+        }
+      ],
+      "recruitUrl": "https://www.boyagongdao.com/index/list?catid=15",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=boyagongdao"
+    },
+    {
+      "id": "yaskawashougang",
+      "name": "安川首钢机器人",
+      "aliases": [
+        "YSR",
+        "安川首钢机器人有限公司",
+        "首钢莫托曼机器人"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "工业机器人",
+        "自动化生产线",
+        "机器人系统集成"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京经济技术开发区永昌北路7号"
+        },
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京经济技术开发区荣昌东街6号"
+        }
+      ],
+      "recruitUrl": "https://www.zhaopin.com/jobdetail/CC120069910J40042110705.htm",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=yaskawashougang"
+    },
+    {
+      "id": "deltai",
+      "name": "德塔智能",
+      "aliases": [
+        "Delta Intelligence",
+        "北京德塔源创智能科技有限公司",
+        "德塔智能"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身智能",
+        "人形机器人",
+        "机器人数据采集",
+        "灵巧手"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街35号鼎盛大厦703"
+        }
+      ],
+      "recruitUrl": "https://deltai.com/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=deltai"
+    },
+    {
+      "id": "siasun-semiconductor",
+      "name": "新松半导体",
+      "aliases": [
+        "沈阳新松半导体设备有限公司",
+        "北京新松半导体有限公司",
+        "SIASUN Microelectronics"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "半导体机械手",
+        "晶圆传输",
+        "伺服驱动",
+        "工业机器人"
+      ],
+      "locations": [
+        {
+          "district": "北京经济技术开发区",
+          "address": "北京市北京经济技术开发区科谷一街10号院6号楼6层601-2（北京自贸试验区高端产业片区亦庄组团）"
+        }
+      ],
+      "recruitUrl": "https://www.zhaopin.com/companydetail/jobs-CZL1461850440/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=siasun-semiconductor"
+    },
+    {
+      "id": "whaleleap",
+      "name": "鲸跃动力",
+      "aliases": [
+        "Whale Leap",
+        "鲸跃动力（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [
+        "具身智能",
+        "机器人劳动力",
+        "数据采集",
+        "灵巧操作"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京；职位标题注明海淀/亦庄"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京海淀区苏州桥"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=whaleleap"
+    },
+    {
+      "id": "google",
+      "name": "Google / 谷歌",
+      "aliases": [
+        "谷歌",
+        "Google",
+        "Alphabet"
+      ],
+      "city": "北京",
+      "category": "国际科技",
+      "tags": [
+        "外企",
+        "Google Cloud",
+        "AI",
+        "Pixel",
+        "YouTube"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区科学院南路2号融科资讯中心B座6层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=google"
+    },
+    {
+      "id": "evermind",
+      "name": "EverMind",
+      "aliases": [],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [
+        "AI记忆",
+        "大模型",
+        "AI Agent",
+        "初创公司"
+      ],
+      "locations": [],
+      "recruitUrl": "https://evermind.ai/zh/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=evermind"
+    },
+    {
+      "id": "imprintx",
+      "name": "知行具身 ImprintX",
+      "aliases": [
+        "ImprintX",
+        "知行具身（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身智能",
+      "tags": [
+        "触觉传感器",
+        "机器人力控",
+        "灵巧手",
+        "机器人数据"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区希格玛大厦二层"
+        }
+      ],
+      "recruitUrl": "https://imprintx.cn/careers",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=imprintx"
+    },
+    {
+      "id": "xynova",
+      "name": "曦诺未来 Xynova",
+      "aliases": [
+        "Xynova",
+        "杭州曦诺未来科技有限公司"
+      ],
+      "city": "北京",
+      "category": "机器人与具身智能",
+      "tags": [
+        "高自由度灵巧手",
+        "关节模组",
+        "微型电缸",
+        "柔性电子",
+        "机器人触觉"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=xynova"
+    },
+    {
+      "id": "happyelements",
+      "name": "乐元素",
+      "aliases": [
+        "Happy Elements"
+      ],
+      "city": "北京",
+      "category": "游戏与互动内容",
+      "tags": [
+        "游戏",
+        "AI工具",
+        "休闲游戏"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区苏州街29号院18号楼维亚大厦21F"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/apply/leyuansu/2358#/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=happyelements"
+    },
+    {
+      "id": "igg",
+      "name": "IGG",
+      "aliases": [
+        "IGG集团"
+      ],
+      "city": "北京",
+      "category": "游戏与互动内容",
+      "tags": [
+        "游戏",
+        "AI漫剧",
+        "游戏AI",
+        "国际游戏公司"
+      ],
+      "locations": [],
+      "recruitUrl": "https://cn-jobs.igg.com/public/careers.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=igg"
+    },
+    {
+      "id": "lilith",
+      "name": "莉莉丝游戏",
+      "aliases": [
+        "Lilith Games",
+        "莉莉丝"
+      ],
+      "city": "北京",
+      "category": "游戏与互动内容",
+      "tags": [
+        "游戏",
+        "AI NPC",
+        "游戏AI"
+      ],
+      "locations": [],
+      "recruitUrl": "https://lilithgames.jobs.feishu.cn/career/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lilith"
+    },
+    {
+      "id": "perfectworld",
+      "name": "完美世界",
+      "aliases": [
+        "Perfect World",
+        "完美世界游戏"
+      ],
+      "city": "北京",
+      "category": "游戏与互动内容",
+      "tags": [
+        "游戏",
+        "电竞",
+        "游戏AI"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区望京东路一号院4号楼完美世界A座"
+        }
+      ],
+      "recruitUrl": "https://jobs.games.wanmei.com/society.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=perfectworld"
+    },
+    {
+      "id": "amd",
+      "name": "AMD 超威",
+      "aliases": [
+        "Advanced Micro Devices",
+        "AMD",
+        "超威半导体"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "外企",
+        "GPU",
+        "AI芯片",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京 · Build. 5 of No. 5 Yard, An Ding Road, Chaoyang District"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京 · 19/F North Bldg Raycom Infotech Park Tower C No. 2, Zhong Guan Cun, Haidian Dist."
+        }
+      ],
+      "recruitUrl": "https://careers.amd.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=amd"
+    },
+    {
+      "id": "apple",
+      "name": "Apple 苹果",
+      "aliases": [
+        "Apple",
+        "苹果",
+        "Apple Intelligence"
+      ],
+      "city": "北京",
+      "category": "智能硬件",
+      "tags": [
+        "外企",
+        "机器学习",
+        "智能硬件",
+        "AI Infra"
+      ],
+      "locations": [],
+      "recruitUrl": "https://jobs.apple.com/en-us/search?location=beijing-BJS",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=apple"
+    },
+    {
+      "id": "bosch",
+      "name": "博世 Bosch",
+      "aliases": [
+        "Bosch",
+        "Bosch Group",
+        "博世中国",
+        "Bosch Rexroth",
+        "博世力士乐"
+      ],
+      "city": "北京",
+      "category": "汽车与智能驾驶",
+      "tags": [
+        "外企",
+        "智能驾驶",
+        "工业AI",
+        "具身上下游"
+      ],
+      "locations": [],
+      "recruitUrl": "https://careers.smartrecruiters.com/BoschGroup/china?location=Beijing",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=bosch"
+    },
+    {
+      "id": "intel",
+      "name": "英特尔 Intel",
+      "aliases": [
+        "intel",
+        "INTEL",
+        "英特尔"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "外企",
+        "CPU",
+        "AI芯片",
+        "AI Infra"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=intel"
+    },
+    {
+      "id": "microsoft",
+      "name": "微软 Microsoft",
+      "aliases": [
+        "Microsoft",
+        "MSRA",
+        "微软亚洲研究院",
+        "Microsoft Research Asia"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [
+        "外企",
+        "大语言模型",
+        "多模态",
+        "具身智能",
+        "AI研究"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=microsoft"
+    },
+    {
+      "id": "mobileye",
+      "name": "Mobileye",
+      "aliases": [
+        "Mobileye",
+        "Mentee Robotics",
+        "Mobileye China"
+      ],
+      "city": "北京",
+      "category": "汽车与智能驾驶",
+      "tags": [
+        "外企",
+        "自动驾驶",
+        "Physical AI",
+        "人形机器人"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区科学院南路2号1号楼C座"
+        }
+      ],
+      "recruitUrl": "https://careers.mobileye.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=mobileye"
+    },
+    {
+      "id": "nvidia",
+      "name": "英伟达 NVIDIA",
+      "aliases": [
+        "nvidia",
+        "NVIDIA",
+        "英伟达"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [
+        "外企",
+        "GPU",
+        "AI Infra",
+        "自动驾驶",
+        "机器人"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=nvidia"
+    },
+    {
+      "id": "simpleai",
+      "name": "深朴智能",
+      "aliases": [
+        "深朴智能"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市朝阳区北辰东路8号院1号楼21层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=simpleai"
+    },
+    {
+      "id": "spacewill",
+      "name": "航天世景",
+      "aliases": [
+        "航天世景"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市石景山区鲁谷路74号瑞达大厦8层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=spacewill"
+    },
+    {
+      "id": "chinawenfa",
+      "name": "中文发集团",
+      "aliases": [
+        "中文发集团"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市西城区红莲南路57号"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=chinawenfa"
+    },
+    {
+      "id": "sidereus-ai",
+      "name": "星使智算 AsterFire Go",
+      "aliases": [
+        "星使智算"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sidereus-ai"
+    },
+    {
+      "id": "nkdpharm",
+      "name": "诺康达医药",
+      "aliases": [
+        "诺康达"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市北京经济技术开发区融兴北一街21号"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=nkdpharm"
+    },
+    {
+      "id": "tkfunds",
+      "name": "泰康基金",
+      "aliases": [
+        "泰康基金"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市西城区复兴门内大街156号B座"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tkfunds"
+    },
+    {
+      "id": "yangcong",
+      "name": "洋葱学园",
+      "aliases": [
+        "洋葱学园"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市朝阳区酒仙桥北路7号电通创意广场5号楼D区（北京软件研发中心）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=yangcong"
+    },
+    {
+      "id": "bedicloud",
+      "name": "北电数智",
+      "aliases": [
+        "北电数智"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市朝阳区兆维工业园C2甲1栋4层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=bedicloud"
+    },
+    {
+      "id": "spinentropy",
+      "name": "熵旋芯智",
+      "aliases": [
+        "熵旋芯智"
+      ],
+      "city": "北京",
+      "category": "算力与芯片",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市海淀区成府路45号AI原点社区B座201"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=spinentropy"
+    },
+    {
+      "id": "lizhi",
+      "name": "荔枝集团",
+      "aliases": [
+        "荔枝集团"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lizhi"
+    },
+    {
+      "id": "citicpress",
+      "name": "中信出版",
+      "aliases": [
+        "中信出版"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市朝阳区东三环北路27号嘉铭中心A座3层、5层、6层、9层、18层，B座18层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=citicpress"
+    },
+    {
+      "id": "seene",
+      "name": "深诣机器人",
+      "aliases": [
+        "深诣机器人"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=seene"
+    },
+    {
+      "id": "baiyangai",
+      "name": "白杨智能",
+      "aliases": [
+        "白杨智能"
+      ],
+      "city": "北京",
+      "category": "机器人与具身",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市海淀区北清路81号院中关村壹号B3座11层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=baiyangai"
+    },
+    {
+      "id": "cetc-ai",
+      "name": "中国电科智能科技研究院",
+      "aliases": [
+        "中国电科智能科技研究院"
+      ],
+      "city": "北京",
+      "category": "研究机构",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=cetc-ai"
+    },
+    {
+      "id": "applovin",
+      "name": "AppLovin",
+      "aliases": [
+        "AppLovin"
+      ],
+      "city": "北京",
+      "category": "国际科技",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=applovin"
+    },
+    {
+      "id": "teleai",
+      "name": "中电信人工智能科技（北京）有限公司",
+      "aliases": [
+        "中电信人工智能科技(北京)有限公司"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市西城区西直门外大街南路28号北京金融科技中心A座5层"
+        }
+      ],
+      "recruitUrl": "https://www.givemeoc.com/?paged=194",
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=teleai"
+    },
+    {
+      "id": "comindx",
+      "name": "无为而智 ComindX",
+      "aliases": [
+        "无为而智ComindX"
+      ],
+      "city": "北京",
+      "category": "大模型与平台",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=comindx"
+    },
+    {
+      "id": "yonyou",
+      "name": "用友",
+      "aliases": [
+        "用友"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市海淀区北清路68号用友产业园"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=yonyou"
+    },
+    {
+      "id": "iqitek",
+      "name": "量智开物",
+      "aliases": [
+        "量智开物"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=iqitek"
+    },
+    {
+      "id": "58",
+      "name": "58同城",
+      "aliases": [
+        "58同城"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市朝阳区酒仙桥北路甲10号院101号楼（电子城IT产业园内）"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=58"
+    },
+    {
+      "id": "veloalpha",
+      "name": "瞬原科技",
+      "aliases": [
+        "瞬原科技"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=veloalpha"
+    },
+    {
+      "id": "sohu",
+      "name": "搜狐集团",
+      "aliases": [
+        "搜狐集团"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看岗位来源",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=sohu"
+    },
+    {
+      "id": "cre-meta",
+      "name": "中电空间",
+      "aliases": [
+        "中电空间（北京）科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "领域大模型",
+        "空间数字孪生",
+        "AI平台"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.givemeoc.com/?paged=112",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=cre-meta"
+    },
+    {
+      "id": "zhongke-liangshu",
+      "name": "中科量枢",
+      "aliases": [
+        "北京中科量枢科技有限公司"
+      ],
+      "city": "北京",
+      "category": "AI基础设施",
+      "tags": [
+        "量子AI",
+        "量子计算",
+        "Agent",
+        "AI基础设施"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zhongke-liangshu"
+    },
+    {
+      "id": "unipat-ai",
+      "name": "UniPat AI",
+      "aliases": [
+        "UniPat",
+        "Unipat"
+      ],
+      "city": "北京",
+      "category": "AI应用与Agent",
+      "tags": [
+        "AI原生",
+        "预测智能体",
+        "经济预测"
+      ],
+      "locations": [],
+      "recruitUrl": "https://unipat.ai/joinus",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=unipat-ai"
+    },
+    {
+      "id": "humanlaya",
+      "name": "Humanlaya 原壤智能",
+      "aliases": [
+        "Humanlaya AI",
+        "Humanlaya",
+        "原壤智能",
+        "TalentAI",
+        "TalentsAI"
+      ],
+      "city": "北京",
+      "category": "AI数据与评测",
+      "tags": [
+        "AI原生",
+        "专家数据",
+        "模型评测"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=humanlaya"
+    },
+    {
+      "id": "listenhub",
+      "name": "ListenHub 火星回响",
+      "aliases": [
+        "ListenHub",
+        "火星回响"
+      ],
+      "city": "北京",
+      "category": "AI应用与Agent",
+      "tags": [
+        "AI原生",
+        "AI音频",
+        "AI视频",
+        "创作者工具"
+      ],
+      "locations": [
+        {
+          "district": null,
+          "address": "北京市海淀区"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=listenhub"
+    },
+    {
+      "id": "transwarp",
+      "name": "星环科技",
+      "aliases": [],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "企业AI",
+        "大数据",
+        "数据库"
+      ],
+      "locations": [],
+      "recruitUrl": "https://app.mokahr.com/campus_apply/transwarp",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=transwarp"
+    },
+    {
+      "id": "leyantech",
+      "name": "乐言科技",
+      "aliases": [
+        "上海乐言科技股份有限公司",
+        "Leyan"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI客服",
+        "电商AI",
+        "上交校友创业",
+        "上海交通大学",
+        "上交",
+        "上交系"
+      ],
+      "locations": [],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=leyantech"
+    },
+    {
+      "id": "smartmore",
+      "name": "思谋科技",
+      "aliases": [
+        "SmartMore"
+      ],
+      "city": "北京",
+      "category": "具身机器人",
+      "tags": [
+        "工业智能体",
+        "机器人",
+        "复旦校友创业",
+        "复旦大学",
+        "复旦",
+        "复旦系"
+      ],
+      "locations": [],
+      "recruitUrl": "https://app.mokahr.com/social-recruitment/smartmore/40505",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=smartmore"
+    },
+    {
+      "id": "netease",
+      "name": "网易 / 雷火 · 伏羲",
+      "aliases": [
+        "NetEase",
+        "网易游戏",
+        "网易互娱",
+        "网易雷火",
+        "网易伏羲",
+        "网易云音乐",
+        "网易智企",
+        "网易元气",
+        "网易有道",
+        "网易严选",
+        "网易LOFTER",
+        "网易效率工程部"
+      ],
+      "city": "北京",
+      "category": "游戏与互动内容",
+      "tags": [
+        "游戏",
+        "人工智能",
+        "大模型",
+        "具身智能",
+        "音频",
+        "上市公司"
+      ],
+      "locations": [],
+      "recruitUrl": "https://hr.163.com/job-list.html",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=netease"
+    },
+    {
+      "id": "wizardquant",
+      "name": "宽德投资 WizardQuant",
+      "aliases": [
+        "WizardQuant",
+        "Wizard Quant",
+        "宽德量化"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [
+        "量化投资",
+        "机器学习",
+        "深度学习"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区鼎好DH3大厦A座704-705"
+        }
+      ],
+      "recruitUrl": "https://www.wizardquant.com/career",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=wizardquant"
+    },
+    {
+      "id": "zsquant",
+      "name": "卓识基金 Zhuoshi Fund",
+      "aliases": [
+        "卓识投资",
+        "北京卓识私募基金管理有限公司",
+        "Zhuoshi Fund",
+        "ZSQuant"
+      ],
+      "city": "北京",
+      "category": "金融科技与AI",
+      "tags": [
+        "量化投资",
+        "机器学习",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区成府路28号优盛大厦D座9层/19层"
+        }
+      ],
+      "recruitUrl": "https://app.mokahr.com/campus-recruitment/zsquant/150036",
+      "recruitLabel": "校园招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zsquant"
+    },
+    {
+      "id": "zding",
+      "name": "正定私募 Definite Capital",
+      "aliases": [
+        "北京正定私募基金管理合伙企业（有限合伙）",
+        "正定私募基金",
+        "Definite Capital Management",
+        "Zding Fund"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [
+        "量化投资",
+        "深度学习",
+        "机器学习"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区清华科技园C座2001室"
+        },
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区清华科技园D座1501室"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=zding"
+    },
+    {
+      "id": "joinquant",
+      "name": "聚宽投资 JoinQuant",
+      "aliases": [
+        "聚宽量化",
+        "北京聚宽投资管理有限公司",
+        "JoinQuant"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [
+        "AI量化",
+        "机器学习",
+        "AI Infra",
+        "Agent"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区景华南街5号远洋光华国际C座"
+        }
+      ],
+      "recruitUrl": "https://fund.joinquant.com/jobs",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=joinquant"
+    },
+    {
+      "id": "lingjun",
+      "name": "灵均投资 Lingjun",
+      "aliases": [
+        "灵均",
+        "Lingjun Investment",
+        "宁波灵均投资管理合伙企业（有限合伙）"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [
+        "AI量化",
+        "机器学习",
+        "量化研究"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京市海淀区海淀大街3号鼎好DH3-A座5层"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lingjun"
+    },
+    {
+      "id": "qianxiang",
+      "name": "乾象投资 Qianxiang",
+      "aliases": [
+        "乾象",
+        "北京乾象私募基金管理有限公司",
+        "Qianxiang",
+        "Metabit Trading"
+      ],
+      "city": "北京",
+      "category": "AI应用",
+      "tags": [
+        "AI量化",
+        "深度学习",
+        "AI Infra"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区霞光里18号佳程广场"
+        }
+      ],
+      "recruitUrl": "https://www.qianxiang.cn/join-us",
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=qianxiang"
+    },
+    {
+      "id": "metaso",
+      "name": "秘塔科技",
+      "aliases": [
+        "秘塔",
+        "Metaso",
+        "Metasota",
+        "上海秘塔网络科技有限公司",
+        "秘塔AI搜索"
+      ],
+      "city": "北京",
+      "category": "AI应用与企业服务",
+      "tags": [
+        "AI搜索",
+        "大语言模型",
+        "AI写作",
+        "数据工程"
+      ],
+      "locations": [
+        {
+          "district": "朝阳区",
+          "address": "北京市朝阳区远洋国际中心C座2604"
+        }
+      ],
+      "recruitUrl": null,
+      "recruitLabel": "查看招聘",
+      "sources": [],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=metaso"
+    },
+    {
+      "id": "haitian-ruisheng",
+      "name": "海天瑞声",
+      "aliases": [
+        "DataOcean AI",
+        "Speechocean"
+      ],
+      "city": "北京",
+      "category": "训练数据",
+      "tags": [
+        "训练数据",
+        "语音识别评测"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.haitianruisheng.com/aboutus/saferjoin/catid-40.htm",
+      "recruitLabel": "北京词典研发工程师",
+      "sources": [
+        [
+          "北京市经信局 · 通用人工智能产业创新伙伴计划首批数据伙伴",
+          "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202305/t20230524_3111710.html"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=haitian-ruisheng"
+    },
+    {
+      "id": "datatang",
+      "name": "数据堂",
+      "aliases": [
+        "Datatang"
+      ],
+      "city": "北京",
+      "category": "训练数据",
+      "tags": [
+        "训练数据",
+        "语音与图像"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.datatang.com/join-us",
+      "recruitLabel": "北京语音／图像数据产品经理",
+      "sources": [
+        [
+          "北京市经信局 · 通用人工智能产业创新伙伴计划首批数据伙伴",
+          "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202305/t20230524_3111710.html"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=datatang"
+    },
+    {
+      "id": "amazon",
+      "name": "亚马逊",
+      "aliases": [
+        "Amazon",
+        "亚马逊中国"
+      ],
+      "city": "北京",
+      "category": "搜索推荐",
+      "tags": [
+        "搜索推荐",
+        "生成式AI"
+      ],
+      "locations": [],
+      "recruitUrl": "https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing",
+      "recruitLabel": "北京应用科学家 · 10489936",
+      "sources": [
+        [
+          "2025 财富世界 500 强 · 第 2 位",
+          "https://www.fortune.com/ranking/global500/2025/"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=amazon"
+    },
+    {
+      "id": "schneider-electric",
+      "name": "施耐德电气",
+      "aliases": [
+        "Schneider Electric"
+      ],
+      "city": "北京",
+      "category": "数据中心",
+      "tags": [
+        "数据中心",
+        "AI冷源控制"
+      ],
+      "locations": [],
+      "recruitUrl": "https://careers.se.com/jobs/139774?lang=zh-CN",
+      "recruitLabel": "北京数据中心系统架构师 · 139774",
+      "sources": [
+        [
+          "2025 财富世界 500 强 · 第 378 位",
+          "https://www.fortune.com/ranking/global500/2025/"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=schneider-electric"
+    },
+    {
+      "id": "fangcun",
+      "name": "方寸跃迁",
+      "aliases": [],
+      "city": "北京",
+      "category": "Agent安全",
+      "tags": [
+        "Agent安全",
+        "运行时监测"
+      ],
+      "locations": [],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/jobs/064577c4-e5c0-4cae-bfb5-9e7d31013ef6?src=list",
+      "recruitLabel": "Agent 软件工程师",
+      "sources": [
+        [
+          "Bonjour! · 北京岗位",
+          "https://bonjour.bio/jobs-mapping/jobs/064577c4-e5c0-4cae-bfb5-9e7d31013ef6?src=list"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=fangcun"
+    },
+    {
+      "id": "tansuo-wujin",
+      "name": "探索无尽",
+      "aliases": [],
+      "city": "北京",
+      "category": "生产力Agent",
+      "tags": [
+        "生产力Agent",
+        "沙箱"
+      ],
+      "locations": [],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/jobs/63ad8a7b-851a-43fb-ad7e-69d0f63d5beb?src=list",
+      "recruitLabel": "云端运行与沙箱工程师",
+      "sources": [
+        [
+          "Bonjour! · 北京岗位",
+          "https://bonjour.bio/jobs-mapping/jobs/63ad8a7b-851a-43fb-ad7e-69d0f63d5beb?src=list"
+        ],
+        [
+          "Bonjour! · 北京桌面端基建与性能工程师",
+          "https://bonjour.bio/jobs-mapping/jobs/253e00a6-44fa-4e98-ae6e-11e0290b25d2?src=list"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=tansuo-wujin"
+    },
+    {
+      "id": "ambi-ai",
+      "name": "Ambi AI",
+      "aliases": [],
+      "city": "北京",
+      "category": "Agent评测",
+      "tags": [
+        "Agent评测",
+        "AI产品"
+      ],
+      "locations": [],
+      "recruitUrl": "https://bonjour.bio/jobs-mapping/jobs/0650c54f-b8a3-45c8-97de-e93aaa1e1769?src=list",
+      "recruitLabel": "AI 全栈工程师",
+      "sources": [
+        [
+          "Bonjour! · 北京岗位",
+          "https://bonjour.bio/jobs-mapping/jobs/0650c54f-b8a3-45c8-97de-e93aaa1e1769?src=list"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=ambi-ai"
+    },
+    {
+      "id": "fibona-ai",
+      "name": "Fibona AI",
+      "aliases": [],
+      "city": "北京",
+      "category": "Agent研究",
+      "tags": [
+        "Agent研究",
+        "递归自我改进"
+      ],
+      "locations": [
+        {
+          "district": "海淀区",
+          "address": "北京中关村（亦可远程）"
+        }
+      ],
+      "recruitUrl": "https://offerdao.ai/j/agent_0baulc22to81po",
+      "recruitLabel": "RSI 研究员",
+      "sources": [
+        [
+          "Offer岛 · 北京岗位",
+          "https://offerdao.ai/j/agent_0baulc22to81po"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=fibona-ai"
+    },
+    {
+      "id": "lightwheel",
+      "name": "光轮智能 / Lightwheel",
+      "aliases": [],
+      "city": "北京",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "强化学习环境"
+      ],
+      "locations": [],
+      "recruitUrl": "https://jobs.ivyea.com/jobs/20228",
+      "recruitLabel": "具身智能评测与强化学习环境算法工程师",
+      "sources": [
+        [
+          "Ivyea Jobs · 北京岗位",
+          "https://jobs.ivyea.com/jobs/20228"
+        ]
+      ],
+      "directoryUrl": "https://ningsiyuan1024.github.io/ai-company-map/?company=lightwheel"
+    }
+  ]
+}

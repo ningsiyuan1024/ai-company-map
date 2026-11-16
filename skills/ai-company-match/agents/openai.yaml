@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 公司求职匹配"
+  short_description: "根据简历或工作经历筛选北京 AI 公司，查找岗位并整理匹配理由与投递清单"
+  default_prompt: "使用 $ai-company-match，根据我的简历或工作经历推荐北京 AI 公司，并整理招聘入口和投递优先级。"

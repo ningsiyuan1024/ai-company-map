@@ -14,11 +14,17 @@
 
 ## 方向分布
 
-![北京公司方向标签统计](docs/images/direction-tags.png)
+![北京公司技术方向 TOP 10](docs/images/direction-tags.png)
+
+[下载统计概览图](docs/images/beijing-company-overview.png)
 
 ## 使用
 
 搜索公司或方向，按区域、融资阶段、投资机构筛选；点击公司查看详情和招聘入口。复制浏览器地址即可分享当前结果。
+
+## 简历匹配
+
+把 [Skill 下载包](skills/ai-company-match.zip)和简历或工作经历交给自己的 Agent，获取推荐公司、匹配理由和投递清单。支持读取 Skill 文件的 Agent 也可直接使用 [SKILL.md](skills/ai-company-match/SKILL.md)。
 
 ## 信息源
 
