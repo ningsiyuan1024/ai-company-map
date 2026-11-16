@@ -1,0 +1,3222 @@
+{
+  "asOf": "2026-11-16",
+  "directoryTotal": 307,
+  "total": 110,
+  "scope": "北京目录中具有明确融资轮次、未确认上市或挂牌的创业公司；同一公司旗下产品合并计数。",
+  "notIncluded": "上市与挂牌主体及其团队；科研机构、成熟集团与未取得具名轮次的记录。未纳入不等于没有融资。",
+  "note": "这是已披露轮次样本，不是北京全部创业公司的市场分布；后续战略融资未具名时保留已有具名轮次。",
+  "stage": {
+    "B 轮": 22,
+    "F 轮": 1,
+    "Pre-IPO": 5,
+    "D 轮": 5,
+    "C 轮": 18,
+    "Pre-A": 17,
+    "A 轮": 19,
+    "E 轮": 2,
+    "种子 / 天使轮": 21
+  },
+  "tags": {
+    "具身智能": 15,
+    "世界模型": 13,
+    "人形机器人": 13,
+    "Agent": 10,
+    "AI Infra": 9,
+    "多模态": 7,
+    "VLA": 7,
+    "大语言模型": 5,
+    "灵巧手": 5,
+    "端侧AI": 4,
+    "视频生成": 4,
+    "具身大模型": 4,
+    "机器人操作": 4,
+    "具身基础模型": 4,
+    "AI for Science": 4,
+    "灵巧操作": 3,
+    "自动驾驶": 3,
+    "AI原生": 3,
+    "机器人开发平台": 2,
+    "基础模型": 2,
+    "具身基座模型": 2,
+    "仿生机器人": 2,
+    "AI安全": 2,
+    "隐私计算": 2,
+    "具身模型": 2,
+    "机器人": 2,
+    "机器人数据": 2,
+    "MaaS": 2,
+    "大模型推理": 2,
+    "全栈": 2,
+    "Physical AI": 2,
+    "机器人数据采集": 2,
+    "大模型平台": 1,
+    "训练推理": 1,
+    "端侧芯片": 1,
+    "MCU": 1,
+    "具身智能芯片": 1,
+    "车规SoC": 1,
+    "异构算力": 1,
+    "模型服务": 1,
+    "推理平台": 1,
+    "模型API": 1,
+    "AI研究": 1,
+    "视觉模型": 1,
+    "音视频生成": 1,
+    "AI Workspace": 1,
+    "创作社区": 1,
+    "图像生成": 1,
+    "设计Agent": 1,
+    "动画Agent": 1,
+    "康复机器人": 1,
+    "机器人本体": 1,
+    "可信AI": 1,
+    "可重构芯片": 1,
+    "智算芯片": 1,
+    "玻尔": 1,
+    "科学智能体": 1,
+    "高性能计算": 1,
+    "天工": 1,
+    "慧思开物": 1,
+    "力控": 1,
+    "机械臂": 1,
+    "微型伺服": 1,
+    "运动执行器": 1,
+    "AI算力": 1,
+    "基础设施": 1,
+    "3D大模型": 1,
+    "3D生成": 1,
+    "一体化电机": 1,
+    "机器人关节模组": 1,
+    "核心零部件": 1,
+    "具身世界模型": 1,
+    "家庭机器人": 1,
+    "一脑多形": 1,
+    "工业具身智能": 1,
+    "焊接机器人": 1,
+    "AI 3D": 1,
+    "图形计算": 1,
+    "多模态模型": 1,
+    "材料大模型": 1,
+    "生成式材料": 1,
+    "DM0.5": 1,
+    "Dexbotic": 1,
+    "AI系统软件": 1,
+    "大模型训练": 1,
+    "AI芯片": 1,
+    "存算一体": 1,
+    "AI CPU": 1,
+    "K3": 1,
+    "RISC-V": 1,
+    "大模型芯片": 1,
+    "AlphaBot": 1,
+    "GOVLA": 1,
+    "通用机器人": 1,
+    "文生图": 1,
+    "文生视频": 1,
+    "Agent Workspace": 1,
+    "企业 AI": 1,
+    "AI 游戏": 1,
+    "Agent 平台": 1,
+    "世界动作模型": 1,
+    "AI": 1,
+    "数据平台": 1,
+    "物理RSI": 1,
+    "具身通用基础模型": 1,
+    "AI4S": 1,
+    "实验室机器人": 1,
+    "智能体": 1,
+    "视觉因果推理": 1,
+    "全身智能": 1,
+    "机器人基座模型": 1,
+    "直接感知控制": 1,
+    "Serverless GPU": 1,
+    "弹性算力": 1,
+    "触觉": 1,
+    "通用操作系统": 1,
+    "密态计算": 1,
+    "UMI数据": 1,
+    "AI陪伴": 1,
+    "sEMG": 1,
+    "具身数据": 1,
+    "端云协同": 1,
+    "端侧推理": 1,
+    "推理引擎": 1,
+    "协作系统": 1,
+    "自进化": 1,
+    "AI4Bio": 1,
+    "分子世界模型": 1,
+    "AI HR": 1,
+    "AI原生SaaS": 1,
+    "企业Agent": 1,
+    "UMI": 1,
+    "ACR": 1,
+    "仓储机器人": 1,
+    "物流自动化": 1,
+    "L4物流": 1,
+    "港口无人驾驶": 1,
+    "L4": 1,
+    "无人货运": 1,
+    "新能源商用车": 1,
+    "智能重卡": 1,
+    "协作机械臂": 1,
+    "轻量化关节模组": 1,
+    "仿生人形机器人": 1,
+    "情感交互": 1,
+    "机器人控制": 1,
+    "四足机器人": 1,
+    "轮足机器人": 1,
+    "协作机器人": 1,
+    "复合机器人": 1,
+    "运动控制": 1,
+    "SLAM": 1,
+    "无人船": 1,
+    "水下机器人": 1,
+    "数据采集": 1,
+    "机器人劳动力": 1,
+    "机器人力控": 1,
+    "触觉传感器": 1,
+    "关节模组": 1,
+    "微型电缸": 1,
+    "机器人触觉": 1,
+    "柔性电子": 1,
+    "高自由度灵巧手": 1,
+    "AI基础设施": 1,
+    "量子AI": 1,
+    "量子计算": 1,
+    "经济预测": 1,
+    "预测智能体": 1,
+    "专家数据": 1,
+    "模型评测": 1,
+    "AI视频": 1,
+    "AI音频": 1,
+    "创作者工具": 1,
+    "Agent安全": 1,
+    "运行时监测": 1,
+    "AI产品": 1,
+    "Agent评测": 1,
+    "强化学习环境": 1
+  },
+  "companies": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "directoryIds": [
+        "deepseek"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-10-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-30",
+      "source": "https://vc.pedaily.cn/invest/447445.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Agent",
+        "大语言模型"
+      ]
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面 / Kimi",
+      "directoryIds": [
+        "moonshot"
+      ],
+      "stage": "F 轮",
+      "round": "F轮",
+      "eventDate": "2026-07-29",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-29",
+      "source": "https://vc.pedaily.cn/invest/426134.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Agent",
+        "大语言模型"
+      ]
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰 StepFun",
+      "directoryIds": [
+        "stepfun"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-05-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-09",
+      "source": "https://vc.pedaily.cn/invest/424960.html",
+      "note": "保留随后战略融资记录；统计取最近具名轮次。",
+      "tags": [
+        "多模态",
+        "大语言模型",
+        "端侧AI"
+      ]
+    },
+    {
+      "id": "modelbest",
+      "name": "面壁智能",
+      "directoryIds": [
+        "modelbest"
+      ],
+      "stage": "D 轮",
+      "round": "D++轮",
+      "eventDate": "2026-07-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-15",
+      "source": "https://vc.pedaily.cn/invest/425963.html",
+      "note": "",
+      "tags": [
+        "多模态",
+        "大语言模型",
+        "端侧AI"
+      ]
+    },
+    {
+      "id": "luchen",
+      "name": "潞晨科技",
+      "directoryIds": [
+        "luchen"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-03-18",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-18",
+      "source": "https://vc.pedaily.cn/invest/423479.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "大模型平台",
+        "训练推理"
+      ]
+    },
+    {
+      "id": "d_robotics",
+      "name": "地瓜机器人",
+      "directoryIds": [
+        "d_robotics"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-09-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-17",
+      "source": "https://vc.pedaily.cn/invest/426973.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人开发平台",
+        "端侧芯片"
+      ]
+    },
+    {
+      "id": "semidrive",
+      "name": "芯驰科技",
+      "directoryIds": [
+        "semidrive"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-09-21",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-21",
+      "source": "https://vc.pedaily.cn/invest/427128.html",
+      "note": "",
+      "tags": [
+        "MCU",
+        "具身智能芯片",
+        "车规SoC"
+      ]
+    },
+    {
+      "id": "infinigence",
+      "name": "无问芯穹",
+      "directoryIds": [
+        "infinigence"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-10-12",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-12",
+      "source": "https://vc.pedaily.cn/invest/427290.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "异构算力",
+        "模型服务"
+      ]
+    },
+    {
+      "id": "siliconflow",
+      "name": "硅基流动",
+      "directoryIds": [
+        "siliconflow"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-09-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-20",
+      "source": "https://vc.pedaily.cn/invest/427032.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "推理平台",
+        "模型API"
+      ]
+    },
+    {
+      "id": "naive",
+      "name": "Naive AI",
+      "directoryIds": [
+        "naive"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-09-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-09",
+      "source": "https://vc.pedaily.cn/invest/428598.html",
+      "note": "",
+      "tags": [
+        "AI研究",
+        "基础模型"
+      ]
+    },
+    {
+      "id": "shengshu",
+      "name": "生数科技",
+      "directoryIds": [
+        "shengshu"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-07-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-06",
+      "source": "https://vc.pedaily.cn/invest/425796.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "多模态",
+        "视频生成"
+      ]
+    },
+    {
+      "id": "aishi",
+      "name": "爱诗科技",
+      "directoryIds": [
+        "aishi"
+      ],
+      "stage": "C 轮",
+      "round": "C轮追加",
+      "eventDate": "2026-07-14",
+      "publisher": "PixVerse 官方公告",
+      "sourcePublished": "2026-07-14",
+      "source": "https://pixverse.ai/en/blog/pixverse-closes-series-c-extension-and-announces-expansion-into-interactive-entertainment",
+      "note": "",
+      "tags": [
+        "视觉模型",
+        "视频生成"
+      ]
+    },
+    {
+      "id": "sand",
+      "name": "Sand.ai",
+      "directoryIds": [
+        "sand"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-11-05",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-05",
+      "source": "https://vc.pedaily.cn/invest/449851.html",
+      "note": "",
+      "tags": [
+        "视频生成",
+        "音视频生成"
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "directoryIds": [
+        "genspark"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-06-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-15",
+      "source": "https://vc.pedaily.cn/invest/431681.html",
+      "note": "",
+      "tags": [
+        "AI Workspace",
+        "Agent"
+      ]
+    },
+    {
+      "id": "evoken",
+      "name": "演语科技（Liblib / Lovart）",
+      "directoryIds": [
+        "liblib",
+        "lovart"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-06",
+      "publisher": "极客公园（36氪刊载）",
+      "sourcePublished": "2026-06-18",
+      "source": "https://www.36kr.com/p/3858046706832640",
+      "note": "演语科技旗下产品；按公司合并计数。",
+      "tags": [
+        "创作社区",
+        "图像生成",
+        "设计Agent"
+      ]
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "directoryIds": [
+        "oiioii"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-03-24",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-24",
+      "source": "https://vc.pedaily.cn/invest/424646.html",
+      "note": "",
+      "tags": [
+        "动画Agent",
+        "视频生成"
+      ]
+    },
+    {
+      "id": "agibot",
+      "name": "智元机器人",
+      "directoryIds": [
+        "agibot"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2025-05",
+      "publisher": "OFweek产业研究中心／高维产业咨询",
+      "sourcePublished": "2026",
+      "source": "https://www.cdut.edu.cn/__local/F/52/9E/B1D5CD3F12BB2D865491DE62813_AF41147E_2C5D750.pdf#page=32",
+      "note": "2026机器人产业蓝皮书，印刷第27页融资表；发布年确定，未标注精确日期。",
+      "tags": [
+        "人形机器人",
+        "具身基座模型"
+      ]
+    },
+    {
+      "id": "galbot",
+      "name": "银河通用",
+      "directoryIds": [
+        "galbot"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-03-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-02",
+      "source": "https://vc.pedaily.cn/invest/422579.html",
+      "note": "",
+      "tags": [
+        "具身大模型",
+        "机器人操作"
+      ]
+    },
+    {
+      "id": "fourier",
+      "name": "傅利叶智能",
+      "directoryIds": [
+        "fourier"
+      ],
+      "stage": "E 轮",
+      "round": "E轮",
+      "eventDate": "2025",
+      "publisher": "国金证券2026年度策略报告",
+      "sourcePublished": "2026-01-06",
+      "source": "https://pdf.dfcfw.com/pdf/H3_AP202601061815848979_1.pdf",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "康复机器人"
+      ]
+    },
+    {
+      "id": "robotera",
+      "name": "星动纪元",
+      "directoryIds": [
+        "robotera"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-07-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-06",
+      "source": "https://vc.pedaily.cn/invest/428530.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身大模型"
+      ]
+    },
+    {
+      "id": "limx",
+      "name": "逐际动力",
+      "directoryIds": [
+        "limx"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-07-14",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-14",
+      "source": "https://vc.pedaily.cn/invest/425889.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "id": "booster",
+      "name": "加速进化",
+      "directoryIds": [
+        "booster"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-04-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-17",
+      "source": "https://vc.pedaily.cn/invest/424698.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "机器人开发平台"
+      ]
+    },
+    {
+      "id": "noetix",
+      "name": "松延动力",
+      "directoryIds": [
+        "noetix"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-07-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-30",
+      "source": "https://vc.pedaily.cn/invest/427629.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "人形机器人",
+        "仿生机器人"
+      ]
+    },
+    {
+      "id": "galaxea",
+      "name": "星海图",
+      "directoryIds": [
+        "galaxea"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-04-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-02",
+      "source": "https://vc.pedaily.cn/invest/424207.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "具身基础模型",
+        "机器人本体"
+      ]
+    },
+    {
+      "id": "realai",
+      "name": "瑞莱智慧",
+      "directoryIds": [
+        "realai"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-07-21",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-21",
+      "source": "https://vc.pedaily.cn/invest/425986.html",
+      "note": "",
+      "tags": [
+        "AI安全",
+        "可信AI",
+        "隐私计算"
+      ]
+    },
+    {
+      "id": "tsingmicro",
+      "name": "清微智能",
+      "directoryIds": [
+        "tsingmicro"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-03-19",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-19",
+      "source": "https://vc.pedaily.cn/invest/428601.html",
+      "note": "",
+      "tags": [
+        "可重构芯片",
+        "智算芯片"
+      ]
+    },
+    {
+      "id": "dptechnology",
+      "name": "深势科技",
+      "directoryIds": [
+        "dptechnology"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2025-12",
+      "publisher": "启明创投",
+      "sourcePublished": "2026-04-15",
+      "source": "https://www.qimingvc.com/en/node/7609",
+      "note": "2026年投资机构资料回顾2025年12月C轮，未将事件日期改为2026年。",
+      "tags": [
+        "AI for Science",
+        "玻尔",
+        "科学智能体",
+        "高性能计算"
+      ]
+    },
+    {
+      "id": "spiritai",
+      "name": "千寻智能",
+      "directoryIds": [
+        "spiritai"
+      ],
+      "stage": "A 轮",
+      "round": "A++轮",
+      "eventDate": "2026-06-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-03",
+      "source": "https://vc.pedaily.cn/invest/425301.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身模型"
+      ]
+    },
+    {
+      "id": "x2robot",
+      "name": "自变量机器人",
+      "directoryIds": [
+        "x2robot"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-06-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-30",
+      "source": "https://vc.pedaily.cn/invest/425718.html",
+      "note": "",
+      "tags": [
+        "具身大模型",
+        "机器人操作"
+      ]
+    },
+    {
+      "id": "xhumanoid",
+      "name": "北京人形机器人创新中心 / 天工",
+      "directoryIds": [
+        "xhumanoid"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-06-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-01",
+      "source": "https://vc.pedaily.cn/invest/443336.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "天工",
+        "慧思开物"
+      ]
+    },
+    {
+      "id": "tars",
+      "name": "它石智航",
+      "directoryIds": [
+        "tars"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-07-31",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-31",
+      "source": "https://vc.pedaily.cn/invest/428097.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人"
+      ]
+    },
+    {
+      "id": "linkerbot",
+      "name": "灵心巧手",
+      "directoryIds": [
+        "linkerbot"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-04-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-30",
+      "source": "https://vc.pedaily.cn/invest/424880.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人操作",
+        "灵巧手"
+      ]
+    },
+    {
+      "id": "agilerobots",
+      "name": "思灵机器人",
+      "directoryIds": [
+        "agilerobots"
+      ],
+      "stage": "D 轮",
+      "round": "D轮",
+      "eventDate": "2026-11-12",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-12",
+      "source": "https://vc.pedaily.cn/invest/457808.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "力控",
+        "机器人操作"
+      ]
+    },
+    {
+      "id": "casbot",
+      "name": "中科慧灵 / CASBOT",
+      "directoryIds": [
+        "casbot"
+      ],
+      "stage": "A 轮",
+      "round": "A++轮",
+      "eventDate": "2026-10-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-26",
+      "source": "https://vc.pedaily.cn/invest/447374.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身智能",
+        "灵巧手"
+      ]
+    },
+    {
+      "id": "realman",
+      "name": "睿尔曼智能",
+      "directoryIds": [
+        "realman"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-03-05",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-05",
+      "source": "https://vc.pedaily.cn/invest/423822.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "机器人数据",
+        "机械臂"
+      ]
+    },
+    {
+      "id": "inspirerobots",
+      "name": "因时机器人",
+      "directoryIds": [
+        "inspirerobots"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-02-25",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-02-25",
+      "source": "https://vc.pedaily.cn/invest/421554.html",
+      "note": "",
+      "tags": [
+        "微型伺服",
+        "灵巧手",
+        "运动执行器"
+      ]
+    },
+    {
+      "id": "tingyu",
+      "name": "庭宇科技",
+      "directoryIds": [
+        "tingyu"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-06-25",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-25",
+      "source": "https://vc.pedaily.cn/invest/429289.html",
+      "note": "",
+      "tags": [
+        "AI算力",
+        "Agent",
+        "基础设施"
+      ]
+    },
+    {
+      "id": "gigaai",
+      "name": "极佳科技 / 极佳视界",
+      "directoryIds": [
+        "gigaai"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-06-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-15",
+      "source": "https://vc.pedaily.cn/invest/457861.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "qcraft",
+      "name": "轻舟智航",
+      "directoryIds": [
+        "qcraft"
+      ],
+      "stage": "D 轮",
+      "round": "D轮",
+      "eventDate": "2026-03-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-23",
+      "source": "https://vc.pedaily.cn/invest/423701.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "neolix",
+      "name": "新石器无人车",
+      "directoryIds": [
+        "neolix"
+      ],
+      "stage": "E 轮",
+      "round": "E轮",
+      "eventDate": "2026-10-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-20",
+      "source": "https://vc.pedaily.cn/invest/427401.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "vast",
+      "name": "VAST / Tripo",
+      "directoryIds": [
+        "vast"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-09-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-01",
+      "source": "https://vc.pedaily.cn/invest/426736.html",
+      "note": "",
+      "tags": [
+        "3D大模型",
+        "3D生成",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "anyverse",
+      "name": "无界动力",
+      "directoryIds": [
+        "anyverse"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+++轮",
+      "eventDate": "2026-06-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-26",
+      "source": "https://vc.pedaily.cn/invest/448889.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "whiterhino",
+      "name": "白犀牛",
+      "directoryIds": [
+        "whiterhino"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-10-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-08",
+      "source": "https://vc.pedaily.cn/invest/427249.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "vbot",
+      "name": "维他动力 Vbot",
+      "directoryIds": [
+        "vbot"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A++轮",
+      "eventDate": "2026-10-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-13",
+      "source": "https://vc.pedaily.cn/invest/451802.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "tashan",
+      "name": "他山科技",
+      "directoryIds": [
+        "tashan"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-07-10",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-10",
+      "source": "https://vc.pedaily.cn/invest/425828.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "robstride",
+      "name": "灵足时代",
+      "directoryIds": [
+        "robstride"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-03-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-27",
+      "source": "https://vc.pedaily.cn/invest/430759.html",
+      "note": "",
+      "tags": [
+        "一体化电机",
+        "机器人关节模组",
+        "核心零部件"
+      ]
+    },
+    {
+      "id": "rimbot",
+      "name": "日冕机器人 RimBOT",
+      "directoryIds": [
+        "rimbot"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-07-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-17",
+      "source": "https://vc.pedaily.cn/invest/440465.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身基础模型",
+        "灵巧操作"
+      ]
+    },
+    {
+      "id": "pokebot",
+      "name": "破壳机器人 PokeBot",
+      "directoryIds": [
+        "pokebot"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-08-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-03",
+      "source": "https://vc.pedaily.cn/invest/426232.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "具身世界模型",
+        "家庭机器人"
+      ]
+    },
+    {
+      "id": "tokenrhythm",
+      "name": "基元律动 TokenRhythm",
+      "directoryIds": [
+        "tokenrhythm"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-08-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-26",
+      "source": "https://vc.pedaily.cn/invest/426628.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Agent",
+        "MaaS"
+      ]
+    },
+    {
+      "id": "xvirobotics",
+      "name": "十六号机器人 XVI Robotics",
+      "directoryIds": [
+        "xvirobotics"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-06-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-23",
+      "source": "https://vc.pedaily.cn/invest/428081.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "VLA",
+        "人形机器人"
+      ]
+    },
+    {
+      "id": "xiaoyubot",
+      "name": "小雨智造",
+      "directoryIds": [
+        "xiaoyubot"
+      ],
+      "stage": "B 轮",
+      "round": "B++轮",
+      "eventDate": "2026-09-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-08",
+      "source": "https://vc.pedaily.cn/invest/426931.html",
+      "note": "",
+      "tags": [
+        "一脑多形",
+        "工业具身智能",
+        "焊接机器人"
+      ]
+    },
+    {
+      "id": "meshy",
+      "name": "Meshy / 太极图形",
+      "directoryIds": [
+        "meshy"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-07-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-20",
+      "source": "https://vc.pedaily.cn/invest/426008.html",
+      "note": "",
+      "tags": [
+        "AI 3D",
+        "图形计算",
+        "多模态模型"
+      ]
+    },
+    {
+      "id": "kairosmaterials",
+      "name": "开物纪 Kairos",
+      "directoryIds": [
+        "kairosmaterials"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-07-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-09",
+      "source": "https://vc.pedaily.cn/invest/431215.html",
+      "note": "",
+      "tags": [
+        "AI for Science",
+        "材料大模型",
+        "生成式材料"
+      ]
+    },
+    {
+      "id": "dexmal",
+      "name": "原力灵机 Dexmal",
+      "directoryIds": [
+        "dexmal"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-06-05",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-05",
+      "source": "https://vc.pedaily.cn/invest/425319.html",
+      "note": "",
+      "tags": [
+        "DM0.5",
+        "Dexbotic",
+        "VLA",
+        "具身基础模型"
+      ]
+    },
+    {
+      "id": "qingcheng",
+      "name": "清程极智",
+      "directoryIds": [
+        "qingcheng"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-10-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-15",
+      "source": "https://vc.pedaily.cn/invest/427349.html",
+      "note": "",
+      "tags": [
+        "AI系统软件",
+        "MaaS",
+        "大模型推理",
+        "大模型训练"
+      ]
+    },
+    {
+      "id": "houmo",
+      "name": "后摩智能",
+      "directoryIds": [
+        "houmo"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-11-04",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-04",
+      "source": "https://vc.pedaily.cn/invest/449840.html",
+      "note": "",
+      "tags": [
+        "AI芯片",
+        "大模型推理",
+        "存算一体",
+        "端侧AI"
+      ]
+    },
+    {
+      "id": "spacemit",
+      "name": "进迭时空 SpacemiT",
+      "directoryIds": [
+        "spacemit"
+      ],
+      "stage": "B 轮",
+      "round": "B+轮",
+      "eventDate": "2026-10-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-15",
+      "source": "https://vc.pedaily.cn/invest/440630.html",
+      "note": "",
+      "tags": [
+        "AI CPU",
+        "K3",
+        "RISC-V",
+        "大模型芯片"
+      ]
+    },
+    {
+      "id": "ai2robotics",
+      "name": "智平方 AI² Robotics",
+      "directoryIds": [
+        "ai2robotics"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-06-29",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-29",
+      "source": "https://vc.pedaily.cn/invest/425721.html",
+      "note": "",
+      "tags": [
+        "AlphaBot",
+        "GOVLA",
+        "具身大模型",
+        "通用机器人"
+      ]
+    },
+    {
+      "id": "hidream",
+      "name": "智象未来 HiDream",
+      "directoryIds": [
+        "hidream"
+      ],
+      "stage": "C 轮",
+      "round": "C+轮",
+      "eventDate": "2026-09-15",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-15",
+      "source": "https://vc.pedaily.cn/invest/427897.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "多模态",
+        "文生图",
+        "文生视频"
+      ]
+    },
+    {
+      "id": "floatboat",
+      "name": "Floatboat",
+      "directoryIds": [
+        "floatboat"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-03-18",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-18",
+      "source": "https://vc.pedaily.cn/invest/423513.html",
+      "note": "",
+      "tags": [
+        "Agent Workspace",
+        "企业 AI",
+        "全栈"
+      ]
+    },
+    {
+      "id": "taonier",
+      "name": "陶泥儿 TAONIER",
+      "directoryIds": [
+        "taonier"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-06-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-08",
+      "source": "https://vc.pedaily.cn/invest/435116.html",
+      "note": "",
+      "tags": [
+        "AI 游戏",
+        "Agent 平台",
+        "全栈"
+      ]
+    },
+    {
+      "id": "xera",
+      "name": "拓元智慧 X-Era",
+      "directoryIds": [
+        "xera"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-07-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-02",
+      "source": "https://vc.pedaily.cn/invest/453064.html",
+      "note": "",
+      "tags": [
+        "世界动作模型",
+        "具身智能",
+        "多模态"
+      ]
+    },
+    {
+      "id": "starwith",
+      "name": "星曜同谐 Starwith",
+      "directoryIds": [
+        "starwith"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-08-02",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-02",
+      "source": "https://vc.pedaily.cn/invest/428319.html",
+      "note": "",
+      "tags": [
+        "AI",
+        "数据平台",
+        "机器人"
+      ]
+    },
+    {
+      "id": "apexin",
+      "name": "超衍智能 Apex Intelligence",
+      "directoryIds": [
+        "apexin"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-09-16",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-16",
+      "source": "https://vc.pedaily.cn/invest/426992.html",
+      "note": "",
+      "tags": [
+        "AI for Science",
+        "Agent",
+        "基础模型"
+      ]
+    },
+    {
+      "id": "mirros",
+      "name": "MirroS",
+      "directoryIds": [
+        "mirros"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-08-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-06",
+      "source": "https://vc.pedaily.cn/invest/428317.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身智能",
+        "多模态",
+        "物理RSI"
+      ]
+    },
+    {
+      "id": "beingbeyond",
+      "name": "智在无界 BeingBeyond",
+      "directoryIds": [
+        "beingbeyond"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-01-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-01-13",
+      "source": "https://vc.pedaily.cn/invest/417106.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "世界模型",
+        "具身通用基础模型"
+      ]
+    },
+    {
+      "id": "quiktech",
+      "name": "青葵智造 QUIKTECH",
+      "directoryIds": [
+        "quiktech"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-11-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-13",
+      "source": "https://vc.pedaily.cn/invest/457797.html",
+      "note": "",
+      "tags": [
+        "AI4S",
+        "具身智能",
+        "实验室机器人",
+        "智能体"
+      ]
+    },
+    {
+      "id": "physis",
+      "name": "逆矩阵科技 Physis",
+      "directoryIds": [
+        "physis"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子+轮",
+      "eventDate": "2026-06-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-17",
+      "source": "https://vc.pedaily.cn/invest/448845.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Physical AI",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "psibot",
+      "name": "灵初智能 PsiBot",
+      "directoryIds": [
+        "psibot"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-08-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-27",
+      "source": "https://vc.pedaily.cn/invest/426640.html",
+      "note": "",
+      "tags": [
+        "VLA",
+        "世界模型",
+        "灵巧操作"
+      ]
+    },
+    {
+      "id": "muka",
+      "name": "莫刻机器人 MUKA Robotics",
+      "directoryIds": [
+        "muka"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-09-29",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-29",
+      "source": "https://vc.pedaily.cn/invest/427827.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身模型",
+        "视觉因果推理"
+      ]
+    },
+    {
+      "id": "symbiosis",
+      "name": "共生知行 Symbiosis Robotics",
+      "directoryIds": [
+        "symbiosis"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-08-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-17",
+      "source": "https://vc.pedaily.cn/invest/429717.html",
+      "note": "",
+      "tags": [
+        "全身智能",
+        "机器人基座模型",
+        "直接感知控制"
+      ]
+    },
+    {
+      "id": "gongji",
+      "name": "共绩科技",
+      "directoryIds": [
+        "gongji"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-11-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-03",
+      "source": "https://vc.pedaily.cn/invest/457214.html",
+      "note": "",
+      "tags": [
+        "AI Infra",
+        "Serverless GPU",
+        "弹性算力"
+      ]
+    },
+    {
+      "id": "latentverse",
+      "name": "潜界科技 LatentVerse",
+      "directoryIds": [
+        "latentverse"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-08-11",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-11",
+      "source": "https://vc.pedaily.cn/invest/427840.html",
+      "note": "",
+      "tags": [
+        "世界模型",
+        "具身基座模型",
+        "触觉"
+      ]
+    },
+    {
+      "id": "litchibot",
+      "name": "厘清智能",
+      "directoryIds": [
+        "litchibot"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-10-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-08",
+      "source": "https://vc.pedaily.cn/invest/427230.html",
+      "note": "",
+      "tags": [
+        "Physical AI",
+        "世界模型",
+        "通用操作系统"
+      ]
+    },
+    {
+      "id": "jinghua-security",
+      "name": "荆华密算",
+      "directoryIds": [
+        "jinghua-security"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-10-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-13",
+      "source": "https://vc.pedaily.cn/invest/427303.html",
+      "note": "",
+      "tags": [
+        "AI安全",
+        "密态计算",
+        "隐私计算"
+      ]
+    },
+    {
+      "id": "liberai",
+      "name": "将闲科技 LiberAI",
+      "directoryIds": [
+        "liberai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A++轮",
+      "eventDate": "2026-09-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-17",
+      "source": "https://vc.pedaily.cn/invest/426971.html",
+      "note": "",
+      "tags": [
+        "UMI数据",
+        "世界模型",
+        "具身基础模型"
+      ]
+    },
+    {
+      "id": "facemind",
+      "name": "脸谱心智 FaceMind",
+      "directoryIds": [
+        "facemind"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-06-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-26",
+      "source": "https://vc.pedaily.cn/invest/425618.html",
+      "note": "",
+      "tags": [
+        "AI陪伴",
+        "世界模型",
+        "大语言模型"
+      ]
+    },
+    {
+      "id": "originflow",
+      "name": "渊澈太初 OriginFlow",
+      "directoryIds": [
+        "originflow"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-05-21",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-21",
+      "source": "https://vc.pedaily.cn/invest/425101.html",
+      "note": "",
+      "tags": [
+        "sEMG",
+        "具身数据",
+        "多模态"
+      ]
+    },
+    {
+      "id": "onetoken",
+      "name": "万格智元 ONE TOKEN",
+      "directoryIds": [
+        "onetoken"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-10-31",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-31",
+      "source": "https://vc.pedaily.cn/invest/457023.html",
+      "note": "",
+      "tags": [
+        "Agent",
+        "端云协同",
+        "端侧推理"
+      ]
+    },
+    {
+      "id": "omnimind",
+      "name": "万象智维 OmniMind",
+      "directoryIds": [
+        "omnimind"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-11-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-09",
+      "source": "https://vc.pedaily.cn/invest/457693.html",
+      "note": "",
+      "tags": [
+        "Agent",
+        "推理引擎",
+        "端侧AI"
+      ]
+    },
+    {
+      "id": "singularity_escape",
+      "name": "奇点逃逸 Nexus",
+      "directoryIds": [
+        "singularity_escape"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-08-03",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-03",
+      "source": "https://vc.pedaily.cn/invest/428171.html",
+      "note": "",
+      "tags": [
+        "Agent",
+        "协作系统",
+        "自进化"
+      ]
+    },
+    {
+      "id": "valhalla",
+      "name": "英灵殿科技 Valhalla",
+      "directoryIds": [
+        "valhalla"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-07-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-27",
+      "source": "https://vc.pedaily.cn/invest/426163.html",
+      "note": "",
+      "tags": [
+        "AI for Science",
+        "AI4Bio",
+        "分子世界模型"
+      ]
+    },
+    {
+      "id": "moka",
+      "name": "Moka AI",
+      "directoryIds": [
+        "moka"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2021-11",
+      "publisher": "36氪",
+      "sourcePublished": "2026-05-23",
+      "source": "https://www.36kr.com/p/3819979202253189",
+      "note": "2026年报道确认历史C轮；事件月份另由企业官网发展历程确认。",
+      "tags": [
+        "AI HR",
+        "AI原生SaaS",
+        "企业Agent"
+      ]
+    },
+    {
+      "id": "livsyn",
+      "name": "灵生科技 LivSyn Robotics",
+      "directoryIds": [
+        "livsyn"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-10-08",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-08",
+      "source": "https://vc.pedaily.cn/invest/427238.html",
+      "note": "",
+      "tags": [
+        "UMI",
+        "具身智能",
+        "机器人数据采集"
+      ]
+    },
+    {
+      "id": "hairobotics",
+      "name": "海柔创新 Hai Robotics",
+      "directoryIds": [
+        "hairobotics"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-04-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-01",
+      "source": "https://vc.pedaily.cn/invest/424217.html",
+      "note": "",
+      "tags": [
+        "ACR",
+        "仓储机器人",
+        "物流自动化"
+      ]
+    },
+    {
+      "id": "seniorauto",
+      "name": "斯年智驾 Senior Auto",
+      "directoryIds": [
+        "seniorauto"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-07-15",
+      "publisher": "斯年智驾官方公告",
+      "sourcePublished": "2026-07-15",
+      "source": "https://www.senior.auto/news-detail/1404.html",
+      "note": "2026-09-09另有战略融资，未采用数据库C+写法。",
+      "tags": [
+        "L4物流",
+        "港口无人驾驶",
+        "自动驾驶"
+      ]
+    },
+    {
+      "id": "kargobot",
+      "name": "卡尔动力 KargoBot",
+      "directoryIds": [
+        "kargobot"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-03-02",
+      "publisher": "投中网",
+      "sourcePublished": "2026-03-02",
+      "source": "https://m.chinaventure.com.cn/news/110-20260302-390298.html",
+      "note": "",
+      "tags": [
+        "L4",
+        "无人货运",
+        "自动驾驶"
+      ]
+    },
+    {
+      "id": "deepway",
+      "name": "深向 DeepWay",
+      "directoryIds": [
+        "deepway"
+      ],
+      "stage": "Pre-IPO",
+      "round": "Pre-IPO",
+      "eventDate": "2026-04-21",
+      "publisher": "普华永道",
+      "sourcePublished": "2026-11",
+      "source": "https://www.pwccn.com/zh/automotive/china-auto-ma-review-outlook-nov2026.pdf",
+      "note": "2026年上半年汽车行业并购回顾，自动驾驶商用车交易表。",
+      "tags": [
+        "新能源商用车",
+        "智能重卡",
+        "自动驾驶"
+      ]
+    },
+    {
+      "id": "ti5robot",
+      "name": "钛虎机器人",
+      "directoryIds": [
+        "ti5robot"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2026-03-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-30",
+      "source": "https://vc.pedaily.cn/invest/452437.html",
+      "note": "2026-05-06另有未注明字母轮次的战略融资。",
+      "tags": [
+        "人形机器人",
+        "协作机械臂",
+        "轻量化关节模组"
+      ]
+    },
+    {
+      "id": "aheadform",
+      "name": "首形科技",
+      "directoryIds": [
+        "aheadform"
+      ],
+      "stage": "A 轮",
+      "round": "A++轮",
+      "eventDate": "2026-10-24",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-24",
+      "source": "https://vc.pedaily.cn/invest/446948.html",
+      "note": "",
+      "tags": [
+        "仿生人形机器人",
+        "情感交互",
+        "机器人控制"
+      ]
+    },
+    {
+      "id": "deeprobotics",
+      "name": "云深处科技",
+      "directoryIds": [
+        "deeprobotics"
+      ],
+      "stage": "C 轮",
+      "round": "C轮",
+      "eventDate": "2025-12-09",
+      "publisher": "OFweek产业研究中心／高维产业咨询",
+      "sourcePublished": "2026",
+      "source": "https://www.cdut.edu.cn/__local/F/52/9E/B1D5CD3F12BB2D865491DE62813_AF41147E_2C5D750.pdf#page=32",
+      "note": "同表回顾2025年C轮；AWE2026主办方资料亦确认该轮次。",
+      "tags": [
+        "人形机器人",
+        "四足机器人",
+        "轮足机器人"
+      ]
+    },
+    {
+      "id": "elibot",
+      "name": "艾利特机器人",
+      "directoryIds": [
+        "elibot"
+      ],
+      "stage": "D 轮",
+      "round": "D+轮",
+      "eventDate": "2026-03-25",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-03-25",
+      "source": "https://m.pedaily.cn/news/562059",
+      "note": "公开具名轮次归入D轮系列，不以无法确认的后续金额或阶段推断。",
+      "tags": [
+        "具身智能",
+        "协作机器人",
+        "复合机器人",
+        "运动控制"
+      ]
+    },
+    {
+      "id": "boyagongdao",
+      "name": "博雅工道",
+      "directoryIds": [
+        "boyagongdao"
+      ],
+      "stage": "D 轮",
+      "round": "D+轮",
+      "eventDate": "2026-04-16",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-04-16",
+      "source": "https://vc.pedaily.cn/invest/444062.html",
+      "note": "",
+      "tags": [
+        "SLAM",
+        "仿生机器人",
+        "无人船",
+        "水下机器人"
+      ]
+    },
+    {
+      "id": "deltai",
+      "name": "德塔智能",
+      "directoryIds": [
+        "deltai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-10-26",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-26",
+      "source": "https://vc.pedaily.cn/invest/447584.html",
+      "note": "",
+      "tags": [
+        "人形机器人",
+        "具身智能",
+        "机器人数据采集",
+        "灵巧手"
+      ]
+    },
+    {
+      "id": "whaleleap",
+      "name": "鲸跃动力",
+      "directoryIds": [
+        "whaleleap"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "种子轮",
+      "eventDate": "2026-05-18",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-18",
+      "source": "https://vc.pedaily.cn/invest/427449.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "数据采集",
+        "机器人劳动力",
+        "灵巧操作"
+      ]
+    },
+    {
+      "id": "imprintx",
+      "name": "知行具身 ImprintX",
+      "directoryIds": [
+        "imprintx"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-06-16",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-16",
+      "source": "https://vc.pedaily.cn/invest/430581.html",
+      "note": "",
+      "tags": [
+        "机器人力控",
+        "机器人数据",
+        "灵巧手",
+        "触觉传感器"
+      ]
+    },
+    {
+      "id": "xynova",
+      "name": "曦诺未来 Xynova",
+      "directoryIds": [
+        "xynova"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-07-17",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-17",
+      "source": "https://vc.pedaily.cn/invest/425932.html",
+      "note": "",
+      "tags": [
+        "关节模组",
+        "微型电缸",
+        "机器人触觉",
+        "柔性电子",
+        "高自由度灵巧手"
+      ]
+    },
+    {
+      "id": "simpleai",
+      "name": "深朴智能",
+      "directoryIds": [
+        "simpleai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A+轮",
+      "eventDate": "2026-09-04",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-04",
+      "source": "https://vc.pedaily.cn/invest/426730.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "sidereus-ai",
+      "name": "星使智算 AsterFire Go",
+      "directoryIds": [
+        "sidereus-ai"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-06-30",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-30",
+      "source": "https://vc.pedaily.cn/invest/430155.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "bedicloud",
+      "name": "北电数智",
+      "directoryIds": [
+        "bedicloud"
+      ],
+      "stage": "A 轮",
+      "round": "A+轮",
+      "eventDate": "2026-08-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-08-27",
+      "source": "https://vc.pedaily.cn/invest/428942.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "spinentropy",
+      "name": "熵旋芯智",
+      "directoryIds": [
+        "spinentropy"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使轮",
+      "eventDate": "2026-05-27",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-05-27",
+      "source": "https://vc.pedaily.cn/invest/430331.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "baiyangai",
+      "name": "白杨智能",
+      "directoryIds": [
+        "baiyangai"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-01-06",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-01-06",
+      "source": "https://vc.pedaily.cn/invest/452135.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "veloalpha",
+      "name": "瞬原科技",
+      "directoryIds": [
+        "veloalpha"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-11-11",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-11-11",
+      "source": "https://vc.pedaily.cn/invest/457199.html",
+      "note": "",
+      "tags": []
+    },
+    {
+      "id": "zhongke-liangshu",
+      "name": "中科量枢",
+      "directoryIds": [
+        "zhongke-liangshu"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-07-20",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-20",
+      "source": "https://vc.pedaily.cn/invest/426004.html",
+      "note": "",
+      "tags": [
+        "AI基础设施",
+        "Agent",
+        "量子AI",
+        "量子计算"
+      ]
+    },
+    {
+      "id": "unipat-ai",
+      "name": "UniPat AI",
+      "directoryIds": [
+        "unipat-ai"
+      ],
+      "stage": "A 轮",
+      "round": "A轮",
+      "eventDate": "2026-09-11",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-11",
+      "source": "https://vc.pedaily.cn/invest/427566.html",
+      "note": "",
+      "tags": [
+        "AI原生",
+        "经济预测",
+        "预测智能体"
+      ]
+    },
+    {
+      "id": "humanlaya",
+      "name": "Humanlaya 原壤智能",
+      "directoryIds": [
+        "humanlaya"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-09-09",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-09-09",
+      "source": "https://vc.pedaily.cn/invest/427638.html",
+      "note": "",
+      "tags": [
+        "AI原生",
+        "专家数据",
+        "模型评测"
+      ]
+    },
+    {
+      "id": "listenhub",
+      "name": "ListenHub 火星回响",
+      "directoryIds": [
+        "listenhub"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-01-01",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-01-01",
+      "source": "https://vc.pedaily.cn/invest/405593.html",
+      "note": "",
+      "tags": [
+        "AI原生",
+        "AI视频",
+        "AI音频",
+        "创作者工具"
+      ]
+    },
+    {
+      "id": "fangcun",
+      "name": "方寸跃迁",
+      "directoryIds": [
+        "fangcun"
+      ],
+      "stage": "种子 / 天使轮",
+      "round": "天使+轮",
+      "eventDate": "2026-07-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-07-23",
+      "source": "https://vc.pedaily.cn/invest/428108.html",
+      "note": "",
+      "tags": [
+        "Agent安全",
+        "运行时监测"
+      ]
+    },
+    {
+      "id": "ambi-ai",
+      "name": "Ambi AI",
+      "directoryIds": [
+        "ambi-ai"
+      ],
+      "stage": "Pre-A",
+      "round": "Pre-A轮",
+      "eventDate": "2026-10-13",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-10-13",
+      "source": "https://vc.pedaily.cn/invest/431302.html",
+      "note": "",
+      "tags": [
+        "AI产品",
+        "Agent评测"
+      ]
+    },
+    {
+      "id": "lightwheel",
+      "name": "光轮智能 / Lightwheel",
+      "directoryIds": [
+        "lightwheel"
+      ],
+      "stage": "B 轮",
+      "round": "B轮",
+      "eventDate": "2026-06-23",
+      "publisher": "清科投资界",
+      "sourcePublished": "2026-06-23",
+      "source": "https://vc.pedaily.cn/invest/425670.html",
+      "note": "",
+      "tags": [
+        "具身智能",
+        "强化学习环境"
+      ]
+    }
+  ],
+  "excludedDirectoryRecords": [
+    {
+      "id": "zhipu",
+      "name": "智谱",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "bytedance",
+      "name": "字节跳动 Seed",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴 Qwen / Token Foundry",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "meituan",
+      "name": "美团 LongCat",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书 Dots",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "ant",
+      "name": "蚂蚁集团 Ling",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "iflytek",
+      "name": "科大讯飞",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手 可灵 Kling",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "kunlun",
+      "name": "昆仑万维 Skywork",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "01ai",
+      "name": "零一万物",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "huawei",
+      "name": "华为",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "cambricon",
+      "name": "寒武纪",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "hygon",
+      "name": "海光信息",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "biren",
+      "name": "壁仞科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "metax",
+      "name": "沐曦",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "mthreads",
+      "name": "摩尔线程",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "iluvatar",
+      "name": "天数智芯",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "horizon",
+      "name": "地平线",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "blacksesame",
+      "name": "黑芝麻智能",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "unitree",
+      "name": "宇树科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "ubtech",
+      "name": "优必选",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "xpeng",
+      "name": "小鹏",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "liauto",
+      "name": "理想汽车",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "dreame",
+      "name": "追觅科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "dataa",
+      "name": "达闼",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "shlab",
+      "name": "上海人工智能实验室",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "sii",
+      "name": "上海创智学院",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "mihoyo",
+      "name": "米哈游",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "sensetime",
+      "name": "商汤科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "megvii",
+      "name": "旷视科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "bigai",
+      "name": "北京通用人工智能研究院",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "unisound",
+      "name": "云知声",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "4paradigm",
+      "name": "第四范式 / 范式",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "baai",
+      "name": "北京智源人工智能研究院",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "witmem",
+      "name": "知存科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "phigentai",
+      "name": "鉴智机器人",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "surgerii",
+      "name": "术锐机器人",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "mechmind",
+      "name": "梅卡曼德机器人",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "baichuan",
+      "name": "百川智能",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "zkj",
+      "name": "中关村科金",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "bailian",
+      "name": "百炼智能",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "wenge",
+      "name": "中科闻歌",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "shukun",
+      "name": "数坤科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "minglue",
+      "name": "明略科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "laiye",
+      "name": "来也科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "xiaoice",
+      "name": "小冰",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "momenta",
+      "name": "Momenta",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "uisee",
+      "name": "驭势科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "eacon",
+      "name": "易控智驾",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "plus",
+      "name": "智加科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "trunktech",
+      "name": "主线科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "pingcap",
+      "name": "PingCAP / 平凯星辰",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "enflame",
+      "name": "燧原科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "roborock",
+      "name": "石头科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "patsnap",
+      "name": "智慧芽 PatSnap",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "rokae",
+      "name": "珞石机器人",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "pony",
+      "name": "小马智行",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "geekplus",
+      "name": "极智嘉",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "wps",
+      "name": "金山办公",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "terminus",
+      "name": "特斯联科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "deepexi",
+      "name": "滴普科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "trs",
+      "name": "拓尔思",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "quantgroup",
+      "name": "量化派",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "kunlunxin",
+      "name": "昆仑芯科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "biomap",
+      "name": "百图生科",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "zhichi",
+      "name": "智齿科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "aicc",
+      "name": "国汽智控",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "metis",
+      "name": "剂泰科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "datacanvas",
+      "name": "九章云极 DataCanvas",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "aibee",
+      "name": "爱笔智能 Aibee",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "idriver",
+      "name": "智行者",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "infervision",
+      "name": "推想医疗",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "yunji",
+      "name": "云迹科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "ninebot",
+      "name": "九号公司",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "amigosrobot",
+      "name": "阿米奥机器人 Amigos",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "youware",
+      "name": "YouWare / 新言意码",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "soundai",
+      "name": "声智科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "timecho",
+      "name": "天谋科技 Timecho",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "shumei",
+      "name": "数美科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "langboat",
+      "name": "澜舟科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "fenbeitong",
+      "name": "分贝通",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "yizhun",
+      "name": "医准智能",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "stonewise",
+      "name": "望石智慧",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "aubo",
+      "name": "遨博智能 AUBO",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "jaguarmicro",
+      "name": "云豹智能",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "eswincomputing",
+      "name": "奕斯伟计算",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "armchina",
+      "name": "安谋科技 Arm China",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "visinex",
+      "name": "为旌科技 Visinex",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "beisen",
+      "name": "北森 Beisen",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "manifoldai",
+      "name": "流形空间 Manifold AI",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "tal",
+      "name": "好未来 / 九章大模型",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "360",
+      "name": "360 / 纳米AI",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "infidive",
+      "name": "潜入梦科技 infiDive",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "invoko",
+      "name": "Invoko",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "romangic",
+      "name": "浪漫极客 Romangic",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "airjelly",
+      "name": "AirJelly",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "eazo",
+      "name": "Eazo",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "doka",
+      "name": "Doka 相机",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "lulula",
+      "name": "Lulula",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "cijianlink",
+      "name": "此间临客 / 幸识",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "curiosea",
+      "name": "CurioSea",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "cloudsway",
+      "name": "小宿科技 Cloudsway",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "udesk",
+      "name": "沃丰科技 Udesk",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "qingcloud",
+      "name": "青云科技 QingCloud",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "kanzhun_nanbeige",
+      "name": "BOSS直聘 南北阁",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "iquestlab",
+      "name": "九坤至知创新研究院 IQuest",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "jsdesign",
+      "name": "即时设计",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "lynksoul",
+      "name": "心影随形 Lynksoul",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "aixcoder",
+      "name": "硅心科技 aiXcoder",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "orionstar",
+      "name": "猎户星空 OrionStar",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "artrobot",
+      "name": "钢铁侠科技 ARTROBOT",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "youibot",
+      "name": "优艾智合 Youibot",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "lingxizhiyong",
+      "name": "灵犀智涌",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "evolvent",
+      "name": "Evolvent AI",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "infplane",
+      "name": "寅谱计算 Infplane",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "deeplang",
+      "name": "深言 DeepLang",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "sunrise",
+      "name": "曦望 Sunrise",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "axera",
+      "name": "爱芯元智 Axera",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "smartx",
+      "name": "SmartX",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "recurrentai",
+      "name": "循环智能",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "frontis",
+      "name": "衔远科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "deepwise",
+      "name": "深睿医疗",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "taosdata",
+      "name": "涛思数据",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "zuoshou",
+      "name": "左手医生",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "abcfintech",
+      "name": "阿博茨科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "digitforce",
+      "name": "数势科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "selectdb",
+      "name": "飞轮科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "welllink",
+      "name": "蔚领时代",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "keendata",
+      "name": "科杰科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "weride",
+      "name": "文远知行 WeRide",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "deeproute",
+      "name": "元戎启行 DeepRoute.ai",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "ikingtec",
+      "name": "云圣智能 i-KINGTEC",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "forwardx",
+      "name": "灵动科技 ForwardX",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "rockai",
+      "name": "路凯智行 Rock AI",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "sensorsdata",
+      "name": "神策数据 Sensors Data",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "51world",
+      "name": "五一视界 51WORLD",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "xyzeai",
+      "name": "星源智",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "hightorque",
+      "name": "高擎动力",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "aizhikai",
+      "name": "具身智开",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "yunxichu",
+      "name": "云栖处机器人",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "yaskawashougang",
+      "name": "安川首钢机器人",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "siasun-semiconductor",
+      "name": "新松半导体",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "google",
+      "name": "Google / 谷歌",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "evermind",
+      "name": "EverMind",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "happyelements",
+      "name": "乐元素",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "igg",
+      "name": "IGG",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "lilith",
+      "name": "莉莉丝游戏",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "perfectworld",
+      "name": "完美世界",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "amd",
+      "name": "AMD 超威",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "apple",
+      "name": "Apple 苹果",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "bosch",
+      "name": "博世 Bosch",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "intel",
+      "name": "英特尔 Intel",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "microsoft",
+      "name": "微软 Microsoft",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "mobileye",
+      "name": "Mobileye",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "nvidia",
+      "name": "英伟达 NVIDIA",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "spacewill",
+      "name": "航天世景",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "chinawenfa",
+      "name": "中文发集团",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "nkdpharm",
+      "name": "诺康达医药",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "tkfunds",
+      "name": "泰康基金",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "yangcong",
+      "name": "洋葱学园",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "lizhi",
+      "name": "荔枝集团",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "citicpress",
+      "name": "中信出版",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "seene",
+      "name": "深诣机器人",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "cetc-ai",
+      "name": "中国电科智能科技研究院",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "applovin",
+      "name": "AppLovin",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "teleai",
+      "name": "中电信人工智能科技（北京）有限公司",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "comindx",
+      "name": "无为而智 ComindX",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "yonyou",
+      "name": "用友",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "iqitek",
+      "name": "量智开物",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "58",
+      "name": "58同城",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "sohu",
+      "name": "搜狐集团",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "cre-meta",
+      "name": "中电空间",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "transwarp",
+      "name": "星环科技",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "leyantech",
+      "name": "乐言科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "smartmore",
+      "name": "思谋科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "netease",
+      "name": "网易 / 雷火 · 伏羲",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "wizardquant",
+      "name": "宽德投资 WizardQuant",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "zsquant",
+      "name": "卓识基金 Zhuoshi Fund",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "zding",
+      "name": "正定私募 Definite Capital",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "joinquant",
+      "name": "聚宽投资 JoinQuant",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "lingjun",
+      "name": "灵均投资 Lingjun",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "qianxiang",
+      "name": "乾象投资 Qianxiang",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "metaso",
+      "name": "秘塔科技",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "haitian-ruisheng",
+      "name": "海天瑞声",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "datatang",
+      "name": "数据堂",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "amazon",
+      "name": "亚马逊",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "schneider-electric",
+      "name": "施耐德电气",
+      "reason": "上市公司、上市集团团队或新三板挂牌企业"
+    },
+    {
+      "id": "tansuo-wujin",
+      "name": "探索无尽",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    },
+    {
+      "id": "fibona-ai",
+      "name": "Fibona AI",
+      "reason": "无可用于本图的具名融资轮次；不据此判断是否为创业公司"
+    }
+  ]
+}

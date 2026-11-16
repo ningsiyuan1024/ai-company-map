@@ -8,13 +8,15 @@
 
 收录 **307 家北京公司与团队**，另支持上海、深圳、杭州和广州。目前主要维护北京，数据更新于 2026 年 11 月 14 日。
 
-## 公司阶段
+## 创业公司融资阶段
 
-![北京公司阶段统计](docs/images/stage-overview-2026.png)
+以下统计覆盖 **110 家已披露融资轮次的未上市创业公司**，同一公司旗下产品合并计数。
+
+![北京创业公司融资阶段](docs/images/stage-overview-2026.png)
 
 ## 方向分布
 
-![北京公司技术方向 TOP 10](docs/images/direction-tags.png)
+![北京创业公司技术方向 TOP 10](docs/images/direction-tags.png)
 
 [下载统计概览图](docs/images/beijing-company-overview.png)
 
@@ -37,6 +39,11 @@
 | [泛欧交易所 Euronext](https://www.euronext.com/) | 欧洲上市主体与证券信息 |
 | [清科投资界](https://www.pedaily.cn/) | 融资轮次、投资方、披露日期 |
 | [国金证券](https://www.gjzq.com.cn/) | 企业融资阶段研究资料 |
+| [启明创投](https://www.qimingvc.com/) | 被投企业融资与发展动态 |
+| [普华永道](https://www.pwccn.com/) | 行业投融资报告 |
+| [投中网](https://www.chinaventure.com.cn/) | 创业公司融资报道 |
+| [36氪](https://www.36kr.com/) | 创业公司融资与业务报道 |
+| [OFweek](https://www.ofweek.com/) | 机器人产业年度报告 |
 | [企业官方公告（如 PixVerse）](https://pixverse.ai/) | 企业直接披露的融资与上市信息 |
 
 <details>

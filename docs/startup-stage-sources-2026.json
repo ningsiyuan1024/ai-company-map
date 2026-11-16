@@ -1,0 +1,126 @@
+{
+  "asOf": "2026-11-16",
+  "notes": "新增及补充的具名融资轮次。所有来源为2026年资料，历史交易日期单独保留。Liblib与Lovart按演语科技合并。",
+  "records": [
+    {
+      "id": "stepfun",
+      "round": "Pre-IPO",
+      "date": "2026-05-09",
+      "sourcePublished": "2026-05-09",
+      "publisher": "清科投资界",
+      "url": "https://vc.pedaily.cn/invest/424960.html",
+      "note": "保留随后战略融资记录；统计取最近具名轮次。",
+      "entityId": "stepfun"
+    },
+    {
+      "id": "ti5robot",
+      "round": "C轮",
+      "date": "2026-03-30",
+      "sourcePublished": "2026-03-30",
+      "publisher": "清科投资界",
+      "url": "https://vc.pedaily.cn/invest/452437.html",
+      "note": "2026-05-06另有未注明字母轮次的战略融资。",
+      "entityId": "ti5robot"
+    },
+    {
+      "id": "liblib",
+      "round": "B+轮",
+      "date": "2026-06",
+      "sourcePublished": "2026-06-18",
+      "publisher": "极客公园（36氪刊载）",
+      "url": "https://www.36kr.com/p/3858046706832640",
+      "note": "演语科技旗下产品；按公司合并计数。",
+      "entityId": "evoken"
+    },
+    {
+      "id": "lovart",
+      "round": "B+轮",
+      "date": "2026-06",
+      "sourcePublished": "2026-06-18",
+      "publisher": "极客公园（36氪刊载）",
+      "url": "https://www.36kr.com/p/3858046706832640",
+      "note": "演语科技旗下产品；按公司合并计数。",
+      "entityId": "evoken"
+    },
+    {
+      "id": "dptechnology",
+      "round": "C轮",
+      "date": "2025-12",
+      "sourcePublished": "2026-04-15",
+      "publisher": "启明创投",
+      "url": "https://www.qimingvc.com/en/node/7609",
+      "note": "2026年投资机构资料回顾2025年12月C轮，未将事件日期改为2026年。",
+      "entityId": "dptechnology"
+    },
+    {
+      "id": "moka",
+      "round": "C轮",
+      "date": "2021-11",
+      "sourcePublished": "2026-05-23",
+      "publisher": "36氪",
+      "url": "https://www.36kr.com/p/3819979202253189",
+      "note": "2026年报道确认历史C轮；事件月份另由企业官网发展历程确认。",
+      "entityId": "moka"
+    },
+    {
+      "id": "seniorauto",
+      "round": "C轮",
+      "date": "2026-07-15",
+      "sourcePublished": "2026-07-15",
+      "publisher": "斯年智驾官方公告",
+      "url": "https://www.senior.auto/news-detail/1404.html",
+      "note": "2026-09-09另有战略融资，未采用数据库C+写法。",
+      "entityId": "seniorauto"
+    },
+    {
+      "id": "deepway",
+      "round": "Pre-IPO",
+      "date": "2026-04-21",
+      "sourcePublished": "2026-11",
+      "publisher": "普华永道",
+      "url": "https://www.pwccn.com/zh/automotive/china-auto-ma-review-outlook-nov2026.pdf",
+      "note": "2026年上半年汽车行业并购回顾，自动驾驶商用车交易表。",
+      "entityId": "deepway"
+    },
+    {
+      "id": "kargobot",
+      "round": "B轮",
+      "date": "2026-03-02",
+      "sourcePublished": "2026-03-02",
+      "publisher": "投中网",
+      "url": "https://m.chinaventure.com.cn/news/110-20260302-390298.html",
+      "note": "",
+      "entityId": "kargobot"
+    },
+    {
+      "id": "elibot",
+      "round": "D+轮",
+      "date": "2026-03-25",
+      "sourcePublished": "2026-03-25",
+      "publisher": "清科投资界",
+      "url": "https://m.pedaily.cn/news/562059",
+      "note": "公开具名轮次归入D轮系列，不以无法确认的后续金额或阶段推断。",
+      "entityId": "elibot"
+    },
+    {
+      "id": "agibot",
+      "round": "B+轮",
+      "date": "2025-05",
+      "sourcePublished": "2026",
+      "publisher": "OFweek产业研究中心／高维产业咨询",
+      "url": "https://www.cdut.edu.cn/__local/F/52/9E/B1D5CD3F12BB2D865491DE62813_AF41147E_2C5D750.pdf#page=32",
+      "note": "2026机器人产业蓝皮书，印刷第27页融资表；发布年确定，未标注精确日期。",
+      "entityId": "agibot"
+    },
+    {
+      "id": "deeprobotics",
+      "round": "C轮",
+      "date": "2025-12-09",
+      "sourcePublished": "2026",
+      "publisher": "OFweek产业研究中心／高维产业咨询",
+      "url": "https://www.cdut.edu.cn/__local/F/52/9E/B1D5CD3F12BB2D865491DE62813_AF41147E_2C5D750.pdf#page=32",
+      "note": "同表回顾2025年C轮；AWE2026主办方资料亦确认该轮次。",
+      "entityId": "deeprobotics"
+    }
+  ]
+}
