@@ -194,4 +194,3 @@ with zipfile.ZipFile(OUT/'beijing-startup-charts.zip','w',compression=zipfile.ZI
     for name in all_files:bundle.write(OUT/name,name)
 assert sum(sum(row) for row in MATRIX)==TOTAL
 print(json.dumps({'newCharts':len(FILES),'bundledImages':len(all_files),'locatedCompanies':LOCATED,'districtCounts':dict(REGIONS),'investorSample':WITH_INVESTORS,'recruitmentEntries':WITH_RECRUIT,'sectors':dict(SECTORS)},ensure_ascii=False))
-
