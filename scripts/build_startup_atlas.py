@@ -65,9 +65,7 @@ def canvas(title,subtitle,figsize=(12,8)):
     return fig
 
 
-def finish(fig,name,note):
-    fig.text(.06,.09,note,fontsize=9.5,color=MUTED)
-    fig.text(.06,.04,f'北京 AI 公司地图  |  已披露轮次创业样本 {TOTAL} 家  |  {AS_OF}',fontsize=9.5,color=MUTED)
+def finish(fig,name):
     fig.savefig(OUT/name)
     plt.close(fig); FILES.append(name)
 
@@ -78,7 +76,7 @@ def strip_axes(ax):
 
 
 # 1. Mutually exclusive primary sectors, sized by company count.
-fig=canvas('北京 AI 创业公司主营赛道', '按主营方向归类，每家公司计一次；矩形面积对应公司数量。')
+fig=canvas('北京 AI 创业公司主营赛道',f'{TOTAL} 家已披露轮次的未上市创业公司')
 ax=fig.add_axes([.06,.19,.88,.60]);ax.set_xlim(0,1);ax.set_ylim(0,1);ax.axis('off')
 
 def partition(items,x,y,w,h):
@@ -99,7 +97,7 @@ def partition(items,x,y,w,h):
     else:
         partition(items[:split],x,y,w,h*ratio);partition(items[split:],x,y+h*ratio,w,h*(1-ratio))
 partition(SECTORS.most_common(),0,0,1,1)
-finish(fig,'startup-sector-treemap.png','主营赛道为互斥分类；原始近义类别合并。技术方向标签另行统计。')
+finish(fig,'startup-sector-treemap.png')
 
 # 2. Financing-stage composition within each primary sector.
 STAGE_ORDER=['种子 / 天使轮','Pre-A','A 轮','B 轮','C 轮','D 轮及以后','Pre-IPO']
@@ -109,7 +107,7 @@ for row in ROWS:
     MATRIX[ORDER.index(row['sector'])][STAGE_ORDER.index(group)]+=1
 assert sum(map(sum,MATRIX))==TOTAL
 METRICS['stageSectorMatrix']={'rows':ORDER,'columns':STAGE_ORDER,'counts':MATRIX}
-fig=canvas('创业赛道与融资阶段', '每格为公司数量；颜色越深，样本公司越多。')
+fig=canvas('创业赛道与融资阶段',f'{TOTAL} 家未上市创业公司 · 单位：家')
 ax=fig.add_axes([.235,.25,.65,.51])
 cmap=LinearSegmentedColormap.from_list('report_blue',['#f1f5fa',BLUE])
 image=ax.imshow(MATRIX,cmap=cmap,aspect='auto',vmin=0)
@@ -121,14 +119,14 @@ for i,values in enumerate(MATRIX):
     for j,value in enumerate(values):
         ax.text(j,i,str(value) if value else '—',ha='center',va='center',fontsize=14,color='white' if value>maxval*.57 else INK if value else '#a3aebc')
 for spine in ax.spines.values(): spine.set_visible(False)
-finish(fig,'startup-sector-stage-matrix.png','D 轮及以后合并 D / E / F 轮；Pre-IPO 单列。同行为同一主营赛道。')
+finish(fig,'startup-sector-stage-matrix.png')
 
 # 3. Co-occurrence of the most frequent technology labels; no causal edges.
 TOP_TAGS=[name for name,_ in list(DATA['tags'].items())[:8]]
 PAIR_COUNTS=collections.Counter(pair for row in ROWS for pair in itertools.combinations(sorted(set(row['tags'])&set(TOP_TAGS)),2))
 EDGES=sorted(((pair,value) for pair,value in PAIR_COUNTS.items() if value>=2),key=lambda item:(-item[1],item[0]))
 METRICS['tagPairs']=[{'tags':list(pair),'companies':value} for pair,value in EDGES]
-fig=canvas('同公司技术方向组合', '观察方向之间的交叉：节点为方向标签，连线为同时具备两个标签的公司。')
+fig=canvas('同公司技术方向组合',f'{TOTAL} 家创业公司 · 前 8 个标签 · 同现 ≥ 2 家')
 ax=fig.add_axes([.055,.17,.57,.61]);ax.set_aspect('equal');ax.axis('off');ax.set_xlim(-1.52,1.52);ax.set_ylim(-1.5,1.5)
 positions={tag:(math.cos(math.pi/2+2*math.pi*i/len(TOP_TAGS)),math.sin(math.pi/2+2*math.pi*i/len(TOP_TAGS))) for i,tag in enumerate(TOP_TAGS)}
 for (left,right),value in EDGES:
@@ -146,36 +144,36 @@ for i,(pair,value) in enumerate(EDGES):
     y=.69-i*.052
     fig.text(.66,y,' + '.join(TAG_NAMES.get(tag,tag) for tag in pair),fontsize=10,color=INK)
     fig.text(.92,y,str(value),fontsize=11,color=INK,ha='right')
-finish(fig,'startup-technology-combinations.png','仅展示前 8 个标签中同现不少于 2 家的组合；连线不表示技术依赖或岗位需求。')
+finish(fig,'startup-technology-combinations.png')
 
 # 4. District presence, deduplicated within district; one company can appear twice.
 REGIONS=collections.Counter(region for row in ROWS for region in row['regions'])
 LOCATED=sum(bool(row['regions']) for row in ROWS)
 METRICS['districts']={'companiesWithRegion':LOCATED,'counts':dict(REGIONS.most_common())}
-fig=canvas('北京创业公司公开地址分布',f'{LOCATED} 家样本公司有区县或经开区地址信息；按公司在各区域出现次数统计。')
+fig=canvas('北京创业公司公开地址分布',f'{LOCATED} 家有区域信息 · 跨区分别计数')
 ax=fig.add_axes([.23,.22,.57,.56]); items=REGIONS.most_common();names,values=zip(*items)
 ax.hlines(range(len(names)),0,values,color='#e5ebf3',linewidth=8)
 ax.scatter(values,range(len(names)),s=[160 if v<10 else 260 for v in values],color=BLUE,zorder=3)
 ax.set_yticks(range(len(names)),names,fontsize=12,color=INK);ax.invert_yaxis();ax.set_xlim(0,max(values)*1.12);ax.set_xticks([]);strip_axes(ax)
 for i,value in enumerate(values):ax.text(1.04,i,f'{value} 家',transform=ax.get_yaxis_transform(),va='center',fontsize=12,color=INK)
-finish(fig,'startup-beijing-districts.png','同一公司可有多个区域地址；公开联系或办公地址不代表具体岗位工作地点。')
+finish(fig,'startup-beijing-districts.png')
 
 # 5. Investors in the selected named-round records; unknown names are not guessed.
 INVESTORS=collections.Counter(investor for row in ROWS for investor in row['investors'])
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
 METRICS['investors']={'companiesWithNames':WITH_INVESTORS,'counts':dict(INVESTORS.most_common())}
-fig=canvas('投资机构覆盖的创业公司 TOP 12',f'基于 {WITH_INVESTORS} 家已收录投资机构名称的具名融资记录；按参与公司数排序。')
+fig=canvas('投资机构覆盖的创业公司 TOP 12',f'{WITH_INVESTORS} 家有本轮投资方记录')
 ax=fig.add_axes([.24,.22,.56,.56]);items=INVESTORS.most_common(12);names,values=zip(*items)
 ax.barh(range(len(names)),values,color=BLUE,height=.55);ax.set_yticks(range(len(names)),names,fontsize=11,color=INK);ax.invert_yaxis();ax.set_xlim(0,max(values)*1.08);ax.set_xticks([]);strip_axes(ax)
 for i,value in enumerate(values):ax.text(1.045,i,f'{value} 家',transform=ax.get_yaxis_transform(),va='center',fontsize=11,color=INK)
-finish(fig,'startup-investor-coverage.png','一家可对应多家机构；仅代表样本已收录记录，不是机构完整投资组合或质量排名。')
+finish(fig,'startup-investor-coverage.png')
 
 # 6. Directory recruitment links; this is explicitly not a live-job count.
 RECRUIT={sector:{'withEntry':sum(row['hasRecruit'] for row in ROWS if row['sector']==sector),'total':SECTORS[sector]} for sector in ORDER}
 WITH_RECRUIT=sum(row['hasRecruit'] for row in ROWS)
 METRICS['recruitment']={'withEntry':WITH_RECRUIT,'bySector':RECRUIT}
 assert sum(item['withEntry'] for item in RECRUIT.values())==WITH_RECRUIT
-fig=canvas('各创业赛道的招聘入口收录',f'样本中 {WITH_RECRUIT} 家公司已收录招聘入口，占 {WITH_RECRUIT/TOTAL:.1%}。')
+fig=canvas('各创业赛道的招聘入口收录',f'{WITH_RECRUIT} / {TOTAL} 家有招聘入口')
 ax=fig.add_axes([.235,.25,.59,.49])
 for i,sector in enumerate(ORDER):
     total=RECRUIT[sector]['total'];value=RECRUIT[sector]['withEntry'];ratio=value/total
@@ -186,11 +184,14 @@ for i,sector in enumerate(ORDER):
 ax.set_yticks(range(len(ORDER)),ORDER,fontsize=11,color=INK);ax.invert_yaxis();ax.set_xlim(0,100);ax.set_xticks([]);strip_axes(ax)
 fig.patches.extend([plt.Rectangle((.235,.77),.012,.012,transform=fig.transFigure,color=TEAL),plt.Rectangle((.42,.77),.012,.012,transform=fig.transFigure,color=GRAY)])
 fig.text(.253,.768,'已收录入口',fontsize=10,color=MUTED);fig.text(.438,.768,'尚未收录入口',fontsize=10,color=MUTED)
-finish(fig,'startup-recruitment-coverage.png','入口来自目录快照（2026.11.14）；有入口不等于当前有岗位，未收录不等于没有招聘。')
+finish(fig,'startup-recruitment-coverage.png')
 
 (ROOT/'docs/chart-data-2026.json').write_text(json.dumps(METRICS,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-all_files=['stage-overview-2026.png','direction-tags.png','beijing-company-overview.png',*FILES]
+all_files=['stage-overview-2026.png','direction-tags.png',*FILES]
 with zipfile.ZipFile(OUT/'beijing-startup-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
     for name in all_files:bundle.write(OUT/name,name)
+with zipfile.ZipFile(OUT/'beijing-company-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
+    for name in ['beijing-company-overview.png','beijing-directory-districts.png',*all_files]:
+        bundle.write(OUT/name,name)
 assert sum(sum(row) for row in MATRIX)==TOTAL
 print(json.dumps({'newCharts':len(FILES),'bundledImages':len(all_files),'locatedCompanies':LOCATED,'districtCounts':dict(REGIONS),'investorSample':WITH_INVESTORS,'recruitmentEntries':WITH_RECRUIT,'sectors':dict(SECTORS)},ensure_ascii=False))

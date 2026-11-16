@@ -8,17 +8,17 @@
 
 收录 **307 家北京公司与团队**，另支持上海、深圳、杭州和广州。目前主要维护北京，数据更新于 2026 年 11 月 14 日。
 
-## 创业公司融资阶段
+## 技术方向与招聘入口
 
-以下统计覆盖 **110 家已披露融资轮次的未上市创业公司**，同一公司旗下产品合并计数。
+307 家公司与团队中，188 家附有招聘入口。同一团队可覆盖多个方向。
 
-![北京创业公司融资阶段](docs/images/stage-overview-2026.png)
+![北京 AI 公司各技术方向的招聘入口数与团队数](docs/images/beijing-company-overview.png)
 
-## 方向分布
+## 创业公司专题
 
-![北京创业公司技术方向 TOP 10](docs/images/direction-tags.png)
+![110 家已披露融资轮次的未上市创业公司](docs/images/stage-overview-2026.png)
 
-[下载统计概览图](docs/images/beijing-company-overview.png) · [更多图表与下载](docs/CHARTS.md)
+[查看区域分布与完整图集](docs/CHARTS.md)
 
 ## 使用
 
