@@ -12,8 +12,6 @@
 
 ![北京公司阶段统计](docs/images/stage-overview-2026.png)
 
-![北京公司融资轮次统计](docs/images/funding-rounds-2026.png)
-
 ## 方向分布
 
 ![北京公司方向标签统计](docs/images/direction-tags.png)
