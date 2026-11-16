@@ -1,17 +1,15 @@
-"""Build six additional startup charts and a portable PNG bundle.
+"""Build the startup investor chart and package the publication charts.
 Requires matplotlib; uses only the public local directory and financing ledgers.
 """
 import collections
 import itertools
 import json
-import math
 from pathlib import Path
 import zipfile
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
-from matplotlib.colors import LinearSegmentedColormap
 from build_startup_statistics import build
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -75,30 +73,6 @@ def strip_axes(ax):
     ax.tick_params(length=0,labelcolor=MUTED)
 
 
-# 1. Mutually exclusive primary sectors, sized by company count.
-fig=canvas('北京 AI 创业公司主营赛道',f'{TOTAL} 家已披露轮次的未上市创业公司')
-ax=fig.add_axes([.06,.19,.88,.60]);ax.set_xlim(0,1);ax.set_ylim(0,1);ax.axis('off')
-
-def partition(items,x,y,w,h):
-    if len(items)==1:
-        name,value=items[0]
-        ax.add_patch(plt.Rectangle((x,y),w,h,facecolor=COLORS[name],edgecolor='white',linewidth=4))
-        fontsize=16 if value>=10 else 11
-        label=name.replace('机器人与具身智能','机器人与\n具身智能').replace('算力与基础设施','算力与\n基础设施').replace('Agent 产品与服务','Agent 产品\n与服务').replace('企业与数据服务','企业与\n数据服务')
-        if h<.22: label=name
-        ax.text(x+w/2,y+h/2+min(.035,h*.10),label,ha='center',va='center',fontsize=fontsize,color='white',weight='bold')
-        ax.text(x+w/2,y+h/2-min(.07,h*.28),f'{value} 家 · {value/TOTAL:.1%}',ha='center',va='center',fontsize=fontsize-2,color='white')
-        return
-    total=sum(value for _,value in items)
-    split=min(range(1,len(items)),key=lambda n:abs(sum(v for _,v in items[:n])-total/2))
-    ratio=sum(v for _,v in items[:split])/total
-    if w>=h:
-        partition(items[:split],x,y,w*ratio,h);partition(items[split:],x+w*ratio,y,w*(1-ratio),h)
-    else:
-        partition(items[:split],x,y,w,h*ratio);partition(items[split:],x,y+h*ratio,w,h*(1-ratio))
-partition(SECTORS.most_common(),0,0,1,1)
-finish(fig,'startup-sector-treemap.png')
-
 # 2. Financing-stage composition within each primary sector.
 STAGE_ORDER=['种子 / 天使轮','Pre-A','A 轮','B 轮','C 轮','D 轮及以后','Pre-IPO']
 MATRIX=[[0]*len(STAGE_ORDER) for _ in ORDER]
@@ -107,57 +81,15 @@ for row in ROWS:
     MATRIX[ORDER.index(row['sector'])][STAGE_ORDER.index(group)]+=1
 assert sum(map(sum,MATRIX))==TOTAL
 METRICS['stageSectorMatrix']={'rows':ORDER,'columns':STAGE_ORDER,'counts':MATRIX}
-fig=canvas('创业赛道与融资阶段',f'{TOTAL} 家未上市创业公司 · 单位：家')
-ax=fig.add_axes([.235,.25,.65,.51])
-cmap=LinearSegmentedColormap.from_list('report_blue',['#f1f5fa',BLUE])
-image=ax.imshow(MATRIX,cmap=cmap,aspect='auto',vmin=0)
-ax.set_yticks(range(len(ORDER)),[f'{name}  {SECTORS[name]}' for name in ORDER],fontsize=11,color=INK)
-ax.set_xticks(range(len(STAGE_ORDER)),['种子 /\n天使轮','Pre-A','A 轮','B 轮','C 轮','D 轮\n及以后','Pre-IPO'],fontsize=10,color=INK)
-ax.tick_params(length=0,pad=10)
-maxval=max(max(row) for row in MATRIX)
-for i,values in enumerate(MATRIX):
-    for j,value in enumerate(values):
-        ax.text(j,i,str(value) if value else '—',ha='center',va='center',fontsize=14,color='white' if value>maxval*.57 else INK if value else '#a3aebc')
-for spine in ax.spines.values(): spine.set_visible(False)
-finish(fig,'startup-sector-stage-matrix.png')
-
 # 3. Co-occurrence of the most frequent technology labels; no causal edges.
 TOP_TAGS=[name for name,_ in list(DATA['tags'].items())[:8]]
 PAIR_COUNTS=collections.Counter(pair for row in ROWS for pair in itertools.combinations(sorted(set(row['tags'])&set(TOP_TAGS)),2))
 EDGES=sorted(((pair,value) for pair,value in PAIR_COUNTS.items() if value>=2),key=lambda item:(-item[1],item[0]))
 METRICS['tagPairs']=[{'tags':list(pair),'companies':value} for pair,value in EDGES]
-fig=canvas('同公司技术方向组合',f'{TOTAL} 家创业公司 · 前 8 个标签 · 同现 ≥ 2 家')
-ax=fig.add_axes([.055,.17,.57,.61]);ax.set_aspect('equal');ax.axis('off');ax.set_xlim(-1.52,1.52);ax.set_ylim(-1.5,1.5)
-positions={tag:(math.cos(math.pi/2+2*math.pi*i/len(TOP_TAGS)),math.sin(math.pi/2+2*math.pi*i/len(TOP_TAGS))) for i,tag in enumerate(TOP_TAGS)}
-for (left,right),value in EDGES:
-    a,b=positions[left],positions[right]
-    ax.plot([a[0],b[0]],[a[1],b[1]],color='#a7bdcf',linewidth=value*.85,alpha=.75,zorder=1)
-for tag,(x,y) in positions.items():
-    count=DATA['tags'][tag]
-    ax.scatter(x,y,s=430+count*80,color=TEAL if tag in ['具身智能','世界模型','人形机器人','VLA'] else BLUE,edgecolors='white',linewidth=2,zorder=3)
-    ax.text(x,y,str(count),ha='center',va='center',fontsize=13,color='white',weight='bold',zorder=4)
-    horizontal='right' if x<-.9 else 'left' if x>.9 else 'center'
-    ax.text(x*1.25,y*1.27,TAG_NAMES.get(tag,tag),ha=horizontal,va='center',fontsize=10.5,color=INK)
-fig.text(.66,.745,'方向组合',fontsize=12,weight='bold',color=INK)
-fig.text(.92,.745,'公司数',fontsize=11,color=MUTED,ha='right')
-for i,(pair,value) in enumerate(EDGES):
-    y=.69-i*.052
-    fig.text(.66,y,' + '.join(TAG_NAMES.get(tag,tag) for tag in pair),fontsize=10,color=INK)
-    fig.text(.92,y,str(value),fontsize=11,color=INK,ha='right')
-finish(fig,'startup-technology-combinations.png')
-
 # 4. District presence, deduplicated within district; one company can appear twice.
 REGIONS=collections.Counter(region for row in ROWS for region in row['regions'])
 LOCATED=sum(bool(row['regions']) for row in ROWS)
 METRICS['districts']={'companiesWithRegion':LOCATED,'counts':dict(REGIONS.most_common())}
-fig=canvas('北京创业公司公开地址分布',f'{LOCATED} 家有区域信息 · 跨区分别计数')
-ax=fig.add_axes([.23,.22,.57,.56]); items=REGIONS.most_common();names,values=zip(*items)
-ax.hlines(range(len(names)),0,values,color='#e5ebf3',linewidth=8)
-ax.scatter(values,range(len(names)),s=[160 if v<10 else 260 for v in values],color=BLUE,zorder=3)
-ax.set_yticks(range(len(names)),names,fontsize=12,color=INK);ax.invert_yaxis();ax.set_xlim(0,max(values)*1.12);ax.set_xticks([]);strip_axes(ax)
-for i,value in enumerate(values):ax.text(1.04,i,f'{value} 家',transform=ax.get_yaxis_transform(),va='center',fontsize=12,color=INK)
-finish(fig,'startup-beijing-districts.png')
-
 # 5. Investors in the selected named-round records; unknown names are not guessed.
 INVESTORS=collections.Counter(investor for row in ROWS for investor in row['investors'])
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
@@ -173,25 +105,12 @@ RECRUIT={sector:{'withEntry':sum(row['hasRecruit'] for row in ROWS if row['secto
 WITH_RECRUIT=sum(row['hasRecruit'] for row in ROWS)
 METRICS['recruitment']={'withEntry':WITH_RECRUIT,'bySector':RECRUIT}
 assert sum(item['withEntry'] for item in RECRUIT.values())==WITH_RECRUIT
-fig=canvas('各创业赛道的招聘入口收录',f'{WITH_RECRUIT} / {TOTAL} 家有招聘入口')
-ax=fig.add_axes([.235,.25,.59,.49])
-for i,sector in enumerate(ORDER):
-    total=RECRUIT[sector]['total'];value=RECRUIT[sector]['withEntry'];ratio=value/total
-    ax.barh(i,ratio*100,color=TEAL,height=.55)
-    ax.barh(i,(1-ratio)*100,left=ratio*100,color=GRAY,height=.55)
-    ax.text(1.03,i,f'{value} / {total} 家',transform=ax.get_yaxis_transform(),va='center',fontsize=11,color=INK)
-    if value:ax.text(ratio*50,i,f'{ratio:.0%}',ha='center',va='center',fontsize=11,color='white',weight='bold')
-ax.set_yticks(range(len(ORDER)),ORDER,fontsize=11,color=INK);ax.invert_yaxis();ax.set_xlim(0,100);ax.set_xticks([]);strip_axes(ax)
-fig.patches.extend([plt.Rectangle((.235,.77),.012,.012,transform=fig.transFigure,color=TEAL),plt.Rectangle((.42,.77),.012,.012,transform=fig.transFigure,color=GRAY)])
-fig.text(.253,.768,'已收录入口',fontsize=10,color=MUTED);fig.text(.438,.768,'尚未收录入口',fontsize=10,color=MUTED)
-finish(fig,'startup-recruitment-coverage.png')
-
 (ROOT/'docs/chart-data-2026.json').write_text(json.dumps(METRICS,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-all_files=['stage-overview-2026.png','direction-tags.png',*FILES]
+all_files=['stage-overview-2026.png',*FILES]
 with zipfile.ZipFile(OUT/'beijing-startup-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
     for name in all_files:bundle.write(OUT/name,name)
 with zipfile.ZipFile(OUT/'beijing-company-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
-    for name in ['beijing-company-overview.png','beijing-directory-districts.png',*all_files]:
+    for name in ['beijing-company-overview.png','beijing-directory-districts.png','beijing-directory-sectors.png','beijing-directory-pairs.png',*all_files]:
         bundle.write(OUT/name,name)
 assert sum(sum(row) for row in MATRIX)==TOTAL
 print(json.dumps({'newCharts':len(FILES),'bundledImages':len(all_files),'locatedCompanies':LOCATED,'districtCounts':dict(REGIONS),'investorSample':WITH_INVESTORS,'recruitmentEntries':WITH_RECRUIT,'sectors':dict(SECTORS)},ensure_ascii=False))

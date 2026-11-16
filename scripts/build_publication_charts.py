@@ -1,5 +1,7 @@
 """Render the Beijing directory overview and startup financing charts."""
+import csv
 import json
+from itertools import combinations
 from collections import Counter
 from pathlib import Path
 
@@ -25,7 +27,7 @@ plt.rcParams["font.family"] = next(name for name in ("Microsoft YaHei", "Noto Sa
 def chart(filename, title, scope, items, subset=None, color="#327f77"):
     labels, values = zip(*items)
     fig, ax = plt.subplots(figsize=(8, 5.6), dpi=180)
-    fig.subplots_adjust(left=.23, right=.87, top=.79, bottom=.06)
+    fig.subplots_adjust(left=.31 if filename == "beijing-directory-pairs.png" else .23, right=.87, top=.79, bottom=.06)
     fig.text(.06, .91, title, fontsize=22, weight="bold", color="#182b42")
     fig.text(.06, .845, scope, fontsize=11, color="#536476")
     ax.barh(labels, values, height=.55, color="#dbe5e9" if subset is not None else color)
@@ -45,10 +47,12 @@ def chart(filename, title, scope, items, subset=None, color="#327f77"):
 
 tags, linked, districts = Counter(), Counter(), Counter()
 aliases = {"AI Agent":"Agent", "AI Infra":"AI 基础设施", "AI4Science":"AI for Science"}
+pairs = Counter()
 located = 0
 for company in companies:
     directions = {aliases.get(tag, tag) for tag in company["tags"] if tag != "外企"}
     tags.update(directions)
+    pairs.update(combinations(sorted(directions), 2))
     if company["recruitUrl"]:
         linked.update(directions)
     regions = {place["district"] for place in company["locations"] if place["district"]}
@@ -63,10 +67,25 @@ chart("beijing-company-overview.png", "北京 AI 公司技术方向 TOP 10",
       f"{total} 家公司与团队  ·  有招聘入口 / 该方向总数（家）", ranked(tags)[:10], linked)
 chart("beijing-directory-districts.png", "北京 AI 公司公开地址分布",
       f"{located} 家有区域信息  ·  跨区分别计数（家）", ranked(districts))
+with (ROOT / "docs/company-directions.csv").open(encoding="utf-8-sig", newline="") as source:
+    classifications = {row["id"]: row for row in csv.DictReader(source)}
+assert classifications.keys() == {company["id"] for company in companies}
+sectors = Counter()
+for company in companies:
+    record = classifications[company["id"]]
+    assert record["原分类"] == company["category"]
+    sectors[record["合并分类"]] += 1
+ordered = ranked(sectors)
+main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
+assert sum(value for _, value in main_sectors) == total
+
+chart("beijing-directory-sectors.png", "北京 AI 公司主营赛道",
+      f"{total} 家公司与团队 · 每家计一次", main_sectors)
+common_pairs = [(" + ".join(pair), count) for pair, count in ranked(pairs) if count >= 4]
+chart("beijing-directory-pairs.png", "北京 AI 公司技术方向组合",
+      f"{total} 家公司与团队 · 同现 ≥ 4 家", common_pairs)
 stages = ["种子 / 天使轮", "Pre-A", *[f"{letter} 轮" for letter in "ABCDEF"], "Pre-IPO"]
 startup_scope = f"{stats['total']} 家已披露轮次的未上市创业公司"
 chart("stage-overview-2026.png", "北京创业公司融资阶段", startup_scope,
       [(s, stats["stage"].get(s, 0)) for s in stages], color="#426fc0")
-chart("direction-tags.png", "北京创业公司技术方向 TOP 10", startup_scope,
-      [(aliases.get(k, k), v) for k, v in ranked(stats["tags"])[:10]])
 print(f"{total} directory records, {entries} recruitment entries, {located} with district information")
