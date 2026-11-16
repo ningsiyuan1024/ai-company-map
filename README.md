@@ -6,7 +6,7 @@
 
 [![北京 AI 公司地图预览](docs/images/01-beijing-map.png)](https://ningsiyuan1024.github.io/ai-company-map/)
 
-目前收录 **307 家北京公司与团队**，涵盖大模型、Agent、机器人、自动驾驶、AI 芯片等方向。另可切换上海、深圳、杭州和广州。数据更新于 2026 年 11 月 14 日，目前主要维护北京。
+收录 **307 家北京公司与团队**，另支持上海、深圳、杭州和广州。目前主要维护北京，数据更新于 2026 年 11 月 14 日。
 
 ## 公司阶段
 
@@ -18,11 +18,7 @@
 
 ## 使用
 
-1. 搜索公司名或感兴趣的方向，也可以按区域、融资阶段、投资机构筛选。
-2. 点击公司，查看地址、公司介绍和信息来源。
-3. 点击招聘入口，前往招聘页面了解岗位。
-
-复制浏览器地址，即可分享当前筛选结果或选中的公司。
+搜索公司或方向，按区域、融资阶段、投资机构筛选；点击公司查看详情和招聘入口。复制浏览器地址即可分享当前结果。
 
 ## 信息源
 
@@ -37,10 +33,8 @@
 | [国金证券](https://www.gjzq.com.cn/) | 企业融资阶段研究资料 |
 | [企业官方公告（如 PixVerse）](https://pixverse.ai/) | 企业直接披露的融资与上市信息 |
 
-[欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)。
-
 <details>
-<summary>本地运行与部署</summary>
+<summary>本地运行</summary>
 
 需要 Python 3。在终端运行以下命令后，打开 <http://127.0.0.1:8766/>。
 
@@ -50,12 +44,8 @@ cd ai-company-map
 python -m http.server 8766 --bind 127.0.0.1
 ```
 
-网站使用 HTML、CSS 和 JavaScript，无需安装前端依赖或配置 API 密钥，也可直接部署到静态网站托管平台。
-
-北京底图随网站加载，其他城市使用 OpenStreetMap 在线地图。底图来源、坐标处理与许可见[地图数据说明](MAP-DATA-LICENSE.md)。
-
 </details>
 
 ## 许可
 
-本项目自有代码采用 [MIT License](LICENSE)。北京底图遵循 ODbL 1.0，见[地图数据说明](MAP-DATA-LICENSE.md)。第三方组件保留各自许可，包括 [Leaflet](vendor/leaflet/LICENSE) 和[坐标转换库](COORDTRANSFORM-LICENSE)。公司、招聘和融资来源内容的权利归原权利人，使用或再分发时请保留来源并核对其使用条件。
+代码采用 [MIT License](LICENSE)，北京底图采用 [ODbL 1.0](MAP-DATA-LICENSE.md)。[Leaflet](vendor/leaflet/LICENSE) 和[坐标转换库](COORDTRANSFORM-LICENSE) 保留各自许可。公司、招聘及融资资料归原权利人所有，再分发时请保留来源并遵守原使用条件。
