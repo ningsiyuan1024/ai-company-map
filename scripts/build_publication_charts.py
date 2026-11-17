@@ -183,8 +183,8 @@ md = ["# 北京 AI 岗位", "", f"目录共 {total} 个条目。本次收录 {co
       "| 方向 | 岗位数 | 雇主数 |", "| --- | ---: | ---: |"]
 for role, (n, employers) in counts.items():
     md.append(f"| [{role}](#{role}) | {n:,} | {employers} |")
-md += ["","[全部岗位明细](beijing-jd-sample.csv) · [307 家核查记录](beijing-employer-audit.csv)","",
-       "工作地点须明确包含北京。先采用官网职位，再用 Ivyea 和 Offer 岛补充。优先按招聘编号合并；同名且职责全文相同的重复发布合并。缺少可辨认编号时按同一雇主的同名岗位合并。雇主可以跨方向出现，招聘人数不计入岗位数。未找到可确认岗位的雇主保留在核查记录中。",""]
+md += ["","[全部岗位明细](beijing-jd-sample.csv) · [307 家核查记录](beijing-employer-audit.csv) · [重复发布对照](beijing-jd-reposts.csv)","",
+       "工作地点须明确包含北京。先采用官网职位，再用 Ivyea 和 Offer 岛补充。优先按招聘编号合并；同一雇主下，名称相同或近似且主要职责文本一致的重复发布合并。缺少可辨认编号时按同一雇主的同名岗位合并。雇主可以跨方向出现，招聘人数不计入岗位数。未找到可确认岗位的雇主保留在核查记录中。",""]
 for role, js in groups_by_role.items():
     md += [f"## {role}", ""]
     path = f"beijing-jobs-{roles.index(role)+1}.html"

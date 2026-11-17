@@ -42,3 +42,21 @@ def role(t,b):
     for k,pat in [('产品',r'产品经理|产品负责人|产品专家|产品设计|策略产品|产品策划|产品实习|product (manager|designer|lead)'),('运营',r'运营(?!商)|community manager|product operations'),('工程',r'推理引擎|推理加速|AI\s*infra|算子|编译器|部署工程|训练框架'),('算法',r'算法|研究员|研究实习|科学家|研究科学|博士后|research( intern| scientist|er)|applied scientist|后训练|post.training|强化学习|模型预训练'),('工程',r'工程|研发|开发|架构师|架构专家|运维|engineer|developer|architect|全栈|前端|后端'),('算法',r'模型训练|机器学习|算法实习')]:
         if re.search(pat,t,re.I):return k
     return ''
+
+def duty_signature(text):
+    """Compare responsibilities separately from appended qualifications and page labels."""
+    text = unescape(re.sub(r'<[^>]+>', ' ', text))
+    text = re.split(r'任职要求|任职资格|岗位要求|职位要求|申请要求|Qualifications', text, maxsplit=1, flags=re.I)[0]
+    text = re.sub(r'(?:岗位职责|工作职责|职位职责|职位描述|岗位描述|工作内容)', '', text)
+    return re.sub(r'[^\w]+', '', unicodedata.normalize('NFKC', text).casefold())
+
+
+def matching_repost(title, previous_title):
+    from difflib import SequenceMatcher
+    first, second = normtitle(title), normtitle(previous_title)
+    if first == second:
+        return True
+    contracts = r'实习|校招|社招|应届|intern|兼职'
+    if set(re.findall(contracts, first)) != set(re.findall(contracts, second)):
+        return False
+    return min(len(first), len(second)) >= 6 and SequenceMatcher(None, first, second).ratio() >= .82
