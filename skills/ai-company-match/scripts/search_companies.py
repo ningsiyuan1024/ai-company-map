@@ -36,6 +36,7 @@ def search(data, terms, limit, jobs=(), role=None, toward=(), avoid_title=()):
         score = (bool(desired_title or desired_body), bool(desired_title),
                  len(title_hits) + len(body_hits), len(title_hits), job['source'] == '企业官网')
         evidence = {k: job[k] for k in ('title', 'role', 'url', 'source', 'asOf')}
+        evidence.update({k: job[k] for k in ('city', 'sourceUrl') if k in job})
         evidence.update(titleMatches=title_hits, jdMatches=body_hits)
         if toward:
             evidence.update(towardTitle=desired_title, towardJD=desired_body)

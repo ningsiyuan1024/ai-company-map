@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "scope": "北京公司与团队、工作地点包含北京的职位快照",
+  "encoding": "UTF-8",
+  "pathsRelativeTo": "本文件所在目录",
+  "resources": {
+    "jobs": {
+      "path": "jobs.csv",
+      "format": "CSV",
+      "rowKey": [
+        "company",
+        "title",
+        "url"
+      ],
+      "fields": {
+        "company": "目录 ID，用于关联公司",
+        "role": {
+          "enum": [
+            "算法",
+            "工程",
+            "产品",
+            "运营"
+          ]
+        },
+        "title": "招聘职位名",
+        "jdTerms": {
+          "type": "分隔字符串",
+          "separator": "|",
+          "emptyMeans": "未提取到词表内的关键词",
+          "meaning": "JD 正文出现的词，可来自团队介绍、职责、要求或加分项"
+        },
+        "url": "职位详情；同一招聘公告可包含多个职位",
+        "source": "收录来源",
+        "asOf": "记录核查日期 YYYY-MM-DD",
+        "city": "确认包含的工作城市；允许多城市职位",
+        "sourceUrl": "本条记录对应的原始来源页，可与详情链接不同"
+      }
+    },
+    "companies": {
+      "path": "companies.json",
+      "format": "JSON",
+      "recordsAt": "companies",
+      "asOfAt": "asOf",
+      "primaryKey": "id",
+      "fields": {
+        "id": "目录 ID，对应地图 company 参数",
+        "name": "公司或团队显示名",
+        "aliases": "别名列表",
+        "category": "目录分类",
+        "tags": "业务和技术标签列表",
+        "city": "公司目录所在城市",
+        "locations": "公司办公地点列表，含 district 和 address",
+        "recruitUrl": "公司招聘入口，可能为空",
+        "recruitLabel": "入口显示文字",
+        "sources": "目录条目的来源列表",
+        "directoryUrl": "地图详情链接"
+      }
+    }
+  },
+  "join": {
+    "from": "jobs.company",
+    "to": "companies.id",
+    "cardinality": "many-to-one"
+  },
+  "lookup": [
+    "按目标职能筛 role，再匹配 title 和 jdTerms",
+    "按 company 关联 id，取公司名称和地图地址",
+    "通过 url 或 sourceUrl 复核具体职责、招聘类型、地点和在招状态"
+  ],
+  "unknown": "招聘类型、职责摘要和实时在招状态尚无独立字段；需要时回到来源页。"
+}
