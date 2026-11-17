@@ -145,71 +145,47 @@ for company in companies:
     record = classifications[company["id"]]
     assert record["原分类"] == company["category"]
     sectors[record["合并分类"]] += 1
-with (ROOT/"docs/beijing-job-links.csv").open(encoding="utf-8-sig", newline="") as source:
+with (ROOT/"docs/beijing-jd-sample.csv").open(encoding="utf-8-sig",newline="") as source:
     jobs = list(csv.DictReader(source))
+covered_ids = {j["目录ID"] for j in jobs}
+assert covered_ids <= {c["id"] for c in companies}
+assert len({j["详情"] for j in jobs}) == len(jobs)
 roles = ["算法","工程","产品","运营"]
-assert {job["方向"] for job in jobs} == set(roles)
-assert len({job["官网"] for job in jobs}) == len(jobs)
-assert all("北京" in job["地点"] for job in jobs)
-counts = Counter((job["公司"], job["方向"]) for job in jobs)
-employers = sorted({job["公司"] for job in jobs}, key=lambda name: (-sum(counts[name,r] for r in roles),name))
-role_totals = [sum(counts[name,r] for name in employers) for r in roles]
-assert sum(role_totals) == len(jobs)
-# Complete-link clustering on Jaccard similarity between manually coded responsibilities.
-duties = [set(job["主要职责"].split("、")) for job in jobs]
-clusters = [[i] for i in range(len(jobs))]
-while len(clusters) > 1:
-    candidates = []
-    for i,j in combinations(range(len(clusters)),2):
-        similarity = min(len(duties[a] & duties[b])/len(duties[a] | duties[b])
-                         for a in clusters[i] for b in clusters[j])
-        candidates.append((similarity,i,j))
-    similarity,i,j = max(candidates)
-    if similarity < .5:
-        break
-    clusters[i].extend(clusters.pop(j))
-
-labels = {"效果评估":"模型实验与评估","推理加速":"推理部署与加速","用户增长":"产品增长",
-          "研发工具":"开发者工具产品","伙伴拓展":"生态合作"}
-fig,ax = frame("北京 AI 岗位职责聚类",[.075,.04,.87,.83])
-ax.axis("off")
-ax.set_xlim(0,1)
-ax.set_ylim(sum(1.55+.88*len(group) for group in clusters),0)
-y = 0
-for index,group in enumerate(clusters):
-    shared = set.intersection(*(duties[i] for i in group))
-    label = next((value for key,value in labels.items() if key in shared),"、".join(sorted(shared)))
-    color = PALETTE[index % len(PALETTE)]
-    ax.scatter(.022,y+.48,s=100,color=color)
-    ax.text(.066,y+.48,label,color=INK,fontsize=16,weight="bold",va="center")
-    ax.text(.985,y+.48,f"{len(group)} 岗",color=MUTED,fontsize=12,ha="right",va="center")
-    for j,i in enumerate(group):
-        job = jobs[i]
-        pos = y+1.45+j*.88
-        ax.plot([.022,.022,.053],[y+.76,pos,pos],lw=1,color=color)
-        ax.text(.065,pos,job["公司"],fontsize=12,color=MUTED,va="center")
-        ax.text(.26,pos,job["职位"],fontsize=13,color=INK,va="center")
-    y += 1.55+.88*len(group)
-save(fig,"beijing-job-directions.png")
-
-md = ["# 北京 AI 岗位统计","","2026 年 11 月 17 日。统计本页收录的职位，每个职位链接计一次。","",
-      "| 公司 | "+" | ".join(roles)+" | 合计 |","| --- |"+" ---: |"*(len(roles)+1)]
-for name in employers:
-    cells = []
-    for r in roles:
-        links = [j["官网"] for j in jobs if j["公司"]==name and j["方向"]==r]
-        target = links[0] if len(links)==1 else "#"+r
-        cells.append(f"[{len(links)}]({target})" if links else "—")
-    md.append("| "+name+" | "+" | ".join(cells)+f" | {sum(counts[name,r] for r in roles)} |")
-md.extend(["| 合计 | "+" | ".join(map(str,role_totals))+f" | {len(jobs)} |",""])
-md.extend(["![北京 AI 岗位职责聚类](images/beijing-job-directions.png)", "",
-           "每个职位从招聘说明中提取三项主要职责。两项及以上相同的岗位归为一组，独特方向单列。", ""])
+clusters = {}
 for role in roles:
-    md.extend([f"## {role}", "", "| 公司 | 职位 | 类型 | 工作地点 |","| --- | --- | --- | --- |"])
-    for job in (row for row in jobs if row["方向"]==role):
-        name,title,kind,city,url = [job[k] for k in ("公司","职位","招聘类型","地点","官网")]
-        md.append(f"| {name} | [{title}]({url}) | {kind} | {city} |")
+    clusters[role] = ranked(Counter(j["职责组"] for j in jobs if j["方向"]==role))
+assert sum(n for pairs_in_role in clusters.values() for _,n in pairs_in_role) == len(jobs)
+fig, ax = frame("北京 AI 岗位方向分布",[.07,.105,.86,.77])
+ax.axis("off")
+height = sum(1.5+len(cs) for cs in clusters.values())
+ax.set(xlim=(0,1),ylim=(height,0))
+md = ["# 北京 AI 岗位方向", "",
+      f"对照北京目录 {total} 家公司与团队，匹配到 {len(covered_ids)} 家的 {len(jobs):,} 条北京职位。资料采集于 2026 年 11 月 11–17 日，以招聘页当前状态为准。","",
+      "[下载全部职位明细（CSV）](beijing-jd-sample.csv)","",
+      "按职位名称和主要职责归类。每条职位只计一次，多地点职位须明确含北京；同一雇主的同名职位合并。来源包括企业官网、BOSS 直聘和 Fancy／Bonjour。",""]
+y = 0
+max_count = max(n for counts in clusters.values() for _,n in counts)
+for i,(role,items) in enumerate(clusters.items()):
+    ax.text(0,y+.45,role,color=INK,fontsize=17,weight="bold",va="center")
+    if i == 0:
+        ax.text(.985,y+.45,"岗位 / 雇主",color=MUTED,fontsize=10,ha="right",va="center")
+    md.extend([f"## {role}","","| 工作方向 | 岗位 | 雇主 | 职位详情 |","| --- | ---: | ---: | --- |"])
+    for k,(label,n) in enumerate(items):
+        records = [j for j in jobs if j["职责组"]==label]
+        by_employer = {}
+        for job in records:
+            by_employer.setdefault(job["目录ID"],job)
+        pos = y+1.55+k
+        ax.plot([.55,.55+.22*n/max_count], [pos,pos], lw=4, color=PALETTE[i], solid_capstyle="round")
+        ax.text(0,pos,label,color=INK,fontsize=13,va="center")
+        ax.text(.985,pos,f"{n:,} / {len(by_employer)}",color=INK,fontsize=14,ha="right",va="center")
+        links = " · ".join(f"[岗位 {idx}]({j['详情']})" for idx,j in enumerate(list(by_employer.values())[:3],1))
+        md.append(f"| {label} | {n:,} | {len(by_employer)} | {links} |")
     md.append("")
+    y += 1.5+len(items)
+fig.text(.07,.044,f"{len(jobs):,} 条 JD    ·    覆盖目录 {len(covered_ids)} / {total} 家",fontsize=12,color=MUTED)
+save(fig,"beijing-job-directions.png")
+md[4:4] = ["![北京 AI 岗位方向分布](images/beijing-job-directions.png)",""]
 (ROOT/"docs/JOBS.md").write_text("\n".join(md),encoding="utf8")
 ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
