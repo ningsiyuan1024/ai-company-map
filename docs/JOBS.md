@@ -1,6 +1,13 @@
-# 北京 AI 岗位导航
+# 北京 AI 岗位统计
 
-2026 年 11 月 17 日整理。点击职位名称查看公司招聘页。
+2026 年 11 月 17 日。统计本页收录的职位，每个职位链接计一次。
+
+| 公司 | 算法 | 工程 | 产品 | 运营 | 合计 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 百度 | [1](https://talent.baidu.com/jobs/detail/GRADUATE/ccfdea4e-4ae4-4954-9062-fd94960a2861) | [1](https://talent.baidu.com/jobs/detail/SOCIAL/336e82e0-307f-49f1-ae1f-4831fb9d570e) | [1](https://talent.baidu.com/jobs/detail/SOCIAL/3d6ee142-6971-4234-acdb-9c670e9ad9ee) | [1](https://talent.baidu.com/jobs/detail/SOCIAL/824e8039-601c-4427-bf4e-0f445ebb6b65) | 4 |
+| 小红书 | — | [1](https://job.xiaohongshu.com/campus/position/22056) | [1](https://job.xiaohongshu.com/social/position/15326) | [1](https://job.xiaohongshu.com/social/position/22643) | 3 |
+| 亚马逊 | [1](https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing) | — | — | — | 1 |
+| 合计 | 2 | 2 | 2 | 2 | 8 |
 
 ## 算法
 

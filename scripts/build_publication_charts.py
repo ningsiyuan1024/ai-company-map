@@ -151,25 +151,46 @@ roles = ["算法","工程","产品","运营"]
 assert {job["方向"] for job in jobs} == set(roles)
 assert len({job["官网"] for job in jobs}) == len(jobs)
 assert all("北京" in job["地点"] for job in jobs)
-fig, ax = frame("北京 AI 岗位导航", [.07,.055,.86,.81])
+counts = Counter((job["公司"], job["方向"]) for job in jobs)
+employers = sorted({job["公司"] for job in jobs}, key=lambda name: (-sum(counts[name,r] for r in roles),name))
+role_totals = [sum(counts[name,r] for name in employers) for r in roles]
+assert sum(role_totals) == len(jobs)
+fig, ax = frame(f"已收录的 {len(jobs)} 个北京 AI 岗位", [.08,.19,.85,.59])
 ax.axis("off")
-height = len(roles)*1.4 + len(jobs)
-ax.set(xlim=(0,1),ylim=(height,0))
-y = 0
-md = ["# 北京 AI 岗位导航", "", "2026 年 11 月 17 日整理。点击职位名称查看公司招聘页。", ""]
+ax.set(xlim=(-1.55,len(roles)+.5),ylim=(len(employers)+.9,-1.3))
+for x,label in enumerate([*roles,"合计"]):
+    ax.text(x,-.9,label,ha="center",va="center",color=INK,fontsize=15)
+for y,name in enumerate(employers):
+    ax.text(-1.5,y,name,va="center",fontsize=16,color=INK)
+    for x,r in enumerate(roles):
+        n = counts[name,r]
+        if n:
+            ax.scatter(x,y,s=560,color=PALETTE[0])
+        ax.text(x,y,str(n) if n else "—",ha="center",va="center",color="white" if n else MUTED,fontsize=14)
+    ax.text(len(roles),y,str(sum(counts[name,r] for r in roles)),ha="center",va="center",fontsize=16,color=INK)
+y = len(employers)
+ax.axhline(y-.5,color=PALETTE[1],lw=1)
+ax.text(-1.5,y,"合计",va="center",fontsize=15,color=INK)
+for x,n in enumerate([*role_totals,len(jobs)]):
+    ax.text(x,y,str(n),ha="center",va="center",color=INK,fontsize=16,weight="bold")
+save(fig,"beijing-job-directions.png")
+
+md = ["# 北京 AI 岗位统计","","2026 年 11 月 17 日。统计本页收录的职位，每个职位链接计一次。","",
+      "| 公司 | "+" | ".join(roles)+" | 合计 |","| --- |"+" ---: |"*(len(roles)+1)]
+for name in employers:
+    cells = []
+    for r in roles:
+        links = [j["官网"] for j in jobs if j["公司"]==name and j["方向"]==r]
+        target = links[0] if len(links)==1 else "#"+r
+        cells.append(f"[{len(links)}]({target})" if links else "—")
+    md.append("| "+name+" | "+" | ".join(cells)+f" | {sum(counts[name,r] for r in roles)} |")
+md.extend(["| 合计 | "+" | ".join(map(str,role_totals))+f" | {len(jobs)} |",""])
 for role in roles:
     md.extend([f"## {role}", "", "| 公司 | 职位 | 类型 | 工作地点 |","| --- | --- | --- | --- |"])
-    ax.text(0,y+.45,role,color=PALETTE[0],fontsize=19,va="center")
-    y += 1.05
     for job in (row for row in jobs if row["方向"]==role):
         name,title,kind,city,url = [job[k] for k in ("公司","职位","招聘类型","地点","官网")]
         md.append(f"| {name} | [{title}]({url}) | {kind} | {city} |")
-        ax.text(0,y+.42,name,color=INK,fontsize=13,va="center")
-        ax.text(.23,y+.42,title,color=INK,fontsize=13,va="center")
-        y += 1
-    y += .35
     md.append("")
-save(fig,"beijing-job-directions.png")
 (ROOT/"docs/JOBS.md").write_text("\n".join(md),encoding="utf8")
 ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
