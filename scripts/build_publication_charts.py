@@ -93,12 +93,12 @@ for row in companies:
     groups.setdefault(employer_type(row),[]).append(row)
 ordered_groups = sorted(groups.items(),key=lambda item:-len(item[1]))
 assert sum(len(rows) for _,rows in ordered_groups) == total
-fig, ax = frame(f"北京 {total} 家雇主类型分布",[.07,.055,.86,.80])
+fig, ax = frame("北京雇主类型分布",[.07,.055,.86,.80])
 for y,(label,rows) in enumerate(ordered_groups):
     value = len(rows)
     ax.text(0,y-.19,label,fontsize=15,va="bottom",color=INK)
     ax.plot([0,value],[y+.12,y+.12],lw=4,color=PALETTE[0],solid_capstyle="round")
-    ax.text(1,y-.19,str(value),transform=ax.get_yaxis_transform(),
+    ax.text(1,y-.19,f"{value/total:.1%}",transform=ax.get_yaxis_transform(),
             ha="right",va="bottom",fontsize=16,weight="bold",color=INK)
 ax.set_xlim(0,max(len(rows) for _,rows in ordered_groups))
 ax.set_ylim(len(groups)-.5,-.7)
@@ -136,8 +136,7 @@ for i,(label,count) in enumerate(parts):
     y = .425-row*.055
     fig.text(left,y,"●",color=wedges[i].get_facecolor(),fontsize=11)
     fig.text(left+.035,y,label.replace("北京经济技术开发区","北京经开区"),color=INK,fontsize=12)
-    fig.text(left+.292,y,str(count),ha="right",color=INK,fontsize=12,weight="bold")
-    fig.text(left+.386,y,f"{count/region_total:.1%}",ha="right",color=MUTED,fontsize=10)
+    fig.text(left+.386,y,f"{count/region_total:.1%}",ha="right",color=INK,fontsize=12)
 save(fig,"beijing-directory-districts.png")
 print(f"districts: {located} records, {region_total} presences, {len(parts)} regions")
 with (ROOT / "docs/company-directions.csv").open(encoding="utf-8-sig", newline="") as source:
@@ -209,24 +208,26 @@ ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
 assert sum(value for _, value in main_sectors) == total
 
-# One dot per directory entry; the final row may be partial.
+# Allocate a hundred dots by largest remainder; labels use unrounded counts.
 fig, ax = frame("北京 AI 公司主营赛道",[.07,.46,.86,.41])
-columns = 24
+dots = [count * 100 // total for _, count in main_sectors]
+for i in sorted(range(len(dots)), key=lambda i: -(main_sectors[i][1]*100 % total))[:100-sum(dots)]:
+    dots[i] += 1
 offset = 0
-for (label,count),color in zip(main_sectors,colors):
-    for index in range(offset,offset+count):
-        y,x = divmod(index,columns)
-        ax.add_patch(plt.Circle((x+.45,y+.45),.40,color=color,lw=0))
-    offset += count
-assert offset == total
-ax.set(xlim=(0,columns),ylim=(ceil(total/columns),0),aspect="equal")
+for n, color in zip(dots, colors):
+    for index in range(offset, offset+n):
+        y,x = divmod(index, 10)
+        ax.add_patch(plt.Circle((x+.5,y+.5),.4,color=color,lw=0))
+    offset += n
+assert offset == 100
+ax.set(xlim=(0,10),ylim=(10,0),aspect="equal")
 ax.axis("off")
 for i,((label,count),color) in enumerate(zip(main_sectors,colors)):
     col,row = divmod(i,5)
     x,y = .07+col*.48,.405-row*.071
     fig.text(x,y,"●",color=color,fontsize=13)
-    fig.text(x+.035,y,label,fontsize=12,color=INK)
-    fig.text(x+.405,y,str(count),fontsize=13,weight="bold",ha="right",color=INK)
+    fig.text(x+.035,y,label,fontsize=10.5,color=INK)
+    fig.text(x+.424,y,f"{count/total:.1%}",fontsize=11,weight="bold",ha="right",color=INK)
 save(fig,"beijing-directory-sectors.png")
 
 # A sparse set of pairs reads naturally as two aligned labels and a shared count.
@@ -246,13 +247,12 @@ save(fig,"beijing-directory-pairs.png")
 stages = ["种子 / 天使轮", "Pre-A", *[f"{letter} 轮" for letter in "ABCDEF"], "Pre-IPO"]
 values = [stats["stage"].get(stage,0) for stage in stages]
 assert sum(values) == stats["total"]
-fig, ax = frame("北京创业公司融资阶段", [.085,.12,.84,.73])
-ax.vlines(range(len(values)),0,values,color=PALETTE[1],linewidth=3)
-ax.scatter(range(len(values)),values,s=78,color=PALETTE[0],zorder=3)
-for i,n in enumerate(values):
-    ax.text(i,n+.85,str(n),ha="center",fontsize=15,weight="bold",color=INK)
-ax.set_xticks(range(len(values)),["种子 /\n天使","Pre-A","A轮","B轮","C轮","D轮","E轮","F轮","Pre-\nIPO"],fontsize=12)
-ax.set_ylim(0,max(values)*1.12)
-ax.set_yticks([])
-ax.axhline(0,color="#d4cec3",lw=1)
+fig, ax = frame("北京创业公司融资阶段",[.07,.06,.86,.80])
+for y,(label,n) in enumerate(zip(stages,values)):
+    share = n / stats["total"]
+    ax.text(0,y,label,fontsize=14,va="center",color=INK)
+    ax.plot([.33,.33+share*2.25],[y,y],lw=4,color=PALETTE[1],solid_capstyle="round")
+    ax.text(.99,y,f"{share:.1%}",ha="right",va="center",fontsize=16,weight="bold",color=INK)
+ax.set(xlim=(0,1),ylim=(len(stages)-.35,-.65))
+ax.axis("off")
 save(fig,"stage-overview-2026.png")

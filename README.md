@@ -10,7 +10,7 @@
 
 ## 北京 AI 求职图集
 
-[![北京 AI 求职六图合览：岗位方向占比、主营赛道、雇主类型、地址分布、技术方向组合与创业公司融资阶段](docs/images/beijing-company-atlas.jpg)](docs/CHARTS.md)
+[![北京 AI 求职六图合览：岗位方向占比、主营赛道、雇主类型、地址分布、岗位加分项与创业公司融资阶段](docs/images/beijing-company-atlas.jpg)](docs/CHARTS.md)
 
 [雇主名单](docs/EMPLOYERS.md) · [下载图集](docs/images/beijing-company-charts.zip)
 
