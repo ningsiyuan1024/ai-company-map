@@ -41,7 +41,6 @@ def save(fig, filename):
     plt.close(fig)
 
 tags, districts = Counter(), Counter()
-directions_by_id = {}
 aliases = {"AI Agent":"Agent", "AI Infra":"AI 基础设施", "AI4Science":"AI for Science"}
 pairs = Counter()
 located = 0
@@ -49,7 +48,6 @@ for company in companies:
     directions = {aliases.get(tag, tag) for tag in company["tags"] if tag != "外企"}
     tags.update(directions)
     pairs.update(combinations(sorted(directions), 2))
-    directions_by_id[company["id"]] = directions
     regions = {place["district"] for place in company["locations"] if place["district"]}
     districts.update(regions)
     located += bool(regions)
@@ -57,26 +55,59 @@ for company in companies:
 def ranked(counts):
     return sorted(counts.items(), key=lambda pair: (-pair[1], pair[0]))
 
-# Examples use the directory's own names and tags.
-examples = {
-    "Agent": ["baidu", "zhipu", "01ai"],
-    "具身智能": ["unitree", "linkerbot", "d_robotics"],
-    "AI 基础设施": ["tencent", "infinigence", "siliconflow"],
-    "大语言模型": ["deepseek", "moonshot", "bytedance"],
-    "世界模型": ["pony", "shengshu", "baai"],
-    "多模态": ["modelbest", "stepfun", "deepwise"],
+# Employer groups can overlap. Use Beijing directory IDs for every link.
+by_id = {row["id"]:row for row in companies}
+groups = {
+    "国内科技大厂": "bytedance alibaba tencent baidu huawei xiaomi jd meituan netease kuaishou ant xiaohongshu iflytek 360 bilibili".split(),
+    "外企": [r["id"] for r in companies if "外企" in r["tags"] or r["category"] == "国际科技" or r["id"] in {"amazon","schneider-electric"}],
+    "传统企业的 AI 团队": "schneider-electric bosch teleai tal".split(),
+    "研究机构": [r["id"] for r in companies if r["category"] == "研究机构"],
 }
-names_by_id = {company["id"]:company["name"] for company in companies}
-fig, ax = frame("按技术方向找公司", "北京 · 六个常见方向", [.055,.07,.89,.69])
-ax.set(xlim=(0,1),ylim=(6,0))
+short = {"bytedance":"字节跳动","alibaba":"阿里巴巴","ant":"蚂蚁集团","kuaishou":"快手",
+         "meituan":"美团","xiaohongshu":"小红书","bosch":"博世","intel":"英特尔","google":"谷歌",
+         "microsoft":"微软","nvidia":"英伟达","amd":"AMD","apple":"苹果","tal":"好未来 · 九章大模型",
+         "teleai":"中国电信 · TeleAI","iquestlab":"九坤至知创新研究院"}
+sectors_label = {"schneider-electric":"施耐德电气 · 数据中心","bosch":"博世 · 智能驾驶"}
+groups_md = ["# 按雇主类型找公司", "", "点击名称查看北京地图中的团队详情。同一雇主可出现在多个类别。", ""]
+# Stack all four lists and wrap by measured text width for a readable mobile image.
+fig, ax = frame("按雇主类型找公司","北京目录选录 · 类别可重叠",[.055,.045,.89,.72])
 ax.axis("off")
-for y,(direction, ids) in enumerate(examples.items()):
-    assert all(direction in directions_by_id[i] for i in ids)
+renderer = fig.canvas.get_renderer()
+from matplotlib.font_manager import FontProperties
+label_font = FontProperties(size=12)
+wrapped = []
+for group, ids in groups.items():
+    assert len(ids) == len(set(ids))
+    labels, links = [], []
+    for key in ids:
+        record = by_id[key]
+        name = short.get(key,record["name"].split(" / ")[0])
+        if group == "研究机构" and key == "microsoft":
+            name = "微软亚洲研究院"
+        if group == "传统企业的 AI 团队":
+            name = sectors_label.get(key,name)
+        labels.append(name)
+        links.append(f"[{name}]({record['directoryUrl']})")
+    groups_md.extend([f"## {group}", "", " · ".join(links), ""])
+    lines = [""]
+    for label in labels:
+        candidate = "   ·   ".join(filter(None,[lines[-1],label]))
+        if renderer.get_text_width_height_descent(candidate,label_font,False)[0] > ax.bbox.width*.93:
+            lines.append(label)
+        else:
+            lines[-1] = candidate
+    wrapped.append((group, lines))
+height = sum(1.4 + len(lines) for _,lines in wrapped)
+ax.set(xlim=(0,1),ylim=(height,0))
+y = 0
+for group, lines in wrapped:
     ax.axhline(y,color=LIGHT,lw=.8)
-    ax.text(.005,y+.49,direction,va="center",color=TEAL,weight="bold",fontsize=13)
-    names = [names_by_id[i].split(" / ")[0] for i in ids]
-    ax.text(.235,y+.49,"   ·   ".join(names),va="center",color=INK,fontsize=12)
+    ax.text(0,y+.62,group,color=TEAL,weight="bold",fontsize=14,va="center")
+    for i,line in enumerate(lines):
+        ax.text(0,y+1.60+i,line,color=INK,fontproperties=label_font,va="center")
+    y += 1.4 + len(lines)
 save(fig,"beijing-company-overview.png")
+(ROOT/"docs/EMPLOYERS.md").write_text("\n".join(groups_md),encoding="utf8")
 
 ordered_districts = ranked(districts)
 parts = ordered_districts[:3] + [("其他区域",sum(n for _,n in ordered_districts[3:]))]

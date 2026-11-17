@@ -12,9 +12,11 @@
 
 ![北京目录 307 家公司与团队的主营赛道](docs/images/beijing-directory-sectors.png)
 
-## 按技术方向找公司
+## 按雇主类型找公司
 
-![六个技术方向的北京公司与团队](docs/images/beijing-company-overview.png)
+![国内科技大厂、外企、传统企业的 AI 团队和研究机构](docs/images/beijing-company-overview.png)
+
+[查看雇主名单](docs/EMPLOYERS.md)
 
 ## 创业公司专题
 

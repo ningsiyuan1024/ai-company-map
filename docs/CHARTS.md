@@ -8,7 +8,9 @@
 
 ![主营赛道分布](images/beijing-directory-sectors.png)
 
-![按技术方向找公司](images/beijing-company-overview.png)
+![按雇主类型找公司](images/beijing-company-overview.png)
+
+[查看雇主名单](EMPLOYERS.md)
 
 ![技术方向组合](images/beijing-directory-pairs.png)
 
