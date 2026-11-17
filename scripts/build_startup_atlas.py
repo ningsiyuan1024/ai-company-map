@@ -11,6 +11,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from build_startup_statistics import build
+from chart_style import INK, PALETTE, PAPER, page
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'docs/images'
@@ -23,8 +24,8 @@ if font_path.exists(): font_manager.fontManager.addfont(str(font_path))
 fonts={font.name for font in font_manager.fontManager.ttflist}
 font=next((name for name in ['Microsoft YaHei','Noto Sans CJK SC','Source Han Sans SC'] if name in fonts),None)
 if not font: raise RuntimeError('Install a supported Chinese font before rendering.')
-plt.rcParams.update({'font.family':font,'axes.unicode_minus':False,'savefig.facecolor':'white'})
-INK='#182b42'; MUTED='#536476'; BLUE='#426fc0'; TEAL='#278879'; GRAY='#dce3eb'
+plt.rcParams.update({'font.family':font,'axes.unicode_minus':False,'savefig.facecolor':PAPER})
+
 GROUP_MAP={
     '机器人与具身':'机器人与具身智能','机器人与具身智能':'机器人与具身智能','具身智能':'机器人与具身智能',
     '算力与芯片':'算力与基础设施','AI基础设施':'算力与基础设施',
@@ -83,8 +84,7 @@ INVESTORS=collections.Counter(investor for row in ROWS for investor in row['inve
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
 METRICS['investors']={'companiesWithNames':WITH_INVESTORS,'counts':dict(INVESTORS.most_common())}
 items = sorted(((name,n) for name,n in INVESTORS.items() if n>=5),key=lambda item:(-item[1],item[0]))
-fig = plt.figure(figsize=(6,7.5),dpi=200)
-fig.text(.07,.935,"投资机构覆盖的创业公司数",fontsize=23,weight="bold",color="#183d40")
+fig = page("创业公司背后的投资机构")
 ax = fig.add_axes([.07,.06,.86,.81])
 ax.axis("off")
 # Group tied institutions under one count so equal coverage is explicit.
@@ -93,10 +93,10 @@ height = sum(len(names)+1 for _,names in bands)
 ax.set(xlim=(0,1),ylim=(height,0))
 y = 0
 for count,names in bands:
-    ax.axhline(y,color="#cad9e8",lw=1)
-    ax.text(.01,y+.68,f"{count} 家",fontsize=21,weight="bold",color="#355790",va="center")
+    ax.scatter(.025,y+.67,s=85,color=PALETTE[0],linewidth=0)
+    ax.text(.075,y+.68,f"{count} 家",fontsize=21,weight="bold",color=INK,va="center")
     for i,name in enumerate(names):
-        ax.text(.36,y+.68+i,name,fontsize=15,color="#183d40",va="center")
+        ax.text(.36,y+.68+i,name,fontsize=15,color=INK,va="center")
     y += len(names)+1
 finish(fig,'startup-investor-coverage.png')
 

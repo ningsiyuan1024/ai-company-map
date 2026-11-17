@@ -25,12 +25,11 @@ if font_path.exists():
 fonts = {font.name for font in font_manager.fontManager.ttflist}
 plt.rcParams["font.family"] = next(name for name in ("Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC") if name in fonts)
 
-INK, MUTED, TEAL, LIGHT = "#183d40", "#52676b", "#16796e", "#cbded9"
+from chart_style import INK, MUTED, PAPER, PALETTE, page
 
 def frame(title, bounds):
-    fig = plt.figure(figsize=(6, 7.5), dpi=200)
-    fig.text(.07, .935, title, fontsize=23, weight="bold", color=INK)
-    ax = fig.add_axes(bounds)
+    fig = page(title)
+    ax = fig.add_axes(bounds, facecolor=PAPER)
     for spine in ax.spines.values():
         spine.set_visible(False)
     ax.tick_params(length=0, labelcolor=INK)
@@ -95,7 +94,7 @@ fig, ax = frame(f"北京 {total} 家雇主类型分布",[.07,.055,.86,.80])
 for y,(label,rows) in enumerate(ordered_groups):
     value = len(rows)
     ax.text(0,y-.19,label,fontsize=15,va="bottom",color=INK)
-    ax.barh(y+.12,value,height=.20,color="#355790")
+    ax.plot([0,value],[y+.12,y+.12],lw=4,color=PALETTE[0],solid_capstyle="round")
     ax.text(1,y-.19,str(value),transform=ax.get_yaxis_transform(),
             ha="right",va="bottom",fontsize=16,weight="bold",color=INK)
 ax.set_xlim(0,max(len(rows) for _,rows in ordered_groups))
@@ -118,13 +117,11 @@ parts = ranked(districts)
 assert set(districts) <= set(district_names)
 region_total = sum(districts.values())
 # Mobile layout: label the largest share directly and reserve full-width rows for small slices.
-fig = plt.figure(figsize=(6,7.5),dpi=200)
-fig.text(.07,.935,"北京 AI 公司地址分布",fontsize=23,weight="bold",color=INK)
+fig = page("北京 AI 公司地址分布")
 ax = fig.add_axes([.22,.48,.56,.42])
-colors = ["#355790","#72a5d2","#dc8768","#68aaa2","#a381b4","#d5ad63","#76a4ae",
-          "#b986a2","#93aa7e","#a395ba","#dba899","#8299b2","#9dafac"]
+colors = PALETTE
 wedges,_ = ax.pie([n for _,n in parts],colors=colors,startangle=90,counterclock=False,
-                   wedgeprops={"edgecolor":"white","linewidth":.8})
+                   wedgeprops={"edgecolor":PAPER,"linewidth":.8})
 name,count = parts[0]
 angle = radians((wedges[0].theta1 + wedges[0].theta2)/2)
 ax.text(.46*cos(angle),.46*sin(angle),f"{name}\n{count/region_total:.1%}",
@@ -152,14 +149,14 @@ ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
 assert sum(value for _, value in main_sectors) == total
 
-# One square per directory entry; the final row may be partial.
+# One dot per directory entry; the final row may be partial.
 fig, ax = frame("北京 AI 公司主营赛道",[.07,.46,.86,.41])
 columns = 24
 offset = 0
 for (label,count),color in zip(main_sectors,colors):
     for index in range(offset,offset+count):
         y,x = divmod(index,columns)
-        ax.add_patch(plt.Rectangle((x,y),.87,.87,color=color,lw=0))
+        ax.add_patch(plt.Circle((x+.45,y+.45),.40,color=color,lw=0))
     offset += count
 assert offset == total
 ax.set(xlim=(0,columns),ylim=(ceil(total/columns),0),aspect="equal")
@@ -167,7 +164,7 @@ ax.axis("off")
 for i,((label,count),color) in enumerate(zip(main_sectors,colors)):
     col,row = divmod(i,5)
     x,y = .07+col*.48,.405-row*.071
-    fig.text(x,y,"■",color=color,fontsize=13)
+    fig.text(x,y,"●",color=color,fontsize=13)
     fig.text(x+.035,y,label,fontsize=12,color=INK)
     fig.text(x+.405,y,str(count),fontsize=13,weight="bold",ha="right",color=INK)
 save(fig,"beijing-directory-sectors.png")
@@ -183,18 +180,19 @@ for y,((left,right),n) in enumerate(common):
     ax.text(.38,y+.34,"+",fontsize=12,va="center",color=MUTED)
     ax.text(.46,y+.34,right,fontsize=14,va="center",color=INK)
     ax.text(1,y+.34,f"{n} 家",fontsize=15,weight="bold",va="center",ha="right",color=INK)
-    ax.barh(y+.67,n/common[0][1],height=.09,color="#72a5d2")
+    ax.scatter([i*.072+.008 for i in range(n)],[y+.69]*n,s=24,color=PALETTE[1],lw=0,clip_on=False)
 save(fig,"beijing-directory-pairs.png")
 
 stages = ["种子 / 天使轮", "Pre-A", *[f"{letter} 轮" for letter in "ABCDEF"], "Pre-IPO"]
 values = [stats["stage"].get(stage,0) for stage in stages]
 assert sum(values) == stats["total"]
 fig, ax = frame("北京创业公司融资阶段", [.085,.12,.84,.73])
-ax.bar(range(len(values)),values,width=.68,color="#355790")
+ax.vlines(range(len(values)),0,values,color=PALETTE[1],linewidth=3)
+ax.scatter(range(len(values)),values,s=78,color=PALETTE[0],zorder=3)
 for i,n in enumerate(values):
-    ax.text(i,n+.55,str(n),ha="center",fontsize=15,weight="bold",color=INK)
+    ax.text(i,n+.85,str(n),ha="center",fontsize=15,weight="bold",color=INK)
 ax.set_xticks(range(len(values)),["种子 /\n天使","Pre-A","A轮","B轮","C轮","D轮","E轮","F轮","Pre-\nIPO"],fontsize=12)
 ax.set_ylim(0,max(values)*1.12)
 ax.set_yticks([])
-ax.axhline(0,color=MUTED,lw=1)
+ax.axhline(0,color="#d4cec3",lw=1)
 save(fig,"stage-overview-2026.png")
