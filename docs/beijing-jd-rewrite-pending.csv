@@ -1,0 +1,28 @@
+﻿目录ID,方向,职位A,来源页A,职位B,来源页B,复核依据
+alibaba,算法,Omni方向算法研究员/工程师,https://offerdao.ai/j/agent_qtbmo8jkti7f3x,Token Foundry-大模型音视频理解算法研究员-Qwen,https://talent.alibaba.com/off-campus/position-detail?positionId=100011720034,Qwen Omni 团队和七项研究方向重合，但合集同时招实习、正式员工和负责人，官网只列研究员。
+alibaba,算法,实习生 / 正式员工 / Leader（Omni 算法、工程、Agent、TTS、实时交互等多方向）,https://offerdao.ai/j/69ce0a4d000000001a028696,Token Foundry-大模型音视频理解算法研究员-Qwen,https://talent.alibaba.com/off-campus/position-detail?positionId=100011720034,同为 Qwen Omni，合集还涉及语音生成、实时交互工程等多个职位，无法一一对应。
+alibaba,算法,Qwen 后训练合版/OPD 方向日常实习生,https://offerdao.ai/j/agent_6ofhwn9dtiglbi,Token Foundry-合版算法研究员-Qwen,https://talent.alibaba.com/off-campus/position-detail?positionId=100022860013,同为 Qwen 合版与 OPD；合集明确日常实习，官网条目没有相同的实习标识。
+bytedance,算法,多模态算法工程师（国际化短视频内容理解）,https://offerdao.ai/j/agent_dqrx9u9utixzh0,多模态大模型算法工程师-国际化短视频,https://jobs.bytedance.com/experienced/position/7498195175228098824/detail,均属国际化短视频多模态理解，合集侧重后训练和生成式召回，具体小组及编号未能对应。
+bytedance,算法,大模型算法实习生（创作引导助手）,https://offerdao.ai/j/agent_96xp8g3mto0fn1,大模型算法工程师（创作引导助手） - 剪映CapCut,https://jobs.bytedance.com/experienced/position/7576859683269511477/detail,同为剪映创作引导助手，训练职责高度重合；合集为实习岗，官网标题未标实习。
+bytedance,算法,大模型算法实习生（即梦Agent方向）,https://offerdao.ai/j/agent_aqs1xxyztnhwyt,大模型算法工程师（即梦Agent） - 剪映CapCut,https://jobs.bytedance.com/experienced/position/7548354754880424210/detail,同为即梦 Agent，训练和端侧业务内容重合；合集为实习岗，官网标题未标实习。
+meituan,算法,大模型后训练实习生,https://offerdao.ai/j/agent_7cj7n94rtkmbnc,【基座大模型北斗实习】大模型后训练研究,https://zhaopin.meituan.com/web/position/detail?jobUnionId=4346554693,北斗相关后训练实习都涉及 Agentic RL；合集还列出 Rubrics 与 Harness，具体导师和子方向未能对应。
+meituan,算法,图像编辑 / 图像生成基座模型算法实习生,https://offerdao.ai/j/agent_xn69t9sgtjk4oi,图像编辑与生成一体化基座模型算法实习生,https://offerdao.ai/j/agent_x0bvrzb2tib36s,美团图像生成与编辑方向相近，一条覆盖多个招聘方向，另一条是其中单一岗位。
+booster,算法,运动控制算法工程师,https://jobs.ivyea.com/jobs/1017,运动控制算法工程师（校招）,https://booster.jobs.feishu.cn/index/position/7686753813772257572/detail,运动控制职责相同，只有其中一条标题注明校招，无法核实另一条的招聘批次。
+modelbest,算法,AI4S / AI4AI 研究员实习生,https://jobs.ivyea.com/jobs/7031,AI4S/AI4AI 研究员,https://modelbest.jobs.feishu.cn/career/position/7677125693733931283/detail,AI4S/AI4AI 职责接近，一条明确是实习岗，另一条是研究员。
+modelbest,算法,大模型算法工程师- 行业应用,https://jobs.ivyea.com/jobs/7071,大模型算法工程师- 行业应用,https://modelbest.jobs.feishu.cn/career/position/7696025859262155035/detail,行业应用方向三项职责相同，只有合集明确限定 2026 届，不能确认同一批次。
+stepfun,算法,Code Agent 研究员（日常实习）,https://offerdao.ai/j/agent_4mopeylqti9gjc,Stepstar实习-Code Agent算法研究员,https://jobs.ivyea.com/jobs/2249,同为 Code Agent 实习；是否同属 Stepstar 招聘项目及同一研究方向待确认。
+tencent,算法,大模型算法研究员 - Agent 方向,https://offerdao.ai/j/69d502f8000000002301d23a,微信小微-大模型算法研究员-Harness合版与记忆方向,https://careers.tencent.com/jobdesc.html?postId=2084242272450424832,两条都涉及 Harness 调度和记忆生命周期；官网明确微信小微并有后训练合版职责，另一条未注明团队且另列对话策略。
+minimax,算法,AI for 逆向研究员,https://jobs.ivyea.com/jobs/20118,AI 安全研究员,https://vrfi1sk8a0.jobs.feishu.cn/index/position/7655214771168020742/detail,安全团队介绍相同，逆向研究可能是综合 AI 安全研究岗位下的独立方向。
+minimax,算法,大模型算法工程师-Midtrain Agentic数据方向-2027届,https://jobs.ivyea.com/jobs/20143,大模型算法工程师-Midtrain,https://vrfi1sk8a0.jobs.feishu.cn/index/position/7700892243741575450/detail,Midtrain 数据职责重合，合集明确 2027 届，官网岗位招聘批次待确认。
+qcraft,算法,【27届校招】一段式端到端模型算法工程师,https://jobs.ivyea.com/jobs/10763,一段式端到端算法工程师,https://qcraft.jobs.feishu.cn/index/position/7598429267533596982/detail,同为一段式端到端模型研发，只有一条明确 27 届校招。
+x2robot,算法,【27届】VLA算法工程师 - 动作基模,https://jobs.ivyea.com/jobs/5565,具身基础模型研究员/工程师,https://x2-robot.jobs.feishu.cn/index/position/7508589547384637759/detail,动作基模方向与具身模型职责重合，校招和研究岗的对象未能对应。
+x2robot,算法,【27届】VLA算法工程师 - 闭环进化,https://jobs.ivyea.com/jobs/5557,VLA算法工程师,https://x2-robot.jobs.feishu.cn/index/position/7586684343700031794/detail,VLA 闭环进化方向有重合，一条明确 27 届，另一条的批次不明确。
+x2robot,算法,【27届】基础模型后训练算法工程师,https://jobs.ivyea.com/jobs/5559,具身基础模型研究员/工程师（后训练方向）,https://x2-robot.jobs.feishu.cn/index/position/7646354335018830121/detail,具身模型后训练职责重合，一条为 27 届校招，另一条的招聘批次未能对应。
+alibaba,算法,语音大模型 / 端到端语音与多模态对话 / 对话交互技术 / Agentic 能力 / 强化学习后训练 / NLP,https://offerdao.ai/j/6a0d6d87000000003601cedd,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+sand,算法,算法（基模 / video agent）,https://offerdao.ai/j/manual_gjnng49ltfg6ko,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+shengshu,算法,算法实习生,https://offerdao.ai/j/manual_of4l3z97tfog4e,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+vbot,算法,世界模型算法工程师,https://offerdao.ai/j/agent_u9cqkazjtglux3,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+vbot,算法,具身智能数据算法工程师,https://offerdao.ai/j/agent_u9cqkazjtglux3,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+vbot,算法,具身智能运控算法工程师（强化学习）,https://offerdao.ai/j/agent_u9cqkazjtglux3,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+vbot,算法,操作算法工程师,https://offerdao.ai/j/agent_u9cqkazjtglux3,,,单岗职责缺失，无法进行正文比对；保留在统计中。
+vbot,算法,语音前端算法工程师,https://offerdao.ai/j/agent_u9cqkazjtglux3,,,单岗职责缺失，无法进行正文比对；保留在统计中。
