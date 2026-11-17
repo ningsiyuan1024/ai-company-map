@@ -1,25 +1,25 @@
 ﻿目录ID,公司或团队,核查入口,入口读取情况,Ivyea北京职位候选,Offer岛北京公告候选,官网入图,Ivyea补充,Offer岛补充,算法,工程,产品,运营,岗位合计,核查结果
 deepseek,DeepSeek,https://talent.deepseek.com/ | https://www.deepseek.com,入口需动态加载；已读取入口,30,6,0,17,4,7,10,3,1,21,已确认
-zhipu,智谱,https://www.zhipuai.cn/zh/joinus | https://www.zhipuai.cn | https://zhipu-ai.jobs.feishu.cn/index,已读取入口；动态列表未读出,349,5,0,184,3,97,59,26,5,187,已确认
-moonshot,月之暗面 / Kimi,https://careers.kimi.com/ | https://www.moonshot.cn/,入口需动态加载；已读取入口,100,18,0,41,11,13,30,5,4,52,已确认
-bytedance,字节跳动 Seed,https://seed.bytedance.com/zh/career?view_from=homepage_tab,已读取入口,0,24,1478,0,17,479,538,311,167,1495,已确认
+zhipu,智谱,https://www.zhipuai.cn/zh/joinus | https://www.zhipuai.cn | https://zhipu-ai.jobs.feishu.cn/index,已读取入口；动态列表未读出,349,5,0,198,3,100,64,32,5,201,已确认
+moonshot,月之暗面 / Kimi,https://careers.kimi.com/ | https://www.moonshot.cn/,入口需动态加载；已读取入口,100,18,0,40,11,13,29,5,4,51,已确认
+bytedance,字节跳动 Seed,https://seed.bytedance.com/zh/career?view_from=homepage_tab,已读取入口,0,24,1473,0,17,474,541,313,162,1490,已确认
 alibaba,阿里巴巴 Qwen / Token Foundry,https://careers-tongyi.alibaba.com/,入口需动态加载,0,43,506,0,27,192,233,81,27,533,已确认
-tencent,腾讯,https://careers.tencent.com/zh-cn/ | https://www.tencent.com | https://careers.tencent.com/en-us/home.html,入口需动态加载；已读取入口,0,17,84,0,12,51,36,7,2,96,已确认
-minimax,MiniMax,https://minimax.cn/careers | https://www.minimax.cn/careers | https://www.minimaxi.com | https://www.minimaxi.com/careers,已读取入口,225,6,112,22,3,40,88,6,3,137,已确认
+tencent,腾讯,https://careers.tencent.com/zh-cn/ | https://www.tencent.com | https://careers.tencent.com/en-us/home.html,入口需动态加载；已读取入口,0,17,85,0,12,51,38,7,1,97,已确认
+minimax,MiniMax,https://minimax.cn/careers | https://www.minimax.cn/careers | https://www.minimaxi.com | https://www.minimaxi.com/careers,已读取入口,225,6,112,22,3,40,89,6,2,137,已确认
 xiaomi,小米,https://hr.xiaomi.com/website/opportunities.html?project=%E6%A0%A1%E6%8B%9B | https://www.mi.com,已读取入口,0,7,0,0,3,2,0,0,1,3,已确认
-meituan,美团 LongCat,https://zhaopin.meituan.com/web/campus,入口需动态加载,0,15,543,0,11,276,144,76,58,554,已确认
+meituan,美团 LongCat,https://zhaopin.meituan.com/web/campus,入口需动态加载,0,15,560,0,11,279,150,81,61,571,已确认
 xiaohongshu,小红书 Dots,https://job.xiaohongshu.com/ | https://job.xiaohongshu.com/campus/position/22001?referer_code=BSWH0FUOCMNF | https://job.xiaohongshu.com/campus/position?jobProjects=campus_spring_26 | https://job.xiaohongshu.com/campus/position/22065,入口需动态加载,0,31,0,0,24,19,3,2,0,24,已确认
-stepfun,阶跃星辰 StepFun,https://app.mokahr.com/campus-recruitment/step/94905#/ | https://www.stepfun.com/careers,入口需动态加载,180,19,0,125,13,68,55,12,3,138,已确认
+stepfun,阶跃星辰 StepFun,https://app.mokahr.com/campus-recruitment/step/94905#/ | https://www.stepfun.com/careers,入口需动态加载,180,19,0,126,13,69,55,12,3,139,已确认
 ant,蚂蚁集团 Ling,https://www.antgroup.com/,入口需动态加载,0,7,0,0,5,5,0,0,0,5,已确认
-baidu,百度,https://talent.baidu.com/ | https://www.baidu.com,入口需动态加载,0,10,2,0,5,3,1,2,1,7,已确认
+baidu,百度,https://talent.baidu.com/ | https://www.baidu.com,入口需动态加载,0,10,0,0,5,2,1,2,0,5,已确认
 iflytek,科大讯飞,https://iflytek.zhiye.com/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 kuaishou,快手 可灵 Kling,https://zhaopin.kuaishou.cn/recruit/e/,入口需动态加载,0,13,0,0,4,3,1,0,0,4,已确认
 kunlun,昆仑万维 Skywork,https://www.kunlun.com/html/join/,已读取入口,0,1,0,0,1,1,0,0,0,1,已确认
 01ai,零一万物,https://01ai.jobs.feishu.cn/index/ | https://www.01.ai/careers | https://01ai.jobs.feishu.cn/index,入口需动态加载；已读取入口；北京列表已遍历,41,0,25,1,0,7,13,6,0,26,已确认
 jd,京东,https://zhaopin.jd.com/ | https://www.jd.com,已读取入口,0,15,0,0,8,6,0,1,1,8,已确认
-modelbest,面壁智能,https://modelbest.jobs.feishu.cn/career/ | https://modelbest.jobs.feishu.cn/career,入口需动态加载；动态列表未读出,153,1,39,48,1,41,27,15,5,88,已确认
+modelbest,面壁智能,https://modelbest.jobs.feishu.cn/career/ | https://modelbest.jobs.feishu.cn/career,入口需动态加载；动态列表未读出,153,1,34,55,1,46,24,16,4,90,已确认
 huawei,华为,https://career.huawei.com/cn,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-luchen,潞晨科技,https://www.luchentech.com/join,已读取入口,4,0,0,1,0,0,1,0,0,1,已确认
+luchen,潞晨科技,https://www.luchentech.com/join,已读取入口,4,0,0,4,0,0,4,0,0,4,已确认
 cambricon,寒武纪,https://app.mokahr.com/m/apply/cambricon/1113,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 hygon,海光信息,https://www.hygon.cn/,入口未能读取,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 biren,壁仞科技,https://www.birentech.com/join | https://www.birentech.com/join/,已读取入口,8,0,0,3,0,0,3,0,0,3,已确认
@@ -30,11 +30,11 @@ horizon,地平线,,检索后仍未确认官方入口,0,0,0,0,0,0,0,0,0,0,未确�
 d_robotics,地瓜机器人,,检索后仍未确认官方入口,0,2,0,0,2,2,0,0,0,2,已确认
 blacksesame,黑芝麻智能,https://www.blacksesame.com.cn,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 semidrive,芯驰科技,https://app.mokahr.com/apply/semidrive/42940,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-infinigence,无问芯穹,https://infinigence.jobs.feishu.cn/ | https://www.infinigence-ai.com/join-usnow.html | https://infinigence.jobs.feishu.cn,入口需动态加载；已读取入口；北京列表已遍历,55,0,18,2,0,2,15,2,1,20,已确认
+infinigence,无问芯穹,https://infinigence.jobs.feishu.cn/ | https://www.infinigence-ai.com/join-usnow.html | https://infinigence.jobs.feishu.cn,入口需动态加载；已读取入口；北京列表已遍历,55,0,16,3,0,2,15,2,0,19,已确认
 siliconflow,硅基流动,https://siliconflow.cn/,已读取入口,0,1,0,0,2,0,2,0,0,2,已确认
 naive,Naive AI,https://naive.ai/en/contact/,已读取入口,0,1,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-shengshu,生数科技,https://shengshu.jobs.feishu.cn/index/ | https://shengshu.jobs.feishu.cn/index | https://www.shengshu-ai.com,入口需动态加载；动态列表未读出,108,10,35,12,6,27,18,5,3,53,已确认
-aishi,爱诗科技,https://pixverse.ai/en/careers | https://aisphere.jobs.feishu.cn/join,已读取入口；入口需动态加载；北京列表已遍历,20,2,12,0,0,6,3,3,0,12,已确认
+shengshu,生数科技,https://shengshu.jobs.feishu.cn/index/ | https://shengshu.jobs.feishu.cn/index | https://www.shengshu-ai.com,入口需动态加载；动态列表未读出,108,10,34,12,6,27,17,5,3,52,已确认
+aishi,爱诗科技,https://pixverse.ai/en/careers | https://aisphere.jobs.feishu.cn/join,已读取入口；入口需动态加载；北京列表已遍历,20,2,12,0,0,5,4,3,0,12,已确认
 sand,Sand.ai,https://sand.ai/about-us | https://sand.ai/,已读取入口,0,1,0,0,2,1,1,0,0,2,已确认
 manus,Manus,https://careers.manus.im/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 genspark,Genspark,https://genspark.ai/careers,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -42,9 +42,9 @@ liblib,LiblibAI,https://www.liblib.art/us/joinus,已读取入口,0,4,0,0,1,1,0,0
 lovart,Lovart,,检索后仍未确认官方入口,0,2,0,0,2,0,1,0,1,2,已确认
 oiioii,OiiOii,https://www.oiioii.ai,已读取入口,0,1,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 unitree,宇树科技,https://www.unitree.com/cn/position/ | https://www.unitree.com/position,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-agibot,智元机器人,https://agirobot.jobs.feishu.cn/socialrecruitment | https://www.agibot.com.cn | https://agirobot.jobs.feishu.cn/index,入口需动态加载；已读取入口；部分列表已读,136,0,1,105,0,69,36,0,1,106,已确认
+agibot,智元机器人,https://agirobot.jobs.feishu.cn/socialrecruitment | https://www.agibot.com.cn | https://agirobot.jobs.feishu.cn/index,入口需动态加载；已读取入口；部分列表已读,136,0,1,106,0,69,37,0,1,107,已确认
 ubtech,优必选,https://zhaopin.ubtrobot.com/jobs | https://zhaopin.ubtrobot.com/home | https://zhaopin.ubtrobot.com/campus,入口未能读取,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-galbot,银河通用,https://app.mokahr.com/social-recruitment/yinhetongyong/165929#/ | https://app.mokahr.com/social-recruitment/yinhetongyong/165929,入口需动态加载,73,0,0,47,0,23,24,0,0,47,已确认
+galbot,银河通用,https://app.mokahr.com/social-recruitment/yinhetongyong/165929#/ | https://app.mokahr.com/social-recruitment/yinhetongyong/165929,入口需动态加载,73,0,0,47,0,22,25,0,0,47,已确认
 fourier,傅利叶智能,,检索后仍未确认官方入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 xpeng,小鹏,https://xiaopeng.jobs.feishu.cn/campus,入口需动态加载；动态列表未读出,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 liauto,理想汽车,https://li.jobs.feishu.cn/index,入口需动态加载；动态列表未读出,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -56,25 +56,25 @@ shlab,上海人工智能实验室,https://www.shlab.org.cn/joinus/ | https://www
 sii,上海创智学院,https://sii-czxy.jobs.feishu.cn/campus,入口需动态加载；北京列表已遍历,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 mihoyo,米哈游,https://jobs.mihoyo.com/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 bilibili,哔哩哔哩,https://jobs.bilibili.com/social,入口未能读取,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-booster,加速进化,https://booster.jobs.feishu.cn/index,入口需动态加载；部分列表已读,72,0,29,5,0,13,19,2,0,34,已确认
+booster,加速进化,https://booster.jobs.feishu.cn/index,入口需动态加载；部分列表已读,72,0,28,5,0,13,18,2,0,33,已确认
 noetix,松延动力,https://noetixrobotics.jobs.feishu.cn/index | https://noetixrobotics.com,入口需动态加载；北京列表已遍历,3,1,2,0,0,1,1,0,0,2,已确认
 galaxea,星海图,https://galaxea.zhiye.com/jobs | https://galaxea.zhiye.com/social,入口需动态加载,38,0,0,21,0,8,13,0,0,21,已确认
 sensetime,商汤科技,https://hr-jobs.sensetime.com/,入口需动态加载,0,1,0,0,1,1,0,0,0,1,已确认
 megvii,旷视科技,https://app.mokahr.com/campus_apply/megviihr/38642#/jobs,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-bigai,北京通用人工智能研究院,https://www.bigai.ai/blog/vacancies/ | https://app.mokahr.com/social-recruitment/bigai-ai/102639,已读取入口；入口需动态加载,34,0,0,24,0,17,7,0,0,24,已确认
+bigai,北京通用人工智能研究院,https://www.bigai.ai/blog/vacancies/ | https://app.mokahr.com/social-recruitment/bigai-ai/102639,已读取入口；入口需动态加载,34,0,0,31,0,23,8,0,0,31,已确认
 unisound,云知声,https://www.unisound.com/careers | https://unisound.com/careers | https://www.unisound.com/about-company,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-realai,瑞莱智慧,https://realai.ai/ | https://realai.jobs.feishu.cn/index,已读取入口；入口需动态加载；动态列表未读出,13,0,0,8,0,3,3,2,0,8,已确认
+realai,瑞莱智慧,https://realai.ai/ | https://realai.jobs.feishu.cn/index,已读取入口；入口需动态加载；动态列表未读出,13,0,0,10,0,4,4,2,0,10,已确认
 4paradigm,第四范式 / 范式,https://app.mokahr.com/social-recruitment/4paradigm/102013,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 baai,北京智源人工智能研究院,https://app.mokahr.com/social-recruitment/baai/42173,入口需动态加载,57,3,0,36,1,22,12,0,3,37,已确认
 witmem,知存科技,https://en.witmem.com/jobs.php | https://www.witmem.com/bsjh.php,已读取入口,18,0,0,5,0,4,1,0,0,5,已确认
-tsingmicro,清微智能,https://tsingmicro.zhiye.com/social,入口需动态加载,108,0,0,28,0,3,24,1,0,28,已确认
-dptechnology,深势科技,https://dptechnology.jobs.feishu.cn/index,入口需动态加载；动态列表未读出,163,0,0,47,0,16,23,7,1,47,已确认
-spiritai,千寻智能,https://nwd4iy9rd2s.jobs.feishu.cn/ | https://nwd4iy9rd2s.jobs.feishu.cn/index | https://nwd4iy9rd2s.jobs.feishu.cn,入口需动态加载；部分列表已读；动态列表未读出,111,0,2,71,0,19,47,6,1,73,已确认
-x2robot,自变量机器人,https://x2-robot.jobs.feishu.cn/ | https://x2-robot.jobs.feishu.cn/index | https://x2-robot.jobs.feishu.cn,入口需动态加载；北京列表已遍历,61,0,22,19,0,31,10,0,0,41,已确认
-xhumanoid,北京人形机器人创新中心 / 天工,https://zitd5je6f7j.jobs.feishu.cn/ | https://zitd5je6f7j.jobs.feishu.cn,入口需动态加载；动态列表未读出,44,0,0,30,0,18,11,1,0,30,已确认
+tsingmicro,清微智能,https://tsingmicro.zhiye.com/social,入口需动态加载,108,0,0,27,0,3,23,1,0,27,已确认
+dptechnology,深势科技,https://dptechnology.jobs.feishu.cn/index,入口需动态加载；动态列表未读出,163,0,0,48,0,16,24,7,1,48,已确认
+spiritai,千寻智能,https://nwd4iy9rd2s.jobs.feishu.cn/ | https://nwd4iy9rd2s.jobs.feishu.cn/index | https://nwd4iy9rd2s.jobs.feishu.cn,入口需动态加载；部分列表已读；动态列表未读出,111,0,2,72,0,20,47,6,1,74,已确认
+x2robot,自变量机器人,https://x2-robot.jobs.feishu.cn/ | https://x2-robot.jobs.feishu.cn/index | https://x2-robot.jobs.feishu.cn,入口需动态加载；北京列表已遍历,61,0,23,24,0,34,13,0,0,47,已确认
+xhumanoid,北京人形机器人创新中心 / 天工,https://zitd5je6f7j.jobs.feishu.cn/ | https://zitd5je6f7j.jobs.feishu.cn,入口需动态加载；动态列表未读出,44,0,0,31,0,20,10,1,0,31,已确认
 phigentai,鉴智机器人,https://phigentai.jobs.feishu.cn/ | https://phigent.zhiye.com/social | https://phigentai.jobs.feishu.cn,入口需动态加载；北京列表已遍历,4,0,27,2,0,21,8,0,0,29,已确认
 tars,它石智航,https://tarsrobot.jobs.feishu.cn/ | https://tarsrobot.jobs.feishu.cn/index | https://tarsrobot.jobs.feishu.cn,入口需动态加载；北京列表已遍历,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-linkerbot,灵心巧手,https://www.linkerbot.cn/about/join,已读取入口,34,0,0,1,0,0,1,0,0,1,已确认
+linkerbot,灵心巧手,https://www.linkerbot.cn/about/join,已读取入口,34,0,0,21,0,10,10,1,0,21,已确认
 surgerii,术锐机器人,,检索后仍未确认官方入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 agilerobots,思灵机器人,https://www.agile-robots.cn/careers-info/195?city=&department=&function=&keyword= | https://www.agile-robots.cn/careers-info/202?city=&department=&function=&keyword= | https://www.agile-robots.cn/careers-info/194?city=&department=&function=&keyword= | https://www.agile-robots.cn/careers-info/200?city=&department=&function=&keyword=,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 casbot,中科慧灵 / CASBOT,https://casbot.tech/join,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -83,21 +83,21 @@ mechmind,梅卡曼德机器人,https://mechmind.zhiye.com/social,入口需动态
 inspirerobots,因时机器人,https://www.inspire-robots.com/about%20us/joinus/,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 baichuan,百川智能,https://careers.baichuan-inc.com/,已读取入口,36,0,0,28,0,15,9,4,0,28,已确认
 zkj,中关村科金,https://www.zkj.com/join-us,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-bailian,百炼智能,https://www.bailian-ai.com/joinus,入口未能读取,4,0,0,1,0,1,0,0,0,1,已确认
+bailian,百炼智能,https://www.bailian-ai.com/joinus,入口未能读取,4,0,0,2,0,2,0,0,0,2,已确认
 wenge,中科闻歌,https://www.wenge.com/cityMini/site/69cb894fe4b03b4745b93d86,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 shukun,数坤科技,https://shukun.zhiye.com/social,入口需动态加载,35,0,0,12,0,6,4,2,0,12,已确认
 minglue,明略科技,https://mininglamp.zhiye.com/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 laiye,来也科技,https://laiye.zhiye.com/ | https://laiye.zhiye.com/social,入口需动态加载,3,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 xiaoice,小冰,https://xiaoice.cn/aiBeings | https://xiaoice.cn/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 tingyu,庭宇科技,https://www.tingyutech.com/zh/careers/,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-gigaai,极佳科技 / 极佳视界,https://gigaai0118.jobs.feishu.cn/index/ | https://gigaai0118.jobs.feishu.cn/index,入口需动态加载；部分列表已读,68,0,14,31,0,11,27,4,3,45,已确认
-qcraft,轻舟智航,https://qcraft.jobs.feishu.cn/ | https://qcraft.jobs.feishu.cn/index | https://qcraft.jobs.feishu.cn,入口需动态加载；动态列表未读出；部分列表已读,42,0,8,24,0,24,8,0,0,32,已确认
-momenta,Momenta,https://www.momenta.cn,已读取入口,213,0,0,111,0,68,41,1,1,111,已确认
+gigaai,极佳科技 / 极佳视界,https://gigaai0118.jobs.feishu.cn/index/ | https://gigaai0118.jobs.feishu.cn/index,入口需动态加载；部分列表已读,68,0,14,31,0,12,26,4,3,45,已确认
+qcraft,轻舟智航,https://qcraft.jobs.feishu.cn/ | https://qcraft.jobs.feishu.cn/index | https://qcraft.jobs.feishu.cn,入口需动态加载；动态列表未读出；部分列表已读,42,0,8,25,0,25,8,0,0,33,已确认
+momenta,Momenta,https://www.momenta.cn,已读取入口,213,0,0,116,0,72,42,1,1,116,已确认
 uisee,驭势科技,https://www.uisee.com/joinus.html,已读取入口,15,0,0,4,0,3,1,0,0,4,已确认
 eacon,易控智驾,https://www.eacon.com/join/,已读取入口,75,0,0,20,0,19,1,0,0,20,已确认
 plus,智加科技,https://www.smartxtruck.com/join-us.html,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 trunktech,主线科技,https://app.mokahr.com/social-recruitment/trunk/39504#/jobs | https://trunk.jobs.feishu.cn/index,入口需动态加载；北京列表已遍历,8,0,7,0,0,6,1,0,0,7,已确认
-neolix,新石器无人车,https://r3c0qt6yjw.jobs.feishu.cn/neolix/ | https://www.neolix.cn | https://r3c0qt6yjw.jobs.feishu.cn/neolix,入口需动态加载；已读取入口；动态列表未读出,85,0,0,39,0,15,19,3,2,39,已确认
+neolix,新石器无人车,https://r3c0qt6yjw.jobs.feishu.cn/neolix/ | https://www.neolix.cn | https://r3c0qt6yjw.jobs.feishu.cn/neolix,入口需动态加载；已读取入口；动态列表未读出,85,0,0,43,0,18,20,3,2,43,已确认
 vast,VAST / Tripo,https://a9ihi0un9c.jobs.feishu.cn/fte,入口需动态加载；北京列表已遍历,91,0,11,0,0,2,8,1,0,11,已确认
 pingcap,PingCAP / 平凯星辰,https://careers.pingcap.com/apply/pingcap/39950/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 enflame,燧原科技,https://app.mokahr.com/m/campus-recruitment/enflame/168420?locale=zh-CN#/home,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -136,10 +136,10 @@ amigosrobot,阿米奥机器人 Amigos,https://amigos-robot.com/ | https://amigos
 meshy,Meshy / 太极图形,https://www.meshy.ai/zh/careers | https://www.meshy.ai,入口未能读取,29,0,0,4,0,3,1,0,0,4,已确认
 kairosmaterials,开物纪 Kairos,https://www.kairosmaterials.com/careers/,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 youware,YouWare / 新言意码,https://www.youware.com/,入口未能读取,0,1,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-soundai,声智科技,https://www.soundai.com/joinus,入口需动态加载,9,0,0,1,0,0,0,0,1,1,已确认
+soundai,声智科技,https://www.soundai.com/joinus,入口需动态加载,9,0,0,7,0,0,4,1,2,7,已确认
 timecho,天谋科技 Timecho,https://www.timecho.com/aboutus#about-join-wrapper,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-shumei,数美科技,https://www.ishumei.com/about/join.html,已读取入口,21,0,0,1,0,0,1,0,0,1,已确认
-langboat,澜舟科技,https://www.langboat.com/about?module=join,已读取入口,12,0,0,1,0,0,1,0,0,1,已确认
+shumei,数美科技,https://www.ishumei.com/about/join.html,已读取入口,21,0,0,2,0,1,1,0,0,2,已确认
+langboat,澜舟科技,https://www.langboat.com/about?module=join,已读取入口,12,0,0,5,0,2,2,1,0,5,已确认
 fenbeitong,分贝通,https://www.fenbeitong.com/joinus.html,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 yizhun,医准智能,https://www.yizhun-ai.com/join,已读取入口,2,0,0,1,0,1,0,0,0,1,已确认
 stonewise,望石智慧,https://stonewise.cn/jrwm,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -152,7 +152,7 @@ houmo,后摩智能,https://www.houmo.ai/join,入口未能读取,0,0,3,0,0,2,1,0,
 spacemit,进迭时空 SpacemiT,https://app.mokahr.com/social-recruitment/space-t1/67915,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 armchina,安谋科技 Arm China,https://app.mokahr.com/apply/armchina/885#/jobs,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 visinex,为旌科技 Visinex,https://app.mokahr.com/social-recruitment/visinextek/41635#/jobs,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-ai2robotics,智平方 AI² Robotics,https://ai2robotics.jobs.feishu.cn/index/position/list?location=CT_11&current=1&limit=100 | https://ai2robotics.jobs.feishu.cn/index,入口需动态加载；北京列表已遍历,34,0,28,0,0,14,9,5,0,28,已确认
+ai2robotics,智平方 AI² Robotics,https://ai2robotics.jobs.feishu.cn/index/position/list?location=CT_11&current=1&limit=100 | https://ai2robotics.jobs.feishu.cn/index,入口需动态加载；北京列表已遍历,34,0,29,1,0,15,10,5,0,30,已确认
 beisen,北森 Beisen,https://beisen.zhiye.com/,入口需动态加载,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 manifoldai,流形空间 Manifold AI,https://jobs.manifoldai.cn/ | https://www.manifoldai.cn/ | https://manifoldai.cn/ | https://www.manifoldai.cn/index.html | https://www.manifoldai.cn/#join | https://manifoldai.cn/#join,入口需动态加载；已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 hidream,智象未来 HiDream,https://hidreamai.com/home/careers,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -252,13 +252,13 @@ happyelements,乐元素,https://app.mokahr.com/apply/leyuansu/2358#/,入口需�
 igg,IGG,https://cn-jobs.igg.com/public/careers.html,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 lilith,莉莉丝游戏,https://lilithgames.jobs.feishu.cn/career/ | https://lilithgames.jobs.feishu.cn/career,入口需动态加载；北京列表已遍历,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 perfectworld,完美世界,https://jobs.games.wanmei.com/society.html,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-amd,AMD 超威,https://careers.amd.com/jobs | https://www.amd.com,已读取入口；入口未能读取,0,2,2,0,3,3,2,0,0,5,已确认
-apple,Apple 苹果,https://jobs.apple.com/en-us/search?location=beijing-BJS,已读取入口,0,0,9,0,0,0,9,0,0,9,已确认
+amd,AMD 超威,https://careers.amd.com/jobs | https://www.amd.com,已读取入口；入口未能读取,0,2,0,0,3,3,0,0,0,3,已确认
+apple,Apple 苹果,https://jobs.apple.com/en-us/search?location=beijing-BJS,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 bosch,博世 Bosch,https://careers.smartrecruiters.com/BoschGroup/china?location=Beijing,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 intel,英特尔 Intel,https://www.intel.cn/content/www/cn/zh/support/articles/000089205/programs/jobs-at-intel.html | https://www.intel.cn/content/www/cn/zh/support/articles/000092673/programs/jobs-at-intel.html,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 microsoft,微软 Microsoft,https://www.microsoft.com/en-us/research/careers/open-positions/ | https://www.microsoft.com,已读取入口,0,6,0,0,2,2,0,0,0,2,已确认
 mobileye,Mobileye,https://careers.mobileye.com/jobs,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-nvidia,英伟达 NVIDIA,https://www.nvidia.cn/about-nvidia/careers/recruitment-scams/ | https://www.nvidia.cn/about-nvidia/careers/how-we-hire/ | https://www.nvidia.cn/about-nvidia/careers/ | https://wwwdev.nvidia.cn/about-nvidia/careers/university-recruiting/ | https://www.nvidia.cn/about-nvidia/careers/university-recruiting/ | https://www.nvidia.com,已读取入口；入口未能读取,0,0,13,0,0,1,12,0,0,13,已确认
+nvidia,英伟达 NVIDIA,https://www.nvidia.cn/about-nvidia/careers/recruitment-scams/ | https://www.nvidia.cn/about-nvidia/careers/how-we-hire/ | https://www.nvidia.cn/about-nvidia/careers/ | https://wwwdev.nvidia.cn/about-nvidia/careers/university-recruiting/ | https://www.nvidia.cn/about-nvidia/careers/university-recruiting/ | https://www.nvidia.com,已读取入口；入口未能读取,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 simpleai,深朴智能,,检索后仍未确认官方入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 spacewill,航天世景,https://www.spacewillinfo.com/ | https://www.spacewillinfo.com/html/web/xinxigongkai2009959352632520705/2011362004689014786.html,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 chinawenfa,中文发集团,https://www.chinawenfa.cn/zwf/rlzy/rczp/A007005001index_1.htm | https://www.chinawenfa.cn/zwf/index.htm | https://www.chinawenfa.cn/zwf/zsyzxq/A007008index_1.htm | https://www.chinawenfa.cn/zwf/gywm/A007001index_1.htm | https://www.chinawenfa.cn/zwf/rlzy/rczp/zptz/2026/9/3fa3a8b7ef374b9981ddc783010772ec.htm | https://www.chinawenfa.cn/zwf/tzgg/2025/11/ab0fa7fd55ef46d585435214ed1b4ab0.htm,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
@@ -299,10 +299,10 @@ qianxiang,乾象投资 Qianxiang,https://www.qianxiang.cn/join-us,已读取入�
 metaso,秘塔科技,https://metasota.ai/,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 haitian-ruisheng,海天瑞声,https://www.haitianruisheng.com/aboutus/saferjoin/catid-40.htm,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 datatang,数据堂,https://www.datatang.com/join-us,已读取入口,14,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
-amazon,亚马逊,https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing,已读取入口,0,0,1,0,0,0,1,0,0,1,已确认
+amazon,亚马逊,https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 schneider-electric,施耐德电气,https://careers.se.com/jobs/139774?lang=zh-CN,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 fangcun,方寸跃迁,https://www.fangcunleap.com/ | https://fangcunleap.com/about | https://fangcunleap.com/research | https://fangcunleap.com/ | https://www.fangcunleap.com/about#join | https://fangcunleap.com/about#join,已读取入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 tansuo-wujin,探索无尽,,检索后仍未确认官方入口,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 ambi-ai,Ambi AI,https://www.ambi.ai/careers.html | https://www.ambi.ai/careers/role/REQ-20260819-0092/ | https://www.ambi.ai/en/about,已读取入口；入口未能读取,0,0,0,0,0,0,0,0,0,0,未确认到符合条件的岗位
 fibona-ai,Fibona AI,,检索后仍未确认官方入口,0,1,0,0,1,1,0,0,0,1,已确认
-lightwheel,光轮智能 / Lightwheel,https://lightwheel.jobs.feishu.cn/index,入口需动态加载；北京列表已遍历,92,0,36,0,0,7,22,2,5,36,已确认
+lightwheel,光轮智能 / Lightwheel,https://lightwheel.jobs.feishu.cn/index,入口需动态加载；北京列表已遍历,92,0,37,0,0,7,23,2,5,37,已确认

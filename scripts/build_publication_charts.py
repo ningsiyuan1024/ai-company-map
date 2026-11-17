@@ -12,7 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from build_startup_statistics import build
-from beijing_job_rules import normtitle
+from beijing_job_rules import normtitle, keyurl
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs/images"
@@ -155,11 +155,11 @@ roles = ["算法", "工程", "产品", "运营"]
 assert all(j["方向"] in roles for j in jobs)
 
 employer = lambda j: "liblib" if j["目录ID"] == "lovart" else j["目录ID"]
-assert len({(employer(j), normtitle(j["岗位"])) for j in jobs}) == len(jobs)
+assert len({(employer(j), keyurl(j["详情"]), normtitle(j["岗位"])) for j in jobs}) == len(jobs)
 covered = len({employer(j) for j in jobs})
 groups_by_role = {r: [j for j in jobs if j["方向"] == r] for r in roles}
 counts = {r: (len(js), len({employer(j) for j in js})) for r, js in groups_by_role.items()}
-fig = page("北京 AI 岗位方向")
+fig = page("已收录的北京 AI 岗位")
 fig.text(.66, .82, "岗位数", ha="right", color=MUTED, fontsize=14)
 fig.text(.92, .82, "雇主数", ha="right", color=MUTED, fontsize=14)
 peak = max(n for n, _ in counts.values())
@@ -178,13 +178,13 @@ for i, role in enumerate(roles):
 fig.text(.07,.105,f"共 {len(jobs):,} 个岗位  ·  {covered} 家雇主", fontsize=15, color=INK)
 fig.text(.07,.061,"2026.11.17", fontsize=11, color=MUTED)
 save(fig,"beijing-job-directions.png")
-md = ["# 北京 AI 岗位", "", f"核查目录中的 {total} 个公司与团队，找到 {covered} 家雇主的 {len(jobs):,} 个北京 AI 岗位。更新于 2026 年 11 月 17 日。", "",
+md = ["# 北京 AI 岗位", "", f"目录共 {total} 个条目。本次收录 {covered} 家雇主的 {len(jobs):,} 条北京 AI 职位记录。更新于 2026 年 11 月 17 日。", "",
       "![北京 AI 岗位方向](images/beijing-job-directions.png)", "",
       "| 方向 | 岗位数 | 雇主数 |", "| --- | ---: | ---: |"]
 for role, (n, employers) in counts.items():
     md.append(f"| [{role}](#{role}) | {n:,} | {employers} |")
 md += ["","[全部岗位明细](beijing-jd-sample.csv) · [307 家核查记录](beijing-employer-audit.csv)","",
-       "工作地点须明确包含北京。先采用官网职位，再用 Ivyea 和 Offer 岛补充。同一雇主的同名岗位合并，每个岗位按主要职责归入一个方向。雇主可以跨方向出现，招聘人数不计入岗位数。未找到可确认岗位的雇主保留在核查记录中。",""]
+       "工作地点须明确包含北京。先采用官网职位，再用 Ivyea 和 Offer 岛补充。优先按招聘编号合并；同名且职责全文相同的重复发布合并。缺少可辨认编号时按同一雇主的同名岗位合并。雇主可以跨方向出现，招聘人数不计入岗位数。未找到可确认岗位的雇主保留在核查记录中。",""]
 for role, js in groups_by_role.items():
     md += [f"## {role}", ""]
     path = f"beijing-jobs-{roles.index(role)+1}.html"

@@ -26,6 +26,16 @@ def role(t,b):
         action=r'研发|开发|设计|优化|构建|搭建|迭代|部署|训练|评测|标注|运营|负责|落地|集成|测试|推进|交付'
         topic=r'大模型|语言模型|模型推理|机器学习|深度学习|具身|智能体|多模态|自动驾驶|机器人|人工智能|AI\s*(?:平台|产品|功能|应用|系统|能力|模型|服务|助手|引擎|数据|基础设施)|Agent|LLM'
         if not re.search(f'(?:{action})[^。；;，,\n]{{0,16}}(?:{topic})|(?:{topic})[^。；;，,\n]{{0,16}}(?:{action})',duty,re.I):return ''
+    primary = re.split(r'\s*[-–—|]\s*', t, maxsplit=1)[0]
+    excluded = (r'HRBP|全球人才与组织架构师|研发招聘经理|商业分析师|'
+                r'采购(?:寻源)?工程师|采购经理|工程采购|PMO|TPM|'
+                r'项目经理|项目管理(?:专家)?')
+    if re.search(excluded, t, re.I) and not re.search(r'项目管理运营|运营负责人兼项目经理', t):
+        return ''
+    engineering = r'后端开发|前端开发|全栈开发|研发工程师|开发工程师|安全检测工程师|运营开发|软件工程师'
+    if re.search(engineering, primary) or re.search(r'平台研发工程师', t):
+        if not re.search(r'算法', primary):
+            return '工程'
     if re.search(r'算法(?:负责人|工程师|研究员|专家|实习生)|运营算法',t):return '算法'
     if re.search(r'产品运营|策略运营|用户运营|社区运营|内容运营',t) and not re.search('运营.{0,4}产品经理',t):return '运营'
     if re.search(r'人力资源|招聘运营|销售运营|财务运营|行政运营|运营商客户|销售经理|招聘实习生',t):return ''
