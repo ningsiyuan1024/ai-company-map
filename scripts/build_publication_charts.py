@@ -2,6 +2,7 @@
 import csv
 import json
 from itertools import combinations
+from math import cos, radians
 from collections import Counter
 from pathlib import Path
 
@@ -9,6 +10,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
+from matplotlib.collections import LineCollection, PolyCollection
+from matplotlib import patheffects
 from build_startup_statistics import build
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,8 +68,53 @@ def ranked(counts):
 entries = sum(bool(row["recruitUrl"]) for row in companies)
 chart("beijing-company-overview.png", "北京 AI 公司技术方向 TOP 10",
       f"{total} 家公司与团队  ·  有招聘入口 / 该方向总数（家）", ranked(tags)[:10], linked)
-chart("beijing-directory-districts.png", "北京 AI 公司公开地址分布",
-      f"{located} 家有区域信息  ·  跨区分别计数（家）", ranked(districts))
+def district_map(counts, located):
+    source = (ROOT / "beijing-basemap.js").read_text(encoding="utf8")
+    basemap = json.loads(source.split("=", 1)[1].strip().rstrip(";"))
+    places = {p["name"]: tuple(reversed(p["coord"])) for p in basemap["places"]}
+    fig, ax = plt.subplots(figsize=(8, 7.4), dpi=180)
+    fig.subplots_adjust(left=.035, right=.965, bottom=.065, top=.87)
+    fig.text(.05, .939, "北京 AI 公司地址分布", fontsize=22, weight="bold", color="#182b42")
+    fig.text(.05, .892, f"{located} 家有区域信息 · 按区计数（家）", fontsize=11, color="#536476")
+    fig.text(.05, .025, "底图 © OpenStreetMap contributors", fontsize=8, color="#536476")
+    ax.set_facecolor("#f5f8f7")
+    roads, parks, water = [], [], []
+    for feature in basemap["geojson"]["features"]:
+        kind = feature["properties"]["kind"]
+        coords = feature["geometry"]["coordinates"]
+        if kind == "road":
+            roads.extend(coords)
+        elif kind == "park":
+            parks.append(coords[0])
+        elif kind == "water":
+            water.append(coords[0])
+    for shapes, fill in [(parks, "#e2ebe2"), (water, "#c4dfe6")]:
+        ax.add_collection(PolyCollection(shapes, facecolors=fill, edgecolors="none"))
+    ax.add_collection(LineCollection(roads, colors="#d5dcdb", linewidths=.42))
+    # Offsets are in print points so the dense inner-city labels stay legible.
+    offsets = {"海淀区": (-12, 22), "西城区": (-8,-15), "东城区": (0,15),
+               "朝阳区": (13,-2), "门头沟区": (-6,8), "石景山区": (-9,-11)}
+    for district, count in counts.most_common():
+        x, y = places[district]
+        ax.scatter(x, y, s=count*13, color="#24796f", alpha=.84,
+                   edgecolors="white", linewidths=.8, zorder=3)
+        dx, dy = offsets.get(district, (7, 4))
+        label = "经开区" if district == "北京经济技术开发区" else district
+        ax.annotate(f"{label} {count}", (x, y), xytext=(dx,dy), textcoords="offset points",
+                    ha="right" if dx < 0 else "left", va="center", fontsize=10, color="#183b38",
+                    path_effects=[patheffects.withStroke(linewidth=3, foreground="white")])
+    ax.set_aspect(1 / cos(radians(40)))
+    ax.set_xlim(115.98, 116.78)
+    ax.set_ylim(39.68, 40.36)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    fig.savefig(OUT / "beijing-directory-districts.png")
+    plt.close(fig)
+
+
+district_map(districts, located)
 with (ROOT / "docs/company-directions.csv").open(encoding="utf-8-sig", newline="") as source:
     classifications = {row["id"]: row for row in csv.DictReader(source)}
 assert classifications.keys() == {company["id"] for company in companies}

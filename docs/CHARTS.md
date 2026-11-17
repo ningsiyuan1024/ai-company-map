@@ -12,7 +12,7 @@
 
 ![技术方向组合](images/beijing-directory-pairs.png)
 
-![公开地址分布](images/beijing-directory-districts.png)
+![北京 AI 公司地址分布，按区域统计，跨区分别计数](images/beijing-directory-districts.png)
 
 ## 创业公司专题
 
