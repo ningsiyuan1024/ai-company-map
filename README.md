@@ -2,11 +2,30 @@
 
 在地图上找北京的 AI 公司，查看公司位置、业务方向和招聘入口。
 
-**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [北京 AI 岗位](docs/JOBS.md) · [欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)
+**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · **[下载求职 Skill](https://github.com/ningsiyuan1024/ai-company-map/raw/refs/heads/main/skills/ai-company-match.zip)** · [北京 AI 岗位](docs/JOBS.md) · [欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)
 
 [![北京 AI 公司地图预览](docs/images/01-beijing-map.png)](https://ningsiyuan1024.github.io/ai-company-map/)
 
 收录 **307 家北京公司与团队**，另支持上海、深圳、杭州和广州。目前主要维护北京，数据更新于 2026 年 11 月 14 日。
+
+## 用 Agent 找岗位
+
+根据你的过往工作、项目记录或简历推荐北京岗位，逐条说明哪段经历对应哪项职责，并给出能力差距和岗位链接。
+
+**[下载 Skill 完整包](https://github.com/ningsiyuan1024/ai-company-map/raw/refs/heads/main/skills/ai-company-match.zip)**，解压后交给支持读取本地文件的 Agent。复制下面这段话即可开始。
+
+```text
+请使用附件中的 ai-company-match Skill，根据你能读取到的我的过往工作和项目记录，推荐几个适合我的北京 AI 岗位。每个岗位说明我哪段经历对应哪条职责、还缺什么，并核对官网岗位链接。资料不足时再问我。
+```
+
+也可以附上简历或工作经历。支持读取仓库的 Agent 可直接使用 [Skill 目录](skills/ai-company-match)。
+
+<details>
+<summary>数据与文件</summary>
+
+[使用说明](skills/ai-company-match/SKILL.md) · [岗位数据](skills/ai-company-match/references/jobs.jsonl) · [公司目录](skills/ai-company-match/references/companies.json) · [字段索引](skills/ai-company-match/references/manifest.json)
+
+</details>
 
 ## 北京 AI 求职图集
 
@@ -17,14 +36,6 @@
 ## 使用
 
 搜索公司或方向，按区域、融资阶段、投资机构筛选；点击公司查看详情和招聘入口。复制浏览器地址即可分享当前结果。
-
-## 简历匹配
-
-把 [Skill 下载包](skills/ai-company-match.zip)和简历或工作经历交给自己的 Agent，获取推荐公司、匹配理由和投递清单。支持读取 Skill 文件的 Agent 也可直接使用 [SKILL.md](skills/ai-company-match/SKILL.md)。
-
-### Agent 数据入口
-
-[岗位记录](skills/ai-company-match/references/jobs.jsonl)里的每个职位都有独立 ID，并通过 `companyId` 关联[公司目录](skills/ai-company-match/references/companies.json)。先读 `work` 看做什么，再读 `source` 核对原文；公司名称、业务和地图位置从目录取得。[字段索引](skills/ai-company-match/references/manifest.json)
 
 ## 信息源
 
