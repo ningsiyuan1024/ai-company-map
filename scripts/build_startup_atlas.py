@@ -94,10 +94,17 @@ METRICS['districts']={'companiesWithRegion':LOCATED,'counts':dict(REGIONS.most_c
 INVESTORS=collections.Counter(investor for row in ROWS for investor in row['investors'])
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
 METRICS['investors']={'companiesWithNames':WITH_INVESTORS,'counts':dict(INVESTORS.most_common())}
-fig=canvas('投资机构覆盖的创业公司 TOP 12',f'{WITH_INVESTORS} 家有本轮投资方记录')
-ax=fig.add_axes([.24,.22,.56,.56]);items=INVESTORS.most_common(12);names,values=zip(*items)
-ax.barh(range(len(names)),values,color=BLUE,height=.55);ax.set_yticks(range(len(names)),names,fontsize=11,color=INK);ax.invert_yaxis();ax.set_xlim(0,max(values)*1.08);ax.set_xticks([]);strip_axes(ax)
-for i,value in enumerate(values):ax.text(1.045,i,f'{value} 家',transform=ax.get_yaxis_transform(),va='center',fontsize=11,color=INK)
+items = sorted(((name,n) for name,n in INVESTORS.items() if n>=5),key=lambda item:(-item[1],item[0]))
+fig = canvas("投资机构覆盖的创业公司",f"{WITH_INVESTORS} 家有本轮投资方记录 · 展示覆盖 ≥ 5 家的机构",figsize=(8,6))
+ax = fig.add_axes([.27,.08,.60,.70])
+for y,(name,n) in enumerate(items):
+    ax.scatter(range(1,n+1),[y]*n,s=90,color="#30776e")
+    ax.text(n+.38,y,str(n),va="center",color=INK,fontsize=12)
+ax.set_yticks(range(len(items)),[name for name,n in items],fontsize=11)
+ax.set_ylim(len(items)-.5,-.5)
+ax.set_xlim(.4,max(n for _,n in items)+1)
+ax.set_xticks([])
+strip_axes(ax)
 finish(fig,'startup-investor-coverage.png')
 
 # 6. Directory recruitment links; this is explicitly not a live-job count.
