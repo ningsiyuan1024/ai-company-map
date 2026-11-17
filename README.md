@@ -22,6 +22,10 @@
 
 把 [Skill 下载包](skills/ai-company-match.zip)和简历或工作经历交给自己的 Agent，获取推荐公司、匹配理由和投递清单。支持读取 Skill 文件的 Agent 也可直接使用 [SKILL.md](skills/ai-company-match/SKILL.md)。
 
+### Agent 数据入口
+
+[岗位记录](skills/ai-company-match/references/jobs.jsonl)里的每个职位都有独立 ID，并通过 `companyId` 关联[公司目录](skills/ai-company-match/references/companies.json)。先读 `work` 看做什么，再读 `source` 核对原文；公司名称、业务和地图位置从目录取得。[字段索引](skills/ai-company-match/references/manifest.json)
+
 ## 信息源
 
 | 信息源 | 信息内容 |

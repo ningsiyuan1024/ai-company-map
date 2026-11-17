@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Search the bundled company snapshot locally; no network or resume upload."""
 import argparse
-import csv
 from collections import defaultdict
 import json
 import re
@@ -28,16 +27,18 @@ def search(data, terms, limit, jobs=(), role=None, toward=(), avoid_title=()):
             continue
         title_hits = [t for t in terms if contains(title, t)]
         tags = set(job['jdTerms'].casefold().split('|'))
-        body_hits = [t for t in terms if t in tags and t not in title_hits]
-        if not (title_hits or body_hits):
+        duty = (job.get('dutyExcerpt') or '').casefold()
+        duty_hits = [t for t in terms if contains(duty, t)]
+        body_hits = [t for t in terms if t in tags and t not in title_hits and t not in duty_hits]
+        if not (title_hits or duty_hits or body_hits):
             continue
         desired_title = [t for t in toward if contains(title, t)]
-        desired_body = [t for t in toward if t in tags and t not in desired_title]
+        desired_body = [t for t in toward if (t in tags or contains(duty, t)) and t not in desired_title]
         score = (bool(desired_title or desired_body), bool(desired_title),
-                 len(title_hits) + len(body_hits), len(title_hits), job['source'] == '企业官网')
+                 len(set(title_hits + duty_hits + body_hits)), len(set(title_hits + duty_hits)), job['source'] == '企业官网')
         evidence = {k: job[k] for k in ('title', 'role', 'url', 'source', 'asOf')}
-        evidence.update({k: job[k] for k in ('city', 'sourceUrl') if k in job})
-        evidence.update(titleMatches=title_hits, jdMatches=body_hits)
+        evidence.update({k: job[k] for k in ('city', 'sourceUrl', 'id', 'dutyExcerpt') if k in job})
+        evidence.update(titleMatches=title_hits, dutyMatches=duty_hits, jdMatches=body_hits)
         if toward:
             evidence.update(towardTitle=desired_title, towardJD=desired_body)
         matches[job['company']].append((score, evidence))
@@ -53,7 +54,7 @@ def search(data, terms, limit, jobs=(), role=None, toward=(), avoid_title=()):
         evidence = [j for _, j in postings[:3]]
         hits = set(company_hits)
         for j in evidence:
-            hits.update(j['titleMatches'] + j['jdMatches'])
+            hits.update(j['titleMatches'] + j['dutyMatches'] + j['jdMatches'])
         best = postings[0][0] if postings else (False, False, 0, 0, False)
         rank = (bool(postings), *best, len(company_hits))
         row = dict(company, matchedTerms=[t for t in terms if t in hits], jobs=evidence,
@@ -84,8 +85,17 @@ def main():
     path = Path(__file__).resolve().parents[1] / 'references' / 'companies.json'
     try:
         data = json.loads(path.read_text(encoding='utf-8-sig'))
-        with path.with_name('jobs.csv').open(encoding='utf-8-sig', newline='') as source:
-            jobs = list(csv.DictReader(source))
+        jobs = []
+        with path.with_name('jobs.jsonl').open(encoding='utf8') as source:
+            for line in source:
+                record = json.loads(line)
+                origin = record['source']
+                jobs.append(dict(id=record['id'], company=record['companyId'], title=record['title'],
+                                 role=record['role'], city=record['location']['includesCity'],
+                                 dutyExcerpt=record['work']['dutyExcerpt'],
+                                 jdTerms='|'.join(record['work']['mentionedTerms']),
+                                 source=origin['name'], url=origin['detailUrl'],
+                                 sourceUrl=origin['listingUrl'], asOf=origin['checkedOn']))
     except (OSError, ValueError) as error:
         parser.exit(1, f'Cannot read company snapshot: {error}\n')
     if hasattr(sys.stdout, 'reconfigure'):
