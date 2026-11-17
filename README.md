@@ -27,11 +27,21 @@
 
 </details>
 
-## 北京 AI 求职图集
+## 统计图
 
-[![北京 AI 求职六图合览：岗位方向占比、主营赛道、雇主类型、地址分布、岗位加分项与创业公司融资阶段](docs/images/beijing-company-atlas.jpg)](docs/CHARTS.md)
+[查看六合一](docs/images/beijing-company-atlas.jpg) · [下载统计图](docs/images/beijing-company-charts.zip) · [雇主名单](docs/EMPLOYERS.md)
 
-[雇主名单](docs/EMPLOYERS.md) · [下载图集](docs/images/beijing-company-charts.zip)
+![岗位方向占比](docs/images/beijing-job-directions.png)
+
+![主营赛道分布](docs/images/beijing-directory-sectors.png)
+
+![雇主类型](docs/images/beijing-company-overview.png)
+
+![AI 公司地址分布](docs/images/beijing-directory-districts.png)
+
+![北京 AI 岗位常见加分项](docs/images/beijing-job-preferences.png)
+
+![创业公司融资阶段](docs/images/stage-overview-2026.png)
 
 ## 使用
 
