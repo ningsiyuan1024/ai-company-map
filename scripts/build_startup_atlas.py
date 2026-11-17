@@ -56,20 +56,9 @@ METRICS={'asOf':DATA['asOf'],'sampleTotal':TOTAL,'scope':DATA['scope'],'sectorCo
 FILES=[]
 
 
-def canvas(title,figsize=(12,8)):
-    fig=plt.figure(figsize=figsize,dpi=180)
-    fig.text(.06,.93,title,fontsize=24,weight='bold',color=INK)
-    return fig
-
-
 def finish(fig,name):
     fig.savefig(OUT/name)
     plt.close(fig); FILES.append(name)
-
-
-def strip_axes(ax):
-    for spine in ax.spines.values(): spine.set_visible(False)
-    ax.tick_params(length=0,labelcolor=MUTED)
 
 
 # 2. Financing-stage composition within each primary sector.
@@ -94,16 +83,21 @@ INVESTORS=collections.Counter(investor for row in ROWS for investor in row['inve
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
 METRICS['investors']={'companiesWithNames':WITH_INVESTORS,'counts':dict(INVESTORS.most_common())}
 items = sorted(((name,n) for name,n in INVESTORS.items() if n>=5),key=lambda item:(-item[1],item[0]))
-fig = canvas("创业公司背后的投资机构",figsize=(8,6))
-ax = fig.add_axes([.27,.08,.60,.70])
-for y,(name,n) in enumerate(items):
-    ax.scatter(range(1,n+1),[y]*n,s=90,color="#30776e")
-    ax.text(n+.38,y,str(n),va="center",color=INK,fontsize=12)
-ax.set_yticks(range(len(items)),[name for name,n in items],fontsize=11)
-ax.set_ylim(len(items)-.5,-.5)
-ax.set_xlim(.4,max(n for _,n in items)+1)
-ax.set_xticks([])
-strip_axes(ax)
+fig = plt.figure(figsize=(6,7.5),dpi=200)
+fig.text(.07,.935,"投资机构覆盖的创业公司数",fontsize=23,weight="bold",color="#183d40")
+ax = fig.add_axes([.07,.06,.86,.81])
+ax.axis("off")
+# Group tied institutions under one count so equal coverage is explicit.
+bands = [(n,[name for name,count in items if count==n]) for n in sorted({count for _,count in items},reverse=True)]
+height = sum(len(names)+1 for _,names in bands)
+ax.set(xlim=(0,1),ylim=(height,0))
+y = 0
+for count,names in bands:
+    ax.axhline(y,color="#cad9e8",lw=1)
+    ax.text(.01,y+.68,f"{count} 家",fontsize=21,weight="bold",color="#355790",va="center")
+    for i,name in enumerate(names):
+        ax.text(.36,y+.68+i,name,fontsize=15,color="#183d40",va="center")
+    y += len(names)+1
 finish(fig,'startup-investor-coverage.png')
 
 # 6. Directory recruitment links; this is explicitly not a live-job count.

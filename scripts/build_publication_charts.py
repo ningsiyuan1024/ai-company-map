@@ -28,8 +28,8 @@ plt.rcParams["font.family"] = next(name for name in ("Microsoft YaHei", "Noto Sa
 INK, MUTED, TEAL, LIGHT = "#183d40", "#52676b", "#16796e", "#cbded9"
 
 def frame(title, bounds):
-    fig = plt.figure(figsize=(8, 6), dpi=180)
-    fig.text(.055, .91, title, fontsize=22, weight="bold", color=INK)
+    fig = plt.figure(figsize=(6, 7.5), dpi=200)
+    fig.text(.07, .935, title, fontsize=23, weight="bold", color=INK)
     ax = fig.add_axes(bounds)
     for spine in ax.spines.values():
         spine.set_visible(False)
@@ -91,13 +91,16 @@ for row in companies:
     groups.setdefault(employer_type(row),[]).append(row)
 ordered_groups = sorted(groups.items(),key=lambda item:-len(item[1]))
 assert sum(len(rows) for _,rows in ordered_groups) == total
-fig, ax = frame(f"北京 {total} 家雇主类型分布",[.31,.08,.59,.75])
+fig, ax = frame(f"北京 {total} 家雇主类型分布",[.07,.055,.86,.80])
 for y,(label,rows) in enumerate(ordered_groups):
-    ax.barh(y,len(rows),height=.54,color="#4254aa")
-    ax.annotate(str(len(rows)),(len(rows),y),xytext=(5,0),textcoords="offset points",va="center",color=INK,fontsize=13)
-ax.set_yticks(range(len(groups)),[label for label,_ in ordered_groups],fontsize=12)
-ax.set_xticks([])
-ax.invert_yaxis()
+    value = len(rows)
+    ax.text(0,y-.19,label,fontsize=15,va="bottom",color=INK)
+    ax.barh(y+.12,value,height=.20,color="#355790")
+    ax.text(1,y-.19,str(value),transform=ax.get_yaxis_transform(),
+            ha="right",va="bottom",fontsize=16,weight="bold",color=INK)
+ax.set_xlim(0,max(len(rows) for _,rows in ordered_groups))
+ax.set_ylim(len(groups)-.5,-.7)
+ax.axis("off")
 save(fig,"beijing-company-overview.png")
 
 md = ["# 北京雇主名单","","307 个公司与团队条目，每个条目归入一个主类。点击名称打开地图。",""]
@@ -149,59 +152,48 @@ ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
 assert sum(value for _, value in main_sectors) == total
 
-# Split rectangles along the longer side, preserving the area of each category.
-def tiles(items, x, y, width, height):
-    if len(items) == 1:
-        yield (*items[0], x, y, width, height)
-        return
-    weight = sum(n for _, n in items)
-    cut = min(range(1, len(items)), key=lambda i: abs(sum(n for _, n in items[:i]) - weight/2))
-    share = sum(n for _, n in items[:cut]) / weight
-    if width >= height:
-        yield from tiles(items[:cut], x, y, width*share, height)
-        yield from tiles(items[cut:], x+width*share, y, width*(1-share), height)
-    else:
-        yield from tiles(items[:cut], x, y+height*(1-share), width, height*share)
-        yield from tiles(items[cut:], x, y, width, height*(1-share))
-
-fig, ax = frame("北京 AI 公司主营赛道", [.05,.06,.90,.76])
-palette = ["#195d57","#27786f","#376880","#57748d","#546a63","#786854","#716489","#8a624d","#5c676c"]
-for tile, color in zip(tiles(main_sectors,0,0,1.65,1), palette):
-    name, count, x, y, w, h = tile
-    ax.add_patch(plt.Rectangle((x,y),w,h,facecolor=color,edgecolor="white",lw=2))
-    label = name.replace("Agent研发与应用","Agent 研发与应用")
-    if w < .33 and len(label)>5:
-        label = label.replace("Agent 研发与应用","Agent\n研发与应用")
-    ax.text(x+w/2,y+h/2,f"{label}\n{count}",ha="center",va="center",color="white",fontsize=15 if count>=35 else 9 if w<.21 else 11)
-ax.set(xlim=(0,1.65),ylim=(0,1))
+# One square per directory entry; the final row may be partial.
+fig, ax = frame("北京 AI 公司主营赛道",[.07,.46,.86,.41])
+columns = 24
+offset = 0
+for (label,count),color in zip(main_sectors,colors):
+    for index in range(offset,offset+count):
+        y,x = divmod(index,columns)
+        ax.add_patch(plt.Rectangle((x,y),.87,.87,color=color,lw=0))
+    offset += count
+assert offset == total
+ax.set(xlim=(0,columns),ylim=(ceil(total/columns),0),aspect="equal")
 ax.axis("off")
+for i,((label,count),color) in enumerate(zip(main_sectors,colors)):
+    col,row = divmod(i,5)
+    x,y = .07+col*.48,.405-row*.071
+    fig.text(x,y,"■",color=color,fontsize=13)
+    fig.text(x+.035,y,label,fontsize=12,color=INK)
+    fig.text(x+.405,y,str(count),fontsize=13,weight="bold",ha="right",color=INK)
 save(fig,"beijing-directory-sectors.png")
 
-# The neutral cells complete the grid; only co-occurrences above the threshold are shown.
+# A sparse set of pairs reads naturally as two aligned labels and a shared count.
 cutoff = 4
-common = {pair:n for pair,n in pairs.items() if n>=cutoff}
-names = sorted({t for pair in common for t in pair}, key=lambda t:(-tags[t],t))
-fig, ax = frame("北京 AI 公司技术方向组合", [.22,.17,.67,.65])
-for col, first in enumerate(names[:-1]):
-    for row in range(col+1,len(names)):
-        count = common.get(tuple(sorted((first,names[row]))))
-        ax.add_patch(plt.Rectangle((col-.48,row-.48),.96,.96,color=plt.cm.BuGn(.25+.62*count/max(common.values())) if count else "#f1f4f3",lw=0))
-        if count:
-            ax.text(col,row,str(count),ha="center",va="center",fontsize=14,color="white" if count>=7 else INK,weight="bold")
-ax.set_xticks(range(len(names)-1),names[:-1],rotation=25,ha="right")
-ax.set_yticks(range(1,len(names)),names[1:])
-ax.set_xlim(-.5,len(names)-1.5)
-ax.set_ylim(len(names)-.5,.5)
+common = [(pair,n) for pair,n in ranked(pairs) if n>=cutoff]
+fig, ax = frame("北京 AI 公司技术方向组合",[.07,.07,.86,.80])
+ax.set(xlim=(0,1),ylim=(len(common),0))
+ax.axis("off")
+for y,((left,right),n) in enumerate(common):
+    ax.text(0,y+.34,left,fontsize=14,va="center",color=INK)
+    ax.text(.38,y+.34,"+",fontsize=12,va="center",color=MUTED)
+    ax.text(.46,y+.34,right,fontsize=14,va="center",color=INK)
+    ax.text(1,y+.34,f"{n} 家",fontsize=15,weight="bold",va="center",ha="right",color=INK)
+    ax.barh(y+.67,n/common[0][1],height=.09,color="#72a5d2")
 save(fig,"beijing-directory-pairs.png")
 
 stages = ["种子 / 天使轮", "Pre-A", *[f"{letter} 轮" for letter in "ABCDEF"], "Pre-IPO"]
 values = [stats["stage"].get(stage,0) for stage in stages]
 assert sum(values) == stats["total"]
-fig, ax = frame("北京创业公司融资阶段", [.08,.13,.87,.67])
-ax.bar(range(len(values)),values,width=.65,color="#46768a")
+fig, ax = frame("北京创业公司融资阶段", [.085,.12,.84,.73])
+ax.bar(range(len(values)),values,width=.68,color="#355790")
 for i,n in enumerate(values):
-    ax.text(i,n+.55,str(n),ha="center",fontsize=14,color=INK)
-ax.set_xticks(range(len(values)),["种子 /\n天使轮",*stages[1:]])
+    ax.text(i,n+.55,str(n),ha="center",fontsize=15,weight="bold",color=INK)
+ax.set_xticks(range(len(values)),["种子 /\n天使","Pre-A","A轮","B轮","C轮","D轮","E轮","F轮","Pre-\nIPO"],fontsize=12)
 ax.set_ylim(0,max(values)*1.12)
 ax.set_yticks([])
 ax.axhline(0,color=MUTED,lw=1)
