@@ -9,6 +9,10 @@
 | 亚马逊 | [1](https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing) | — | — | — | 1 |
 | 合计 | 2 | 2 | 2 | 2 | 8 |
 
+![北京 AI 岗位职责聚类](images/beijing-job-directions.png)
+
+每个职位从招聘说明中提取三项主要职责。两项及以上相同的岗位归为一组，独特方向单列。
+
 ## 算法
 
 | 公司 | 职位 | 类型 | 工作地点 |

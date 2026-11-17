@@ -18,7 +18,7 @@
 
 213 家公司与团队有具体区域，跨区分别计数，共 223 次。房山、平谷、密云、延庆暂无区域记录。
 
-[![已收录的北京 AI 岗位统计](images/beijing-job-directions.png)](JOBS.md)
+[![8 个北京 AI 岗位按职责聚类](images/beijing-job-directions.png)](JOBS.md)
 
 [算法岗位](JOBS.md#算法) · [工程岗位](JOBS.md#工程) · [产品岗位](JOBS.md#产品) · [运营岗位](JOBS.md#运营)
 
