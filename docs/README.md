@@ -18,7 +18,7 @@
 
 方向标签允许多选，每家公司同一标签只计一次。Agent 和 AI Agent 合并为 Agent。标签数量受已有标签完整度影响。外企属于组织属性，从方向图中排除。
 
-![方向标签](images/beijing-company-overview.png)
+![按技术方向找公司](images/beijing-company-overview.png)
 
 原始公司分类与合并结果见 [公司明细](company-directions.csv)，全部原标签数量见 [标签明细](tag-counts.csv)。机器可读结果见 [statistics.json](statistics.json)。
 

@@ -12,15 +12,13 @@
 
 ![北京目录 307 家公司与团队的主营赛道](docs/images/beijing-directory-sectors.png)
 
-## 技术方向与招聘入口
+## 按技术方向找公司
 
-307 家公司与团队中，188 家附有招聘入口。同一团队可覆盖多个方向。
-
-![北京 AI 公司各技术方向的招聘入口数与团队数](docs/images/beijing-company-overview.png)
+![六个技术方向的北京公司与团队](docs/images/beijing-company-overview.png)
 
 ## 创业公司专题
 
-![110 家已披露融资轮次的未上市创业公司](docs/images/stage-overview-2026.png)
+![110 家创业公司的融资轮次](docs/images/stage-overview-2026.png)
 
 [查看技术方向组合、区域分布与完整图集](docs/CHARTS.md)
 

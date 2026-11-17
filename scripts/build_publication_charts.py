@@ -2,7 +2,6 @@
 import csv
 import json
 from itertools import combinations
-from math import cos, radians
 from collections import Counter
 from pathlib import Path
 
@@ -10,8 +9,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
-from matplotlib.collections import LineCollection, PolyCollection
-from matplotlib import patheffects
 from build_startup_statistics import build
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,7 +40,8 @@ def save(fig, filename):
     fig.savefig(OUT / filename)
     plt.close(fig)
 
-tags, linked, districts = Counter(), Counter(), Counter()
+tags, districts = Counter(), Counter()
+directions_by_id = {}
 aliases = {"AI Agent":"Agent", "AI Infra":"AI 基础设施", "AI4Science":"AI for Science"}
 pairs = Counter()
 located = 0
@@ -51,8 +49,7 @@ for company in companies:
     directions = {aliases.get(tag, tag) for tag in company["tags"] if tag != "外企"}
     tags.update(directions)
     pairs.update(combinations(sorted(directions), 2))
-    if company["recruitUrl"]:
-        linked.update(directions)
+    directions_by_id[company["id"]] = directions
     regions = {place["district"] for place in company["locations"] if place["district"]}
     districts.update(regions)
     located += bool(regions)
@@ -60,74 +57,41 @@ for company in companies:
 def ranked(counts):
     return sorted(counts.items(), key=lambda pair: (-pair[1], pair[0]))
 
-entries = sum(bool(row["recruitUrl"]) for row in companies)
-items = ranked(tags)[:10]
-fig, ax = frame("技术方向与招聘入口", f"北京 · {total} 家公司与团队", [.20,.09,.70,.64])
-for y, (name, count) in enumerate(items):
-    entry_count = linked[name]
-    ax.plot([entry_count, count], [y,y], color=LIGHT, lw=3, zorder=1)
-    ax.scatter(entry_count,y,color=TEAL,s=60,zorder=2)
-    ax.scatter(count,y,facecolors="white",edgecolors=INK,s=60,zorder=2)
-    ax.annotate(str(entry_count),(entry_count,y),xytext=(-8,0),textcoords="offset points",ha="right",va="center",color=TEAL)
-    ax.annotate(str(count),(count,y),xytext=(8,0),textcoords="offset points",va="center",color=INK)
-ax.scatter([],[],color=TEAL,label="有招聘入口")
-ax.scatter([],[],facecolors="white",edgecolors=INK,label="该方向总数")
-ax.legend(loc="lower right",bbox_to_anchor=(1,1.02),ncol=2,frameon=False,handletextpad=.25)
-ax.set_yticks(range(len(items)), [name for name,_ in items])
-ax.set_xlim(0,max(tags.values())+4)
-ax.set_xticks(range(0,max(tags.values())+1,10))
-ax.set_axisbelow(True)
-ax.grid(axis="x",color="#eaf0ee")
-ax.invert_yaxis()
+# Examples use the directory's own names and tags.
+examples = {
+    "Agent": ["baidu", "zhipu", "01ai"],
+    "具身智能": ["unitree", "linkerbot", "d_robotics"],
+    "AI 基础设施": ["tencent", "infinigence", "siliconflow"],
+    "大语言模型": ["deepseek", "moonshot", "bytedance"],
+    "世界模型": ["pony", "shengshu", "baai"],
+    "多模态": ["modelbest", "stepfun", "deepwise"],
+}
+names_by_id = {company["id"]:company["name"] for company in companies}
+fig, ax = frame("按技术方向找公司", "北京 · 六个常见方向", [.055,.07,.89,.69])
+ax.set(xlim=(0,1),ylim=(6,0))
+ax.axis("off")
+for y,(direction, ids) in enumerate(examples.items()):
+    assert all(direction in directions_by_id[i] for i in ids)
+    ax.axhline(y,color=LIGHT,lw=.8)
+    ax.text(.005,y+.49,direction,va="center",color=TEAL,weight="bold",fontsize=13)
+    names = [names_by_id[i].split(" / ")[0] for i in ids]
+    ax.text(.235,y+.49,"   ·   ".join(names),va="center",color=INK,fontsize=12)
 save(fig,"beijing-company-overview.png")
 
-def district_map(counts, located):
-    source = (ROOT / "beijing-basemap.js").read_text(encoding="utf8")
-    basemap = json.loads(source.split("=", 1)[1].strip().rstrip(";"))
-    places = {p["name"]: tuple(reversed(p["coord"])) for p in basemap["places"]}
-    fig, ax = plt.subplots(figsize=(8, 7.4), dpi=180)
-    fig.subplots_adjust(left=.035, right=.965, bottom=.065, top=.87)
-    fig.text(.05, .939, "北京 AI 公司地址分布", fontsize=22, weight="bold", color="#182b42")
-    fig.text(.05, .892, f"{located} 家有区域信息 · 圆面积为公司数", fontsize=11, color="#536476")
-    fig.text(.05, .025, "底图 © OpenStreetMap contributors", fontsize=8, color="#536476")
-    ax.set_facecolor("#f5f8f7")
-    roads, parks, water = [], [], []
-    for feature in basemap["geojson"]["features"]:
-        kind = feature["properties"]["kind"]
-        coords = feature["geometry"]["coordinates"]
-        if kind == "road":
-            roads.extend(coords)
-        elif kind == "park":
-            parks.append(coords[0])
-        elif kind == "water":
-            water.append(coords[0])
-    for shapes, fill in [(parks, "#e2ebe2"), (water, "#c4dfe6")]:
-        ax.add_collection(PolyCollection(shapes, facecolors=fill, edgecolors="none"))
-    ax.add_collection(LineCollection(roads, colors="#d5dcdb", linewidths=.42))
-    # Offsets are in print points so the dense inner-city labels stay legible.
-    offsets = {"海淀区": (-12, 22), "西城区": (-8,-15), "东城区": (0,15),
-               "朝阳区": (13,-2), "门头沟区": (-6,8), "石景山区": (-9,-11)}
-    for district, count in counts.most_common():
-        x, y = places[district]
-        ax.scatter(x, y, s=count*11, color="#24796f", alpha=.78,
-                   edgecolors="white", linewidths=.8, zorder=3)
-        dx, dy = offsets.get(district, (7, 4))
-        label = "经开区" if district == "北京经济技术开发区" else district
-        ax.annotate(f"{label} {count}", (x, y), xytext=(dx,dy), textcoords="offset points",
-                    ha="right" if dx < 0 else "left", va="center", fontsize=10, color="#183b38", zorder=5,
-                    path_effects=[patheffects.withStroke(linewidth=3, foreground="white")])
-    ax.set_aspect(1 / cos(radians(40)))
-    ax.set_xlim(115.98, 116.78)
-    ax.set_ylim(39.68, 40.36)
-    ax.set_xticks([])
-    ax.set_yticks([])
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-    fig.savefig(OUT / "beijing-directory-districts.png")
-    plt.close(fig)
-
-
-district_map(districts, located)
+ordered_districts = ranked(districts)
+parts = ordered_districts[:3] + [("其他区域",sum(n for _,n in ordered_districts[3:]))]
+region_total = sum(districts.values())
+fig, ax = frame("北京 AI 公司地址分布",
+                f"{located} 家公司与团队 · 跨区办公的公司在每个区各算一次", [.035,.08,.57,.68])
+colors = ["#196c63","#497d9c","#c18550","#a8b7b3"]
+wedges,_ = ax.pie([n for _,n in parts],colors=colors,startangle=90,counterclock=False,
+                   wedgeprops={"edgecolor":"white","linewidth":2})
+for i,(label,count) in enumerate(parts):
+    y = .64-i*.126
+    fig.text(.61,y,"●",color=wedges[i].get_facecolor(),fontsize=15)
+    fig.text(.65,y,label.replace("北京经济技术开发区","经开区"),color=INK,fontsize=13)
+    fig.text(.94,y,f"{count} · {count/region_total:.1%}",ha="right",color=INK,fontsize=12)
+save(fig,"beijing-directory-districts.png")
 with (ROOT / "docs/company-directions.csv").open(encoding="utf-8-sig", newline="") as source:
     classifications = {row["id"]: row for row in csv.DictReader(source)}
 assert classifications.keys() == {company["id"] for company in companies}
@@ -188,7 +152,7 @@ save(fig,"beijing-directory-pairs.png")
 stages = ["种子 / 天使轮", "Pre-A", *[f"{letter} 轮" for letter in "ABCDEF"], "Pre-IPO"]
 values = [stats["stage"].get(stage,0) for stage in stages]
 assert sum(values) == stats["total"]
-fig, ax = frame("北京创业公司融资阶段", f"{stats['total']} 家已披露轮次的未上市创业公司", [.08,.13,.87,.61])
+fig, ax = frame("北京创业公司融资阶段", f"{stats['total']} 家创业公司", [.08,.13,.87,.61])
 ax.bar(range(len(values)),values,width=.65,color="#46768a")
 for i,n in enumerate(values):
     ax.text(i,n+.55,str(n),ha="center",fontsize=14,color=INK)
