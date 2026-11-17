@@ -11,6 +11,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
+from matplotlib.patches import Rectangle
 from build_startup_statistics import build
 from beijing_job_rules import normtitle, keyurl
 
@@ -159,24 +160,23 @@ assert len({(employer(j), keyurl(j["详情"]), normtitle(j["岗位"])) for j in 
 covered = len({employer(j) for j in jobs})
 groups_by_role = {r: [j for j in jobs if j["方向"] == r] for r in roles}
 counts = {r: (len(js), len({employer(j) for j in js})) for r, js in groups_by_role.items()}
-fig = page("已收录的北京 AI 岗位")
-fig.text(.66, .82, "岗位数", ha="right", color=MUTED, fontsize=14)
-fig.text(.92, .82, "雇主数", ha="right", color=MUTED, fontsize=14)
-peak = max(n for n, _ in counts.values())
-for i, role in enumerate(roles):
-    n, employers = counts[role]
-    y = .708 - i * .157
-    fig.text(.07, y, role, fontsize=20, weight="bold", color=INK)
-    fig.text(.66, y, f"{n:,}", fontsize=25, ha="right", color=INK, weight="bold")
-    fig.text(.92, y, str(employers), fontsize=20, ha="right", color=INK)
-    ax = fig.add_axes([.071, y-.036, .59, .009])
-    ax.set_facecolor("#e8e2d7")
-    ax.barh(0, n, color=PALETTE[0], height=1)
-    ax.set(xlim=(0, peak), ylim=(-.5,.5), xticks=[], yticks=[])
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-fig.text(.07,.105,f"共 {len(jobs):,} 个岗位  ·  {covered} 家雇主", fontsize=15, color=INK)
-fig.text(.07,.061,"2026.11.17", fontsize=11, color=MUTED)
+shares = [counts[role][0] / len(jobs) for role in roles]
+fig = page("北京 AI 岗位方向占比")
+ax = fig.add_axes([.068, .072, .864, .789])
+ax.set(xlim=(0, 1), ylim=(0, 1))
+ax.axis("off")
+role_colors = ["#825441", "#47665e", "#dfbc95", "#b9c7bc"]
+lower_height = sum(shares[2:])
+for indices, bottom, height in [((0, 1), lower_height, sum(shares[:2])), ((2, 3), 0, lower_height)]:
+    left = 0
+    for i in indices:
+        width = shares[i] / height
+        ax.add_patch(Rectangle((left, bottom), width, height, fc=role_colors[i], ec=PAPER, lw=2))
+        color = PAPER if i < 2 else INK
+        ax.text(left + .031, bottom + height * .61, roles[i], color=color, va="center", fontsize=17)
+        ax.text(left + .029, bottom + height * (.48 if i < 2 else .29), f"{shares[i]:.1%}",
+                color=color, va="center", fontsize=25 if i < 2 else 18, weight="bold")
+        left += width
 save(fig,"beijing-job-directions.png")
 md = ["# 北京 AI 岗位", "", f"目录共 {total} 个条目。本次收录 {covered} 家雇主的 {len(jobs):,} 条北京 AI 职位记录。更新于 2026 年 11 月 17 日。", "",
       "![北京 AI 岗位方向](images/beijing-job-directions.png)", "",

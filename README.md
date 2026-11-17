@@ -8,25 +8,11 @@
 
 收录 **307 家北京公司与团队**，另支持上海、深圳、杭州和广州。目前主要维护北京，数据更新于 2026 年 11 月 14 日。
 
-## 主营赛道
+## 北京 AI 求职图集
 
-![北京目录 307 家公司与团队的主营赛道](docs/images/beijing-directory-sectors.png)
+[![北京 AI 求职六图合览：岗位方向占比、主营赛道、雇主类型、地址分布、技术方向组合与创业公司融资阶段](docs/images/beijing-company-atlas.jpg)](docs/CHARTS.md)
 
-## 按雇主类型找公司
-
-[![307 个雇主条目的类型分布](docs/images/beijing-company-overview.png)](docs/EMPLOYERS.md)
-
-[查看完整名单](docs/EMPLOYERS.md)
-
-## 北京 AI 岗位
-
-[![北京 AI 岗位方向](docs/images/beijing-job-directions.png)](docs/JOBS.md)
-
-## 创业公司专题
-
-![110 家创业公司的融资轮次](docs/images/stage-overview-2026.png)
-
-[查看技术方向组合、区域分布与完整图集](docs/CHARTS.md)
+[雇主名单](docs/EMPLOYERS.md) · [下载图集](docs/images/beijing-company-charts.zip)
 
 ## 使用
 
