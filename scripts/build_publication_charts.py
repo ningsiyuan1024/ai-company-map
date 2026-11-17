@@ -2,6 +2,7 @@
 import csv
 import json
 from itertools import combinations
+from math import ceil, cos, radians, sin
 from collections import Counter
 from pathlib import Path
 
@@ -113,16 +114,27 @@ for label,rows in ordered_groups:
 parts = ranked(districts)
 assert set(districts) <= set(district_names)
 region_total = sum(districts.values())
-fig, ax = frame("北京 AI 公司地址分布",[.025,.15,.57,.60])
-colors = ["#4557a6","#77a7db","#ef946c","#79bbb1","#9377b8","#e2ae59","#65a2ba",
-          "#c388ae","#8eac75","#b09ac9","#e8ad9e","#7c92b4","#9bafa8"]
+# Mobile layout: label the largest share directly and reserve full-width rows for small slices.
+fig = plt.figure(figsize=(6,7.5),dpi=200)
+fig.text(.07,.935,"北京 AI 公司地址分布",fontsize=23,weight="bold",color=INK)
+ax = fig.add_axes([.22,.48,.56,.42])
+colors = ["#355790","#72a5d2","#dc8768","#68aaa2","#a381b4","#d5ad63","#76a4ae",
+          "#b986a2","#93aa7e","#a395ba","#dba899","#8299b2","#9dafac"]
 wedges,_ = ax.pie([n for _,n in parts],colors=colors,startangle=90,counterclock=False,
                    wedgeprops={"edgecolor":"white","linewidth":.8})
+name,count = parts[0]
+angle = radians((wedges[0].theta1 + wedges[0].theta2)/2)
+ax.text(.46*cos(angle),.46*sin(angle),f"{name}\n{count/region_total:.1%}",
+        ha="center",va="center",fontsize=15,weight="bold",color="white")
+rows_per_column = ceil(len(parts)/2)
 for i,(label,count) in enumerate(parts):
-    y = .81-i*(.71/max(1,len(parts)-1))
-    fig.text(.585,y,"●",color=wedges[i].get_facecolor(),fontsize=13)
-    fig.text(.625,y,label.replace("北京经济技术开发区","北京经开区"),color=INK,fontsize=12)
-    fig.text(.95,y,f"{count}  ·  {count/region_total:.1%}",ha="right",color=INK,fontsize=12)
+    column,row = divmod(i,rows_per_column)
+    left = .065 + column*.49
+    y = .425-row*.055
+    fig.text(left,y,"●",color=wedges[i].get_facecolor(),fontsize=11)
+    fig.text(left+.035,y,label.replace("北京经济技术开发区","北京经开区"),color=INK,fontsize=12)
+    fig.text(left+.292,y,str(count),ha="right",color=INK,fontsize=12,weight="bold")
+    fig.text(left+.386,y,f"{count/region_total:.1%}",ha="right",color=MUTED,fontsize=10)
 save(fig,"beijing-directory-districts.png")
 print(f"districts: {located} records, {region_total} presences, {len(parts)} regions")
 with (ROOT / "docs/company-directions.csv").open(encoding="utf-8-sig", newline="") as source:
