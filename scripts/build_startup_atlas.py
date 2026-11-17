@@ -56,10 +56,9 @@ METRICS={'asOf':DATA['asOf'],'sampleTotal':TOTAL,'scope':DATA['scope'],'sectorCo
 FILES=[]
 
 
-def canvas(title,subtitle,figsize=(12,8)):
+def canvas(title,figsize=(12,8)):
     fig=plt.figure(figsize=figsize,dpi=180)
     fig.text(.06,.93,title,fontsize=24,weight='bold',color=INK)
-    fig.text(.06,.865,subtitle,fontsize=11.5,color=MUTED)
     return fig
 
 
@@ -95,7 +94,7 @@ INVESTORS=collections.Counter(investor for row in ROWS for investor in row['inve
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
 METRICS['investors']={'companiesWithNames':WITH_INVESTORS,'counts':dict(INVESTORS.most_common())}
 items = sorted(((name,n) for name,n in INVESTORS.items() if n>=5),key=lambda item:(-item[1],item[0]))
-fig = canvas("创业公司背后的投资机构",f"{WITH_INVESTORS} 家公司公布了本轮投资方 · 每个点代表一家公司",figsize=(8,6))
+fig = canvas("创业公司背后的投资机构",figsize=(8,6))
 ax = fig.add_axes([.27,.08,.60,.70])
 for y,(name,n) in enumerate(items):
     ax.scatter(range(1,n+1),[y]*n,s=90,color="#30776e")

@@ -14,9 +14,9 @@
 
 ## 按雇主类型找公司
 
-![国内科技大厂、外企、传统企业的 AI 团队和研究机构](docs/images/beijing-company-overview.png)
+[![307 个雇主条目的类型分布](docs/images/beijing-company-overview.png)](docs/EMPLOYERS.md)
 
-[查看雇主名单](docs/EMPLOYERS.md)
+[查看完整名单](docs/EMPLOYERS.md)
 
 ## 创业公司专题
 

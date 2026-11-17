@@ -26,10 +26,9 @@ plt.rcParams["font.family"] = next(name for name in ("Microsoft YaHei", "Noto Sa
 
 INK, MUTED, TEAL, LIGHT = "#183d40", "#52676b", "#16796e", "#cbded9"
 
-def frame(title, subtitle, bounds):
+def frame(title, bounds):
     fig = plt.figure(figsize=(8, 6), dpi=180)
     fig.text(.055, .91, title, fontsize=22, weight="bold", color=INK)
-    fig.text(.055, .85, subtitle, fontsize=11, color=MUTED)
     ax = fig.add_axes(bounds)
     for spine in ax.spines.values():
         spine.set_visible(False)
@@ -43,86 +42,89 @@ def save(fig, filename):
 tags, districts = Counter(), Counter()
 aliases = {"AI Agent":"Agent", "AI Infra":"AI 基础设施", "AI4Science":"AI for Science"}
 pairs = Counter()
+district_names = "东城区 西城区 朝阳区 丰台区 石景山区 海淀区 门头沟区 房山区 通州区 顺义区 昌平区 大兴区 怀柔区 平谷区 密云区 延庆区 北京经济技术开发区".split()
 located = 0
 for company in companies:
     directions = {aliases.get(tag, tag) for tag in company["tags"] if tag != "外企"}
     tags.update(directions)
     pairs.update(combinations(sorted(directions), 2))
-    regions = {place["district"] for place in company["locations"] if place["district"]}
+    regions = set()
+    for place in company["locations"]:
+        if place["district"]:
+            regions.add(place["district"])
+        else:
+            regions.update(name for name in district_names if name in (place["address"] or ""))
     districts.update(regions)
     located += bool(regions)
 
 def ranked(counts):
     return sorted(counts.items(), key=lambda pair: (-pair[1], pair[0]))
 
-# Employer groups can overlap. Use Beijing directory IDs for every link.
-by_id = {row["id"]:row for row in companies}
-groups = {
-    "国内科技大厂": "bytedance alibaba tencent baidu huawei xiaomi jd meituan netease kuaishou ant xiaohongshu iflytek 360 bilibili".split(),
-    "外企": [r["id"] for r in companies if "外企" in r["tags"] or r["category"] == "国际科技" or r["id"] in {"amazon","schneider-electric"}],
-    "传统企业的 AI 团队": "schneider-electric bosch teleai tal".split(),
-    "研究机构": [r["id"] for r in companies if r["category"] == "研究机构"],
-}
-short = {"bytedance":"字节跳动","alibaba":"阿里巴巴","ant":"蚂蚁集团","kuaishou":"快手",
-         "meituan":"美团","xiaohongshu":"小红书","bosch":"博世","intel":"英特尔","google":"谷歌",
-         "microsoft":"微软","nvidia":"英伟达","amd":"AMD","apple":"苹果","tal":"好未来 · 九章大模型",
-         "teleai":"中国电信 · TeleAI","iquestlab":"九坤至知创新研究院"}
-sectors_label = {"schneider-electric":"施耐德电气 · 数据中心","bosch":"博世 · 智能驾驶"}
-groups_md = ["# 按雇主类型找公司", "", "点击名称查看北京地图中的团队详情。同一雇主可出现在多个类别。", ""]
-# Stack all four lists and wrap by measured text width for a readable mobile image.
-fig, ax = frame("按雇主类型找公司","北京目录选录 · 类别可重叠",[.055,.045,.89,.72])
-ax.axis("off")
-renderer = fig.canvas.get_renderer()
-from matplotlib.font_manager import FontProperties
-label_font = FontProperties(size=12)
-wrapped = []
-for group, ids in groups.items():
-    assert len(ids) == len(set(ids))
-    labels, links = [], []
-    for key in ids:
-        record = by_id[key]
-        name = short.get(key,record["name"].split(" / ")[0])
-        if group == "研究机构" and key == "microsoft":
-            name = "微软亚洲研究院"
-        if group == "传统企业的 AI 团队":
-            name = sectors_label.get(key,name)
-        labels.append(name)
-        links.append(f"[{name}]({record['directoryUrl']})")
-    groups_md.extend([f"## {group}", "", " · ".join(links), ""])
-    lines = [""]
-    for label in labels:
-        candidate = "   ·   ".join(filter(None,[lines[-1],label]))
-        if renderer.get_text_width_height_descent(candidate,label_font,False)[0] > ax.bbox.width*.93:
-            lines.append(label)
-        else:
-            lines[-1] = candidate
-    wrapped.append((group, lines))
-height = sum(1.4 + len(lines) for _,lines in wrapped)
-ax.set(xlim=(0,1),ylim=(height,0))
-y = 0
-for group, lines in wrapped:
-    ax.axhline(y,color=LIGHT,lw=.8)
-    ax.text(0,y+.62,group,color=TEAL,weight="bold",fontsize=14,va="center")
-    for i,line in enumerate(lines):
-        ax.text(0,y+1.60+i,line,color=INK,fontproperties=label_font,va="center")
-    y += 1.4 + len(lines)
-save(fig,"beijing-company-overview.png")
-(ROOT/"docs/EMPLOYERS.md").write_text("\n".join(groups_md),encoding="utf8")
+finance = json.loads((ROOT/"docs/finance-2026.json").read_text(encoding="utf8"))["records"]
+startup_ids = {i for row in stats["companies"] for i in row["directoryIds"]}
+large = set("bytedance alibaba tencent baidu huawei xiaomi jd meituan netease kuaishou ant xiaohongshu iflytek 360 bilibili".split())
+industry = set("teleai tal tkfunds citicpress nkdpharm chinawenfa wizardquant zsquant zding joinquant lingjun qianxiang".split())
 
-ordered_districts = ranked(districts)
-parts = ordered_districts[:3] + [("其他区域",sum(n for _,n in ordered_districts[3:]))]
+def employer_type(row):
+    key = row["id"]
+    if key in large:
+        return "国内科技大厂"
+    if "外企" in row["tags"] or row["category"] == "国际科技" or key in {"amazon","schneider-electric"}:
+        return "外企"
+    if row["category"] == "研究机构":
+        return "研究机构"
+    if key in industry:
+        return "传统行业与金融机构"
+    if key in startup_ids:
+        return "创业公司"
+    if finance[key].get("listing") or finance[key].get("otc"):
+        return "其他上市与挂牌企业"
+    if row["category"] in {"机器人与具身","机器人与具身智能","具身机器人","具身智能","智能硬件","汽车与智能驾驶"}:
+        return "机器人与智能硬件企业"
+    if row["category"] in {"算力与芯片","AI基础设施","数据中心"}:
+        return "芯片与算力企业"
+    return "其他科技公司与团队"
+
+groups = {}
+for row in companies:
+    groups.setdefault(employer_type(row),[]).append(row)
+ordered_groups = sorted(groups.items(),key=lambda item:-len(item[1]))
+assert sum(len(rows) for _,rows in ordered_groups) == total
+fig, ax = frame(f"北京 {total} 家雇主类型分布",[.31,.08,.59,.75])
+for y,(label,rows) in enumerate(ordered_groups):
+    ax.barh(y,len(rows),height=.54,color="#4254aa")
+    ax.annotate(str(len(rows)),(len(rows),y),xytext=(5,0),textcoords="offset points",va="center",color=INK,fontsize=13)
+ax.set_yticks(range(len(groups)),[label for label,_ in ordered_groups],fontsize=12)
+ax.set_xticks([])
+ax.invert_yaxis()
+save(fig,"beijing-company-overview.png")
+
+md = ["# 北京雇主名单","","307 个公司与团队条目，每个条目归入一个主类。点击名称打开地图。",""]
+for label,rows in ordered_groups:
+    md.append(f"[{label}（{len(rows)}）](#{label.lower()})")
+md.extend(["","创业公司按已知融资记录归类。LiblibAI 和 Lovart 在地图中各有入口；融资专题把它们算作同一家公司。施耐德电气和博世归入外企，微软亚洲研究院随微软归入外企。",""])
+for label,rows in ordered_groups:
+    md.extend([f"## {label}",""])
+    for row in rows:
+        md.append(f"- [{row['name']}]({row['directoryUrl']})")
+    md.append("")
+(ROOT/"docs/EMPLOYERS.md").write_text("\n".join(md),encoding="utf8")
+
+parts = ranked(districts)
+assert set(districts) <= set(district_names)
 region_total = sum(districts.values())
-fig, ax = frame("北京 AI 公司地址分布",
-                f"{located} 家公司与团队 · 跨区办公的公司在每个区各算一次", [.035,.08,.57,.68])
-colors = ["#196c63","#497d9c","#c18550","#a8b7b3"]
+fig, ax = frame("北京 AI 公司地址分布",[.025,.15,.57,.60])
+colors = ["#4557a6","#77a7db","#ef946c","#79bbb1","#9377b8","#e2ae59","#65a2ba",
+          "#c388ae","#8eac75","#b09ac9","#e8ad9e","#7c92b4","#9bafa8"]
 wedges,_ = ax.pie([n for _,n in parts],colors=colors,startangle=90,counterclock=False,
-                   wedgeprops={"edgecolor":"white","linewidth":2})
+                   wedgeprops={"edgecolor":"white","linewidth":.8})
 for i,(label,count) in enumerate(parts):
-    y = .64-i*.126
-    fig.text(.61,y,"●",color=wedges[i].get_facecolor(),fontsize=15)
-    fig.text(.65,y,label.replace("北京经济技术开发区","经开区"),color=INK,fontsize=13)
-    fig.text(.94,y,f"{count} · {count/region_total:.1%}",ha="right",color=INK,fontsize=12)
+    y = .81-i*(.71/max(1,len(parts)-1))
+    fig.text(.585,y,"●",color=wedges[i].get_facecolor(),fontsize=13)
+    fig.text(.625,y,label.replace("北京经济技术开发区","北京经开区"),color=INK,fontsize=12)
+    fig.text(.95,y,f"{count}  ·  {count/region_total:.1%}",ha="right",color=INK,fontsize=12)
 save(fig,"beijing-directory-districts.png")
+print(f"districts: {located} records, {region_total} presences, {len(parts)} regions")
 with (ROOT / "docs/company-directions.csv").open(encoding="utf-8-sig", newline="") as source:
     classifications = {row["id"]: row for row in csv.DictReader(source)}
 assert classifications.keys() == {company["id"] for company in companies}
@@ -150,7 +152,7 @@ def tiles(items, x, y, width, height):
         yield from tiles(items[:cut], x, y+height*(1-share), width, height*share)
         yield from tiles(items[cut:], x, y, width, height*(1-share))
 
-fig, ax = frame("北京 AI 公司主营赛道", f"{total} 家公司与团队", [.05,.06,.90,.72])
+fig, ax = frame("北京 AI 公司主营赛道", [.05,.06,.90,.76])
 palette = ["#195d57","#27786f","#376880","#57748d","#546a63","#786854","#716489","#8a624d","#5c676c"]
 for tile, color in zip(tiles(main_sectors,0,0,1.65,1), palette):
     name, count, x, y, w, h = tile
@@ -167,7 +169,7 @@ save(fig,"beijing-directory-sectors.png")
 cutoff = 4
 common = {pair:n for pair,n in pairs.items() if n>=cutoff}
 names = sorted({t for pair in common for t in pair}, key=lambda t:(-tags[t],t))
-fig, ax = frame("北京 AI 公司技术方向组合", f"{total} 家公司与团队 · 同现至少 {cutoff} 家", [.22,.17,.67,.59])
+fig, ax = frame("北京 AI 公司技术方向组合", [.22,.17,.67,.65])
 for col, first in enumerate(names[:-1]):
     for row in range(col+1,len(names)):
         count = common.get(tuple(sorted((first,names[row]))))
@@ -183,7 +185,7 @@ save(fig,"beijing-directory-pairs.png")
 stages = ["种子 / 天使轮", "Pre-A", *[f"{letter} 轮" for letter in "ABCDEF"], "Pre-IPO"]
 values = [stats["stage"].get(stage,0) for stage in stages]
 assert sum(values) == stats["total"]
-fig, ax = frame("北京创业公司融资阶段", f"{stats['total']} 家创业公司", [.08,.13,.87,.61])
+fig, ax = frame("北京创业公司融资阶段", [.08,.13,.87,.67])
 ax.bar(range(len(values)),values,width=.65,color="#46768a")
 for i,n in enumerate(values):
     ax.text(i,n+.55,str(n),ha="center",fontsize=14,color=INK)
