@@ -18,9 +18,9 @@
 
 213 家公司与团队有具体区域，跨区分别计数，共 223 次。房山、平谷、密云、延庆暂无区域记录。
 
-![海淀、朝阳和北京经开区公司最多的三个赛道](images/beijing-district-sectors.png)
+[![北京 AI 岗位导航](images/beijing-job-directions.png)](JOBS.md)
 
-查看地图上的公司：[海淀区](https://ningsiyuan1024.github.io/ai-company-map/?region=海淀区) · [朝阳区](https://ningsiyuan1024.github.io/ai-company-map/?region=朝阳区) · [北京经开区](https://ningsiyuan1024.github.io/ai-company-map/?region=北京经济技术开发区)
+[算法岗位](JOBS.md#算法) · [工程岗位](JOBS.md#工程) · [产品岗位](JOBS.md#产品) · [运营岗位](JOBS.md#运营)
 
 ## 创业公司专题
 

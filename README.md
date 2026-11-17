@@ -2,7 +2,7 @@
 
 在地图上找北京的 AI 公司，查看公司位置、业务方向和招聘入口。
 
-**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)
+**[打开地图](https://ningsiyuan1024.github.io/ai-company-map/)** · [北京 AI 岗位](docs/JOBS.md) · [欢迎补充](https://github.com/ningsiyuan1024/ai-company-map/issues)
 
 [![北京 AI 公司地图预览](docs/images/01-beijing-map.png)](https://ningsiyuan1024.github.io/ai-company-map/)
 

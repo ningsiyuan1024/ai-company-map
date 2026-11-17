@@ -85,7 +85,7 @@ all_files=['stage-overview-2026.png']
 with zipfile.ZipFile(OUT/'beijing-startup-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
     for name in all_files:bundle.write(OUT/name,name)
 with zipfile.ZipFile(OUT/'beijing-company-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
-    for name in ['beijing-company-overview.png','beijing-directory-districts.png','beijing-directory-sectors.png','beijing-directory-pairs.png','beijing-district-sectors.png',*all_files]:
+    for name in ['beijing-company-overview.png','beijing-directory-districts.png','beijing-directory-sectors.png','beijing-directory-pairs.png','beijing-job-directions.png',*all_files]:
         bundle.write(OUT/name,name)
 assert sum(sum(row) for row in MATRIX)==TOTAL
 print(json.dumps({'startupImages':len(all_files),'locatedCompanies':LOCATED,'districtCounts':dict(REGIONS),'investorSample':WITH_INVESTORS,'recruitmentEntries':WITH_RECRUIT,'sectors':dict(SECTORS)},ensure_ascii=False))
