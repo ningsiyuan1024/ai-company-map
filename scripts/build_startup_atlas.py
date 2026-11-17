@@ -54,14 +54,6 @@ SECTORS=collections.Counter(row['sector'] for row in ROWS)
 ORDER=[name for name,_ in SECTORS.most_common()]
 assert sum(SECTORS.values())==TOTAL
 METRICS={'asOf':DATA['asOf'],'sampleTotal':TOTAL,'scope':DATA['scope'],'sectorCounts':dict(SECTORS),'rows':ROWS}
-FILES=[]
-
-
-def finish(fig,name):
-    fig.savefig(OUT/name)
-    plt.close(fig); FILES.append(name)
-
-
 # 2. Financing-stage composition within each primary sector.
 STAGE_ORDER=['种子 / 天使轮','Pre-A','A 轮','B 轮','C 轮','D 轮及以后','Pre-IPO']
 MATRIX=[[0]*len(STAGE_ORDER) for _ in ORDER]
@@ -83,34 +75,17 @@ METRICS['districts']={'companiesWithRegion':LOCATED,'counts':dict(REGIONS.most_c
 INVESTORS=collections.Counter(investor for row in ROWS for investor in row['investors'])
 WITH_INVESTORS=sum(bool(row['investors']) for row in ROWS)
 METRICS['investors']={'companiesWithNames':WITH_INVESTORS,'counts':dict(INVESTORS.most_common())}
-items = sorted(((name,n) for name,n in INVESTORS.items() if n>=5),key=lambda item:(-item[1],item[0]))
-fig = page("创业公司背后的投资机构")
-ax = fig.add_axes([.07,.06,.86,.81])
-ax.axis("off")
-# Group tied institutions under one count so equal coverage is explicit.
-bands = [(n,[name for name,count in items if count==n]) for n in sorted({count for _,count in items},reverse=True)]
-height = sum(len(names)+1 for _,names in bands)
-ax.set(xlim=(0,1),ylim=(height,0))
-y = 0
-for count,names in bands:
-    ax.scatter(.025,y+.67,s=85,color=PALETTE[0],linewidth=0)
-    ax.text(.075,y+.68,f"{count} 家",fontsize=21,weight="bold",color=INK,va="center")
-    for i,name in enumerate(names):
-        ax.text(.36,y+.68+i,name,fontsize=15,color=INK,va="center")
-    y += len(names)+1
-finish(fig,'startup-investor-coverage.png')
-
 # 6. Directory recruitment links; this is explicitly not a live-job count.
 RECRUIT={sector:{'withEntry':sum(row['hasRecruit'] for row in ROWS if row['sector']==sector),'total':SECTORS[sector]} for sector in ORDER}
 WITH_RECRUIT=sum(row['hasRecruit'] for row in ROWS)
 METRICS['recruitment']={'withEntry':WITH_RECRUIT,'bySector':RECRUIT}
 assert sum(item['withEntry'] for item in RECRUIT.values())==WITH_RECRUIT
 (ROOT/'docs/chart-data-2026.json').write_text(json.dumps(METRICS,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-all_files=['stage-overview-2026.png',*FILES]
+all_files=['stage-overview-2026.png']
 with zipfile.ZipFile(OUT/'beijing-startup-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
     for name in all_files:bundle.write(OUT/name,name)
 with zipfile.ZipFile(OUT/'beijing-company-charts.zip','w',compression=zipfile.ZIP_DEFLATED) as bundle:
-    for name in ['beijing-company-overview.png','beijing-directory-districts.png','beijing-directory-sectors.png','beijing-directory-pairs.png',*all_files]:
+    for name in ['beijing-company-overview.png','beijing-directory-districts.png','beijing-directory-sectors.png','beijing-directory-pairs.png','beijing-district-sectors.png',*all_files]:
         bundle.write(OUT/name,name)
 assert sum(sum(row) for row in MATRIX)==TOTAL
-print(json.dumps({'newCharts':len(FILES),'bundledImages':len(all_files),'locatedCompanies':LOCATED,'districtCounts':dict(REGIONS),'investorSample':WITH_INVESTORS,'recruitmentEntries':WITH_RECRUIT,'sectors':dict(SECTORS)},ensure_ascii=False))
+print(json.dumps({'startupImages':len(all_files),'locatedCompanies':LOCATED,'districtCounts':dict(REGIONS),'investorSample':WITH_INVESTORS,'recruitmentEntries':WITH_RECRUIT,'sectors':dict(SECTORS)},ensure_ascii=False))

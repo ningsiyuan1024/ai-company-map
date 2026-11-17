@@ -43,6 +43,7 @@ tags, districts = Counter(), Counter()
 aliases = {"AI Agent":"Agent", "AI Infra":"AI 基础设施", "AI4Science":"AI for Science"}
 pairs = Counter()
 district_names = "东城区 西城区 朝阳区 丰台区 石景山区 海淀区 门头沟区 房山区 通州区 顺义区 昌平区 大兴区 怀柔区 平谷区 密云区 延庆区 北京经济技术开发区".split()
+regions_by_id = {}
 located = 0
 for company in companies:
     directions = {aliases.get(tag, tag) for tag in company["tags"] if tag != "外企"}
@@ -54,6 +55,7 @@ for company in companies:
             regions.add(place["district"])
         else:
             regions.update(name for name in district_names if name in (place["address"] or ""))
+    regions_by_id[company["id"]] = regions
     districts.update(regions)
     located += bool(regions)
 
@@ -145,6 +147,24 @@ for company in companies:
     record = classifications[company["id"]]
     assert record["原分类"] == company["category"]
     sectors[record["合并分类"]] += 1
+fig, ax = frame("按通勤区域找 AI 公司", [.07,.045,.86,.81])
+ax.set(xlim=(0,1), ylim=(3,0))
+ax.axis("off")
+region_sectors = {district:Counter(classifications[key]["合并分类"] for key,regions in regions_by_id.items() if district in regions) for district,_ in parts[:3]}
+max_sector_count = max(max(counts.values()) for counts in region_sectors.values())
+for y,(district,company_count) in enumerate(parts[:3]):
+    by_sector = region_sectors[district]
+    assert sum(by_sector.values()) == company_count
+    label = district.replace("北京经济技术开发区","北京经开区")
+    ax.text(0,y+.13,label,fontsize=19,color=INK,va="center")
+    ax.text(1,y+.13,f"{company_count} 家",fontsize=17,color=PALETTE[0],ha="right",va="center")
+    for i,(sector,n) in enumerate(ranked(by_sector)[:3]):
+        pos = y+.39+.20*i
+        ax.text(0,pos,sector,fontsize=13,color=INK,va="center")
+        ax.plot([.48,.48+.36*n/max_sector_count],[pos,pos],lw=4,color=PALETTE[1],solid_capstyle="round")
+        ax.text(1,pos,str(n),fontsize=14,color=INK,ha="right",va="center")
+    print(label, ranked(by_sector)[:3])
+save(fig,"beijing-district-sectors.png")
 ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
 assert sum(value for _, value in main_sectors) == total

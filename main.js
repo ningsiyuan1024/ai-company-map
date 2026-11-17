@@ -7,6 +7,14 @@
  const city = Object.hasOwn(catalog,p.get('city')) ? p.get('city') : 'beijing';
  const {name:cityName,records:companies,date,source} = catalog[city];
  const unique = values => [...new Set(values.filter(Boolean))];
+ if(city==='beijing'){
+   const districts='东城区 西城区 朝阳区 丰台区 石景山区 海淀区 门头沟区 房山区 通州区 顺义区 昌平区 大兴区 怀柔区 平谷区 密云区 延庆区 北京经济技术开发区'.split(' ');
+   for(const company of companies){
+     for(const location of company.locations){
+       if(!location.district) location.district=districts.find(name=>location.address?.includes(name));
+     }
+   }
+ }
  const regions = c => unique(c.locations.map(l=>l.district));
  const options = (items,select) => items.map(([value,label])=>`<option value="${esc(value)}" ${value===select?'selected':''}>${esc(label)}</option>`).join('');
  const regionNames = unique(companies.flatMap(regions));
