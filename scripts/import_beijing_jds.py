@@ -1,6 +1,6 @@
 """Match previously collected public job descriptions to the Beijing directory.
 
-Usage: python scripts/import_beijing_jds.py OFFICIAL_SNAPSHOT_FOLDER PLATFORM_JD30_JSON
+Historical 11–13 November sample. Usage: python scripts/import_beijing_jds.py OFFICIAL_SNAPSHOT_FOLDER PLATFORM_JD30_JSON OUTPUT_CSV
 """
 import csv
 import json
@@ -51,6 +51,9 @@ def canonical(url):
     q=[(k,v) for k,v in parse_qsl(u.query) if not k.lower().startswith(("utm_","track","referer","spread","securityid")) and k not in {"src","lid","ka","sessionId"}]
     return urlunsplit(("https",u.netloc,u.path,urlencode(q),u.fragment))
 
+if len(sys.argv) != 4:
+    raise SystemExit(__doc__)
+
 candidates=[]
 def add(name,title,city,body,url,source,day,jid=""):
     key=employer(name)
@@ -93,6 +96,6 @@ for key,title,role,cluster,url,source,date,jid in candidates:
     if len(titles[url])>1 or url in seen_urls or (jid and (key,jid) in seen_ids) or (key,normalized) in seen_titles:continue
     result.append((key,title,role,cluster,url,source,date))
     seen_urls.add(url);seen_titles.add((key,normalized));seen_ids.add((key,jid))
-with (ROOT/"docs/beijing-jd-sample.csv").open("w",encoding="utf-8-sig",newline="") as f:
+with Path(sys.argv[3]).open("w",encoding="utf-8-sig",newline="") as f:
     w=csv.writer(f);w.writerow(["目录ID","岗位","方向","职责组","详情","来源","资料日期"]);w.writerows(result)
 print(len(result),len({r[0] for r in result}),Counter(r[5] for r in result),Counter(r[3] for r in result))

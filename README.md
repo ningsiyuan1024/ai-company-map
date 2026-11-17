@@ -18,6 +18,10 @@
 
 [查看完整名单](docs/EMPLOYERS.md)
 
+## 北京 AI 岗位
+
+[![北京 AI 岗位方向](docs/images/beijing-job-directions.png)](docs/JOBS.md)
+
 ## 创业公司专题
 
 ![110 家创业公司的融资轮次](docs/images/stage-overview-2026.png)

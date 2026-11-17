@@ -1,6 +1,7 @@
 """Render the Beijing directory overview and startup financing charts."""
 import csv
 import json
+from html import escape
 from itertools import combinations
 from math import ceil, cos, radians, sin
 from collections import Counter
@@ -11,6 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from build_startup_statistics import build
+from beijing_job_rules import normtitle
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs/images"
@@ -149,43 +151,59 @@ with (ROOT/"docs/beijing-jd-sample.csv").open(encoding="utf-8-sig",newline="") a
     jobs = list(csv.DictReader(source))
 covered_ids = {j["目录ID"] for j in jobs}
 assert covered_ids <= {c["id"] for c in companies}
-assert len({j["详情"] for j in jobs}) == len(jobs)
-roles = ["算法","工程","产品","运营"]
-clusters = {}
-for role in roles:
-    clusters[role] = ranked(Counter(j["职责组"] for j in jobs if j["方向"]==role))
-assert sum(n for pairs_in_role in clusters.values() for _,n in pairs_in_role) == len(jobs)
-fig, ax = frame("北京 AI 岗位方向分布",[.07,.105,.86,.77])
-ax.axis("off")
-height = sum(1.5+len(cs) for cs in clusters.values())
-ax.set(xlim=(0,1),ylim=(height,0))
-md = ["# 北京 AI 岗位方向", "",
-      f"对照北京目录 {total} 家公司与团队，匹配到 {len(covered_ids)} 家的 {len(jobs):,} 条北京职位。资料采集于 2026 年 11 月 11–17 日，以招聘页当前状态为准。","",
-      "[下载全部职位明细（CSV）](beijing-jd-sample.csv)","",
-      "按职位名称和主要职责归类。每条职位只计一次，多地点职位须明确含北京；同一雇主的同名职位合并。来源包括企业官网、BOSS 直聘和 Fancy／Bonjour。",""]
-y = 0
-max_count = max(n for counts in clusters.values() for _,n in counts)
-for i,(role,items) in enumerate(clusters.items()):
-    ax.text(0,y+.45,role,color=INK,fontsize=17,weight="bold",va="center")
-    if i == 0:
-        ax.text(.985,y+.45,"岗位 / 雇主",color=MUTED,fontsize=10,ha="right",va="center")
-    md.extend([f"## {role}","","| 工作方向 | 岗位 | 雇主 | 职位详情 |","| --- | ---: | ---: | --- |"])
-    for k,(label,n) in enumerate(items):
-        records = [j for j in jobs if j["职责组"]==label]
-        by_employer = {}
-        for job in records:
-            by_employer.setdefault(job["目录ID"],job)
-        pos = y+1.55+k
-        ax.plot([.55,.55+.22*n/max_count], [pos,pos], lw=4, color=PALETTE[i], solid_capstyle="round")
-        ax.text(0,pos,label,color=INK,fontsize=13,va="center")
-        ax.text(.985,pos,f"{n:,} / {len(by_employer)}",color=INK,fontsize=14,ha="right",va="center")
-        links = " · ".join(f"[岗位 {idx}]({j['详情']})" for idx,j in enumerate(list(by_employer.values())[:3],1))
-        md.append(f"| {label} | {n:,} | {len(by_employer)} | {links} |")
-    md.append("")
-    y += 1.5+len(items)
-fig.text(.07,.044,f"{len(jobs):,} 条 JD    ·    覆盖目录 {len(covered_ids)} / {total} 家",fontsize=12,color=MUTED)
+roles = ["算法", "工程", "产品", "运营"]
+assert all(j["方向"] in roles for j in jobs)
+
+employer = lambda j: "liblib" if j["目录ID"] == "lovart" else j["目录ID"]
+assert len({(employer(j), normtitle(j["岗位"])) for j in jobs}) == len(jobs)
+covered = len({employer(j) for j in jobs})
+groups_by_role = {r: [j for j in jobs if j["方向"] == r] for r in roles}
+counts = {r: (len(js), len({employer(j) for j in js})) for r, js in groups_by_role.items()}
+fig = page("北京 AI 岗位方向")
+fig.text(.66, .82, "岗位数", ha="right", color=MUTED, fontsize=14)
+fig.text(.92, .82, "雇主数", ha="right", color=MUTED, fontsize=14)
+peak = max(n for n, _ in counts.values())
+for i, role in enumerate(roles):
+    n, employers = counts[role]
+    y = .708 - i * .157
+    fig.text(.07, y, role, fontsize=20, weight="bold", color=INK)
+    fig.text(.66, y, f"{n:,}", fontsize=25, ha="right", color=INK, weight="bold")
+    fig.text(.92, y, str(employers), fontsize=20, ha="right", color=INK)
+    ax = fig.add_axes([.071, y-.036, .59, .009])
+    ax.set_facecolor("#e8e2d7")
+    ax.barh(0, n, color=PALETTE[0], height=1)
+    ax.set(xlim=(0, peak), ylim=(-.5,.5), xticks=[], yticks=[])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+fig.text(.07,.105,f"共 {len(jobs):,} 个岗位  ·  {covered} 家雇主", fontsize=15, color=INK)
+fig.text(.07,.061,"2026.11.17", fontsize=11, color=MUTED)
 save(fig,"beijing-job-directions.png")
-md[4:4] = ["![北京 AI 岗位方向分布](images/beijing-job-directions.png)",""]
+md = ["# 北京 AI 岗位", "", f"核查目录中的 {total} 个公司与团队，找到 {covered} 家雇主的 {len(jobs):,} 个北京 AI 岗位。更新于 2026 年 11 月 17 日。", "",
+      "![北京 AI 岗位方向](images/beijing-job-directions.png)", "",
+      "| 方向 | 岗位数 | 雇主数 |", "| --- | ---: | ---: |"]
+for role, (n, employers) in counts.items():
+    md.append(f"| [{role}](#{role}) | {n:,} | {employers} |")
+md += ["","[全部岗位明细](beijing-jd-sample.csv) · [307 家核查记录](beijing-employer-audit.csv)","",
+       "工作地点须明确包含北京。先采用官网职位，再用 Ivyea 和 Offer 岛补充。同一雇主的同名岗位合并，每个岗位按主要职责归入一个方向。雇主可以跨方向出现，招聘人数不计入岗位数。未找到可确认岗位的雇主保留在核查记录中。",""]
+for role, js in groups_by_role.items():
+    md += [f"## {role}", ""]
+    path = f"beijing-jobs-{roles.index(role)+1}.html"
+    names = {c["id"]: c["name"] for c in companies}
+    html = ['<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">',
+            f"<title>北京 AI {role}岗位</title>",
+            "<style>body{max-width:46rem;margin:2rem auto;padding:0 1rem;background:#fbf8f1;color:#373c36;font:1rem/1.6 system-ui,sans-serif}h1{font-size:1.6rem}summary{cursor:pointer;padding:.65rem 0}details{border-top:1px solid #ddd5c8}li{margin:.65rem 0}a{color:#784b3b}ul{padding-left:1.3rem}</style>",
+            f"<h1>北京 AI {role}岗位</h1><p>{len(js):,} 个岗位 · {counts[role][1]} 家雇主</p>"]
+    by_employer = {}
+    for job in js:
+        by_employer.setdefault(employer(job), []).append(job)
+    for cid, postings in sorted(by_employer.items(),key=lambda pair:(-len(pair[1]),names[pair[0]])):
+        html.append(f"<details><summary>{escape(names[cid])} · {len(postings)}</summary><ul>")
+        for job in postings:
+            html.append(f'<li><a href="{escape(job["详情"], quote=True)}">{escape(job["岗位"])}</a></li>')
+        html.append("</ul></details>")
+    html.append("</html>")
+    (ROOT/"docs"/path).write_text("\n".join(html),encoding="utf8")
+    md += [f"[查看全部 {len(js):,} 个{role}岗位](https://ningsiyuan1024.github.io/ai-company-map/docs/{path})",""]
 (ROOT/"docs/JOBS.md").write_text("\n".join(md),encoding="utf8")
 ordered = ranked(sectors)
 main_sectors = ordered[:8] + [("其他赛道", sum(value for _, value in ordered[8:]))]
